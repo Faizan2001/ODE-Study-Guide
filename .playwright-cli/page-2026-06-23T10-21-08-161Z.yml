@@ -1,0 +1,613 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: d/dx
+      - generic [ref=e6]:
+        - heading "ODE Studio" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Worked examples, recall, mixed practice.
+    - generic [ref=e9]:
+      - generic [ref=e10]: Today
+      - strong [ref=e11]: 1 day streak
+    - navigation "Course navigation" [ref=e13]:
+      - generic [ref=e14]:
+        - 'heading "Module 0: Calculus Refresher" [level=3] [ref=e15]'
+        - button "0.1 Differentiation Quick Review" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: 0.1 Differentiation Quick Review
+        - button "0.2 Integration Quick Review" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: 0.2 Integration Quick Review
+      - generic [ref=e20]:
+        - 'heading "Module 1: Integration Techniques" [level=3] [ref=e21]'
+        - button "1.1 Integration by Parts" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: 1.1 Integration by Parts
+        - button "1.2 Trigonometric Integrals" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: 1.2 Trigonometric Integrals
+        - button "1.3 Trigonometric Substitution" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 1.3 Trigonometric Substitution
+        - button "1.4 Partial Fractions" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]: 1.4 Partial Fractions
+      - generic [ref=e30]:
+        - 'heading "Module 2: Introduction to Differential Equations" [level=3] [ref=e31]'
+        - button "2.1 Definition and Terminology" [ref=e32] [cursor=pointer]:
+          - generic [ref=e33]: 2.1 Definition and Terminology
+        - button "2.2 Initial Value Problems" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: 2.2 Initial Value Problems
+        - button "2.3 Differential Equations as Models" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: 2.3 Differential Equations as Models
+      - generic [ref=e38]:
+        - 'heading "Module 3: First-Order ODE Methods" [level=3] [ref=e39]'
+        - button "3.1 Separable Variables" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: 3.1 Separable Variables
+        - button "3.2 Linear Equations" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: 3.2 Linear Equations
+        - button "3.3 Exact Equations" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 3.3 Exact Equations
+        - button "3.4 Bernoulli Equations" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: 3.4 Bernoulli Equations
+      - generic [ref=e48]:
+        - 'heading "Module 4: Partial Derivatives" [level=3] [ref=e49]'
+        - button "4.1 Functions of Two or More Variables" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: 4.1 Functions of Two or More Variables
+        - button "4.2 Limits and Continuity" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 4.2 Limits and Continuity
+        - button "4.3 Partial Derivatives" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: 4.3 Partial Derivatives
+        - button "4.4 The Chain Rule" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]: 4.4 The Chain Rule
+        - button "4.5 Directional Derivatives and Gradients" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: 4.5 Directional Derivatives and Gradients
+        - button "4.6 Tangent Planes and Normal Vectors" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: 4.6 Tangent Planes and Normal Vectors
+        - button "4.7 Maxima and Minima" [ref=e62] [cursor=pointer]:
+          - generic [ref=e63]: 4.7 Maxima and Minima
+    - generic [ref=e64]:
+      - button "Mixed Practice" [ref=e65] [cursor=pointer]
+      - button "Formula Sheet" [ref=e66] [cursor=pointer]
+      - button "ODE Decision Tree" [ref=e67] [cursor=pointer]
+      - button "Progress Tracker" [ref=e68] [cursor=pointer]
+  - main [ref=e69]:
+    - generic [ref=e70]:
+      - button "Toggle sidebar" [ref=e71] [cursor=pointer]: Menu
+      - generic [ref=e72]:
+        - generic [ref=e73]: Undergraduate Ordinary Differential Equations
+        - strong [ref=e74]: 4.5 Directional Derivatives and Gradients
+      - button "Toggle light mode" [ref=e75] [cursor=pointer]: Theme
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: A-to-Z recovery course
+        - heading "Rebuild calculus, then solve ODE exam examples with confidence." [level=2] [ref=e79]
+        - paragraph [ref=e80]: This local course uses worked examples first, notebook prompts, active recall, spaced review, and mixed practice so you learn both how to solve and how to identify the method.
+      - generic [ref=e81]:
+        - strong [ref=e82]: Study loop
+        - list [ref=e83]:
+          - listitem [ref=e84]: Read the concept card.
+          - listitem [ref=e85]: Reveal each worked-example step.
+          - listitem [ref=e86]: Work practice on paper before revealing.
+          - listitem [ref=e87]: Finish with mixed method-identification practice.
+    - generic [ref=e88]:
+      - article [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: "Module 4: Partial Derivatives"
+            - heading "4.5 Directional Derivatives and Gradients" [level=2] [ref=e93]
+            - paragraph [ref=e94]: The gradient is the compass arrow pointing uphill fastest.
+            - generic [ref=e96]: "Requires: 4.3 Partial Derivatives"
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - checkbox "Theory read" [ref=e99]
+              - text: Theory read
+            - generic [ref=e100]:
+              - checkbox "Examples studied" [ref=e101]
+              - text: Examples studied
+            - generic [ref=e102]:
+              - checkbox "Practice done" [ref=e103]
+              - text: Practice done
+        - generic [ref=e107]:
+          - math [ref=e109]:
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]: D
+                - generic [ref=e114]: u
+              - generic [ref=e115]: f
+              - generic [ref=e116]: =
+              - generic [ref=e117]: ∇
+              - generic [ref=e118]: f
+              - generic [ref=e119]: ⋅
+              - generic [ref=e120]: u
+          - generic [ref=e121]:
+            - generic [ref=e122]:
+              - generic [ref=e123]:
+                - text: D
+                - generic [ref=e128]: u
+              - text: f =
+            - generic [ref=e132]: ∇f ⋅
+            - generic [ref=e133]: u
+        - generic [ref=e137]:
+          - math [ref=e139]:
+            - generic [ref=e141]:
+              - generic [ref=e142]: ∇
+              - generic [ref=e143]: f
+              - generic [ref=e144]: =
+              - generic [ref=e145]: (
+              - generic [ref=e146]:
+                - generic [ref=e147]: f
+                - generic [ref=e148]: x
+              - generic [ref=e149]: ","
+              - generic [ref=e150]:
+                - generic [ref=e151]: f
+                - generic [ref=e152]: "y"
+              - generic [ref=e153]: )
+          - generic [ref=e154]:
+            - generic [ref=e155]: ∇f =
+            - generic [ref=e156]:
+              - text: (
+              - generic [ref=e157]:
+                - text: f
+                - generic [ref=e162]: x
+              - text: ","
+              - generic [ref=e166]:
+                - text: f
+                - generic [ref=e171]: "y"
+              - text: )
+        - generic [ref=e178]:
+          - math [ref=e180]:
+            - generic [ref=e182]:
+              - generic [ref=e183]: m
+              - generic [ref=e184]: a
+              - generic [ref=e185]: x
+              - generic [ref=e186]:
+                - generic [ref=e187]: D
+                - generic [ref=e188]: u
+              - generic [ref=e189]: f
+              - generic [ref=e190]: =
+              - generic [ref=e191]: ∣
+              - generic [ref=e192]: ∇
+              - generic [ref=e193]: f
+              - generic [ref=e194]: ∣
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - text: max
+              - generic [ref=e198]:
+                - text: D
+                - generic [ref=e203]: u
+              - text: f =
+            - generic [ref=e207]: ∣∇f∣
+      - generic [ref=e208]:
+        - generic [ref=e209]:
+          - heading "Theory in Plain English" [level=3] [ref=e210]
+          - generic [ref=e211]:
+            - paragraph [ref=e212]: Direction vectors must be unit vectors.
+            - paragraph [ref=e213]: For a differentiable function, the directional derivative is the gradient dot the unit direction.
+            - paragraph [ref=e214]: Maximum increase occurs in the gradient direction; maximum decrease occurs in the opposite direction.
+        - generic [ref=e215]:
+          - heading "Notebook Prompt" [level=3] [ref=e216]
+          - paragraph [ref=e217]: Write the key formula from this page three times, then solve the first practice problem without looking at the solution. This is the productive struggle part.
+          - generic [ref=e218]:
+            - strong [ref=e219]: "Feynman check:"
+            - paragraph [ref=e220]: Explain Directional Derivatives and Gradients in your own words. What tells you this method is the right method?
+      - generic [ref=e221]:
+        - generic [ref=e222]: Learning zone
+        - heading "Worked Examples" [level=3] [ref=e223]
+        - generic [ref=e224]:
+          - group [ref=e225]:
+            - generic "Chapter 13.6 Directional derivative Example 1 reveal steps" [ref=e226] [cursor=pointer]:
+              - generic [ref=e227]:
+                - generic [ref=e228]: Chapter 13.6
+                - heading "Directional derivative Example 1" [level=3] [ref=e229]
+              - generic [ref=e230]: reveal steps
+            - paragraph [ref=e231]:
+              - strong [ref=e232]: "Problem:"
+              - generic [ref=e234]:
+                - math [ref=e236]:
+                  - generic [ref=e238]:
+                    - generic [ref=e239]: f
+                    - generic [ref=e240]: (
+                    - generic [ref=e241]: x
+                    - generic [ref=e242]: ","
+                    - generic [ref=e243]: "y"
+                    - generic [ref=e244]: )
+                    - generic [ref=e245]: =
+                    - generic [ref=e246]: x
+                    - generic [ref=e247]: "y"
+                    - generic [ref=e248]: ","
+                    - generic [ref=e249]: P
+                    - generic [ref=e250]: =
+                    - generic [ref=e251]: (
+                    - generic [ref=e252]: "1"
+                    - generic [ref=e253]: ","
+                    - generic [ref=e254]: "2"
+                    - generic [ref=e255]: )
+                    - generic [ref=e256]: ","
+                    - generic [ref=e257]: u
+                    - generic [ref=e258]: =
+                    - generic [ref=e259]:
+                      - generic [ref=e261]: "3"
+                      - generic [ref=e262]: "2"
+                    - generic [ref=e263]: i
+                    - generic [ref=e264]: +
+                    - generic [ref=e265]:
+                      - generic [ref=e266]: "1"
+                      - generic [ref=e267]: "2"
+                    - generic [ref=e268]: j
+                - generic [ref=e269]:
+                  - generic [ref=e270]: f(x, y) =
+                  - generic [ref=e271]: xy, P =
+                  - generic [ref=e272]: (1, 2), u =
+                  - generic [ref=e273]:
+                    - generic [ref=e278]:
+                      - generic [ref=e280]: "2"
+                      - generic [ref=e287]:
+                        - generic [ref=e288]: "3"
+                        - img [ref=e290]
+                    - text: i +
+                  - generic [ref=e298]:
+                    - generic [ref=e303]:
+                      - generic [ref=e305]: "2"
+                      - generic [ref=e308]: "1"
+                    - text: j
+            - generic [ref=e313]: Chapter 13.pdf · page 37 · Example 1
+            - generic [ref=e314]:
+              - generic [ref=e315]:
+                - generic [ref=e316]: "1"
+                - generic [ref=e317]:
+                  - generic [ref=e321]:
+                    - math [ref=e323]:
+                      - generic [ref=e325]:
+                        - generic [ref=e326]: r
+                        - generic [ref=e327]: (
+                        - generic [ref=e328]: s
+                        - generic [ref=e329]: )
+                        - generic [ref=e330]: =
+                        - generic [ref=e331]:
+                          - generic [ref=e332]: (
+                          - generic [ref=e333]: "1"
+                          - generic [ref=e334]: +
+                          - generic [ref=e335]:
+                            - generic [ref=e337]: "3"
+                            - generic [ref=e338]: "2"
+                          - generic [ref=e339]: s
+                          - generic [ref=e340]: ","
+                          - generic [ref=e341]: "2"
+                          - generic [ref=e342]: +
+                          - generic [ref=e343]:
+                            - generic [ref=e344]: "1"
+                            - generic [ref=e345]: "2"
+                          - generic [ref=e346]: s
+                          - generic [ref=e347]: )
+                    - generic [ref=e348]:
+                      - generic [ref=e349]: r(s) =
+                      - generic [ref=e351]:
+                        - generic [ref=e352]: (
+                        - text: 1 +
+                        - generic [ref=e357]:
+                          - generic [ref=e358]: "2"
+                          - generic [ref=e364]:
+                            - generic [ref=e365]: "3"
+                            - img [ref=e367]
+                        - text: s,
+                        - text: 2 +
+                        - generic [ref=e380]:
+                          - generic [ref=e381]: "2"
+                          - generic [ref=e383]: "1"
+                        - text: s
+                        - generic [ref=e387]: )
+                  - generic [ref=e388]:
+                    - strong [ref=e389]: Why?
+                    - text: Move a distance s from P in the unit direction u.
+              - generic [ref=e523]:
+                - generic [ref=e524]: "2"
+                - generic [ref=e525]:
+                  - generic [ref=e529]:
+                    - math [ref=e531]:
+                      - generic [ref=e533]:
+                        - generic [ref=e534]: f
+                        - generic [ref=e535]: (
+                        - generic [ref=e536]: r
+                        - generic [ref=e537]: (
+                        - generic [ref=e538]: s
+                        - generic [ref=e539]: )
+                        - generic [ref=e540]: )
+                        - generic [ref=e541]: =
+                        - generic [ref=e542]:
+                          - generic [ref=e543]: (
+                          - generic [ref=e544]: "1"
+                          - generic [ref=e545]: +
+                          - generic [ref=e546]:
+                            - generic [ref=e548]: "3"
+                            - generic [ref=e549]: "2"
+                          - generic [ref=e550]: s
+                          - generic [ref=e551]: )
+                        - generic [ref=e552]:
+                          - generic [ref=e553]: (
+                          - generic [ref=e554]: "2"
+                          - generic [ref=e555]: +
+                          - generic [ref=e556]:
+                            - generic [ref=e557]: "1"
+                            - generic [ref=e558]: "2"
+                          - generic [ref=e559]: s
+                          - generic [ref=e560]: )
+                        - generic [ref=e561]: =
+                        - generic [ref=e562]: "2"
+                        - generic [ref=e563]: +
+                        - generic [ref=e564]:
+                          - generic [ref=e565]: (
+                          - generic [ref=e566]:
+                            - generic [ref=e567]: "1"
+                            - generic [ref=e568]: "2"
+                          - generic [ref=e569]: +
+                          - generic [ref=e571]: "3"
+                          - generic [ref=e572]: )
+                        - generic [ref=e573]: s
+                        - generic [ref=e574]: +
+                        - generic [ref=e575]:
+                          - generic [ref=e577]: "3"
+                          - generic [ref=e578]: "4"
+                        - generic [ref=e579]:
+                          - generic [ref=e580]: s
+                          - generic [ref=e581]: "2"
+                    - generic [ref=e582]:
+                      - generic [ref=e583]: f(r(s)) =
+                      - generic [ref=e584]:
+                        - generic [ref=e585]:
+                          - generic [ref=e586]: (
+                          - text: 1 +
+                          - generic [ref=e591]:
+                            - generic [ref=e592]: "2"
+                            - generic [ref=e598]:
+                              - generic [ref=e599]: "3"
+                              - img [ref=e601]
+                          - text: s
+                          - generic [ref=e609]: )
+                        - generic [ref=e610]:
+                          - generic [ref=e611]: (
+                          - text: 2 +
+                          - generic [ref=e616]:
+                            - generic [ref=e617]: "2"
+                            - generic [ref=e619]: "1"
+                          - text: s
+                          - generic [ref=e623]: )
+                        - text: =
+                      - generic [ref=e624]: 2 +
+                      - generic [ref=e625]:
+                        - generic [ref=e626]:
+                          - generic [ref=e627]: (
+                          - generic [ref=e632]:
+                            - generic [ref=e633]: "2"
+                            - generic [ref=e635]: "1"
+                          - text: +
+                          - generic [ref=e642]:
+                            - generic [ref=e643]: "3"
+                            - img [ref=e645]
+                          - generic [ref=e650]: )
+                        - text: s +
+                      - generic [ref=e651]:
+                        - generic [ref=e656]:
+                          - generic [ref=e657]: "4"
+                          - generic [ref=e663]:
+                            - generic [ref=e664]: "3"
+                            - img [ref=e666]
+                        - generic [ref=e674]:
+                          - text: s
+                          - generic [ref=e679]: "2"
+                  - generic [ref=e680]:
+                    - strong [ref=e681]: Why?
+                    - text: Write the surface height along that direction as a one-variable function.
+              - generic [ref=e682]:
+                - generic [ref=e683]: "3"
+                - generic [ref=e684]:
+                  - generic [ref=e688]:
+                    - math [ref=e690]:
+                      - generic [ref=e692]:
+                        - generic [ref=e693]:
+                          - generic [ref=e694]: D
+                          - generic [ref=e695]: u
+                        - generic [ref=e696]: f
+                        - generic [ref=e697]: (
+                        - generic [ref=e698]: "1"
+                        - generic [ref=e699]: ","
+                        - generic [ref=e700]: "2"
+                        - generic [ref=e701]: )
+                        - generic [ref=e702]: =
+                        - generic [ref=e703]:
+                          - generic [ref=e704]:
+                            - generic [ref=e705]:
+                              - generic [ref=e706]: d
+                              - generic [ref=e707]:
+                                - generic [ref=e708]: d
+                                - generic [ref=e709]: s
+                            - generic [ref=e710]: f
+                            - generic [ref=e711]: (
+                            - generic [ref=e712]: r
+                            - generic [ref=e713]: (
+                            - generic [ref=e714]: s
+                            - generic [ref=e715]: )
+                            - generic [ref=e716]: )
+                            - generic [ref=e717]: ∣
+                          - generic [ref=e718]:
+                            - generic [ref=e719]: s
+                            - generic [ref=e720]: =
+                            - generic [ref=e721]: "0"
+                        - generic [ref=e722]: =
+                        - generic [ref=e723]:
+                          - generic [ref=e724]: "1"
+                          - generic [ref=e725]: "2"
+                        - generic [ref=e726]: +
+                        - generic [ref=e728]: "3"
+                    - generic [ref=e729]:
+                      - generic [ref=e730]:
+                        - generic [ref=e731]:
+                          - text: D
+                          - generic [ref=e736]: u
+                        - text: f(1, 2) =
+                      - generic [ref=e740]:
+                        - generic [ref=e741]:
+                          - generic [ref=e742]:
+                            - generic [ref=e747]:
+                              - generic [ref=e748]: ds
+                              - generic [ref=e750]: d
+                            - text: f(r(s))
+                            - img [ref=e760]
+                          - generic [ref=e770]: s=0
+                        - text: =
+                      - generic [ref=e774]:
+                        - generic [ref=e779]:
+                          - generic [ref=e780]: "2"
+                          - generic [ref=e782]: "1"
+                        - text: +
+                      - generic [ref=e790]:
+                        - generic [ref=e791]: "3"
+                        - img [ref=e793]
+                  - generic [ref=e798]:
+                    - strong [ref=e799]: Why?
+                    - text: Differentiate with respect to distance and evaluate at the starting point.
+              - generic [ref=e800]:
+                - generic [ref=e801]: "4"
+                - generic [ref=e802]:
+                  - generic [ref=e806]:
+                    - math [ref=e808]:
+                      - generic [ref=e810]:
+                        - generic [ref=e811]:
+                          - generic [ref=e812]: "1"
+                          - generic [ref=e813]: "2"
+                        - generic [ref=e814]: +
+                        - generic [ref=e816]: "3"
+                        - generic [ref=e817]: ≈
+                        - generic [ref=e818]: "2.23"
+                    - generic [ref=e819]:
+                      - generic [ref=e820]:
+                        - generic [ref=e825]:
+                          - generic [ref=e826]: "2"
+                          - generic [ref=e828]: "1"
+                        - text: +
+                      - generic [ref=e832]:
+                        - generic [ref=e836]:
+                          - generic [ref=e837]: "3"
+                          - img [ref=e839]
+                        - text: ≈
+                      - generic [ref=e844]: "2.23"
+                  - generic [ref=e845]:
+                    - strong [ref=e846]: Why?
+                    - text: For a small move in direction u, f increases by about 2.23 times the distance moved.
+            - generic [ref=e390]:
+              - button "Show next step" [ref=e391] [cursor=pointer]
+              - button "Show all" [active] [ref=e392] [cursor=pointer]
+              - button "Reset" [ref=e393] [cursor=pointer]
+            - paragraph [ref=e394]: A directional derivative is an ordinary derivative along a unit-speed path.
+          - group [ref=e395]:
+            - generic "Chapter 13.6 Directional derivative Example 2 reveal steps" [ref=e396] [cursor=pointer]:
+              - generic [ref=e397]:
+                - generic [ref=e398]: Chapter 13.6
+                - heading "Directional derivative Example 2" [level=3] [ref=e399]
+              - generic [ref=e400]: reveal steps
+          - group [ref=e401]:
+            - generic "Chapter 13.6 Directional derivative Example 3 reveal steps" [ref=e402] [cursor=pointer]:
+              - generic [ref=e403]:
+                - generic [ref=e404]: Chapter 13.6
+                - heading "Directional derivative Example 3" [level=3] [ref=e405]
+              - generic [ref=e406]: reveal steps
+          - group [ref=e407]:
+            - generic "Chapter 13.6 Directional derivative Example 4 reveal steps" [ref=e408] [cursor=pointer]:
+              - generic [ref=e409]:
+                - generic [ref=e410]: Chapter 13.6
+                - heading "Directional derivative Example 4" [level=3] [ref=e411]
+              - generic [ref=e412]: reveal steps
+      - generic [ref=e413]:
+        - generic [ref=e414]: Active zone
+        - heading "Practice Problems" [level=3] [ref=e415]
+        - generic [ref=e416]:
+          - generic [ref=e417]:
+            - generic [ref=e418]: Active recall 1
+            - heading "Directional derivative" [level=3] [ref=e419]
+            - paragraph [ref=e420]:
+              - strong [ref=e421]: "Cover and solve on paper first:"
+              - generic [ref=e423]:
+                - math [ref=e425]:
+                  - generic [ref=e427]:
+                    - generic [ref=e428]: f
+                    - generic [ref=e429]: =
+                    - generic [ref=e430]:
+                      - generic [ref=e431]: x
+                      - generic [ref=e432]: "2"
+                    - generic [ref=e433]: +
+                    - generic [ref=e434]:
+                      - generic [ref=e435]: "y"
+                      - generic [ref=e436]: "2"
+                    - generic [ref=e437]: ","
+                    - generic [ref=e438]: P
+                    - generic [ref=e439]: =
+                    - generic [ref=e440]: (
+                    - generic [ref=e441]: "1"
+                    - generic [ref=e442]: ","
+                    - generic [ref=e443]: "2"
+                    - generic [ref=e444]: )
+                    - generic [ref=e445]: ","
+                    - generic [ref=e446]: u
+                    - generic [ref=e447]: =
+                    - generic [ref=e448]: (
+                    - generic [ref=e449]: "3"
+                    - generic [ref=e450]: /
+                    - generic [ref=e451]: "5"
+                    - generic [ref=e452]: ","
+                    - generic [ref=e453]: "4"
+                    - generic [ref=e454]: /
+                    - generic [ref=e455]: "5"
+                    - generic [ref=e456]: )
+                - generic [ref=e457]:
+                  - generic [ref=e458]: f =
+                  - generic [ref=e459]:
+                    - generic [ref=e460]:
+                      - text: x
+                      - generic [ref=e465]: "2"
+                    - text: +
+                  - generic [ref=e466]:
+                    - generic [ref=e467]:
+                      - text: "y"
+                      - generic [ref=e472]: "2"
+                    - text: ","
+                    - text: P =
+                  - generic [ref=e474]:
+                    - text: (1, 2),
+                    - text: u =
+                  - generic [ref=e476]: (3/5, 4/5)
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e477]'
+            - generic [ref=e478]:
+              - button "Show hint" [ref=e479] [cursor=pointer]
+              - button "Show solution" [ref=e480] [cursor=pointer]
+          - generic [ref=e481]:
+            - generic [ref=e482]: Active recall 2
+            - heading "Max direction" [level=3] [ref=e483]
+            - paragraph [ref=e484]:
+              - strong [ref=e485]: "Cover and solve on paper first:"
+              - generic [ref=e487]:
+                - math [ref=e489]:
+                  - generic [ref=e491]:
+                    - generic [ref=e492]: f
+                    - generic [ref=e493]: =
+                    - generic [ref=e494]: x
+                    - generic [ref=e495]: "y"
+                    - generic [ref=e496]: ","
+                    - generic [ref=e497]: P
+                    - generic [ref=e498]: =
+                    - generic [ref=e499]: (
+                    - generic [ref=e500]: "2"
+                    - generic [ref=e501]: ","
+                    - generic [ref=e502]: "3"
+                    - generic [ref=e503]: )
+                - generic [ref=e504]:
+                  - generic [ref=e505]: f =
+                  - generic [ref=e506]:
+                    - text: xy,
+                    - text: P =
+                  - generic [ref=e508]: (2, 3)
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e509]'
+            - generic [ref=e510]:
+              - button "Show hint" [ref=e511] [cursor=pointer]
+              - button "Show solution" [ref=e512] [cursor=pointer]
+      - generic [ref=e513]:
+        - heading "Section Recap" [level=3] [ref=e514]
+        - list [ref=e516]:
+          - listitem [ref=e517]: Normalize direction vectors.
+          - listitem [ref=e518]: Dot product gives directional rate.
+          - listitem [ref=e519]: Gradient magnitude is steepest slope.
+        - generic [ref=e520]:
+          - button "Next section" [ref=e521] [cursor=pointer]
+          - button "Try mixed practice" [ref=e522] [cursor=pointer]

@@ -1,0 +1,479 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: d/dx
+      - generic [ref=e6]:
+        - heading "ODE Studio" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Worked examples, recall, mixed practice.
+    - generic [ref=e9]:
+      - generic [ref=e10]: Today
+      - strong [ref=e11]: 1 day streak
+    - navigation "Course navigation" [ref=e13]:
+      - generic [ref=e14]:
+        - 'heading "Module 0: Calculus Refresher" [level=3] [ref=e15]'
+        - button "0.1 Differentiation Quick Review" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: 0.1 Differentiation Quick Review
+        - button "0.2 Integration Quick Review" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: 0.2 Integration Quick Review
+      - generic [ref=e20]:
+        - 'heading "Module 1: Integration Techniques" [level=3] [ref=e21]'
+        - button "1.1 Integration by Parts" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: 1.1 Integration by Parts
+        - button "1.2 Trigonometric Integrals" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: 1.2 Trigonometric Integrals
+        - button "1.3 Trigonometric Substitution" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 1.3 Trigonometric Substitution
+        - button "1.4 Partial Fractions" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]: 1.4 Partial Fractions
+      - generic [ref=e30]:
+        - 'heading "Module 2: Introduction to Differential Equations" [level=3] [ref=e31]'
+        - button "2.1 Definition and Terminology" [ref=e32] [cursor=pointer]:
+          - generic [ref=e33]: 2.1 Definition and Terminology
+        - button "2.2 Initial Value Problems" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: 2.2 Initial Value Problems
+        - button "2.3 Differential Equations as Models" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: 2.3 Differential Equations as Models
+      - generic [ref=e38]:
+        - 'heading "Module 3: First-Order ODE Methods" [level=3] [ref=e39]'
+        - button "3.1 Separable Variables" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: 3.1 Separable Variables
+        - button "3.2 Linear Equations" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: 3.2 Linear Equations
+        - button "3.3 Exact Equations" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 3.3 Exact Equations
+        - button "3.4 Bernoulli Equations" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: 3.4 Bernoulli Equations
+      - generic [ref=e48]:
+        - 'heading "Module 4: Partial Derivatives" [level=3] [ref=e49]'
+        - button "4.1 Functions of Two or More Variables" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: 4.1 Functions of Two or More Variables
+        - button "4.2 Limits and Continuity" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 4.2 Limits and Continuity
+        - button "4.3 Partial Derivatives" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: 4.3 Partial Derivatives
+        - button "4.4 The Chain Rule" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]: 4.4 The Chain Rule
+        - button "4.5 Directional Derivatives and Gradients" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: 4.5 Directional Derivatives and Gradients
+        - button "4.6 Tangent Planes and Normal Vectors" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: 4.6 Tangent Planes and Normal Vectors
+        - button "4.7 Maxima and Minima" [ref=e62] [cursor=pointer]:
+          - generic [ref=e63]: 4.7 Maxima and Minima
+    - generic [ref=e64]:
+      - button "Mixed Practice" [ref=e65] [cursor=pointer]
+      - button "Formula Sheet" [ref=e66] [cursor=pointer]
+      - button "ODE Decision Tree" [ref=e67] [cursor=pointer]
+      - button "Progress Tracker" [ref=e68] [cursor=pointer]
+  - main [ref=e69]:
+    - generic [ref=e70]:
+      - button "Toggle sidebar" [ref=e71] [cursor=pointer]: Menu
+      - generic [ref=e72]:
+        - generic [ref=e73]: Undergraduate Ordinary Differential Equations
+        - strong [ref=e74]: 4.3 Partial Derivatives
+      - button "Toggle light mode" [ref=e75] [cursor=pointer]: Theme
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: A-to-Z recovery course
+        - heading "Rebuild calculus, then solve ODE exam examples with confidence." [level=2] [ref=e79]
+        - paragraph [ref=e80]: This local course uses worked examples first, notebook prompts, active recall, spaced review, and mixed practice so you learn both how to solve and how to identify the method.
+      - generic [ref=e81]:
+        - strong [ref=e82]: Study loop
+        - list [ref=e83]:
+          - listitem [ref=e84]: Read the concept card.
+          - listitem [ref=e85]: Reveal each worked-example step.
+          - listitem [ref=e86]: Work practice on paper before revealing.
+          - listitem [ref=e87]: Finish with mixed method-identification practice.
+    - generic [ref=e88]:
+      - article [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: "Module 4: Partial Derivatives"
+            - heading "4.3 Partial Derivatives" [level=2] [ref=e93]
+            - paragraph [ref=e94]: A partial derivative freezes all but one input and asks for the rate in that direction.
+            - generic [ref=e96]: "Requires: 0.1 Differentiation"
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - checkbox "Theory read" [ref=e99]
+              - text: Theory read
+            - generic [ref=e100]:
+              - checkbox "Examples studied" [ref=e101]
+              - text: Examples studied
+            - generic [ref=e102]:
+              - checkbox "Practice done" [ref=e103]
+              - text: Practice done
+        - generic [ref=e107]:
+          - math [ref=e109]:
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]: f
+                - generic [ref=e114]: x
+              - generic [ref=e115]: =
+              - generic [ref=e116]:
+                - generic [ref=e117]:
+                  - generic [ref=e118]: ∂
+                  - generic [ref=e119]: f
+                - generic [ref=e120]:
+                  - generic [ref=e121]: ∂
+                  - generic [ref=e122]: x
+          - generic [ref=e123]:
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - text: f
+                - generic [ref=e130]: x
+              - text: =
+            - generic [ref=e139]:
+              - generic [ref=e140]: ∂x
+              - generic [ref=e142]: ∂f
+        - generic [ref=e149]:
+          - math [ref=e151]:
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - generic [ref=e155]: f
+                - generic [ref=e156]: "y"
+              - generic [ref=e157]: =
+              - generic [ref=e158]:
+                - generic [ref=e159]:
+                  - generic [ref=e160]: ∂
+                  - generic [ref=e161]: f
+                - generic [ref=e162]:
+                  - generic [ref=e163]: ∂
+                  - generic [ref=e164]: "y"
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - text: f
+                - generic [ref=e172]: "y"
+              - text: =
+            - generic [ref=e181]:
+              - generic [ref=e182]: ∂y
+              - generic [ref=e184]: ∂f
+        - generic [ref=e191]:
+          - math [ref=e193]:
+            - generic [ref=e195]:
+              - generic [ref=e196]:
+                - generic [ref=e197]: f
+                - generic [ref=e198]:
+                  - generic [ref=e199]: x
+                  - generic [ref=e200]: "y"
+              - generic [ref=e201]: =
+              - generic [ref=e202]:
+                - generic [ref=e203]: ∂
+                - generic [ref=e204]:
+                  - generic [ref=e205]: ∂
+                  - generic [ref=e206]: "y"
+              - generic [ref=e207]: (
+              - generic [ref=e208]:
+                - generic [ref=e209]: f
+                - generic [ref=e210]: x
+              - generic [ref=e211]: )
+          - generic [ref=e212]:
+            - generic [ref=e213]:
+              - generic [ref=e214]:
+                - text: f
+                - generic [ref=e220]: xy
+              - text: =
+            - generic [ref=e224]:
+              - generic [ref=e229]:
+                - generic [ref=e230]: ∂y
+                - generic [ref=e232]: ∂
+              - text: (
+              - generic [ref=e236]:
+                - text: f
+                - generic [ref=e241]: x
+              - text: )
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - heading "Theory in Plain English" [level=3] [ref=e247]
+          - generic [ref=e248]:
+            - paragraph [ref=e249]: Treat the other variable as a constant.
+            - paragraph [ref=e250]: Partial derivatives existing does not automatically imply continuity.
+        - generic [ref=e251]:
+          - heading "Notebook Prompt" [level=3] [ref=e252]
+          - paragraph [ref=e253]: Write the key formula from this page three times, then solve the first practice problem without looking at the solution. This is the productive struggle part.
+          - generic [ref=e254]:
+            - strong [ref=e255]: "Feynman check:"
+            - paragraph [ref=e256]: Explain Partial Derivatives in your own words. What tells you this method is the right method?
+      - generic [ref=e257]:
+        - generic [ref=e258]: Learning zone
+        - heading "Worked Examples" [level=3] [ref=e259]
+        - generic [ref=e260]:
+          - group [ref=e261]:
+            - 'generic "Chapter 13.3 Example 1: definition at a point reveal steps" [ref=e262] [cursor=pointer]':
+              - generic [ref=e263]:
+                - generic [ref=e264]: Chapter 13.3
+                - 'heading "Example 1: definition at a point" [level=3] [ref=e265]'
+              - generic [ref=e266]: reveal steps
+            - paragraph [ref=e267]:
+              - strong [ref=e268]: "Problem:"
+              - generic [ref=e270]:
+                - math [ref=e272]:
+                  - generic [ref=e274]:
+                    - generic [ref=e275]: F
+                    - generic [ref=e276]: o
+                    - generic [ref=e277]: r
+                    - generic [ref=e278]: f
+                    - generic [ref=e279]: (
+                    - generic [ref=e280]: x
+                    - generic [ref=e281]: ","
+                    - generic [ref=e282]: "y"
+                    - generic [ref=e283]: )
+                    - generic [ref=e284]: =
+                    - generic [ref=e285]: "2"
+                    - generic [ref=e286]:
+                      - generic [ref=e287]: x
+                      - generic [ref=e288]: "3"
+                    - generic [ref=e289]:
+                      - generic [ref=e290]: "y"
+                      - generic [ref=e291]: "2"
+                    - generic [ref=e292]: +
+                    - generic [ref=e293]: "2"
+                    - generic [ref=e294]: "y"
+                    - generic [ref=e295]: +
+                    - generic [ref=e296]: "4"
+                    - generic [ref=e297]: x
+                    - generic [ref=e298]: ","
+                    - generic [ref=e299]: f
+                    - generic [ref=e300]: i
+                    - generic [ref=e301]: "n"
+                    - generic [ref=e302]: d
+                    - generic [ref=e303]:
+                      - generic [ref=e304]: f
+                      - generic [ref=e305]: x
+                    - generic [ref=e306]: (
+                    - generic [ref=e307]: "1"
+                    - generic [ref=e308]: ","
+                    - generic [ref=e309]: "3"
+                    - generic [ref=e310]: )
+                    - generic [ref=e311]: a
+                    - generic [ref=e312]: "n"
+                    - generic [ref=e313]: d
+                    - generic [ref=e314]:
+                      - generic [ref=e315]: f
+                      - generic [ref=e316]: "y"
+                    - generic [ref=e317]: (
+                    - generic [ref=e318]: "1"
+                    - generic [ref=e319]: ","
+                    - generic [ref=e320]: "3"
+                    - generic [ref=e321]: )
+                    - generic [ref=e322]: v
+                    - generic [ref=e323]: i
+                    - generic [ref=e324]: a
+                    - generic [ref=e325]: d
+                    - generic [ref=e326]: e
+                    - generic [ref=e327]: f
+                    - generic [ref=e328]: i
+                    - generic [ref=e329]: "n"
+                    - generic [ref=e330]: i
+                    - generic [ref=e331]: t
+                    - generic [ref=e332]: i
+                    - generic [ref=e333]: o
+                    - generic [ref=e334]: "n"
+                - generic [ref=e335]:
+                  - generic [ref=e336]:
+                    - text: For
+                    - text: f(x, y) =
+                  - generic [ref=e338]:
+                    - text: "2"
+                    - generic [ref=e339]:
+                      - text: x
+                      - generic [ref=e344]: "3"
+                    - generic [ref=e345]:
+                      - text: "y"
+                      - generic [ref=e350]: "2"
+                    - text: +
+                  - generic [ref=e351]: 2y +
+                  - generic [ref=e352]:
+                    - text: 4x,
+                    - text: find
+                    - generic [ref=e355]:
+                      - text: f
+                      - generic [ref=e360]: x
+                    - text: (1, 3)
+                    - text: and
+                    - generic [ref=e366]:
+                      - text: f
+                      - generic [ref=e371]: "y"
+                    - text: (1, 3)
+                    - text: via
+                    - text: definition
+            - generic [ref=e378]: Chapter 13.pdf · page 16 · Example 1
+            - generic [ref=e380]:
+              - generic [ref=e381]: "1"
+              - generic [ref=e382]:
+                - generic [ref=e386]:
+                  - math [ref=e388]:
+                    - generic [ref=e390]:
+                      - generic [ref=e391]:
+                        - generic [ref=e392]: f
+                        - generic [ref=e393]: x
+                      - generic [ref=e394]: (
+                      - generic [ref=e395]: "1"
+                      - generic [ref=e396]: ","
+                      - generic [ref=e397]: "3"
+                      - generic [ref=e398]: )
+                      - generic [ref=e399]: =
+                      - generic [ref=e400]:
+                        - generic [ref=e401]:
+                          - generic [ref=e402]: lim
+                          - generic: ⁡
+                        - generic [ref=e403]:
+                          - generic [ref=e404]: h
+                          - generic [ref=e405]: →
+                          - generic [ref=e406]: "0"
+                      - generic [ref=e407]:
+                        - generic [ref=e408]:
+                          - generic [ref=e409]: f
+                          - generic [ref=e410]: (
+                          - generic [ref=e411]: "1"
+                          - generic [ref=e412]: +
+                          - generic [ref=e413]: h
+                          - generic [ref=e414]: ","
+                          - generic [ref=e415]: "3"
+                          - generic [ref=e416]: )
+                          - generic [ref=e417]: −
+                          - generic [ref=e418]: f
+                          - generic [ref=e419]: (
+                          - generic [ref=e420]: "1"
+                          - generic [ref=e421]: ","
+                          - generic [ref=e422]: "3"
+                          - generic [ref=e423]: )
+                        - generic [ref=e424]: h
+                  - generic [ref=e425]:
+                    - generic [ref=e426]:
+                      - generic [ref=e427]:
+                        - text: f
+                        - generic [ref=e432]: x
+                      - text: (1, 3) =
+                    - generic [ref=e436]:
+                      - generic [ref=e440]:
+                        - generic [ref=e442]: h→0
+                        - generic [ref=e444]: lim
+                      - generic [ref=e452]:
+                        - generic [ref=e453]: h
+                        - generic [ref=e455]: f(1 + h, 3) − f(1, 3)
+                - generic [ref=e459]:
+                  - strong [ref=e460]: Why?
+                  - text: Use limit definition for x-partial.
+            - generic [ref=e461]:
+              - button "Show next step" [ref=e462] [cursor=pointer]
+              - button "Show all" [ref=e463] [cursor=pointer]
+              - button "Reset" [ref=e464] [cursor=pointer]
+            - paragraph [ref=e465]: Limit definition is the foundation for partial derivatives.
+          - group [ref=e466]:
+            - 'generic "Chapter 13.3 Example 2: partial derivative evaluation reveal steps" [ref=e467] [cursor=pointer]':
+              - generic [ref=e468]:
+                - generic [ref=e469]: Chapter 13.3
+                - 'heading "Example 2: partial derivative evaluation" [level=3] [ref=e470]'
+              - generic [ref=e471]: reveal steps
+          - group [ref=e472]:
+            - 'generic "Chapter 13.3 Example 3: trigonometric partials reveal steps" [ref=e473] [cursor=pointer]':
+              - generic [ref=e474]:
+                - generic [ref=e475]: Chapter 13.3
+                - 'heading "Example 3: trigonometric partials" [level=3] [ref=e476]'
+              - generic [ref=e477]: reveal steps
+          - group [ref=e478]:
+            - 'generic "Chapter 13.3 Example 5: geometric slopes reveal steps" [ref=e479] [cursor=pointer]':
+              - generic [ref=e480]:
+                - generic [ref=e481]: Chapter 13.3
+                - 'heading "Example 5: geometric slopes" [level=3] [ref=e482]'
+              - generic [ref=e483]: reveal steps
+          - group [ref=e484]:
+            - 'generic "Chapter 13.3 Example 9: partials without continuity reveal steps" [ref=e485] [cursor=pointer]':
+              - generic [ref=e486]:
+                - generic [ref=e487]: Chapter 13.3
+                - 'heading "Example 9: partials without continuity" [level=3] [ref=e488]'
+              - generic [ref=e489]: reveal steps
+          - group [ref=e490]:
+            - 'generic "Chapter 13.3 Example 12: second-order partials reveal steps" [ref=e491] [cursor=pointer]':
+              - generic [ref=e492]:
+                - generic [ref=e493]: Chapter 13.3
+                - 'heading "Example 12: second-order partials" [level=3] [ref=e494]'
+              - generic [ref=e495]: reveal steps
+      - generic [ref=e496]:
+        - generic [ref=e497]: Active zone
+        - heading "Practice Problems" [level=3] [ref=e498]
+        - generic [ref=e499]:
+          - generic [ref=e500]:
+            - generic [ref=e501]: Active recall 1
+            - heading "Compute partials" [level=3] [ref=e502]
+            - paragraph [ref=e503]:
+              - strong [ref=e504]: "Cover and solve on paper first:"
+              - generic [ref=e506]:
+                - math [ref=e508]:
+                  - generic [ref=e510]:
+                    - generic [ref=e511]: f
+                    - generic [ref=e512]: (
+                    - generic [ref=e513]: x
+                    - generic [ref=e514]: ","
+                    - generic [ref=e515]: "y"
+                    - generic [ref=e516]: )
+                    - generic [ref=e517]: =
+                    - generic [ref=e518]:
+                      - generic [ref=e519]: x
+                      - generic [ref=e520]: "2"
+                    - generic [ref=e521]: sin
+                    - generic: ⁡
+                    - generic [ref=e522]: "y"
+                    - generic [ref=e523]: +
+                    - generic [ref=e524]:
+                      - generic [ref=e525]: "y"
+                      - generic [ref=e526]: "3"
+                - generic [ref=e527]:
+                  - generic [ref=e528]: f(x, y) =
+                  - generic [ref=e529]:
+                    - generic [ref=e530]:
+                      - text: x
+                      - generic [ref=e535]: "2"
+                    - generic [ref=e536]: sin
+                    - text: y +
+                  - generic [ref=e538]:
+                    - text: "y"
+                    - generic [ref=e543]: "3"
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e544]'
+            - generic [ref=e545]:
+              - button "Show hint" [ref=e546] [cursor=pointer]
+              - button "Show solution" [ref=e547] [cursor=pointer]
+          - generic [ref=e548]:
+            - generic [ref=e549]: Active recall 2
+            - heading "Second partials" [level=3] [ref=e550]
+            - paragraph [ref=e551]:
+              - strong [ref=e552]: "Cover and solve on paper first:"
+              - generic [ref=e554]:
+                - math [ref=e556]:
+                  - generic [ref=e558]:
+                    - generic [ref=e559]: f
+                    - generic [ref=e560]: =
+                    - generic [ref=e561]:
+                      - generic [ref=e562]: x
+                      - generic [ref=e563]: "2"
+                    - generic [ref=e564]: "y"
+                    - generic [ref=e565]: +
+                    - generic [ref=e566]: x
+                    - generic [ref=e567]:
+                      - generic [ref=e568]: "y"
+                      - generic [ref=e569]: "2"
+                - generic [ref=e570]:
+                  - generic [ref=e571]: f =
+                  - generic [ref=e572]:
+                    - generic [ref=e573]:
+                      - text: x
+                      - generic [ref=e578]: "2"
+                    - text: y +
+                  - generic [ref=e579]:
+                    - text: x
+                    - generic [ref=e580]:
+                      - text: "y"
+                      - generic [ref=e585]: "2"
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e586]'
+            - generic [ref=e587]:
+              - button "Show hint" [ref=e588] [cursor=pointer]
+              - button "Show solution" [ref=e589] [cursor=pointer]
+      - generic [ref=e590]:
+        - heading "Section Recap" [level=3] [ref=e591]
+        - list [ref=e593]:
+          - listitem [ref=e594]: Freeze other variables.
+          - listitem [ref=e595]: Second partial notation matters.
+          - listitem [ref=e596]: Use partials for exact equations.
+        - generic [ref=e597]:
+          - button "Next section" [ref=e598] [cursor=pointer]
+          - button "Try mixed practice" [ref=e599] [cursor=pointer]

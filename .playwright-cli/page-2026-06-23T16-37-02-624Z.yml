@@ -1,0 +1,935 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: d/dx
+      - generic [ref=e6]:
+        - heading "ODE Studio" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Worked examples, recall, mixed practice.
+    - generic [ref=e9]:
+      - generic [ref=e10]: Today
+      - strong [ref=e11]: 1 day streak
+    - navigation "Course navigation" [ref=e13]:
+      - generic [ref=e14]:
+        - 'heading "Module 0: Calculus Refresher" [level=3] [ref=e15]'
+        - button "0.1 Differentiation Quick Review" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: 0.1 Differentiation Quick Review
+        - button "0.2 Integration Quick Review" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: 0.2 Integration Quick Review
+      - generic [ref=e20]:
+        - 'heading "Module 1: Integration Techniques" [level=3] [ref=e21]'
+        - button "1.1 Integration by Parts" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: 1.1 Integration by Parts
+        - button "1.2 Trigonometric Integrals" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: 1.2 Trigonometric Integrals
+        - button "1.3 Trigonometric Substitution" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 1.3 Trigonometric Substitution
+        - button "1.4 Partial Fractions" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]: 1.4 Partial Fractions
+      - generic [ref=e30]:
+        - 'heading "Module 2: Introduction to Differential Equations" [level=3] [ref=e31]'
+        - button "2.1 Definition and Terminology" [ref=e32] [cursor=pointer]:
+          - generic [ref=e33]: 2.1 Definition and Terminology
+        - button "2.2 Initial Value Problems" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: 2.2 Initial Value Problems
+        - button "2.3 Differential Equations as Models" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: 2.3 Differential Equations as Models
+      - generic [ref=e38]:
+        - 'heading "Module 3: First-Order ODE Methods" [level=3] [ref=e39]'
+        - button "3.1 Separable Variables" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: 3.1 Separable Variables
+        - button "3.2 Linear Equations" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: 3.2 Linear Equations
+        - button "3.3 Exact Equations" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 3.3 Exact Equations
+        - button "3.4 Bernoulli Equations" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: 3.4 Bernoulli Equations
+      - generic [ref=e48]:
+        - 'heading "Module 4: Partial Derivatives" [level=3] [ref=e49]'
+        - button "4.1 Functions of Two or More Variables" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: 4.1 Functions of Two or More Variables
+        - button "4.2 Limits and Continuity" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 4.2 Limits and Continuity
+        - button "4.3 Partial Derivatives" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: 4.3 Partial Derivatives
+        - button "4.4 The Chain Rule" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]: 4.4 The Chain Rule
+        - button "4.5 Directional Derivatives and Gradients" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: 4.5 Directional Derivatives and Gradients
+        - button "4.6 Tangent Planes and Normal Vectors" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: 4.6 Tangent Planes and Normal Vectors
+        - button "4.7 Maxima and Minima" [ref=e62] [cursor=pointer]:
+          - generic [ref=e63]: 4.7 Maxima and Minima
+    - generic [ref=e64]:
+      - button "Mixed Practice" [ref=e65] [cursor=pointer]
+      - button "Formula Sheet" [ref=e66] [cursor=pointer]
+      - button "ODE Decision Tree" [ref=e67] [cursor=pointer]
+      - button "Progress Tracker" [ref=e68] [cursor=pointer]
+  - main [ref=e69]:
+    - generic [ref=e70]:
+      - button "Toggle sidebar" [ref=e71] [cursor=pointer]: Menu
+      - generic [ref=e72]:
+        - generic [ref=e73]: Undergraduate Ordinary Differential Equations
+        - strong [ref=e74]: 4.6 Tangent Planes and Normal Vectors
+      - button "Toggle light mode" [ref=e75] [cursor=pointer]: Theme
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: A-to-Z recovery course
+        - heading "Rebuild calculus, then solve ODE exam examples with confidence." [level=2] [ref=e79]
+        - paragraph [ref=e80]: This local course uses worked examples first, notebook prompts, active recall, spaced review, and mixed practice so you learn both how to solve and how to identify the method.
+      - generic [ref=e81]:
+        - strong [ref=e82]: Study loop
+        - list [ref=e83]:
+          - listitem [ref=e84]: Read the concept card.
+          - listitem [ref=e85]: Reveal each worked-example step.
+          - listitem [ref=e86]: Work practice on paper before revealing.
+          - listitem [ref=e87]: Finish with mixed method-identification practice.
+    - generic [ref=e88]:
+      - article [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: "Module 4: Partial Derivatives"
+            - heading "4.6 Tangent Planes and Normal Vectors" [level=2] [ref=e93]
+            - paragraph [ref=e94]: A tangent plane is the local flat approximation to a surface.
+            - generic [ref=e96]: "Requires: 4.5 Directional Derivatives and Gradients"
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - checkbox "Theory read" [ref=e99]
+              - text: Theory read
+            - generic [ref=e100]:
+              - checkbox "Examples studied" [ref=e101]
+              - text: Examples studied
+            - generic [ref=e102]:
+              - checkbox "Practice done" [ref=e103]
+              - text: Practice done
+        - generic [ref=e107]:
+          - math [ref=e109]:
+            - generic [ref=e111]:
+              - generic [ref=e112]: ∇
+              - generic [ref=e113]: F
+              - generic [ref=e114]: (
+              - generic [ref=e115]: P
+              - generic [ref=e116]: )
+              - generic [ref=e117]: ⋅
+              - generic [ref=e118]: ⟨
+              - generic [ref=e119]: x
+              - generic [ref=e120]: −
+              - generic [ref=e121]:
+                - generic [ref=e122]: x
+                - generic [ref=e123]: "0"
+              - generic [ref=e124]: ","
+              - generic [ref=e125]: "y"
+              - generic [ref=e126]: −
+              - generic [ref=e127]:
+                - generic [ref=e128]: "y"
+                - generic [ref=e129]: "0"
+              - generic [ref=e130]: ","
+              - generic [ref=e131]: z
+              - generic [ref=e132]: −
+              - generic [ref=e133]:
+                - generic [ref=e134]: z
+                - generic [ref=e135]: "0"
+              - generic [ref=e136]: ⟩
+              - generic [ref=e137]: =
+              - generic [ref=e138]: "0"
+          - generic [ref=e139]:
+            - generic [ref=e140]: ∇F(P) ⋅
+            - generic [ref=e141]: ⟨x −
+            - generic [ref=e142]:
+              - generic [ref=e143]:
+                - text: x
+                - generic [ref=e148]: "0"
+              - text: ", y −"
+            - generic [ref=e152]:
+              - generic [ref=e153]:
+                - text: "y"
+                - generic [ref=e158]: "0"
+              - text: ", z −"
+            - generic [ref=e162]:
+              - generic [ref=e163]:
+                - text: z
+                - generic [ref=e168]: "0"
+              - text: ⟩ =
+            - generic [ref=e172]: "0"
+        - generic [ref=e176]:
+          - math [ref=e178]:
+            - generic [ref=e180]:
+              - generic [ref=e181]: "N"
+              - generic [ref=e182]: o
+              - generic [ref=e183]: r
+              - generic [ref=e184]: m
+              - generic [ref=e185]: a
+              - generic [ref=e186]: l
+              - generic [ref=e187]: l
+              - generic [ref=e188]: i
+              - generic [ref=e189]: "n"
+              - generic [ref=e190]: e
+              - generic [ref=e191]: ":"
+              - generic [ref=e192]: r
+              - generic [ref=e193]: (
+              - generic [ref=e194]: t
+              - generic [ref=e195]: )
+              - generic [ref=e196]: =
+              - generic [ref=e197]: P
+              - generic [ref=e198]: +
+              - generic [ref=e199]: t
+              - generic [ref=e200]: ∇
+              - generic [ref=e201]: F
+              - generic [ref=e202]: (
+              - generic [ref=e203]: P
+              - generic [ref=e204]: )
+          - generic [ref=e205]:
+            - generic [ref=e206]:
+              - text: Normal
+              - text: "line :"
+            - generic [ref=e209]: r(t) =
+            - generic [ref=e210]: P +
+            - generic [ref=e211]: t∇F(P)
+      - generic [ref=e212]:
+        - generic [ref=e213]:
+          - heading "Theory in Plain English" [level=3] [ref=e214]
+          - generic [ref=e215]:
+            - paragraph [ref=e216]: For F=0, the gradient is normal to the surface.
+            - paragraph [ref=e217]: For z=f(x,y), set F=z-f(x,y).
+        - generic [ref=e218]:
+          - heading "Notebook Prompt" [level=3] [ref=e219]
+          - paragraph [ref=e220]: Write the key formula from this page three times, then solve the first practice problem without looking at the solution. This is the productive struggle part.
+          - generic [ref=e221]:
+            - strong [ref=e222]: "Feynman check:"
+            - paragraph [ref=e223]: Explain Tangent Planes and Normal Vectors in your own words. What tells you this method is the right method?
+      - generic [ref=e224]:
+        - generic [ref=e225]: Learning zone
+        - heading "Worked Examples" [level=3] [ref=e226]
+        - generic [ref=e227]:
+          - group [ref=e228]:
+            - generic "Chapter 13.7 Tangent plane Example 1 reveal steps" [ref=e229] [cursor=pointer]:
+              - generic [ref=e230]:
+                - generic [ref=e231]: Chapter 13.7
+                - heading "Tangent plane Example 1" [level=3] [ref=e232]
+              - generic [ref=e233]: reveal steps
+            - paragraph [ref=e234]:
+              - strong [ref=e235]: "Problem:"
+              - generic [ref=e237]:
+                - math [ref=e239]:
+                  - generic [ref=e241]:
+                    - generic [ref=e242]:
+                      - generic [ref=e243]: x
+                      - generic [ref=e244]: "2"
+                    - generic [ref=e245]: +
+                    - generic [ref=e246]: "4"
+                    - generic [ref=e247]:
+                      - generic [ref=e248]: "y"
+                      - generic [ref=e249]: "2"
+                    - generic [ref=e250]: +
+                    - generic [ref=e251]:
+                      - generic [ref=e252]: z
+                      - generic [ref=e253]: "2"
+                    - generic [ref=e254]: =
+                    - generic [ref=e255]: "18"
+                    - generic [ref=e256]: ","
+                    - generic [ref=e257]: P
+                    - generic [ref=e258]: =
+                    - generic [ref=e259]: (
+                    - generic [ref=e260]: "1"
+                    - generic [ref=e261]: ","
+                    - generic [ref=e262]: "2"
+                    - generic [ref=e263]: ","
+                    - generic [ref=e264]: "1"
+                    - generic [ref=e265]: )
+                - generic [ref=e266]:
+                  - generic [ref=e267]:
+                    - generic [ref=e268]:
+                      - text: x
+                      - generic [ref=e273]: "2"
+                    - text: +
+                  - generic [ref=e274]:
+                    - text: "4"
+                    - generic [ref=e275]:
+                      - text: "y"
+                      - generic [ref=e280]: "2"
+                    - text: +
+                  - generic [ref=e281]:
+                    - generic [ref=e282]:
+                      - text: z
+                      - generic [ref=e287]: "2"
+                    - text: =
+                  - generic [ref=e288]: 18, P =
+                  - generic [ref=e289]: (1, 2, 1)
+            - generic [ref=e291]: Chapter 13.pdf · pages 46–47 · Example 1(a-b)
+            - generic [ref=e292]:
+              - generic [ref=e293]:
+                - generic [ref=e294]: "1"
+                - generic [ref=e295]:
+                  - generic [ref=e299]:
+                    - math [ref=e301]:
+                      - generic [ref=e303]:
+                        - generic [ref=e304]: F
+                        - generic [ref=e305]: =
+                        - generic [ref=e306]:
+                          - generic [ref=e307]: x
+                          - generic [ref=e308]: "2"
+                        - generic [ref=e309]: +
+                        - generic [ref=e310]: "4"
+                        - generic [ref=e311]:
+                          - generic [ref=e312]: "y"
+                          - generic [ref=e313]: "2"
+                        - generic [ref=e314]: +
+                        - generic [ref=e315]:
+                          - generic [ref=e316]: z
+                          - generic [ref=e317]: "2"
+                        - generic [ref=e318]: −
+                        - generic [ref=e319]: "18"
+                    - generic [ref=e320]:
+                      - generic [ref=e321]: F =
+                      - generic [ref=e322]:
+                        - generic [ref=e323]:
+                          - text: x
+                          - generic [ref=e328]: "2"
+                        - text: +
+                      - generic [ref=e329]:
+                        - text: "4"
+                        - generic [ref=e330]:
+                          - text: "y"
+                          - generic [ref=e335]: "2"
+                        - text: +
+                      - generic [ref=e336]:
+                        - generic [ref=e337]:
+                          - text: z
+                          - generic [ref=e342]: "2"
+                        - text: −
+                      - generic [ref=e343]: "18"
+                  - generic [ref=e344]:
+                    - strong [ref=e345]: Why?
+                    - text: Write surface as F=0.
+              - generic [ref=e916]:
+                - generic [ref=e917]: "2"
+                - generic [ref=e918]:
+                  - generic [ref=e922]:
+                    - math [ref=e924]:
+                      - generic [ref=e926]:
+                        - generic [ref=e927]: ∇
+                        - generic [ref=e928]: F
+                        - generic [ref=e929]: =
+                        - generic [ref=e930]: (
+                        - generic [ref=e931]: "2"
+                        - generic [ref=e932]: x
+                        - generic [ref=e933]: ","
+                        - generic [ref=e934]: "8"
+                        - generic [ref=e935]: "y"
+                        - generic [ref=e936]: ","
+                        - generic [ref=e937]: "2"
+                        - generic [ref=e938]: z
+                        - generic [ref=e939]: )
+                    - generic [ref=e940]:
+                      - generic [ref=e941]: ∇F =
+                      - generic [ref=e942]: (2x, 8y, 2z)
+                  - generic [ref=e943]:
+                    - strong [ref=e944]: Why?
+                    - text: Normal vector is the gradient.
+              - generic [ref=e945]:
+                - generic [ref=e946]: "3"
+                - generic [ref=e947]:
+                  - generic [ref=e951]:
+                    - math [ref=e953]:
+                      - generic [ref=e955]:
+                        - generic [ref=e956]: ∇
+                        - generic [ref=e957]: F
+                        - generic [ref=e958]: (
+                        - generic [ref=e959]: "1"
+                        - generic [ref=e960]: ","
+                        - generic [ref=e961]: "2"
+                        - generic [ref=e962]: ","
+                        - generic [ref=e963]: "1"
+                        - generic [ref=e964]: )
+                        - generic [ref=e965]: =
+                        - generic [ref=e966]: (
+                        - generic [ref=e967]: "2"
+                        - generic [ref=e968]: ","
+                        - generic [ref=e969]: "16"
+                        - generic [ref=e970]: ","
+                        - generic [ref=e971]: "2"
+                        - generic [ref=e972]: )
+                    - generic [ref=e973]:
+                      - generic [ref=e974]: ∇F(1, 2, 1) =
+                      - generic [ref=e975]: (2, 16, 2)
+                  - generic [ref=e976]:
+                    - strong [ref=e977]: Why?
+                    - text: Evaluate at P.
+              - generic [ref=e978]:
+                - generic [ref=e979]: "4"
+                - generic [ref=e980]:
+                  - generic [ref=e984]:
+                    - math [ref=e986]:
+                      - generic [ref=e988]:
+                        - generic [ref=e989]: "2"
+                        - generic [ref=e990]: (
+                        - generic [ref=e991]: x
+                        - generic [ref=e992]: −
+                        - generic [ref=e993]: "1"
+                        - generic [ref=e994]: )
+                        - generic [ref=e995]: +
+                        - generic [ref=e996]: "16"
+                        - generic [ref=e997]: (
+                        - generic [ref=e998]: "y"
+                        - generic [ref=e999]: −
+                        - generic [ref=e1000]: "2"
+                        - generic [ref=e1001]: )
+                        - generic [ref=e1002]: +
+                        - generic [ref=e1003]: "2"
+                        - generic [ref=e1004]: (
+                        - generic [ref=e1005]: z
+                        - generic [ref=e1006]: −
+                        - generic [ref=e1007]: "1"
+                        - generic [ref=e1008]: )
+                        - generic [ref=e1009]: =
+                        - generic [ref=e1010]: "0"
+                    - generic [ref=e1011]:
+                      - generic [ref=e1012]: 2(x −
+                      - generic [ref=e1013]: 1) +
+                      - generic [ref=e1014]: 16(y −
+                      - generic [ref=e1015]: 2) +
+                      - generic [ref=e1016]: 2(z −
+                      - generic [ref=e1017]: 1) =
+                      - generic [ref=e1018]: "0"
+                  - generic [ref=e1019]:
+                    - strong [ref=e1020]: Why?
+                    - text: Tangent plane formula.
+              - generic [ref=e1021]:
+                - generic [ref=e1022]: "5"
+                - generic [ref=e1023]:
+                  - generic [ref=e1027]:
+                    - math [ref=e1029]:
+                      - generic [ref=e1031]:
+                        - generic [ref=e1032]: x
+                        - generic [ref=e1033]: +
+                        - generic [ref=e1034]: "8"
+                        - generic [ref=e1035]: "y"
+                        - generic [ref=e1036]: +
+                        - generic [ref=e1037]: z
+                        - generic [ref=e1038]: =
+                        - generic [ref=e1039]: "18"
+                    - generic [ref=e1040]:
+                      - generic [ref=e1041]: x +
+                      - generic [ref=e1042]: 8y +
+                      - generic [ref=e1043]: z =
+                      - generic [ref=e1044]: "18"
+                  - generic [ref=e1045]:
+                    - strong [ref=e1046]: Why?
+                    - text: Divide by 2 and simplify the tangent plane.
+              - generic [ref=e1047]:
+                - generic [ref=e1048]: "6"
+                - generic [ref=e1049]:
+                  - generic [ref=e1053]:
+                    - math [ref=e1055]:
+                      - generic [ref=e1057]:
+                        - generic [ref=e1058]: x
+                        - generic [ref=e1059]: =
+                        - generic [ref=e1060]: "1"
+                        - generic [ref=e1061]: +
+                        - generic [ref=e1062]: "2"
+                        - generic [ref=e1063]: t
+                        - generic [ref=e1064]: ","
+                        - generic [ref=e1065]: "y"
+                        - generic [ref=e1066]: =
+                        - generic [ref=e1067]: "2"
+                        - generic [ref=e1068]: +
+                        - generic [ref=e1069]: "16"
+                        - generic [ref=e1070]: t
+                        - generic [ref=e1071]: ","
+                        - generic [ref=e1072]: z
+                        - generic [ref=e1073]: =
+                        - generic [ref=e1074]: "1"
+                        - generic [ref=e1075]: +
+                        - generic [ref=e1076]: "2"
+                        - generic [ref=e1077]: t
+                    - generic [ref=e1078]:
+                      - generic [ref=e1079]: x =
+                      - generic [ref=e1080]: 1 +
+                      - generic [ref=e1081]: 2t, y =
+                      - generic [ref=e1082]: 2 +
+                      - generic [ref=e1083]: 16t, z =
+                      - generic [ref=e1084]: 1 +
+                      - generic [ref=e1085]: 2t
+                  - generic [ref=e1086]:
+                    - strong [ref=e1087]: Why?
+                    - text: Normal line uses point plus normal direction.
+            - generic [ref=e346]:
+              - button "Show next step" [ref=e347] [cursor=pointer]
+              - button "Show all" [active] [ref=e348] [cursor=pointer]
+              - button "Reset" [ref=e349] [cursor=pointer]
+            - paragraph [ref=e350]: For F=0, gradient is perpendicular to the tangent plane.
+          - group [ref=e351]:
+            - 'generic "Chapter 13.7 Tangent plane Example 1(c): plane angle reveal steps" [ref=e352] [cursor=pointer]':
+              - generic [ref=e353]:
+                - generic [ref=e354]: Chapter 13.7
+                - 'heading "Tangent plane Example 1(c): plane angle" [level=3] [ref=e355]'
+              - generic [ref=e356]: reveal steps
+          - group [ref=e357]:
+            - generic "Chapter 13.7 Tangent plane Example 2 reveal steps" [ref=e358] [cursor=pointer]:
+              - generic [ref=e359]:
+                - generic [ref=e360]: Chapter 13.7
+                - heading "Tangent plane Example 2" [level=3] [ref=e361]
+              - generic [ref=e362]: reveal steps
+      - generic [ref=e363]:
+        - generic [ref=e364]: Active zone
+        - heading "Practice Problems" [level=3] [ref=e365]
+        - generic [ref=e366]:
+          - generic [ref=e367]:
+            - generic [ref=e368]: Active recall 1
+            - 'heading "Exercise 13.7 #1: ellipsoid" [level=3] [ref=e369]'
+            - paragraph [ref=e370]:
+              - strong [ref=e371]: "Cover and solve on paper first:"
+              - generic [ref=e373]:
+                - math [ref=e375]:
+                  - generic [ref=e377]:
+                    - generic [ref=e378]:
+                      - generic [ref=e379]: x
+                      - generic [ref=e380]: "2"
+                    - generic [ref=e381]: +
+                    - generic [ref=e382]:
+                      - generic [ref=e383]: "y"
+                      - generic [ref=e384]: "2"
+                    - generic [ref=e385]: +
+                    - generic [ref=e386]: "4"
+                    - generic [ref=e387]:
+                      - generic [ref=e388]: z
+                      - generic [ref=e389]: "2"
+                    - generic [ref=e390]: =
+                    - generic [ref=e391]: "12"
+                    - generic [ref=e392]: ","
+                    - generic [ref=e393]: P
+                    - generic [ref=e394]: =
+                    - generic [ref=e395]: (
+                    - generic [ref=e396]: "2"
+                    - generic [ref=e397]: ","
+                    - generic [ref=e398]: "2"
+                    - generic [ref=e399]: ","
+                    - generic [ref=e400]: "1"
+                    - generic [ref=e401]: )
+                - generic [ref=e402]:
+                  - generic [ref=e403]:
+                    - generic [ref=e404]:
+                      - text: x
+                      - generic [ref=e409]: "2"
+                    - text: +
+                  - generic [ref=e410]:
+                    - generic [ref=e411]:
+                      - text: "y"
+                      - generic [ref=e416]: "2"
+                    - text: +
+                  - generic [ref=e417]:
+                    - text: "4"
+                    - generic [ref=e418]:
+                      - text: z
+                      - generic [ref=e423]: "2"
+                    - text: =
+                  - generic [ref=e424]: 12, P =
+                  - generic [ref=e425]: (2, 2, 1)
+            - generic [ref=e427]: Chapter 13.pdf · page 48 · Exercise 1
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e428]'
+            - generic [ref=e429]:
+              - button "Show hint" [ref=e430] [cursor=pointer]
+              - button "Show solution" [ref=e431] [cursor=pointer]
+          - generic [ref=e432]:
+            - generic [ref=e433]: Active recall 2
+            - 'heading "Exercise 13.7 #2: implicit surface" [level=3] [ref=e434]'
+            - paragraph [ref=e435]:
+              - strong [ref=e436]: "Cover and solve on paper first:"
+              - generic [ref=e438]:
+                - math [ref=e440]:
+                  - generic [ref=e442]:
+                    - generic [ref=e443]: x
+                    - generic [ref=e444]: z
+                    - generic [ref=e445]: −
+                    - generic [ref=e446]: "y"
+                    - generic [ref=e447]:
+                      - generic [ref=e448]: z
+                      - generic [ref=e449]: "3"
+                    - generic [ref=e450]: +
+                    - generic [ref=e451]: "y"
+                    - generic [ref=e452]:
+                      - generic [ref=e453]: z
+                      - generic [ref=e454]: "2"
+                    - generic [ref=e455]: =
+                    - generic [ref=e456]: "2"
+                    - generic [ref=e457]: ","
+                    - generic [ref=e458]: P
+                    - generic [ref=e459]: =
+                    - generic [ref=e460]: (
+                    - generic [ref=e461]: "2"
+                    - generic [ref=e462]: ","
+                    - generic [ref=e463]: −
+                    - generic [ref=e464]: "1"
+                    - generic [ref=e465]: ","
+                    - generic [ref=e466]: "1"
+                    - generic [ref=e467]: )
+                - generic [ref=e468]:
+                  - generic [ref=e469]: xz −
+                  - generic [ref=e470]:
+                    - text: "y"
+                    - generic [ref=e471]:
+                      - text: z
+                      - generic [ref=e476]: "3"
+                    - text: +
+                  - generic [ref=e477]:
+                    - text: "y"
+                    - generic [ref=e478]:
+                      - text: z
+                      - generic [ref=e483]: "2"
+                    - text: =
+                  - generic [ref=e484]: 2, P =
+                  - generic [ref=e485]: (2, −1, 1)
+            - generic [ref=e487]: Chapter 13.pdf · page 48 · Exercise 2
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e488]'
+            - generic [ref=e489]:
+              - button "Show hint" [ref=e490] [cursor=pointer]
+              - button "Show solution" [ref=e491] [cursor=pointer]
+          - generic [ref=e492]:
+            - generic [ref=e493]: Active recall 3
+            - 'heading "Exercise 13.7 #3: sphere" [level=3] [ref=e494]'
+            - paragraph [ref=e495]:
+              - strong [ref=e496]: "Cover and solve on paper first:"
+              - generic [ref=e498]:
+                - math [ref=e500]:
+                  - generic [ref=e502]:
+                    - generic [ref=e503]:
+                      - generic [ref=e504]: x
+                      - generic [ref=e505]: "2"
+                    - generic [ref=e506]: +
+                    - generic [ref=e507]:
+                      - generic [ref=e508]: "y"
+                      - generic [ref=e509]: "2"
+                    - generic [ref=e510]: +
+                    - generic [ref=e511]:
+                      - generic [ref=e512]: z
+                      - generic [ref=e513]: "2"
+                    - generic [ref=e514]: =
+                    - generic [ref=e515]: "25"
+                    - generic [ref=e516]: ","
+                    - generic [ref=e517]: P
+                    - generic [ref=e518]: =
+                    - generic [ref=e519]: (
+                    - generic [ref=e520]: −
+                    - generic [ref=e521]: "3"
+                    - generic [ref=e522]: ","
+                    - generic [ref=e523]: "0"
+                    - generic [ref=e524]: ","
+                    - generic [ref=e525]: "4"
+                    - generic [ref=e526]: )
+                - generic [ref=e527]:
+                  - generic [ref=e528]:
+                    - generic [ref=e529]:
+                      - text: x
+                      - generic [ref=e534]: "2"
+                    - text: +
+                  - generic [ref=e535]:
+                    - generic [ref=e536]:
+                      - text: "y"
+                      - generic [ref=e541]: "2"
+                    - text: +
+                  - generic [ref=e542]:
+                    - generic [ref=e543]:
+                      - text: z
+                      - generic [ref=e548]: "2"
+                    - text: =
+                  - generic [ref=e549]: 25, P =
+                  - generic [ref=e550]: (−3, 0, 4)
+            - generic [ref=e552]: Chapter 13.pdf · page 49 · Exercise 3
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e553]'
+            - generic [ref=e554]:
+              - button "Show hint" [ref=e555] [cursor=pointer]
+              - button "Show solution" [ref=e556] [cursor=pointer]
+          - generic [ref=e557]:
+            - generic [ref=e558]: Active recall 4
+            - 'heading "Exercise 13.7 #5: mixed-product surface" [level=3] [ref=e559]'
+            - paragraph [ref=e560]:
+              - strong [ref=e561]: "Cover and solve on paper first:"
+              - generic [ref=e563]:
+                - math [ref=e565]:
+                  - generic [ref=e567]:
+                    - generic [ref=e568]:
+                      - generic [ref=e569]: x
+                      - generic [ref=e570]: "2"
+                    - generic [ref=e571]: −
+                    - generic [ref=e572]: x
+                    - generic [ref=e573]: "y"
+                    - generic [ref=e574]: z
+                    - generic [ref=e575]: =
+                    - generic [ref=e576]: "56"
+                    - generic [ref=e577]: ","
+                    - generic [ref=e578]: P
+                    - generic [ref=e579]: =
+                    - generic [ref=e580]: (
+                    - generic [ref=e581]: −
+                    - generic [ref=e582]: "4"
+                    - generic [ref=e583]: ","
+                    - generic [ref=e584]: "5"
+                    - generic [ref=e585]: ","
+                    - generic [ref=e586]: "2"
+                    - generic [ref=e587]: )
+                - generic [ref=e588]:
+                  - generic [ref=e589]:
+                    - generic [ref=e590]:
+                      - text: x
+                      - generic [ref=e595]: "2"
+                    - text: −
+                  - generic [ref=e596]: xyz =
+                  - generic [ref=e597]: 56, P =
+                  - generic [ref=e598]: (−4, 5, 2)
+            - generic [ref=e600]: Chapter 13.pdf · page 49 · Exercise 5
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e601]'
+            - generic [ref=e602]:
+              - button "Show hint" [ref=e603] [cursor=pointer]
+              - button "Show solution" [ref=e604] [cursor=pointer]
+          - generic [ref=e605]:
+            - generic [ref=e606]: Active recall 5
+            - 'heading "Exercise 13.7 #10: logarithmic surface" [level=3] [ref=e607]'
+            - paragraph [ref=e608]:
+              - strong [ref=e609]: "Cover and solve on paper first:"
+              - generic [ref=e611]:
+                - math [ref=e613]:
+                  - generic [ref=e615]:
+                    - generic [ref=e616]: z
+                    - generic [ref=e617]: =
+                    - generic [ref=e618]: ln
+                    - generic: ⁡
+                    - generic [ref=e620]:
+                      - generic [ref=e621]:
+                        - generic [ref=e622]: x
+                        - generic [ref=e623]: "2"
+                      - generic [ref=e624]: +
+                      - generic [ref=e625]:
+                        - generic [ref=e626]: "y"
+                        - generic [ref=e627]: "2"
+                    - generic [ref=e628]: ","
+                    - generic [ref=e629]: P
+                    - generic [ref=e630]: =
+                    - generic [ref=e631]: (
+                    - generic [ref=e632]: −
+                    - generic [ref=e633]: "1"
+                    - generic [ref=e634]: ","
+                    - generic [ref=e635]: "0"
+                    - generic [ref=e636]: ","
+                    - generic [ref=e637]: "0"
+                    - generic [ref=e638]: )
+                - generic [ref=e639]:
+                  - generic [ref=e640]: z =
+                  - generic [ref=e641]:
+                    - generic [ref=e642]: ln
+                    - generic [ref=e646]:
+                      - generic [ref=e647]:
+                        - generic [ref=e648]:
+                          - text: x
+                          - generic [ref=e653]: "2"
+                        - text: +
+                        - generic [ref=e654]:
+                          - text: "y"
+                          - generic [ref=e659]: "2"
+                      - img [ref=e661]
+                    - text: ", P ="
+                  - generic [ref=e666]: (−1, 0, 0)
+            - generic [ref=e668]: Chapter 13.pdf · page 49 · Exercise 10
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e669]'
+            - generic [ref=e670]:
+              - button "Show hint" [ref=e671] [cursor=pointer]
+              - button "Show solution" [ref=e672] [cursor=pointer]
+          - generic [ref=e673]:
+            - generic [ref=e674]: Active recall 6
+            - 'heading "Exercise 13.7 #11: exponential-trig surface" [level=3] [ref=e675]'
+            - paragraph [ref=e676]:
+              - strong [ref=e677]: "Cover and solve on paper first:"
+              - generic [ref=e679]:
+                - math [ref=e681]:
+                  - generic [ref=e683]:
+                    - generic [ref=e684]: z
+                    - generic [ref=e685]: =
+                    - generic [ref=e686]:
+                      - generic [ref=e687]: e
+                      - generic [ref=e688]:
+                        - generic [ref=e689]: "3"
+                        - generic [ref=e690]: "y"
+                    - generic [ref=e691]: sin
+                    - generic: ⁡
+                    - generic [ref=e692]: "3"
+                    - generic [ref=e693]: x
+                    - generic [ref=e694]: ","
+                    - generic [ref=e695]: P
+                    - generic [ref=e696]: =
+                    - generic [ref=e697]: (
+                    - generic [ref=e698]: π
+                    - generic [ref=e699]: /
+                    - generic [ref=e700]: "6"
+                    - generic [ref=e701]: ","
+                    - generic [ref=e702]: "0"
+                    - generic [ref=e703]: ","
+                    - generic [ref=e704]: "1"
+                    - generic [ref=e705]: )
+                - generic [ref=e706]:
+                  - generic [ref=e707]: z =
+                  - generic [ref=e708]:
+                    - generic [ref=e709]:
+                      - text: e
+                      - generic [ref=e715]: 3y
+                    - generic [ref=e716]: sin
+                    - text: 3x, P =
+                  - generic [ref=e717]: (π/6, 0, 1)
+            - generic [ref=e719]: Chapter 13.pdf · page 49 · Exercise 11
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e720]'
+            - generic [ref=e721]:
+              - button "Show hint" [ref=e722] [cursor=pointer]
+              - button "Show solution" [ref=e723] [cursor=pointer]
+          - generic [ref=e724]:
+            - generic [ref=e725]: Active recall 7
+            - 'heading "Exercise 13.7 #12: square-root surface" [level=3] [ref=e726]'
+            - paragraph [ref=e727]:
+              - strong [ref=e728]: "Cover and solve on paper first:"
+              - generic [ref=e730]:
+                - math [ref=e732]:
+                  - generic [ref=e734]:
+                    - generic [ref=e735]: z
+                    - generic [ref=e736]: =
+                    - generic [ref=e738]: x
+                    - generic [ref=e739]: +
+                    - generic [ref=e741]: "y"
+                    - generic [ref=e742]: ","
+                    - generic [ref=e743]: P
+                    - generic [ref=e744]: =
+                    - generic [ref=e745]: (
+                    - generic [ref=e746]: "4"
+                    - generic [ref=e747]: ","
+                    - generic [ref=e748]: "9"
+                    - generic [ref=e749]: ","
+                    - generic [ref=e750]: "5"
+                    - generic [ref=e751]: )
+                - generic [ref=e752]:
+                  - generic [ref=e753]: z =
+                  - generic [ref=e754]:
+                    - generic [ref=e758]:
+                      - generic [ref=e759]: x
+                      - img [ref=e761]
+                    - text: +
+                  - generic [ref=e766]:
+                    - generic [ref=e770]:
+                      - generic [ref=e771]: "y"
+                      - img [ref=e773]
+                    - text: ", P ="
+                  - generic [ref=e778]: (4, 9, 5)
+            - generic [ref=e780]: Chapter 13.pdf · page 49 · Exercise 12
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e781]'
+            - generic [ref=e782]:
+              - button "Show hint" [ref=e783] [cursor=pointer]
+              - button "Show solution" [ref=e784] [cursor=pointer]
+          - generic [ref=e785]:
+            - generic [ref=e786]: Active recall 8
+            - heading "Plane to sphere" [level=3] [ref=e787]
+            - paragraph [ref=e788]:
+              - strong [ref=e789]: "Cover and solve on paper first:"
+              - generic [ref=e791]:
+                - math [ref=e793]:
+                  - generic [ref=e795]:
+                    - generic [ref=e796]:
+                      - generic [ref=e797]: x
+                      - generic [ref=e798]: "2"
+                    - generic [ref=e799]: +
+                    - generic [ref=e800]:
+                      - generic [ref=e801]: "y"
+                      - generic [ref=e802]: "2"
+                    - generic [ref=e803]: +
+                    - generic [ref=e804]:
+                      - generic [ref=e805]: z
+                      - generic [ref=e806]: "2"
+                    - generic [ref=e807]: =
+                    - generic [ref=e808]: "14"
+                    - generic [ref=e809]: ","
+                    - generic [ref=e810]: P
+                    - generic [ref=e811]: =
+                    - generic [ref=e812]: (
+                    - generic [ref=e813]: "1"
+                    - generic [ref=e814]: ","
+                    - generic [ref=e815]: "2"
+                    - generic [ref=e816]: ","
+                    - generic [ref=e817]: "3"
+                    - generic [ref=e818]: )
+                - generic [ref=e819]:
+                  - generic [ref=e820]:
+                    - generic [ref=e821]:
+                      - text: x
+                      - generic [ref=e826]: "2"
+                    - text: +
+                  - generic [ref=e827]:
+                    - generic [ref=e828]:
+                      - text: "y"
+                      - generic [ref=e833]: "2"
+                    - text: +
+                  - generic [ref=e834]:
+                    - generic [ref=e835]:
+                      - text: z
+                      - generic [ref=e840]: "2"
+                    - text: =
+                  - generic [ref=e841]:
+                    - text: 14,
+                    - text: P =
+                  - generic [ref=e843]: (1, 2, 3)
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e844]'
+            - generic [ref=e845]:
+              - button "Show hint" [ref=e846] [cursor=pointer]
+              - button "Show solution" [ref=e847] [cursor=pointer]
+          - generic [ref=e848]:
+            - generic [ref=e849]: Active recall 9
+            - heading "Plane to explicit surface" [level=3] [ref=e850]
+            - paragraph [ref=e851]:
+              - strong [ref=e852]: "Cover and solve on paper first:"
+              - generic [ref=e854]:
+                - math [ref=e856]:
+                  - generic [ref=e858]:
+                    - generic [ref=e859]: z
+                    - generic [ref=e860]: =
+                    - generic [ref=e861]:
+                      - generic [ref=e862]: x
+                      - generic [ref=e863]: "2"
+                    - generic [ref=e864]: −
+                    - generic [ref=e865]: "3"
+                    - generic [ref=e866]: x
+                    - generic [ref=e867]: "y"
+                    - generic [ref=e868]: +
+                    - generic [ref=e869]:
+                      - generic [ref=e870]: "y"
+                      - generic [ref=e871]: "2"
+                    - generic [ref=e872]: ","
+                    - generic [ref=e873]: P
+                    - generic [ref=e874]: =
+                    - generic [ref=e875]: (
+                    - generic [ref=e876]: "2"
+                    - generic [ref=e877]: ","
+                    - generic [ref=e878]: "1"
+                    - generic [ref=e879]: ","
+                    - generic [ref=e880]: −
+                    - generic [ref=e881]: "1"
+                    - generic [ref=e882]: )
+                - generic [ref=e883]:
+                  - generic [ref=e884]: z =
+                  - generic [ref=e885]:
+                    - generic [ref=e886]:
+                      - text: x
+                      - generic [ref=e891]: "2"
+                    - text: −
+                  - generic [ref=e892]: 3xy +
+                  - generic [ref=e893]:
+                    - generic [ref=e894]:
+                      - text: "y"
+                      - generic [ref=e899]: "2"
+                    - text: ","
+                    - text: P =
+                  - generic [ref=e901]: (2, 1, −1)
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e902]'
+            - generic [ref=e903]:
+              - button "Show hint" [ref=e904] [cursor=pointer]
+              - button "Show solution" [ref=e905] [cursor=pointer]
+      - generic [ref=e906]:
+        - heading "Section Recap" [level=3] [ref=e907]
+        - list [ref=e909]:
+          - listitem [ref=e910]: Gradient is the normal vector.
+          - listitem [ref=e911]: Use point-normal plane form.
+          - listitem [ref=e912]: Normal line uses the same vector.
+        - generic [ref=e913]:
+          - button "Next section" [ref=e914] [cursor=pointer]
+          - button "Try mixed practice" [ref=e915] [cursor=pointer]

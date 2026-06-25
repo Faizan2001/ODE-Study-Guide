@@ -1,0 +1,482 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: d/dx
+      - generic [ref=e6]:
+        - heading "ODE Studio" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Worked examples, recall, mixed practice.
+    - generic [ref=e9]:
+      - generic [ref=e10]: Today
+      - strong [ref=e11]: 1 day streak
+    - navigation "Course navigation" [ref=e13]:
+      - generic [ref=e14]:
+        - 'heading "Module 0: Calculus Refresher" [level=3] [ref=e15]'
+        - button "0.1 Differentiation Quick Review" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: 0.1 Differentiation Quick Review
+        - button "0.2 Integration Quick Review" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: 0.2 Integration Quick Review
+      - generic [ref=e20]:
+        - 'heading "Module 1: Integration Techniques" [level=3] [ref=e21]'
+        - button "1.1 Integration by Parts" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: 1.1 Integration by Parts
+        - button "1.2 Trigonometric Integrals" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: 1.2 Trigonometric Integrals
+        - button "1.3 Trigonometric Substitution" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 1.3 Trigonometric Substitution
+        - button "1.4 Partial Fractions" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]: 1.4 Partial Fractions
+      - generic [ref=e30]:
+        - 'heading "Module 2: Introduction to Differential Equations" [level=3] [ref=e31]'
+        - button "2.1 Definition and Terminology" [ref=e32] [cursor=pointer]:
+          - generic [ref=e33]: 2.1 Definition and Terminology
+        - button "2.2 Initial Value Problems" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: 2.2 Initial Value Problems
+        - button "2.3 Differential Equations as Models" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: 2.3 Differential Equations as Models
+      - generic [ref=e38]:
+        - 'heading "Module 3: First-Order ODE Methods" [level=3] [ref=e39]'
+        - button "3.1 Separable Variables" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: 3.1 Separable Variables
+        - button "3.2 Linear Equations" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: 3.2 Linear Equations
+        - button "3.3 Exact Equations" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 3.3 Exact Equations
+        - button "3.4 Bernoulli Equations" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: 3.4 Bernoulli Equations
+      - generic [ref=e48]:
+        - 'heading "Module 4: Partial Derivatives" [level=3] [ref=e49]'
+        - button "4.1 Functions of Two or More Variables" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: 4.1 Functions of Two or More Variables
+        - button "4.2 Limits and Continuity" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 4.2 Limits and Continuity
+        - button "4.3 Partial Derivatives" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: 4.3 Partial Derivatives
+        - button "4.4 The Chain Rule" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]: 4.4 The Chain Rule
+        - button "4.5 Directional Derivatives and Gradients" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: 4.5 Directional Derivatives and Gradients
+        - button "4.6 Tangent Planes and Normal Vectors" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: 4.6 Tangent Planes and Normal Vectors
+        - button "4.7 Maxima and Minima" [ref=e62] [cursor=pointer]:
+          - generic [ref=e63]: 4.7 Maxima and Minima
+    - generic [ref=e64]:
+      - button "Mixed Practice" [ref=e65] [cursor=pointer]
+      - button "Formula Sheet" [ref=e66] [cursor=pointer]
+      - button "ODE Decision Tree" [ref=e67] [cursor=pointer]
+      - button "Progress Tracker" [ref=e68] [cursor=pointer]
+  - main [ref=e69]:
+    - generic [ref=e70]:
+      - button "Toggle sidebar" [ref=e71] [cursor=pointer]: Menu
+      - generic [ref=e72]:
+        - generic [ref=e73]: Undergraduate Ordinary Differential Equations
+        - strong [ref=e74]: 0.1 Differentiation Quick Review
+      - button "Toggle light mode" [ref=e75] [cursor=pointer]: Theme
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: A-to-Z recovery course
+        - heading "Rebuild calculus, then solve ODE exam examples with confidence." [level=2] [ref=e79]
+        - paragraph [ref=e80]: This local course uses worked examples first, notebook prompts, active recall, spaced review, and mixed practice so you learn both how to solve and how to identify the method.
+      - generic [ref=e81]:
+        - strong [ref=e82]: Study loop
+        - list [ref=e83]:
+          - listitem [ref=e84]: Read the concept card.
+          - listitem [ref=e85]: Reveal each worked-example step.
+          - listitem [ref=e86]: Work practice on paper before revealing.
+          - listitem [ref=e87]: Finish with mixed method-identification practice.
+    - generic [ref=e88]:
+      - article [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: "Module 0: Calculus Refresher"
+            - heading "0.1 Differentiation Quick Review" [level=2] [ref=e93]
+            - paragraph [ref=e94]: "Differentiation is rate of change: speed from position, marginal profit from profit, or how fast a tank level is changing."
+            - generic [ref=e96]: "Requires: Algebra"
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - checkbox "Theory read" [ref=e99]
+              - text: Theory read
+            - generic [ref=e100]:
+              - checkbox "Examples studied" [ref=e101]
+              - text: Examples studied
+            - generic [ref=e102]:
+              - checkbox "Practice done" [ref=e103]
+              - text: Practice done
+        - generic [ref=e107]:
+          - math [ref=e109]:
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]: d
+                - generic [ref=e114]:
+                  - generic [ref=e115]: d
+                  - generic [ref=e116]: x
+              - generic [ref=e117]:
+                - generic [ref=e118]: x
+                - generic [ref=e119]: "n"
+              - generic [ref=e120]: =
+              - generic [ref=e121]: "n"
+              - generic [ref=e122]:
+                - generic [ref=e123]: x
+                - generic [ref=e124]:
+                  - generic [ref=e125]: "n"
+                  - generic [ref=e126]: −
+                  - generic [ref=e127]: "1"
+          - generic [ref=e128]:
+            - generic [ref=e129]:
+              - generic [ref=e134]:
+                - generic [ref=e135]: dx
+                - generic [ref=e137]: d
+              - generic [ref=e141]:
+                - text: x
+                - generic [ref=e146]: "n"
+              - text: =
+            - generic [ref=e147]:
+              - text: "n"
+              - generic [ref=e148]:
+                - text: x
+                - generic [ref=e154]: n−1
+        - generic [ref=e158]:
+          - math [ref=e160]:
+            - generic [ref=e162]:
+              - generic [ref=e163]: (
+              - generic [ref=e164]: u
+              - generic [ref=e165]: v
+              - generic [ref=e166]:
+                - generic [ref=e167]: )
+                - generic [ref=e168]: ′
+              - generic [ref=e169]: =
+              - generic [ref=e170]:
+                - generic [ref=e171]: u
+                - generic [ref=e172]: ′
+              - generic [ref=e173]: v
+              - generic [ref=e174]: +
+              - generic [ref=e175]: u
+              - generic [ref=e176]:
+                - generic [ref=e177]: v
+                - generic [ref=e178]: ′
+          - generic [ref=e179]:
+            - generic [ref=e180]:
+              - text: (uv
+              - generic [ref=e181]:
+                - text: )
+                - generic [ref=e187]: ′
+              - text: =
+            - generic [ref=e188]:
+              - generic [ref=e189]:
+                - text: u
+                - generic [ref=e195]: ′
+              - text: v +
+            - generic [ref=e196]:
+              - text: u
+              - generic [ref=e197]:
+                - text: v
+                - generic [ref=e203]: ′
+        - generic [ref=e207]:
+          - math [ref=e209]:
+            - generic [ref=e211]:
+              - generic [ref=e212]:
+                - generic [ref=e213]: d
+                - generic [ref=e214]:
+                  - generic [ref=e215]: d
+                  - generic [ref=e216]: x
+              - generic [ref=e217]: f
+              - generic [ref=e218]: (
+              - generic [ref=e219]: g
+              - generic [ref=e220]: (
+              - generic [ref=e221]: x
+              - generic [ref=e222]: )
+              - generic [ref=e223]: )
+              - generic [ref=e224]: =
+              - generic [ref=e225]:
+                - generic [ref=e226]: f
+                - generic [ref=e227]: ′
+              - generic [ref=e228]: (
+              - generic [ref=e229]: g
+              - generic [ref=e230]: (
+              - generic [ref=e231]: x
+              - generic [ref=e232]: )
+              - generic [ref=e233]: )
+              - generic [ref=e234]:
+                - generic [ref=e235]: g
+                - generic [ref=e236]: ′
+              - generic [ref=e237]: (
+              - generic [ref=e238]: x
+              - generic [ref=e239]: )
+          - generic [ref=e240]:
+            - generic [ref=e241]:
+              - generic [ref=e246]:
+                - generic [ref=e247]: dx
+                - generic [ref=e249]: d
+              - text: f(g(x)) =
+            - generic [ref=e253]:
+              - generic [ref=e254]:
+                - text: f
+                - generic [ref=e260]: ′
+              - text: (g(x))
+              - generic [ref=e261]:
+                - text: g
+                - generic [ref=e267]: ′
+              - text: (x)
+      - generic [ref=e268]:
+        - generic [ref=e269]:
+          - heading "Theory in Plain English" [level=3] [ref=e270]
+          - generic [ref=e271]:
+            - paragraph [ref=e272]: Use the power, product, quotient, and chain rules as pattern tools.
+            - paragraph [ref=e273]: ODE verification depends on differentiating accurately before substituting back.
+        - generic [ref=e274]:
+          - heading "Notebook Prompt" [level=3] [ref=e275]
+          - paragraph [ref=e276]: Write the key formula from this page three times, then solve the first practice problem without looking at the solution. This is the productive struggle part.
+          - generic [ref=e277]:
+            - strong [ref=e278]: "Feynman check:"
+            - paragraph [ref=e279]: Explain Differentiation Quick Review in your own words. What tells you this method is the right method?
+      - generic [ref=e280]:
+        - generic [ref=e281]: Learning zone
+        - heading "Worked Examples" [level=3] [ref=e282]
+        - generic [ref=e283]:
+          - group [ref=e284]:
+            - generic "Module 0 scaffold Power rule refresher reveal steps" [ref=e285] [cursor=pointer]:
+              - generic [ref=e286]:
+                - generic [ref=e287]: Module 0 scaffold
+                - heading "Power rule refresher" [level=3] [ref=e288]
+              - generic [ref=e289]: reveal steps
+            - paragraph [ref=e290]:
+              - strong [ref=e291]: "Problem:"
+              - generic [ref=e293]:
+                - math [ref=e295]:
+                  - generic [ref=e297]:
+                    - generic [ref=e298]: D
+                    - generic [ref=e299]: i
+                    - generic [ref=e300]: f
+                    - generic [ref=e301]: f
+                    - generic [ref=e302]: e
+                    - generic [ref=e303]: r
+                    - generic [ref=e304]: e
+                    - generic [ref=e305]: "n"
+                    - generic [ref=e306]: t
+                    - generic [ref=e307]: i
+                    - generic [ref=e308]: a
+                    - generic [ref=e309]: t
+                    - generic [ref=e310]: e
+                    - generic [ref=e311]: "y"
+                    - generic [ref=e312]: =
+                    - generic [ref=e313]: "3"
+                    - generic [ref=e314]:
+                      - generic [ref=e315]: x
+                      - generic [ref=e316]: "4"
+                    - generic [ref=e317]: −
+                    - generic [ref=e318]: "5"
+                    - generic [ref=e319]:
+                      - generic [ref=e320]: x
+                      - generic [ref=e321]: "2"
+                    - generic [ref=e322]: +
+                    - generic [ref=e323]: "7"
+                - generic [ref=e324]:
+                  - generic [ref=e325]: Differentiate y =
+                  - generic [ref=e326]:
+                    - text: "3"
+                    - generic [ref=e327]:
+                      - text: x
+                      - generic [ref=e332]: "4"
+                    - text: −
+                  - generic [ref=e333]:
+                    - text: "5"
+                    - generic [ref=e334]:
+                      - text: x
+                      - generic [ref=e339]: "2"
+                    - text: +
+                  - generic [ref=e340]: "7"
+            - generic [ref=e341]:
+              - generic [ref=e342]:
+                - generic [ref=e343]: "1"
+                - generic [ref=e344]:
+                  - generic [ref=e348]:
+                    - math [ref=e350]:
+                      - generic [ref=e352]:
+                        - generic [ref=e353]:
+                          - generic [ref=e354]: d
+                          - generic [ref=e355]:
+                            - generic [ref=e356]: d
+                            - generic [ref=e357]: x
+                        - generic [ref=e358]: (
+                        - generic [ref=e359]: "3"
+                        - generic [ref=e360]:
+                          - generic [ref=e361]: x
+                          - generic [ref=e362]: "4"
+                        - generic [ref=e363]: )
+                        - generic [ref=e364]: −
+                        - generic [ref=e365]:
+                          - generic [ref=e366]: d
+                          - generic [ref=e367]:
+                            - generic [ref=e368]: d
+                            - generic [ref=e369]: x
+                        - generic [ref=e370]: (
+                        - generic [ref=e371]: "5"
+                        - generic [ref=e372]:
+                          - generic [ref=e373]: x
+                          - generic [ref=e374]: "2"
+                        - generic [ref=e375]: )
+                        - generic [ref=e376]: +
+                        - generic [ref=e377]:
+                          - generic [ref=e378]: d
+                          - generic [ref=e379]:
+                            - generic [ref=e380]: d
+                            - generic [ref=e381]: x
+                        - generic [ref=e382]: (
+                        - generic [ref=e383]: "7"
+                        - generic [ref=e384]: )
+                    - generic [ref=e385]:
+                      - generic [ref=e386]:
+                        - generic [ref=e391]:
+                          - generic [ref=e392]: dx
+                          - generic [ref=e394]: d
+                        - text: (3
+                        - generic [ref=e398]:
+                          - text: x
+                          - generic [ref=e403]: "4"
+                        - text: ) −
+                      - generic [ref=e404]:
+                        - generic [ref=e409]:
+                          - generic [ref=e410]: dx
+                          - generic [ref=e412]: d
+                        - text: (5
+                        - generic [ref=e416]:
+                          - text: x
+                          - generic [ref=e421]: "2"
+                        - text: ) +
+                      - generic [ref=e422]:
+                        - generic [ref=e427]:
+                          - generic [ref=e428]: dx
+                          - generic [ref=e430]: d
+                        - text: (7)
+                  - generic [ref=e434]:
+                    - strong [ref=e435]: Why?
+                    - text: Differentiate each term separately.
+              - generic [ref=e573]:
+                - generic [ref=e574]: "2"
+                - generic [ref=e575]:
+                  - generic [ref=e579]:
+                    - math [ref=e581]:
+                      - generic [ref=e583]:
+                        - generic [ref=e584]: "12"
+                        - generic [ref=e585]:
+                          - generic [ref=e586]: x
+                          - generic [ref=e587]: "3"
+                        - generic [ref=e588]: −
+                        - generic [ref=e589]: "10"
+                        - generic [ref=e590]: x
+                        - generic [ref=e591]: +
+                        - generic [ref=e592]: "0"
+                    - generic [ref=e593]:
+                      - generic [ref=e594]:
+                        - text: "12"
+                        - generic [ref=e595]:
+                          - text: x
+                          - generic [ref=e600]: "3"
+                        - text: −
+                      - generic [ref=e601]: 10x +
+                      - generic [ref=e602]: "0"
+                  - generic [ref=e603]:
+                    - strong [ref=e604]: Why?
+                    - text: Bring the exponent down, reduce it by one, and constants disappear.
+            - generic [ref=e436]:
+              - button "Show next step" [active] [ref=e437] [cursor=pointer]
+              - button "Show all" [ref=e438] [cursor=pointer]
+              - button "Reset" [ref=e439] [cursor=pointer]
+            - paragraph [ref=e440]: "Differentiation asks: how fast is this changing right now?"
+          - group [ref=e441]:
+            - generic "Module 0 scaffold Product rule reveal steps" [ref=e442] [cursor=pointer]:
+              - generic [ref=e443]:
+                - generic [ref=e444]: Module 0 scaffold
+                - heading "Product rule" [level=3] [ref=e445]
+              - generic [ref=e446]: reveal steps
+          - group [ref=e447]:
+            - generic "Module 0 scaffold Chain rule reveal steps" [ref=e448] [cursor=pointer]:
+              - generic [ref=e449]:
+                - generic [ref=e450]: Module 0 scaffold
+                - heading "Chain rule" [level=3] [ref=e451]
+              - generic [ref=e452]: reveal steps
+      - generic [ref=e453]:
+        - generic [ref=e454]: Active zone
+        - heading "Practice Problems" [level=3] [ref=e455]
+        - generic [ref=e456]:
+          - generic [ref=e457]:
+            - generic [ref=e458]: Active recall 1
+            - heading "Differentiate a product" [level=3] [ref=e459]
+            - paragraph [ref=e460]:
+              - strong [ref=e461]: "Cover and solve on paper first:"
+              - generic [ref=e463]:
+                - math [ref=e465]:
+                  - generic [ref=e467]:
+                    - generic [ref=e468]:
+                      - generic [ref=e469]: d
+                      - generic [ref=e470]:
+                        - generic [ref=e471]: d
+                        - generic [ref=e472]: x
+                    - generic [ref=e473]: (
+                    - generic [ref=e474]:
+                      - generic [ref=e475]: x
+                      - generic [ref=e476]: "3"
+                    - generic [ref=e477]: ln
+                    - generic: ⁡
+                    - generic [ref=e478]: x
+                    - generic [ref=e479]: )
+                - generic [ref=e481]:
+                  - generic [ref=e486]:
+                    - generic [ref=e488]: dx
+                    - generic [ref=e491]: d
+                  - text: (
+                  - generic [ref=e495]:
+                    - text: x
+                    - generic [ref=e500]: "3"
+                  - generic [ref=e501]: ln
+                  - text: x)
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e502]'
+            - generic [ref=e503]:
+              - button "Show hint" [ref=e504] [cursor=pointer]
+              - button "Show solution" [ref=e505] [cursor=pointer]
+          - generic [ref=e506]:
+            - generic [ref=e507]: Active recall 2
+            - heading "Differentiate a chain" [level=3] [ref=e508]
+            - paragraph [ref=e509]:
+              - strong [ref=e510]: "Cover and solve on paper first:"
+              - generic [ref=e512]:
+                - math [ref=e514]:
+                  - generic [ref=e516]:
+                    - generic [ref=e517]:
+                      - generic [ref=e518]: d
+                      - generic [ref=e519]:
+                        - generic [ref=e520]: d
+                        - generic [ref=e521]: x
+                    - generic [ref=e522]:
+                      - generic [ref=e523]: e
+                      - generic [ref=e524]:
+                        - generic [ref=e525]: "4"
+                        - generic [ref=e526]:
+                          - generic [ref=e527]: x
+                          - generic [ref=e528]: "2"
+                        - generic [ref=e529]: −
+                        - generic [ref=e530]: "1"
+                - generic [ref=e532]:
+                  - generic [ref=e537]:
+                    - generic [ref=e539]: dx
+                    - generic [ref=e542]: d
+                  - generic [ref=e546]:
+                    - text: e
+                    - generic [ref=e552]:
+                      - text: "4"
+                      - generic [ref=e553]:
+                        - text: x
+                        - generic [ref=e558]: "2"
+                      - text: −1
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e559]'
+            - generic [ref=e560]:
+              - button "Show hint" [ref=e561] [cursor=pointer]
+              - button "Show solution" [ref=e562] [cursor=pointer]
+      - generic [ref=e563]:
+        - heading "Section Recap" [level=3] [ref=e564]
+        - list [ref=e566]:
+          - listitem [ref=e567]: Power rule handles polynomials.
+          - listitem [ref=e568]: Product and chain rules are the ODE workhorses.
+          - listitem [ref=e569]: Check derivatives before trusting an ODE solution.
+        - generic [ref=e570]:
+          - button "Next section" [ref=e571] [cursor=pointer]
+          - button "Try mixed practice" [ref=e572] [cursor=pointer]

@@ -1,0 +1,464 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: d/dx
+      - generic [ref=e6]:
+        - heading "ODE Studio" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Worked examples, recall, mixed practice.
+    - generic [ref=e9]:
+      - generic [ref=e10]: Today
+      - strong [ref=e11]: 1 day streak
+    - navigation "Course navigation" [ref=e13]:
+      - generic [ref=e14]:
+        - 'heading "Module 0: Calculus Refresher" [level=3] [ref=e15]'
+        - button "0.1 Differentiation Quick Review" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: 0.1 Differentiation Quick Review
+        - button "0.2 Integration Quick Review" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: 0.2 Integration Quick Review
+      - generic [ref=e20]:
+        - 'heading "Module 1: Integration Techniques" [level=3] [ref=e21]'
+        - button "1.1 Integration by Parts" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: 1.1 Integration by Parts
+        - button "1.2 Trigonometric Integrals" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: 1.2 Trigonometric Integrals
+        - button "1.3 Trigonometric Substitution" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 1.3 Trigonometric Substitution
+        - button "1.4 Partial Fractions" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]: 1.4 Partial Fractions
+      - generic [ref=e30]:
+        - 'heading "Module 2: Introduction to Differential Equations" [level=3] [ref=e31]'
+        - button "2.1 Definition and Terminology" [ref=e32] [cursor=pointer]:
+          - generic [ref=e33]: 2.1 Definition and Terminology
+        - button "2.2 Initial Value Problems" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: 2.2 Initial Value Problems
+        - button "2.3 Differential Equations as Models" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: 2.3 Differential Equations as Models
+      - generic [ref=e38]:
+        - 'heading "Module 3: First-Order ODE Methods" [level=3] [ref=e39]'
+        - button "3.1 Separable Variables" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: 3.1 Separable Variables
+        - button "3.2 Linear Equations" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: 3.2 Linear Equations
+        - button "3.3 Exact Equations" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 3.3 Exact Equations
+        - button "3.4 Bernoulli Equations" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: 3.4 Bernoulli Equations
+      - generic [ref=e48]:
+        - 'heading "Module 4: Partial Derivatives" [level=3] [ref=e49]'
+        - button "4.1 Functions of Two or More Variables" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: 4.1 Functions of Two or More Variables
+        - button "4.2 Limits and Continuity" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 4.2 Limits and Continuity
+        - button "4.3 Partial Derivatives" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: 4.3 Partial Derivatives
+        - button "4.4 The Chain Rule" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]: 4.4 The Chain Rule
+        - button "4.5 Directional Derivatives and Gradients" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: 4.5 Directional Derivatives and Gradients
+        - button "4.6 Tangent Planes and Normal Vectors" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: 4.6 Tangent Planes and Normal Vectors
+        - button "4.7 Maxima and Minima" [ref=e62] [cursor=pointer]:
+          - generic [ref=e63]: 4.7 Maxima and Minima
+    - generic [ref=e64]:
+      - button "Mixed Practice" [ref=e65] [cursor=pointer]
+      - button "Formula Sheet" [ref=e66] [cursor=pointer]
+      - button "ODE Decision Tree" [ref=e67] [cursor=pointer]
+      - button "Progress Tracker" [ref=e68] [cursor=pointer]
+  - main [ref=e69]:
+    - generic [ref=e70]:
+      - button "Toggle sidebar" [ref=e71] [cursor=pointer]: Menu
+      - generic [ref=e72]:
+        - generic [ref=e73]: Undergraduate Ordinary Differential Equations
+        - strong [ref=e74]: 1.2 Trigonometric Integrals
+      - button "Toggle light mode" [ref=e75] [cursor=pointer]: Theme
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: A-to-Z recovery course
+        - heading "Rebuild calculus, then solve ODE exam examples with confidence." [level=2] [ref=e79]
+        - paragraph [ref=e80]: This local course uses worked examples first, notebook prompts, active recall, spaced review, and mixed practice so you learn both how to solve and how to identify the method.
+      - generic [ref=e81]:
+        - strong [ref=e82]: Study loop
+        - list [ref=e83]:
+          - listitem [ref=e84]: Read the concept card.
+          - listitem [ref=e85]: Reveal each worked-example step.
+          - listitem [ref=e86]: Work practice on paper before revealing.
+          - listitem [ref=e87]: Finish with mixed method-identification practice.
+    - generic [ref=e88]:
+      - article [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: "Module 1: Integration Techniques"
+            - heading "1.2 Trigonometric Integrals" [level=2] [ref=e93]
+            - paragraph [ref=e94]: "Trig integrals are pattern recognition: odd powers, even powers, or product-to-sum."
+            - generic [ref=e96]: "Requires: 1.1 Integration by Parts"
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - checkbox "Theory read" [ref=e99]
+              - text: Theory read
+            - generic [ref=e100]:
+              - checkbox "Examples studied" [ref=e101]
+              - text: Examples studied
+            - generic [ref=e102]:
+              - checkbox "Practice done" [ref=e103]
+              - text: Practice done
+        - generic [ref=e107]:
+          - math [ref=e109]:
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]:
+                  - generic [ref=e114]: sin
+                  - generic: ⁡
+                - generic [ref=e115]: "2"
+              - generic [ref=e116]: x
+              - generic [ref=e117]: +
+              - generic [ref=e118]:
+                - generic [ref=e119]:
+                  - generic [ref=e120]: cos
+                  - generic: ⁡
+                - generic [ref=e121]: "2"
+              - generic [ref=e122]: x
+              - generic [ref=e123]: =
+              - generic [ref=e124]: "1"
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - generic [ref=e127]:
+                - generic [ref=e128]: sin
+                - generic [ref=e133]: "2"
+              - text: x +
+            - generic [ref=e134]:
+              - generic [ref=e135]:
+                - generic [ref=e136]: cos
+                - generic [ref=e141]: "2"
+              - text: x =
+            - generic [ref=e142]: "1"
+        - generic [ref=e146]:
+          - math [ref=e148]:
+            - generic [ref=e150]:
+              - generic [ref=e151]:
+                - generic [ref=e152]:
+                  - generic [ref=e153]: sin
+                  - generic: ⁡
+                - generic [ref=e154]: "2"
+              - generic [ref=e155]: x
+              - generic [ref=e156]: =
+              - generic [ref=e157]:
+                - generic [ref=e158]:
+                  - generic [ref=e159]: "1"
+                  - generic [ref=e160]: −
+                  - generic [ref=e161]: cos
+                  - generic: ⁡
+                  - generic [ref=e162]: "2"
+                  - generic [ref=e163]: x
+                - generic [ref=e164]: "2"
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - generic [ref=e168]: sin
+                - generic [ref=e173]: "2"
+              - text: x =
+            - generic [ref=e179]:
+              - generic [ref=e180]: "2"
+              - generic [ref=e182]:
+                - text: 1 −
+                - generic [ref=e183]: cos
+                - text: 2x
+        - generic [ref=e190]:
+          - math [ref=e192]:
+            - generic [ref=e194]:
+              - generic [ref=e195]:
+                - generic [ref=e196]:
+                  - generic [ref=e197]: cos
+                  - generic: ⁡
+                - generic [ref=e198]: "2"
+              - generic [ref=e199]: x
+              - generic [ref=e200]: =
+              - generic [ref=e201]:
+                - generic [ref=e202]:
+                  - generic [ref=e203]: "1"
+                  - generic [ref=e204]: +
+                  - generic [ref=e205]: cos
+                  - generic: ⁡
+                  - generic [ref=e206]: "2"
+                  - generic [ref=e207]: x
+                - generic [ref=e208]: "2"
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - generic [ref=e211]:
+                - generic [ref=e212]: cos
+                - generic [ref=e217]: "2"
+              - text: x =
+            - generic [ref=e223]:
+              - generic [ref=e224]: "2"
+              - generic [ref=e226]:
+                - text: 1 +
+                - generic [ref=e227]: cos
+                - text: 2x
+      - generic [ref=e231]:
+        - generic [ref=e232]:
+          - heading "Theory in Plain English" [level=3] [ref=e233]
+          - generic [ref=e234]:
+            - paragraph [ref=e235]: Odd sine/cosine powers usually save one factor.
+            - paragraph [ref=e236]: Even powers use half-angle identities.
+        - generic [ref=e237]:
+          - heading "Notebook Prompt" [level=3] [ref=e238]
+          - paragraph [ref=e239]: Write the key formula from this page three times, then solve the first practice problem without looking at the solution. This is the productive struggle part.
+          - generic [ref=e240]:
+            - strong [ref=e241]: "Feynman check:"
+            - paragraph [ref=e242]: Explain Trigonometric Integrals in your own words. What tells you this method is the right method?
+      - generic [ref=e243]:
+        - generic [ref=e244]: Learning zone
+        - heading "Worked Examples" [level=3] [ref=e245]
+        - generic [ref=e246]:
+          - group [ref=e247]:
+            - 'generic "Chapter 7.3 Example 1: volume of revolution reveal steps" [ref=e248] [cursor=pointer]':
+              - generic [ref=e249]:
+                - generic [ref=e250]: Chapter 7.3
+                - 'heading "Example 1: volume of revolution" [level=3] [ref=e251]'
+              - generic [ref=e252]: reveal steps
+            - paragraph [ref=e253]:
+              - strong [ref=e254]: "Problem:"
+              - generic [ref=e256]:
+                - math [ref=e258]:
+                  - generic [ref=e260]:
+                    - generic [ref=e261]: R
+                    - generic [ref=e262]: e
+                    - generic [ref=e263]: g
+                    - generic [ref=e264]: i
+                    - generic [ref=e265]: o
+                    - generic [ref=e266]: "n"
+                    - generic [ref=e267]: u
+                    - generic [ref=e268]: "n"
+                    - generic [ref=e269]: d
+                    - generic [ref=e270]: e
+                    - generic [ref=e271]: r
+                    - generic [ref=e272]: "y"
+                    - generic [ref=e273]: =
+                    - generic [ref=e274]:
+                      - generic [ref=e275]:
+                        - generic [ref=e276]: sin
+                        - generic: ⁡
+                      - generic [ref=e277]: "2"
+                    - generic [ref=e278]: x
+                    - generic [ref=e279]: ","
+                    - generic [ref=e280]: "0"
+                    - generic [ref=e281]: ≤
+                    - generic [ref=e282]: x
+                    - generic [ref=e283]: ≤
+                    - generic [ref=e284]: π
+                    - generic [ref=e285]: ","
+                    - generic [ref=e286]: r
+                    - generic [ref=e287]: e
+                    - generic [ref=e288]: v
+                    - generic [ref=e289]: o
+                    - generic [ref=e290]: l
+                    - generic [ref=e291]: v
+                    - generic [ref=e292]: e
+                    - generic [ref=e293]: d
+                    - generic [ref=e294]: a
+                    - generic [ref=e295]: b
+                    - generic [ref=e296]: o
+                    - generic [ref=e297]: u
+                    - generic [ref=e298]: t
+                    - generic [ref=e299]: x
+                    - generic [ref=e300]: −
+                    - generic [ref=e301]: a
+                    - generic [ref=e302]: x
+                    - generic [ref=e303]: i
+                    - generic [ref=e304]: s
+                - generic [ref=e305]:
+                  - generic [ref=e306]:
+                    - text: Region
+                    - text: under
+                    - text: y =
+                  - generic [ref=e309]:
+                    - generic [ref=e310]:
+                      - generic [ref=e311]: sin
+                      - generic [ref=e316]: "2"
+                    - text: x,
+                    - text: 0 ≤
+                  - generic [ref=e318]: x ≤
+                  - generic [ref=e319]:
+                    - text: π,
+                    - text: revolved
+                    - text: about
+                    - text: x −
+                  - generic [ref=e323]: axis
+            - generic [ref=e325]:
+              - generic [ref=e326]: "1"
+              - generic [ref=e327]:
+                - generic [ref=e331]:
+                  - math [ref=e333]:
+                    - generic [ref=e335]:
+                      - generic [ref=e336]: V
+                      - generic [ref=e337]: =
+                      - generic [ref=e338]: π
+                      - generic [ref=e339]:
+                        - generic [ref=e340]: ∫
+                        - generic [ref=e341]: "0"
+                        - generic [ref=e342]: π
+                      - generic [ref=e343]:
+                        - generic [ref=e344]: "y"
+                        - generic [ref=e345]: "2"
+                      - generic [ref=e346]: d
+                      - generic [ref=e347]: x
+                      - generic [ref=e348]: =
+                      - generic [ref=e349]: π
+                      - generic [ref=e350]:
+                        - generic [ref=e351]: ∫
+                        - generic [ref=e352]: "0"
+                        - generic [ref=e353]: π
+                      - generic [ref=e354]:
+                        - generic [ref=e355]:
+                          - generic [ref=e356]: sin
+                          - generic: ⁡
+                        - generic [ref=e357]: "4"
+                      - generic [ref=e358]: x
+                      - generic [ref=e359]: d
+                      - generic [ref=e360]: x
+                  - generic [ref=e361]:
+                    - generic [ref=e362]: V =
+                    - generic [ref=e363]:
+                      - text: π
+                      - generic [ref=e364]:
+                        - text: ∫
+                        - generic [ref=e368]:
+                          - generic [ref=e369]: "0"
+                          - generic [ref=e370]: π
+                      - generic [ref=e374]:
+                        - text: "y"
+                        - generic [ref=e379]: "2"
+                      - text: dx =
+                    - generic [ref=e380]:
+                      - text: π
+                      - generic [ref=e381]:
+                        - text: ∫
+                        - generic [ref=e385]:
+                          - generic [ref=e386]: "0"
+                          - generic [ref=e387]: π
+                      - generic [ref=e391]:
+                        - generic [ref=e392]: sin
+                        - generic [ref=e397]: "4"
+                      - text: x dx
+                - generic [ref=e398]:
+                  - strong [ref=e399]: Why?
+                  - text: Disk method squares the radius y.
+            - generic [ref=e400]:
+              - button "Show next step" [ref=e401] [cursor=pointer]
+              - button "Show all" [ref=e402] [cursor=pointer]
+              - button "Reset" [ref=e403] [cursor=pointer]
+            - paragraph [ref=e404]: Volumes often turn trig integrals into power-reduction problems.
+          - group [ref=e405]:
+            - 'generic "Chapter 7.3 Example 2(a): odd cosine power reveal steps" [ref=e406] [cursor=pointer]':
+              - generic [ref=e407]:
+                - generic [ref=e408]: Chapter 7.3
+                - 'heading "Example 2(a): odd cosine power" [level=3] [ref=e409]'
+              - generic [ref=e410]: reveal steps
+          - group [ref=e411]:
+            - 'generic "Chapter 7.3 Example 2(b): both even reveal steps" [ref=e412] [cursor=pointer]':
+              - generic [ref=e413]:
+                - generic [ref=e414]: Chapter 7.3
+                - 'heading "Example 2(b): both even" [level=3] [ref=e415]'
+              - generic [ref=e416]: reveal steps
+          - group [ref=e417]:
+            - 'generic "Chapter 7.3 Example 3: product-to-sum reveal steps" [ref=e418] [cursor=pointer]':
+              - generic [ref=e419]:
+                - generic [ref=e420]: Chapter 7.3
+                - 'heading "Example 3: product-to-sum" [level=3] [ref=e421]'
+              - generic [ref=e422]: reveal steps
+          - group [ref=e423]:
+            - 'generic "Chapter 7.3 Example 4(a): even secant reveal steps" [ref=e424] [cursor=pointer]':
+              - generic [ref=e425]:
+                - generic [ref=e426]: Chapter 7.3
+                - 'heading "Example 4(a): even secant" [level=3] [ref=e427]'
+              - generic [ref=e428]: reveal steps
+          - group [ref=e429]:
+            - 'generic "Chapter 7.3 Example 4(b): odd tangent and secant reveal steps" [ref=e430] [cursor=pointer]':
+              - generic [ref=e431]:
+                - generic [ref=e432]: Chapter 7.3
+                - 'heading "Example 4(b): odd tangent and secant" [level=3] [ref=e433]'
+              - generic [ref=e434]: reveal steps
+          - group [ref=e435]:
+            - 'generic "Chapter 7.3 Example 4(c): tan squared secant reveal steps" [ref=e436] [cursor=pointer]':
+              - generic [ref=e437]:
+                - generic [ref=e438]: Chapter 7.3
+                - 'heading "Example 4(c): tan squared secant" [level=3] [ref=e439]'
+              - generic [ref=e440]: reveal steps
+      - generic [ref=e441]:
+        - generic [ref=e442]: Active zone
+        - heading "Practice Problems" [level=3] [ref=e443]
+        - generic [ref=e444]:
+          - generic [ref=e445]:
+            - generic [ref=e446]: Active recall 1
+            - heading "Odd sine power" [level=3] [ref=e447]
+            - paragraph [ref=e448]:
+              - strong [ref=e449]: "Cover and solve on paper first:"
+              - generic [ref=e451]:
+                - math [ref=e453]:
+                  - generic [ref=e455]:
+                    - generic [ref=e456]: ∫
+                    - generic [ref=e457]:
+                      - generic [ref=e458]:
+                        - generic [ref=e459]: sin
+                        - generic: ⁡
+                      - generic [ref=e460]: "3"
+                    - generic [ref=e461]: x
+                    - generic [ref=e462]:
+                      - generic [ref=e463]:
+                        - generic [ref=e464]: cos
+                        - generic: ⁡
+                      - generic [ref=e465]: "2"
+                    - generic [ref=e466]: x
+                    - generic [ref=e467]: d
+                    - generic [ref=e468]: x
+                - generic [ref=e470]:
+                  - text: ∫
+                  - generic [ref=e471]:
+                    - generic [ref=e472]: sin
+                    - generic [ref=e477]: "3"
+                  - text: x
+                  - generic [ref=e478]:
+                    - generic [ref=e479]: cos
+                    - generic [ref=e484]: "2"
+                  - text: x dx
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e485]'
+            - generic [ref=e486]:
+              - button "Show hint" [ref=e487] [cursor=pointer]
+              - button "Show solution" [ref=e488] [cursor=pointer]
+          - generic [ref=e489]:
+            - generic [ref=e490]: Active recall 2
+            - heading "Product-to-sum" [level=3] [ref=e491]
+            - paragraph [ref=e492]:
+              - strong [ref=e493]: "Cover and solve on paper first:"
+              - generic [ref=e495]:
+                - math [ref=e497]:
+                  - generic [ref=e499]:
+                    - generic [ref=e500]: ∫
+                    - generic [ref=e501]: cos
+                    - generic: ⁡
+                    - generic [ref=e502]: "5"
+                    - generic [ref=e503]: x
+                    - generic [ref=e504]: cos
+                    - generic: ⁡
+                    - generic [ref=e505]: "2"
+                    - generic [ref=e506]: x
+                    - generic [ref=e507]: d
+                    - generic [ref=e508]: x
+                - generic [ref=e510]:
+                  - text: ∫
+                  - generic [ref=e511]: cos
+                  - text: 5x
+                  - generic [ref=e512]: cos
+                  - text: 2x dx
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e513]'
+            - generic [ref=e514]:
+              - button "Show hint" [ref=e515] [cursor=pointer]
+              - button "Show solution" [ref=e516] [cursor=pointer]
+      - generic [ref=e517]:
+        - heading "Section Recap" [level=3] [ref=e518]
+        - list [ref=e520]:
+          - listitem [ref=e521]: Odd powers allow substitution.
+          - listitem [ref=e522]: Even powers use half-angle.
+          - listitem [ref=e523]: Product-to-sum handles mixed angles.
+        - generic [ref=e524]:
+          - button "Next section" [ref=e525] [cursor=pointer]
+          - button "Try mixed practice" [ref=e526] [cursor=pointer]

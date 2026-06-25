@@ -1,0 +1,131 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: d/dx
+      - generic [ref=e6]:
+        - heading "ODE Studio" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Worked examples, recall, mixed practice.
+    - generic [ref=e9]:
+      - generic [ref=e10]: Today
+      - strong [ref=e11]: 1 day streak
+    - navigation "Course navigation" [ref=e13]:
+      - generic [ref=e14]:
+        - 'heading "Module 0: Calculus Refresher" [level=3] [ref=e15]'
+        - button "0.1 Differentiation Quick Review" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: 0.1 Differentiation Quick Review
+        - button "0.2 Integration Quick Review" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: 0.2 Integration Quick Review
+      - generic [ref=e20]:
+        - 'heading "Module 1: Integration Techniques" [level=3] [ref=e21]'
+        - button "1.1 Integration by Parts" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: 1.1 Integration by Parts
+        - button "1.2 Trigonometric Integrals" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: 1.2 Trigonometric Integrals
+        - button "1.3 Trigonometric Substitution" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 1.3 Trigonometric Substitution
+        - button "1.4 Partial Fractions" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]: 1.4 Partial Fractions
+      - generic [ref=e30]:
+        - 'heading "Module 2: Introduction to Differential Equations" [level=3] [ref=e31]'
+        - button "2.1 Definition and Terminology" [ref=e32] [cursor=pointer]:
+          - generic [ref=e33]: 2.1 Definition and Terminology
+        - button "2.2 Initial Value Problems" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: 2.2 Initial Value Problems
+        - button "2.3 Differential Equations as Models" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: 2.3 Differential Equations as Models
+      - generic [ref=e38]:
+        - 'heading "Module 3: First-Order ODE Methods" [level=3] [ref=e39]'
+        - button "3.1 Separable Variables" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: 3.1 Separable Variables
+        - button "3.2 Linear Equations" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: 3.2 Linear Equations
+        - button "3.3 Exact Equations" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 3.3 Exact Equations
+        - button "3.4 Bernoulli Equations" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: 3.4 Bernoulli Equations
+      - generic [ref=e48]:
+        - 'heading "Module 4: Partial Derivatives" [level=3] [ref=e49]'
+        - button "4.1 Functions of Two or More Variables" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: 4.1 Functions of Two or More Variables
+        - button "4.2 Limits and Continuity" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 4.2 Limits and Continuity
+        - button "4.3 Partial Derivatives" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: 4.3 Partial Derivatives
+        - button "4.4 The Chain Rule" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]: 4.4 The Chain Rule
+        - button "4.5 Directional Derivatives and Gradients" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: 4.5 Directional Derivatives and Gradients
+        - button "4.6 Tangent Planes and Normal Vectors" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: 4.6 Tangent Planes and Normal Vectors
+        - button "4.7 Maxima and Minima" [ref=e62] [cursor=pointer]:
+          - generic [ref=e63]: 4.7 Maxima and Minima
+    - generic [ref=e64]:
+      - button "Mixed Practice" [ref=e65] [cursor=pointer]
+      - button "Formula Sheet" [ref=e66] [cursor=pointer]
+      - button "ODE Decision Tree" [ref=e67] [cursor=pointer]
+      - button "Progress Tracker" [ref=e68] [cursor=pointer]
+  - main [ref=e69]:
+    - generic [ref=e70]:
+      - button "Toggle sidebar" [ref=e71] [cursor=pointer]: Menu
+      - generic [ref=e72]:
+        - generic [ref=e73]: Undergraduate Ordinary Differential Equations
+        - strong [ref=e74]: Mixed Practice
+      - button "Toggle light mode" [ref=e75] [cursor=pointer]: Theme
+    - generic [ref=e586]:
+      - generic [ref=e587]: Interleaved exam mode
+      - heading "Mixed Practice" [level=2] [ref=e588]
+      - paragraph [ref=e589]: "Step 1: identify the method. Step 2: solve on paper. Step 3: reveal and compare."
+      - paragraph [ref=e590]:
+        - strong [ref=e591]: "Problem:"
+        - generic [ref=e593]:
+          - math [ref=e595]:
+            - generic [ref=e597]:
+              - generic [ref=e598]: f
+              - generic [ref=e599]: =
+              - generic [ref=e600]:
+                - generic [ref=e601]: x
+                - generic [ref=e602]: "2"
+              - generic [ref=e603]: −
+              - generic [ref=e604]:
+                - generic [ref=e605]: "y"
+                - generic [ref=e606]: "2"
+          - generic [ref=e607]:
+            - generic [ref=e608]: f =
+            - generic [ref=e609]:
+              - generic [ref=e610]:
+                - text: x
+                - generic [ref=e615]: "2"
+              - text: −
+            - generic [ref=e617]:
+              - text: "y"
+              - generic [ref=e622]: "2"
+      - generic [ref=e623]:
+        - button "Bernoulli" [ref=e624] [cursor=pointer]
+        - button "IVP" [ref=e625] [cursor=pointer]
+        - button "chain rule" [ref=e626] [cursor=pointer]
+        - button "classification" [ref=e627] [cursor=pointer]
+        - button "differentiation" [ref=e628] [cursor=pointer]
+        - button "domain" [ref=e629] [cursor=pointer]
+        - button "exact" [ref=e630] [cursor=pointer]
+        - button "gradient" [ref=e631] [cursor=pointer]
+        - button "implicit differentiation" [ref=e632] [cursor=pointer]
+        - button "integration" [ref=e633] [cursor=pointer]
+        - button "integration by parts" [ref=e634] [cursor=pointer]
+        - button "level curve" [ref=e635] [cursor=pointer]
+        - button "limit" [ref=e636] [cursor=pointer]
+        - button "linear" [ref=e637] [cursor=pointer]
+        - button "max/min" [ref=e638] [cursor=pointer]
+        - button "modeling" [ref=e639] [cursor=pointer]
+        - button "partial fractions" [ref=e640] [cursor=pointer]
+        - button "partials" [ref=e641] [cursor=pointer]
+        - button "separable" [ref=e642] [cursor=pointer]
+        - button "tangent plane" [ref=e643] [cursor=pointer]
+        - button "trig integral" [ref=e644] [cursor=pointer]
+        - button "trig substitution" [ref=e645] [cursor=pointer]
+        - button "verification" [ref=e646] [cursor=pointer]
+      - generic [ref=e647]:
+        - button "Show hint" [active] [ref=e648] [cursor=pointer]
+        - button "Show full solution" [ref=e649] [cursor=pointer]
+        - button "Another random problem" [ref=e650] [cursor=pointer]
+      - generic [ref=e652]: Second derivative test.
+      - paragraph [ref=e651]: "Current mixed score: 0/0"

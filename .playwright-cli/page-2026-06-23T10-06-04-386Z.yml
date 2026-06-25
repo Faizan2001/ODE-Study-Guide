@@ -1,0 +1,360 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: d/dx
+      - generic [ref=e6]:
+        - heading "ODE Studio" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Worked examples, recall, mixed practice.
+    - generic [ref=e9]:
+      - generic [ref=e10]: Today
+      - strong [ref=e11]: 1 day streak
+    - navigation "Course navigation" [ref=e13]:
+      - generic [ref=e2285]:
+        - 'heading "Module 0: Calculus Refresher" [level=3] [ref=e2286]'
+        - button "0.1 Differentiation Quick Review" [ref=e2287] [cursor=pointer]:
+          - generic [ref=e2288]: 0.1 Differentiation Quick Review
+        - button "0.2 Integration Quick Review" [ref=e2289] [cursor=pointer]:
+          - generic [ref=e2290]: 0.2 Integration Quick Review
+      - generic [ref=e2291]:
+        - 'heading "Module 1: Integration Techniques" [level=3] [ref=e2292]'
+        - button "1.1 Integration by Parts" [ref=e2293] [cursor=pointer]:
+          - generic [ref=e2294]: 1.1 Integration by Parts
+        - button "1.2 Trigonometric Integrals" [ref=e2295] [cursor=pointer]:
+          - generic [ref=e2296]: 1.2 Trigonometric Integrals
+        - button "1.3 Trigonometric Substitution" [ref=e2297] [cursor=pointer]:
+          - generic [ref=e2298]: 1.3 Trigonometric Substitution
+        - button "1.4 Partial Fractions" [ref=e2299] [cursor=pointer]:
+          - generic [ref=e2300]: 1.4 Partial Fractions
+      - generic [ref=e2301]:
+        - 'heading "Module 2: Introduction to Differential Equations" [level=3] [ref=e2302]'
+        - button "2.1 Definition and Terminology" [ref=e2303] [cursor=pointer]:
+          - generic [ref=e2304]: 2.1 Definition and Terminology
+        - button "2.2 Initial Value Problems" [ref=e2305] [cursor=pointer]:
+          - generic [ref=e2306]: 2.2 Initial Value Problems
+        - button "2.3 Differential Equations as Models" [ref=e2307] [cursor=pointer]:
+          - generic [ref=e2308]: 2.3 Differential Equations as Models
+      - generic [ref=e2309]:
+        - 'heading "Module 3: First-Order ODE Methods" [level=3] [ref=e2310]'
+        - button "3.1 Separable Variables" [ref=e2311] [cursor=pointer]:
+          - generic [ref=e2312]: 3.1 Separable Variables
+        - button "3.2 Linear Equations" [ref=e2313] [cursor=pointer]:
+          - generic [ref=e2314]: 3.2 Linear Equations
+        - button "3.3 Exact Equations" [ref=e2315] [cursor=pointer]:
+          - generic [ref=e2316]: 3.3 Exact Equations
+        - button "3.4 Bernoulli Equations" [ref=e2317] [cursor=pointer]:
+          - generic [ref=e2318]: 3.4 Bernoulli Equations
+      - generic [ref=e2319]:
+        - 'heading "Module 4: Partial Derivatives" [level=3] [ref=e2320]'
+        - button "4.1 Functions of Two or More Variables" [ref=e2321] [cursor=pointer]:
+          - generic [ref=e2322]: 4.1 Functions of Two or More Variables
+        - button "4.2 Limits and Continuity" [ref=e2323] [cursor=pointer]:
+          - generic [ref=e2324]: 4.2 Limits and Continuity
+        - button "4.3 Partial Derivatives" [ref=e2325] [cursor=pointer]:
+          - generic [ref=e2326]: 4.3 Partial Derivatives
+        - button "4.4 The Chain Rule" [ref=e2327] [cursor=pointer]:
+          - generic [ref=e2328]: 4.4 The Chain Rule
+        - button "4.5 Directional Derivatives and Gradients" [ref=e2329] [cursor=pointer]:
+          - generic [ref=e2330]: 4.5 Directional Derivatives and Gradients
+        - button "4.6 Tangent Planes and Normal Vectors" [ref=e2331] [cursor=pointer]:
+          - generic [ref=e2332]: 4.6 Tangent Planes and Normal Vectors
+        - button "4.7 Maxima and Minima" [ref=e2333] [cursor=pointer]:
+          - generic [ref=e2334]: 4.7 Maxima and Minima
+    - generic [ref=e64]:
+      - button "Mixed Practice" [ref=e65] [cursor=pointer]
+      - button "Formula Sheet" [ref=e66] [cursor=pointer]
+      - button "ODE Decision Tree" [ref=e67] [cursor=pointer]
+      - button "Progress Tracker" [ref=e68] [cursor=pointer]
+  - main [ref=e69]:
+    - generic [ref=e70]:
+      - button "Toggle sidebar" [ref=e71] [cursor=pointer]: Menu
+      - generic [ref=e72]:
+        - generic [ref=e73]: Undergraduate Ordinary Differential Equations
+        - strong [ref=e74]: 3.1 Separable Variables
+      - button "Toggle light mode" [ref=e75] [cursor=pointer]: Theme
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: A-to-Z recovery course
+        - heading "Rebuild calculus, then solve ODE exam examples with confidence." [level=2] [ref=e79]
+        - paragraph [ref=e80]: This local course uses worked examples first, notebook prompts, active recall, spaced review, and mixed practice so you learn both how to solve and how to identify the method.
+      - generic [ref=e81]:
+        - strong [ref=e82]: Study loop
+        - list [ref=e83]:
+          - listitem [ref=e84]: Read the concept card.
+          - listitem [ref=e85]: Reveal each worked-example step.
+          - listitem [ref=e86]: Work practice on paper before revealing.
+          - listitem [ref=e87]: Finish with mixed method-identification practice.
+    - generic [ref=e615]:
+      - generic [ref=e2335]: Spaced review nudge
+      - paragraph [ref=e2336]:
+        - text: Before starting
+        - strong [ref=e2337]: Separable Variables
+        - text: ", spend 3 minutes recalling one formula or method from"
+        - strong [ref=e2338]: Definition and Terminology
+        - text: without looking. Then reveal your notes.
+      - button "Review 2.1" [ref=e2339] [cursor=pointer]
+    - generic [ref=e88]:
+      - article [ref=e2340]:
+        - generic [ref=e2341]:
+          - generic [ref=e2342]:
+            - generic [ref=e2343]: "Module 3: First-Order ODE Methods"
+            - heading "3.1 Separable Variables" [level=2] [ref=e2344]
+            - paragraph [ref=e2345]: If you can put all y terms with dy and all x terms with dx, the ODE becomes two integrals.
+            - generic [ref=e2347]: "Requires: 0.2 Integration"
+          - generic [ref=e2348]:
+            - generic [ref=e2349]:
+              - checkbox "Theory read" [ref=e2350]
+              - text: Theory read
+            - generic [ref=e2351]:
+              - checkbox "Examples studied" [ref=e2352]
+              - text: Examples studied
+            - generic [ref=e2353]:
+              - checkbox "Practice done" [ref=e2354]
+              - text: Practice done
+        - generic [ref=e2358]:
+          - math [ref=e2360]:
+            - generic [ref=e2362]:
+              - generic [ref=e2363]:
+                - generic [ref=e2364]:
+                  - generic [ref=e2365]: d
+                  - generic [ref=e2366]: "y"
+                - generic [ref=e2367]:
+                  - generic [ref=e2368]: d
+                  - generic [ref=e2369]: x
+              - generic [ref=e2370]: =
+              - generic [ref=e2371]: g
+              - generic [ref=e2372]: (
+              - generic [ref=e2373]: x
+              - generic [ref=e2374]: )
+              - generic [ref=e2375]: h
+              - generic [ref=e2376]: (
+              - generic [ref=e2377]: "y"
+              - generic [ref=e2378]: )
+              - generic [ref=e2379]: ⇒
+              - generic [ref=e2380]:
+                - generic [ref=e2381]: "1"
+                - generic [ref=e2382]:
+                  - generic [ref=e2383]: h
+                  - generic [ref=e2384]: (
+                  - generic [ref=e2385]: "y"
+                  - generic [ref=e2386]: )
+              - generic [ref=e2387]: d
+              - generic [ref=e2388]: "y"
+              - generic [ref=e2389]: =
+              - generic [ref=e2390]: g
+              - generic [ref=e2391]: (
+              - generic [ref=e2392]: x
+              - generic [ref=e2393]: )
+              - generic [ref=e2394]: d
+              - generic [ref=e2395]: x
+          - generic [ref=e2396]:
+            - generic [ref=e2397]:
+              - generic [ref=e2402]:
+                - generic [ref=e2403]: dx
+                - generic [ref=e2405]: dy
+              - text: =
+            - generic [ref=e2409]: g(x)h(y) ⇒
+            - generic [ref=e2410]:
+              - generic [ref=e2415]:
+                - generic [ref=e2416]: h(y)
+                - generic [ref=e2418]: "1"
+              - text: dy =
+            - generic [ref=e2422]: g(x)dx
+      - generic [ref=e2423]:
+        - generic [ref=e2424]:
+          - heading "Theory in Plain English" [level=3] [ref=e2425]
+          - generic [ref=e2426]:
+            - paragraph [ref=e2427]: Not every first-order ODE is separable. dy/dx=x^2+y is not separable.
+            - paragraph [ref=e2428]: After integration, use initial conditions if given.
+        - generic [ref=e2429]:
+          - heading "Notebook Prompt" [level=3] [ref=e2430]
+          - paragraph [ref=e2431]: Write the key formula from this page three times, then solve the first practice problem without looking at the solution. This is the productive struggle part.
+          - generic [ref=e2432]:
+            - strong [ref=e2433]: "Feynman check:"
+            - paragraph [ref=e2434]: Explain Separable Variables in your own words. What tells you this method is the right method?
+      - generic [ref=e2435]:
+        - generic [ref=e2436]: Learning zone
+        - heading "Worked Examples" [level=3] [ref=e2437]
+        - generic [ref=e2438]:
+          - group [ref=e2439]:
+            - generic "Chapter 2.2 Introductory example reveal steps" [ref=e2440] [cursor=pointer]:
+              - generic [ref=e2441]:
+                - generic [ref=e2442]: Chapter 2.2
+                - heading "Introductory example" [level=3] [ref=e2443]
+              - generic [ref=e2444]: reveal steps
+            - paragraph [ref=e2445]:
+              - strong [ref=e2446]: "Problem:"
+              - generic [ref=e2448]:
+                - math [ref=e2450]:
+                  - generic [ref=e2452]:
+                    - generic [ref=e2453]:
+                      - generic [ref=e2454]:
+                        - generic [ref=e2455]: d
+                        - generic [ref=e2456]: "y"
+                      - generic [ref=e2457]:
+                        - generic [ref=e2458]: d
+                        - generic [ref=e2459]: x
+                    - generic [ref=e2460]: =
+                    - generic [ref=e2461]:
+                      - generic [ref=e2462]: x
+                      - generic [ref=e2463]: "2"
+                    - generic [ref=e2464]: "y"
+                - generic [ref=e2465]:
+                  - generic [ref=e2466]:
+                    - generic [ref=e2471]:
+                      - generic [ref=e2473]: dx
+                      - generic [ref=e2476]: dy
+                    - text: =
+                  - generic [ref=e2480]:
+                    - generic [ref=e2481]:
+                      - text: x
+                      - generic [ref=e2486]: "2"
+                    - text: "y"
+            - generic [ref=e2488]: Chapter 02_ODE04.pdf · page 1 · Introductory separable example
+            - generic [ref=e2490]:
+              - generic [ref=e2491]: "1"
+              - generic [ref=e2492]:
+                - generic [ref=e2496]:
+                  - math [ref=e2498]:
+                    - generic [ref=e2500]:
+                      - generic [ref=e2501]:
+                        - generic [ref=e2502]: "1"
+                        - generic [ref=e2503]: "y"
+                      - generic [ref=e2504]: d
+                      - generic [ref=e2505]: "y"
+                      - generic [ref=e2506]: =
+                      - generic [ref=e2507]:
+                        - generic [ref=e2508]: x
+                        - generic [ref=e2509]: "2"
+                      - generic [ref=e2510]: d
+                      - generic [ref=e2511]: x
+                  - generic [ref=e2512]:
+                    - generic [ref=e2513]:
+                      - generic [ref=e2518]:
+                        - generic [ref=e2519]: "y"
+                        - generic [ref=e2521]: "1"
+                      - text: dy =
+                    - generic [ref=e2525]:
+                      - generic [ref=e2526]:
+                        - text: x
+                        - generic [ref=e2531]: "2"
+                      - text: dx
+                - generic [ref=e2532]:
+                  - strong [ref=e2533]: Why?
+                  - text: Move y terms with dy and x terms with dx.
+            - generic [ref=e2534]:
+              - button "Show next step" [ref=e2535] [cursor=pointer]
+              - button "Show all" [ref=e2536] [cursor=pointer]
+              - button "Reset" [ref=e2537] [cursor=pointer]
+            - paragraph [ref=e2538]: Separable means each variable can live on its own side.
+          - group [ref=e2539]:
+            - generic "Chapter 2.2 Example 1 reveal steps" [ref=e2540] [cursor=pointer]:
+              - generic [ref=e2541]:
+                - generic [ref=e2542]: Chapter 2.2
+                - heading "Example 1" [level=3] [ref=e2543]
+              - generic [ref=e2544]: reveal steps
+          - group [ref=e2545]:
+            - generic "Chapter 2.2 Exercise 1 reveal steps" [ref=e2546] [cursor=pointer]:
+              - generic [ref=e2547]:
+                - generic [ref=e2548]: Chapter 2.2
+                - heading "Exercise 1" [level=3] [ref=e2549]
+              - generic [ref=e2550]: reveal steps
+          - group [ref=e2551]:
+            - generic "Chapter 2.2 Exercise 5 reveal steps" [ref=e2552] [cursor=pointer]:
+              - generic [ref=e2553]:
+                - generic [ref=e2554]: Chapter 2.2
+                - heading "Exercise 5" [level=3] [ref=e2555]
+              - generic [ref=e2556]: reveal steps
+          - group [ref=e2557]:
+            - 'generic "Chapter 2.2 Exercise 23: IVP reveal steps" [ref=e2558] [cursor=pointer]':
+              - generic [ref=e2559]:
+                - generic [ref=e2560]: Chapter 2.2
+                - 'heading "Exercise 23: IVP" [level=3] [ref=e2561]'
+              - generic [ref=e2562]: reveal steps
+          - group [ref=e2563]:
+            - 'generic "Chapter 2.2 Exercise 25: IVP reveal steps" [ref=e2564] [cursor=pointer]':
+              - generic [ref=e2565]:
+                - generic [ref=e2566]: Chapter 2.2
+                - 'heading "Exercise 25: IVP" [level=3] [ref=e2567]'
+              - generic [ref=e2568]: reveal steps
+      - generic [ref=e2569]:
+        - generic [ref=e2570]: Active zone
+        - heading "Practice Problems" [level=3] [ref=e2571]
+        - generic [ref=e2572]:
+          - generic [ref=e2573]:
+            - generic [ref=e2574]: Active recall 1
+            - heading "Separate and solve" [level=3] [ref=e2575]
+            - paragraph [ref=e2576]:
+              - strong [ref=e2577]: "Cover and solve on paper first:"
+              - generic [ref=e2579]:
+                - math [ref=e2581]:
+                  - generic [ref=e2583]:
+                    - generic [ref=e2584]:
+                      - generic [ref=e2585]:
+                        - generic [ref=e2586]: d
+                        - generic [ref=e2587]: "y"
+                      - generic [ref=e2588]:
+                        - generic [ref=e2589]: d
+                        - generic [ref=e2590]: x
+                    - generic [ref=e2591]: =
+                    - generic [ref=e2592]: x
+                    - generic [ref=e2593]: "y"
+                - generic [ref=e2594]:
+                  - generic [ref=e2595]:
+                    - generic [ref=e2600]:
+                      - generic [ref=e2602]: dx
+                      - generic [ref=e2605]: dy
+                    - text: =
+                  - generic [ref=e2609]: xy
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e2610]'
+            - generic [ref=e2611]:
+              - button "Show hint" [ref=e2612] [cursor=pointer]
+              - button "Show solution" [ref=e2613] [cursor=pointer]
+          - generic [ref=e2614]:
+            - generic [ref=e2615]: Active recall 2
+            - heading "IVP" [level=3] [ref=e2616]
+            - paragraph [ref=e2617]:
+              - strong [ref=e2618]: "Cover and solve on paper first:"
+              - generic [ref=e2620]:
+                - math [ref=e2622]:
+                  - generic [ref=e2624]:
+                    - generic [ref=e2625]:
+                      - generic [ref=e2626]:
+                        - generic [ref=e2627]: d
+                        - generic [ref=e2628]: "y"
+                      - generic [ref=e2629]:
+                        - generic [ref=e2630]: d
+                        - generic [ref=e2631]: x
+                    - generic [ref=e2632]: =
+                    - generic [ref=e2633]: "2"
+                    - generic [ref=e2634]: x
+                    - generic [ref=e2635]: "y"
+                    - generic [ref=e2636]: ","
+                    - generic [ref=e2637]: "y"
+                    - generic [ref=e2638]: (
+                    - generic [ref=e2639]: "0"
+                    - generic [ref=e2640]: )
+                    - generic [ref=e2641]: =
+                    - generic [ref=e2642]: "5"
+                - generic [ref=e2643]:
+                  - generic [ref=e2644]:
+                    - generic [ref=e2649]:
+                      - generic [ref=e2651]: dx
+                      - generic [ref=e2654]: dy
+                    - text: =
+                  - generic [ref=e2658]:
+                    - text: 2xy,
+                    - text: y(0) =
+                  - generic [ref=e2660]: "5"
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e2661]'
+            - generic [ref=e2662]:
+              - button "Show hint" [ref=e2663] [cursor=pointer]
+              - button "Show solution" [ref=e2664] [cursor=pointer]
+      - generic [ref=e2665]:
+        - heading "Section Recap" [level=3] [ref=e2666]
+        - list [ref=e2668]:
+          - listitem [ref=e2669]: Separate first, integrate second.
+          - listitem [ref=e2670]: Use ln C to simplify exponentials.
+          - listitem [ref=e2671]: Check if variables truly separate.
+        - generic [ref=e2672]:
+          - button "Next section" [ref=e2673] [cursor=pointer]
+          - button "Try mixed practice" [ref=e2674] [cursor=pointer]

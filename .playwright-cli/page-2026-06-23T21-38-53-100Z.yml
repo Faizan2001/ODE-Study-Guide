@@ -1,0 +1,221 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: d/dx
+      - generic [ref=e6]:
+        - heading "ODE Studio" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Worked examples, recall, mixed practice.
+    - generic [ref=e9]:
+      - generic [ref=e10]: Today
+      - strong [ref=e11]: 1 day streak
+    - navigation "Course navigation" [ref=e13]:
+      - generic [ref=e14]:
+        - 'heading "Module 0: Calculus Refresher" [level=3] [ref=e15]'
+        - button "0.1 Differentiation Quick Review" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: 0.1 Differentiation Quick Review
+        - button "0.2 Integration Quick Review" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: 0.2 Integration Quick Review
+      - generic [ref=e20]:
+        - 'heading "Module 1: Integration Techniques" [level=3] [ref=e21]'
+        - button "1.1 Integration by Parts" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: 1.1 Integration by Parts
+        - button "1.2 Trigonometric Integrals" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: 1.2 Trigonometric Integrals
+        - button "1.3 Trigonometric Substitution" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 1.3 Trigonometric Substitution
+        - button "1.4 Partial Fractions" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]: 1.4 Partial Fractions
+      - generic [ref=e30]:
+        - 'heading "Module 2: Introduction to Differential Equations" [level=3] [ref=e31]'
+        - button "2.1 Definition and Terminology" [ref=e32] [cursor=pointer]:
+          - generic [ref=e33]: 2.1 Definition and Terminology
+        - button "2.2 Initial Value Problems" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: 2.2 Initial Value Problems
+        - button "2.3 Differential Equations as Models" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: 2.3 Differential Equations as Models
+      - generic [ref=e38]:
+        - 'heading "Module 3: First-Order ODE Methods" [level=3] [ref=e39]'
+        - button "3.1 Separable Variables" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: 3.1 Separable Variables
+        - button "3.2 Linear Equations" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: 3.2 Linear Equations
+        - button "3.3 Exact Equations" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 3.3 Exact Equations
+        - button "3.4 Bernoulli Equations" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: 3.4 Bernoulli Equations
+      - generic [ref=e48]:
+        - 'heading "Module 4: Partial Derivatives" [level=3] [ref=e49]'
+        - button "4.1 Functions of Two or More Variables" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: 4.1 Functions of Two or More Variables
+        - button "4.2 Limits and Continuity" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 4.2 Limits and Continuity
+        - button "4.3 Partial Derivatives" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: 4.3 Partial Derivatives
+        - button "4.4 The Chain Rule" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]: 4.4 The Chain Rule
+        - button "4.5 Directional Derivatives and Gradients" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: 4.5 Directional Derivatives and Gradients
+        - button "4.6 Tangent Planes and Normal Vectors" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: 4.6 Tangent Planes and Normal Vectors
+        - button "4.7 Maxima and Minima" [ref=e62] [cursor=pointer]:
+          - generic [ref=e63]: 4.7 Maxima and Minima
+    - generic [ref=e64]:
+      - button "Exam Sprint" [ref=e65] [cursor=pointer]
+      - button "Mixed Practice" [ref=e66] [cursor=pointer]
+      - button "Formula Sheet" [ref=e67] [cursor=pointer]
+      - button "ODE Decision Tree" [ref=e68] [cursor=pointer]
+      - button "Progress Tracker" [ref=e69] [cursor=pointer]
+  - main [ref=e70]:
+    - generic [ref=e71]:
+      - button "Toggle sidebar" [ref=e72] [cursor=pointer]: Menu
+      - generic [ref=e73]:
+        - generic [ref=e74]: Undergraduate Ordinary Differential Equations
+        - strong [ref=e75]: Exam Sprint
+      - button "Toggle light mode" [ref=e76] [cursor=pointer]: Theme
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - generic [ref=e79]: One-week exam mode
+        - heading "Exam Sprint" [level=2] [ref=e80]
+        - paragraph [ref=e81]: "Use this when time is short: follow the day cards in order, write the checkpoint on paper, and use mixed practice to expose weak spots. The full course stays available when a day tells you to dive deeper."
+      - generic [ref=e82]:
+        - article [ref=e83]:
+          - generic [ref=e84]:
+            - generic [ref=e85]: Day 1
+            - generic [ref=e86]: 2.5–3 hours
+          - heading "Rebuild the integration engine" [level=3] [ref=e87]
+          - paragraph [ref=e88]: Most later exam questions punish weak algebra and integration before they punish ODE theory.
+          - list [ref=e89]:
+            - listitem [ref=e90]: Warm up with differentiation and basic antiderivatives for 20 minutes.
+            - listitem [ref=e91]: Study integration quick review, then write the core antiderivative table from memory.
+            - listitem [ref=e92]: Work Chapter 7.2 integration by parts examples on paper before revealing the next step.
+            - listitem [ref=e93]: Do one trig-integral example slowly and name the identity that unlocks it.
+            - listitem [ref=e94]: End with 10 mixed-practice method IDs; do not reveal solutions until you commit to a method.
+          - generic [ref=e95]:
+            - strong [ref=e96]: "Paper checkpoint:"
+            - paragraph [ref=e97]: "Confidence check: on paper, solve one by-parts integral and explain why your choice of u makes the remaining integral easier."
+          - generic [ref=e98]:
+            - button "Integration rescue" [ref=e99] [cursor=pointer]
+            - button "By parts" [ref=e100] [cursor=pointer]
+            - button "Trig integrals" [ref=e101] [cursor=pointer]
+            - button "Mixed IDs" [ref=e102] [cursor=pointer]
+        - article [ref=e103]:
+          - generic [ref=e104]:
+            - generic [ref=e105]: Day 2
+            - generic [ref=e106]: 3–3.5 hours
+          - heading "Finish Chapter 7 exam techniques" [level=3] [ref=e107]
+          - paragraph [ref=e108]: Trig substitution and partial fractions are the integration moves that most often block first-order ODE solutions.
+          - list [ref=e109]:
+            - listitem [ref=e110]: Review the three trig-substitution radical patterns and draw the matching triangle once.
+            - listitem [ref=e111]: Work the PDF-aligned trig-substitution examples, especially the arc-length and completing-square patterns.
+            - listitem [ref=e112]: "Study partial fractions by factor type: distinct linear, repeated linear, irreducible quadratic, and improper rational."
+            - listitem [ref=e113]: Write each partial-fraction setup before looking at coefficients.
+            - listitem [ref=e114]: "Finish with formula-sheet recall: hide formulas, write the Chapter 7 formulas in your notebook, then reveal."
+          - generic [ref=e115]:
+            - strong [ref=e116]: "Paper checkpoint:"
+            - paragraph [ref=e117]: "Confidence check: classify three unseen integrals by method before solving any of them."
+          - generic [ref=e118]:
+            - button "Trig substitution" [ref=e119] [cursor=pointer]
+            - button "Partial fractions" [ref=e120] [cursor=pointer]
+            - button "Formula recall" [ref=e121] [cursor=pointer]
+            - button "Mixed IDs" [ref=e122] [cursor=pointer]
+        - article [ref=e123]:
+          - generic [ref=e124]:
+            - generic [ref=e125]: Day 3
+            - generic [ref=e126]: 2–2.5 hours
+          - heading "ODE language and solution checking" [level=3] [ref=e127]
+          - paragraph [ref=e128]: Exam questions often start by asking whether something is a solution, linear, or an IVP before asking for a full solve.
+          - list [ref=e129]:
+            - listitem [ref=e130]: Review order, linearity, explicit solution, and implicit solution vocabulary.
+            - listitem [ref=e131]: Verify at least two proposed solutions by differentiating and substituting.
+            - listitem [ref=e132]: Study IVP intervals and write why a solution interval cannot cross a singular point.
+            - listitem [ref=e133]: Skim the modeling table for recognition, not memorization.
+            - listitem [ref=e134]: Use the ODE decision tree once, even if the method feels obvious.
+          - generic [ref=e135]:
+            - strong [ref=e136]: "Paper checkpoint:"
+            - paragraph [ref=e137]: "Confidence check: given an equation, state its order, whether it is linear, and what a solution check would require."
+          - generic [ref=e138]:
+            - button "Terminology" [ref=e139] [cursor=pointer]
+            - button "IVPs" [ref=e140] [cursor=pointer]
+            - button "Models" [ref=e141] [cursor=pointer]
+            - button "Decision tree" [ref=e142] [cursor=pointer]
+        - article [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e145]: Day 4
+            - generic [ref=e146]: 3 hours
+          - heading "Separable and linear first-order ODEs" [level=3] [ref=e147]
+          - paragraph [ref=e148]: These are the two fastest-scoring first-order methods if you can recognize them instantly.
+          - list [ref=e149]:
+            - listitem [ref=e150]: Study separable examples and write the separation line before revealing any integration.
+            - listitem [ref=e151]: Redo the corrected inverse-tangent IVP carefully so the constant calculation is automatic.
+            - listitem [ref=e152]: Study linear equations and force standard form before computing the integrating factor.
+            - listitem [ref=e153]: Solve one separable and one linear problem fully on paper.
+            - listitem [ref=e154]: Do 12 mixed-practice method IDs and track which ones you misclassify.
+          - generic [ref=e155]:
+            - strong [ref=e156]: "Paper checkpoint:"
+            - paragraph [ref=e157]: "Confidence check: explain the difference between separable and linear using the shape of the equation, not the final answer."
+          - generic [ref=e158]:
+            - button "Separable" [ref=e159] [cursor=pointer]
+            - button "Linear" [ref=e160] [cursor=pointer]
+            - button "Decision tree" [ref=e161] [cursor=pointer]
+            - button "Mixed IDs" [ref=e162] [cursor=pointer]
+        - article [ref=e163]:
+          - generic [ref=e164]:
+            - generic [ref=e165]: Day 5
+            - generic [ref=e166]: 3–3.5 hours
+          - heading "Exact and Bernoulli methods" [level=3] [ref=e167]
+          - paragraph [ref=e168]: Exact and Bernoulli problems look messy, but their recognition tests are mechanical once rehearsed.
+          - list [ref=e169]:
+            - listitem [ref=e170]: Review partial-derivative notation just enough to compute M_y and N_x reliably.
+            - listitem [ref=e171]: Study exact equations and always test exactness before integrating.
+            - listitem [ref=e172]: Work one non-exact warning example so you do not force the wrong method.
+            - listitem [ref=e173]: Study Bernoulli equations and write u=y^(1-n) three times with different n values.
+            - listitem [ref=e174]: Run mixed practice until you correctly identify exact versus Bernoulli twice in a row.
+          - generic [ref=e175]:
+            - strong [ref=e176]: "Paper checkpoint:"
+            - paragraph [ref=e177]: "Confidence check: on paper, decide whether two first-order equations are exact, linear, separable, or Bernoulli before solving."
+          - generic [ref=e178]:
+            - button "Partial mini-review" [ref=e179] [cursor=pointer]
+            - button "Exact" [ref=e180] [cursor=pointer]
+            - button "Bernoulli" [ref=e181] [cursor=pointer]
+            - button "Mixed IDs" [ref=e182] [cursor=pointer]
+        - article [ref=e183]:
+          - generic [ref=e184]:
+            - generic [ref=e185]: Day 6
+            - generic [ref=e186]: 3 hours
+          - heading "Chapter 13 high-yield geometry" [level=3] [ref=e187]
+          - paragraph [ref=e188]: Partial derivatives, gradients, tangent planes, and extrema are formula-heavy but become quick points with pattern practice.
+          - list [ref=e189]:
+            - listitem [ref=e190]: Review partial derivatives and second partial notation, then compute one full Hessian-style set.
+            - listitem [ref=e191]: "Study directional derivatives: normalize the direction, take gradient dot unit vector."
+            - listitem [ref=e192]: Study tangent planes and normal lines; write the point-normal formula from memory.
+            - listitem [ref=e193]: Work the instructor-marked tangent-plane exercises added from the PDF.
+            - listitem [ref=e194]: Study the second-derivative test for extrema and write the D cases without looking.
+          - generic [ref=e195]:
+            - strong [ref=e196]: "Paper checkpoint:"
+            - paragraph [ref=e197]: "Confidence check: solve one tangent-plane problem and one extrema classification on paper without opening the solution."
+          - generic [ref=e198]:
+            - button "Partials" [ref=e199] [cursor=pointer]
+            - button "Gradients" [ref=e200] [cursor=pointer]
+            - button "Tangent planes" [ref=e201] [cursor=pointer]
+            - button "Extrema" [ref=e202] [cursor=pointer]
+        - article [ref=e203]:
+          - generic [ref=e204]:
+            - generic [ref=e205]: Day 7
+            - generic [ref=e206]: 3–4 hours
+          - heading "Exam simulation and weak-spot repair" [level=3] [ref=e207]
+          - paragraph [ref=e208]: The final day should train recognition under pressure, then repair only the mistakes that actually appear.
+          - list [ref=e209]:
+            - listitem [ref=e210]: "Do a 45-minute mixed-practice block: identify method first, then solve on paper."
+            - listitem [ref=e211]: Review the formula sheet in hide/reveal mode and write every missed formula once.
+            - listitem [ref=e212]: Use the decision tree for any first-order ODE you hesitated on.
+            - listitem [ref=e213]: Revisit the two weakest topics from your mixed-practice mistakes.
+            - listitem [ref=e214]: "Finish with a calm confidence check: write the method-recognition clues for all first-order ODE methods."
+          - generic [ref=e215]:
+            - strong [ref=e216]: "Paper checkpoint:"
+            - paragraph [ref=e217]: "Confidence check: make a one-page notebook sheet of method triggers, formulas, and your three most common mistakes."
+          - generic [ref=e218]:
+            - button "Exam-style mixed" [ref=e219] [cursor=pointer]
+            - button "Formula recall" [ref=e220] [cursor=pointer]
+            - button "ODE decision tree" [ref=e221] [cursor=pointer]
+            - button "Common weak spot" [ref=e222] [cursor=pointer]
+            - button "Chapter 13 finish" [ref=e223] [cursor=pointer]

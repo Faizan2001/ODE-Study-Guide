@@ -1,0 +1,356 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: d/dx
+      - generic [ref=e6]:
+        - heading "ODE Studio" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Worked examples, recall, mixed practice.
+    - generic [ref=e9]:
+      - generic [ref=e10]: Today
+      - strong [ref=e11]: 1 day streak
+    - navigation "Course navigation" [ref=e13]:
+      - generic [ref=e675]:
+        - 'heading "Module 0: Calculus Refresher" [level=3] [ref=e676]'
+        - button "0.1 Differentiation Quick Review" [ref=e677] [cursor=pointer]:
+          - generic [ref=e678]: 0.1 Differentiation Quick Review
+        - button "0.2 Integration Quick Review" [ref=e679] [cursor=pointer]:
+          - generic [ref=e680]: 0.2 Integration Quick Review
+      - generic [ref=e681]:
+        - 'heading "Module 1: Integration Techniques" [level=3] [ref=e682]'
+        - button "1.1 Integration by Parts" [ref=e683] [cursor=pointer]:
+          - generic [ref=e684]: 1.1 Integration by Parts
+        - button "1.2 Trigonometric Integrals" [ref=e685] [cursor=pointer]:
+          - generic [ref=e686]: 1.2 Trigonometric Integrals
+        - button "1.3 Trigonometric Substitution" [ref=e687] [cursor=pointer]:
+          - generic [ref=e688]: 1.3 Trigonometric Substitution
+        - button "1.4 Partial Fractions" [ref=e689] [cursor=pointer]:
+          - generic [ref=e690]: 1.4 Partial Fractions
+      - generic [ref=e691]:
+        - 'heading "Module 2: Introduction to Differential Equations" [level=3] [ref=e692]'
+        - button "2.1 Definition and Terminology" [ref=e693] [cursor=pointer]:
+          - generic [ref=e694]: 2.1 Definition and Terminology
+        - button "2.2 Initial Value Problems" [ref=e695] [cursor=pointer]:
+          - generic [ref=e696]: 2.2 Initial Value Problems
+        - button "2.3 Differential Equations as Models" [ref=e697] [cursor=pointer]:
+          - generic [ref=e698]: 2.3 Differential Equations as Models
+      - generic [ref=e699]:
+        - 'heading "Module 3: First-Order ODE Methods" [level=3] [ref=e700]'
+        - button "3.1 Separable Variables" [ref=e701] [cursor=pointer]:
+          - generic [ref=e702]: 3.1 Separable Variables
+        - button "3.2 Linear Equations" [ref=e703] [cursor=pointer]:
+          - generic [ref=e704]: 3.2 Linear Equations
+        - button "3.3 Exact Equations" [ref=e705] [cursor=pointer]:
+          - generic [ref=e706]: 3.3 Exact Equations
+        - button "3.4 Bernoulli Equations" [ref=e707] [cursor=pointer]:
+          - generic [ref=e708]: 3.4 Bernoulli Equations
+      - generic [ref=e709]:
+        - 'heading "Module 4: Partial Derivatives" [level=3] [ref=e710]'
+        - button "4.1 Functions of Two or More Variables" [ref=e711] [cursor=pointer]:
+          - generic [ref=e712]: 4.1 Functions of Two or More Variables
+        - button "4.2 Limits and Continuity" [ref=e713] [cursor=pointer]:
+          - generic [ref=e714]: 4.2 Limits and Continuity
+        - button "4.3 Partial Derivatives" [ref=e715] [cursor=pointer]:
+          - generic [ref=e716]: 4.3 Partial Derivatives
+        - button "4.4 The Chain Rule" [ref=e717] [cursor=pointer]:
+          - generic [ref=e718]: 4.4 The Chain Rule
+        - button "4.5 Directional Derivatives and Gradients" [ref=e719] [cursor=pointer]:
+          - generic [ref=e720]: 4.5 Directional Derivatives and Gradients
+        - button "4.6 Tangent Planes and Normal Vectors" [ref=e721] [cursor=pointer]:
+          - generic [ref=e722]: 4.6 Tangent Planes and Normal Vectors
+        - button "4.7 Maxima and Minima" [ref=e723] [cursor=pointer]:
+          - generic [ref=e724]: 4.7 Maxima and Minima
+    - generic [ref=e64]:
+      - button "Mixed Practice" [ref=e65] [cursor=pointer]
+      - button "Formula Sheet" [ref=e66] [cursor=pointer]
+      - button "ODE Decision Tree" [ref=e67] [cursor=pointer]
+      - button "Progress Tracker" [ref=e68] [cursor=pointer]
+  - main [ref=e69]:
+    - generic [ref=e70]:
+      - button "Toggle sidebar" [ref=e71] [cursor=pointer]: Menu
+      - generic [ref=e72]:
+        - generic [ref=e73]: Undergraduate Ordinary Differential Equations
+        - strong [ref=e74]: 1.1 Integration by Parts
+      - button "Toggle light mode" [ref=e75] [cursor=pointer]: Theme
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: A-to-Z recovery course
+        - heading "Rebuild calculus, then solve ODE exam examples with confidence." [level=2] [ref=e79]
+        - paragraph [ref=e80]: This local course uses worked examples first, notebook prompts, active recall, spaced review, and mixed practice so you learn both how to solve and how to identify the method.
+      - generic [ref=e81]:
+        - strong [ref=e82]: Study loop
+        - list [ref=e83]:
+          - listitem [ref=e84]: Read the concept card.
+          - listitem [ref=e85]: Reveal each worked-example step.
+          - listitem [ref=e86]: Work practice on paper before revealing.
+          - listitem [ref=e87]: Finish with mixed method-identification practice.
+    - generic [ref=e725]:
+      - generic [ref=e726]: Spaced review nudge
+      - paragraph [ref=e727]:
+        - text: Before starting
+        - strong [ref=e728]: Integration by Parts
+        - text: ", spend 3 minutes recalling one formula or method from"
+        - strong [ref=e729]: Differentiation Quick Review
+        - text: without looking. Then reveal your notes.
+      - button "Review 0.1" [ref=e730] [cursor=pointer]
+    - generic [ref=e88]:
+      - article [ref=e731]:
+        - generic [ref=e732]:
+          - generic [ref=e733]:
+            - generic [ref=e734]: "Module 1: Integration Techniques"
+            - heading "1.1 Integration by Parts" [level=2] [ref=e735]
+            - paragraph [ref=e736]: By parts handles products where one factor becomes simpler when differentiated.
+            - generic [ref=e738]: "Requires: 0.2 Integration"
+          - generic [ref=e739]:
+            - generic [ref=e740]:
+              - checkbox "Theory read" [ref=e741]
+              - text: Theory read
+            - generic [ref=e742]:
+              - checkbox "Examples studied" [ref=e743]
+              - text: Examples studied
+            - generic [ref=e744]:
+              - checkbox "Practice done" [ref=e745]
+              - text: Practice done
+        - generic [ref=e749]:
+          - math [ref=e751]:
+            - generic [ref=e753]:
+              - generic [ref=e754]: ∫
+              - generic [ref=e755]: u
+              - generic [ref=e756]: d
+              - generic [ref=e757]: v
+              - generic [ref=e758]: =
+              - generic [ref=e759]: u
+              - generic [ref=e760]: v
+              - generic [ref=e761]: −
+              - generic [ref=e762]: ∫
+              - generic [ref=e763]: v
+              - generic [ref=e764]: d
+              - generic [ref=e765]: u
+          - generic [ref=e766]:
+            - generic [ref=e767]: ∫ u dv =
+            - generic [ref=e768]: uv −
+            - generic [ref=e769]: ∫ v du
+        - generic [ref=e773]:
+          - math [ref=e775]:
+            - generic [ref=e777]:
+              - generic [ref=e778]: L
+              - generic [ref=e779]: I
+              - generic [ref=e780]: A
+              - generic [ref=e781]: T
+              - generic [ref=e782]: E
+              - generic [ref=e783]: ":"
+              - generic [ref=e784]: L
+              - generic [ref=e785]: o
+              - generic [ref=e786]: g
+              - generic [ref=e787]: ","
+              - generic [ref=e788]: I
+              - generic [ref=e789]: "n"
+              - generic [ref=e790]: v
+              - generic [ref=e791]: e
+              - generic [ref=e792]: r
+              - generic [ref=e793]: s
+              - generic [ref=e794]: e
+              - generic [ref=e795]: ","
+              - generic [ref=e796]: A
+              - generic [ref=e797]: l
+              - generic [ref=e798]: g
+              - generic [ref=e799]: e
+              - generic [ref=e800]: b
+              - generic [ref=e801]: r
+              - generic [ref=e802]: a
+              - generic [ref=e803]: i
+              - generic [ref=e804]: c
+              - generic [ref=e805]: ","
+              - generic [ref=e806]: T
+              - generic [ref=e807]: r
+              - generic [ref=e808]: i
+              - generic [ref=e809]: g
+              - generic [ref=e810]: ","
+              - generic [ref=e811]: E
+              - generic [ref=e812]: x
+              - generic [ref=e813]: p
+              - generic [ref=e814]: o
+              - generic [ref=e815]: "n"
+              - generic [ref=e816]: e
+              - generic [ref=e817]: "n"
+              - generic [ref=e818]: t
+              - generic [ref=e819]: i
+              - generic [ref=e820]: a
+              - generic [ref=e821]: l
+          - generic [ref=e822]:
+            - generic [ref=e823]: "LIATE :"
+            - generic [ref=e825]:
+              - text: Log,
+              - text: Inverse,
+              - text: Algebraic,
+              - text: Trig,
+              - text: Exponential
+      - generic [ref=e830]:
+        - generic [ref=e831]:
+          - heading "Theory in Plain English" [level=3] [ref=e832]
+          - generic [ref=e833]:
+            - paragraph [ref=e834]: Choose u using LIATE.
+            - paragraph [ref=e835]: Repeated and cyclic by-parts problems are normal; keep symbols organized.
+        - generic [ref=e836]:
+          - heading "Notebook Prompt" [level=3] [ref=e837]
+          - paragraph [ref=e838]: Write the key formula from this page three times, then solve the first practice problem without looking at the solution. This is the productive struggle part.
+          - generic [ref=e839]:
+            - strong [ref=e840]: "Feynman check:"
+            - paragraph [ref=e841]: Explain Integration by Parts in your own words. What tells you this method is the right method?
+      - generic [ref=e842]:
+        - generic [ref=e843]: Learning zone
+        - heading "Worked Examples" [level=3] [ref=e844]
+        - generic [ref=e845]:
+          - group [ref=e846]:
+            - 'generic "Chapter 7.2 Example 2: integration by parts reveal steps" [ref=e847] [cursor=pointer]':
+              - generic [ref=e848]:
+                - generic [ref=e849]: Chapter 7.2
+                - 'heading "Example 2: integration by parts" [level=3] [ref=e850]'
+              - generic [ref=e851]: reveal steps
+            - paragraph [ref=e852]:
+              - strong [ref=e853]: "Problem:"
+              - generic [ref=e855]:
+                - math [ref=e857]:
+                  - generic [ref=e859]:
+                    - generic [ref=e860]: E
+                    - generic [ref=e861]: v
+                    - generic [ref=e862]: a
+                    - generic [ref=e863]: l
+                    - generic [ref=e864]: u
+                    - generic [ref=e865]: a
+                    - generic [ref=e866]: t
+                    - generic [ref=e867]: e
+                    - generic [ref=e868]: ∫
+                    - generic [ref=e869]: x
+                    - generic [ref=e870]:
+                      - generic [ref=e871]: e
+                      - generic [ref=e872]: x
+                    - generic [ref=e873]: d
+                    - generic [ref=e874]: x
+                - generic [ref=e876]:
+                  - text: Evaluate ∫ x
+                  - generic [ref=e877]:
+                    - text: e
+                    - generic [ref=e882]: x
+                  - text: dx
+            - generic [ref=e884]:
+              - generic [ref=e885]: "1"
+              - generic [ref=e886]:
+                - generic [ref=e890]:
+                  - math [ref=e892]:
+                    - generic [ref=e894]:
+                      - generic [ref=e895]: u
+                      - generic [ref=e896]: =
+                      - generic [ref=e897]: x
+                      - generic [ref=e898]: ","
+                      - generic [ref=e899]: d
+                      - generic [ref=e900]: v
+                      - generic [ref=e901]: =
+                      - generic [ref=e902]:
+                        - generic [ref=e903]: e
+                        - generic [ref=e904]: x
+                      - generic [ref=e905]: d
+                      - generic [ref=e906]: x
+                  - generic [ref=e907]:
+                    - generic [ref=e908]: u =
+                    - generic [ref=e909]: x, dv =
+                    - generic [ref=e910]:
+                      - generic [ref=e911]:
+                        - text: e
+                        - generic [ref=e916]: x
+                      - text: dx
+                - generic [ref=e917]:
+                  - strong [ref=e918]: Why?
+                  - text: LIATE chooses algebraic x before exponential e^x.
+            - generic [ref=e919]:
+              - button "Show next step" [ref=e920] [cursor=pointer]
+              - button "Show all" [ref=e921] [cursor=pointer]
+              - button "Reset" [ref=e922] [cursor=pointer]
+            - paragraph [ref=e923]: Pick u so it gets simpler after differentiating.
+          - group [ref=e924]:
+            - 'generic "Chapter 7.2 Example 3: logarithm by parts reveal steps" [ref=e925] [cursor=pointer]':
+              - generic [ref=e926]:
+                - generic [ref=e927]: Chapter 7.2
+                - 'heading "Example 3: logarithm by parts" [level=3] [ref=e928]'
+              - generic [ref=e929]: reveal steps
+          - group [ref=e930]:
+            - 'generic "Chapter 7.2 Example 4: repeated integration by parts reveal steps" [ref=e931] [cursor=pointer]':
+              - generic [ref=e932]:
+                - generic [ref=e933]: Chapter 7.2
+                - 'heading "Example 4: repeated integration by parts" [level=3] [ref=e934]'
+              - generic [ref=e935]: reveal steps
+          - group [ref=e936]:
+            - 'generic "Chapter 7.2 Example 5: cyclic integration by parts reveal steps" [ref=e937] [cursor=pointer]':
+              - generic [ref=e938]:
+                - generic [ref=e939]: Chapter 7.2
+                - 'heading "Example 5: cyclic integration by parts" [level=3] [ref=e940]'
+              - generic [ref=e941]: reveal steps
+          - group [ref=e942]:
+            - 'generic "Chapter 7.2 Example 6: inverse tangent reveal steps" [ref=e943] [cursor=pointer]':
+              - generic [ref=e944]:
+                - generic [ref=e945]: Chapter 7.2
+                - 'heading "Example 6: inverse tangent" [level=3] [ref=e946]'
+              - generic [ref=e947]: reveal steps
+          - group [ref=e948]:
+            - 'generic "Chapter 7.2 Example 8: reduction/power identity reveal steps" [ref=e949] [cursor=pointer]':
+              - generic [ref=e950]:
+                - generic [ref=e951]: Chapter 7.2
+                - 'heading "Example 8: reduction/power identity" [level=3] [ref=e952]'
+              - generic [ref=e953]: reveal steps
+      - generic [ref=e954]:
+        - generic [ref=e955]: Active zone
+        - heading "Practice Problems" [level=3] [ref=e956]
+        - generic [ref=e957]:
+          - generic [ref=e958]:
+            - generic [ref=e959]: Active recall 1
+            - heading "Practice by parts" [level=3] [ref=e960]
+            - paragraph [ref=e961]:
+              - strong [ref=e962]: "Cover and solve on paper first:"
+              - generic [ref=e964]:
+                - math [ref=e966]:
+                  - generic [ref=e968]:
+                    - generic [ref=e969]: ∫
+                    - generic [ref=e970]: x
+                    - generic [ref=e971]: sin
+                    - generic: ⁡
+                    - generic [ref=e972]: x
+                    - generic [ref=e973]: d
+                    - generic [ref=e974]: x
+                - generic [ref=e976]:
+                  - text: ∫ x
+                  - generic [ref=e977]: sin
+                  - text: x dx
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e978]'
+            - generic [ref=e979]:
+              - button "Show hint" [ref=e980] [cursor=pointer]
+              - button "Show solution" [ref=e981] [cursor=pointer]
+          - generic [ref=e982]:
+            - generic [ref=e983]: Active recall 2
+            - heading "Practice logarithm" [level=3] [ref=e984]
+            - paragraph [ref=e985]:
+              - strong [ref=e986]: "Cover and solve on paper first:"
+              - generic [ref=e988]:
+                - math [ref=e990]:
+                  - generic [ref=e992]:
+                    - generic [ref=e993]: ∫
+                    - generic [ref=e994]: log
+                    - generic: ⁡
+                    - generic [ref=e995]: x
+                    - generic [ref=e996]: d
+                    - generic [ref=e997]: x
+                - generic [ref=e999]:
+                  - text: ∫
+                  - generic [ref=e1000]: log
+                  - text: x dx
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e1001]'
+            - generic [ref=e1002]:
+              - button "Show hint" [ref=e1003] [cursor=pointer]
+              - button "Show solution" [ref=e1004] [cursor=pointer]
+      - generic [ref=e1005]:
+        - heading "Section Recap" [level=3] [ref=e1006]
+        - list [ref=e1008]:
+          - listitem [ref=e1009]: Choose u to simplify.
+          - listitem [ref=e1010]: Cyclic integrals are solved algebraically.
+          - listitem [ref=e1011]: Write the formula on paper until it is automatic.
+        - generic [ref=e1012]:
+          - button "Next section" [ref=e1013] [cursor=pointer]
+          - button "Try mixed practice" [ref=e1014] [cursor=pointer]

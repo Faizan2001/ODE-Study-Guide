@@ -1,0 +1,554 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: d/dx
+      - generic [ref=e6]:
+        - heading "ODE Studio" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Worked examples, recall, mixed practice.
+    - generic [ref=e9]:
+      - generic [ref=e10]: Today
+      - strong [ref=e11]: 1 day streak
+    - navigation "Course navigation" [ref=e13]:
+      - generic [ref=e573]:
+        - 'heading "Module 0: Calculus Refresher" [level=3] [ref=e574]'
+        - button "0.1 Differentiation Quick Review" [ref=e575] [cursor=pointer]:
+          - generic [ref=e576]: 0.1 Differentiation Quick Review
+        - button "0.2 Integration Quick Review" [ref=e577] [cursor=pointer]:
+          - generic [ref=e578]: 0.2 Integration Quick Review
+      - generic [ref=e579]:
+        - 'heading "Module 1: Integration Techniques" [level=3] [ref=e580]'
+        - button "1.1 Integration by Parts" [ref=e581] [cursor=pointer]:
+          - generic [ref=e582]: 1.1 Integration by Parts
+        - button "1.2 Trigonometric Integrals" [ref=e583] [cursor=pointer]:
+          - generic [ref=e584]: 1.2 Trigonometric Integrals
+        - button "1.3 Trigonometric Substitution" [ref=e585] [cursor=pointer]:
+          - generic [ref=e586]: 1.3 Trigonometric Substitution
+        - button "1.4 Partial Fractions" [ref=e587] [cursor=pointer]:
+          - generic [ref=e588]: 1.4 Partial Fractions
+      - generic [ref=e589]:
+        - 'heading "Module 2: Introduction to Differential Equations" [level=3] [ref=e590]'
+        - button "2.1 Definition and Terminology" [ref=e591] [cursor=pointer]:
+          - generic [ref=e592]: 2.1 Definition and Terminology
+        - button "2.2 Initial Value Problems" [ref=e593] [cursor=pointer]:
+          - generic [ref=e594]: 2.2 Initial Value Problems
+        - button "2.3 Differential Equations as Models" [ref=e595] [cursor=pointer]:
+          - generic [ref=e596]: 2.3 Differential Equations as Models
+      - generic [ref=e597]:
+        - 'heading "Module 3: First-Order ODE Methods" [level=3] [ref=e598]'
+        - button "3.1 Separable Variables" [ref=e599] [cursor=pointer]:
+          - generic [ref=e600]: 3.1 Separable Variables
+        - button "3.2 Linear Equations" [ref=e601] [cursor=pointer]:
+          - generic [ref=e602]: 3.2 Linear Equations
+        - button "3.3 Exact Equations" [ref=e603] [cursor=pointer]:
+          - generic [ref=e604]: 3.3 Exact Equations
+        - button "3.4 Bernoulli Equations" [ref=e605] [cursor=pointer]:
+          - generic [ref=e606]: 3.4 Bernoulli Equations
+      - generic [ref=e607]:
+        - 'heading "Module 4: Partial Derivatives" [level=3] [ref=e608]'
+        - button "4.1 Functions of Two or More Variables" [ref=e609] [cursor=pointer]:
+          - generic [ref=e610]: 4.1 Functions of Two or More Variables
+        - button "4.2 Limits and Continuity" [ref=e611] [cursor=pointer]:
+          - generic [ref=e612]: 4.2 Limits and Continuity
+        - button "4.3 Partial Derivatives" [ref=e613] [cursor=pointer]:
+          - generic [ref=e614]: 4.3 Partial Derivatives
+        - button "4.4 The Chain Rule" [ref=e615] [cursor=pointer]:
+          - generic [ref=e616]: 4.4 The Chain Rule
+        - button "4.5 Directional Derivatives and Gradients" [ref=e617] [cursor=pointer]:
+          - generic [ref=e618]: 4.5 Directional Derivatives and Gradients
+        - button "4.6 Tangent Planes and Normal Vectors" [ref=e619] [cursor=pointer]:
+          - generic [ref=e620]: 4.6 Tangent Planes and Normal Vectors
+        - button "4.7 Maxima and Minima" [ref=e621] [cursor=pointer]:
+          - generic [ref=e622]: 4.7 Maxima and Minima
+    - generic [ref=e64]:
+      - button "Mixed Practice" [ref=e65] [cursor=pointer]
+      - button "Formula Sheet" [ref=e66] [cursor=pointer]
+      - button "ODE Decision Tree" [ref=e67] [cursor=pointer]
+      - button "Progress Tracker" [ref=e68] [cursor=pointer]
+  - main [ref=e69]:
+    - generic [ref=e70]:
+      - button "Toggle sidebar" [ref=e71] [cursor=pointer]: Menu
+      - generic [ref=e72]:
+        - generic [ref=e73]: Undergraduate Ordinary Differential Equations
+        - strong [ref=e74]: 1.3 Trigonometric Substitution
+      - button "Toggle light mode" [ref=e75] [cursor=pointer]: Theme
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: A-to-Z recovery course
+        - heading "Rebuild calculus, then solve ODE exam examples with confidence." [level=2] [ref=e79]
+        - paragraph [ref=e80]: This local course uses worked examples first, notebook prompts, active recall, spaced review, and mixed practice so you learn both how to solve and how to identify the method.
+      - generic [ref=e81]:
+        - strong [ref=e82]: Study loop
+        - list [ref=e83]:
+          - listitem [ref=e84]: Read the concept card.
+          - listitem [ref=e85]: Reveal each worked-example step.
+          - listitem [ref=e86]: Work practice on paper before revealing.
+          - listitem [ref=e87]: Finish with mixed method-identification practice.
+    - generic [ref=e623]:
+      - generic [ref=e624]: Spaced review nudge
+      - paragraph [ref=e625]:
+        - text: Before starting
+        - strong [ref=e626]: Trigonometric Substitution
+        - text: ", spend 3 minutes recalling one formula or method from"
+        - strong [ref=e627]: Differentiation Quick Review
+        - text: without looking. Then reveal your notes.
+      - button "Review 0.1" [ref=e628] [cursor=pointer]
+    - generic [ref=e88]:
+      - article [ref=e629]:
+        - generic [ref=e630]:
+          - generic [ref=e631]:
+            - generic [ref=e632]: "Module 1: Integration Techniques"
+            - heading "1.3 Trigonometric Substitution" [level=2] [ref=e633]
+            - paragraph [ref=e634]: Trig substitution replaces a radical with a triangle you can simplify.
+            - generic [ref=e636]: "Requires: 1.2 Trigonometric Integrals"
+          - generic [ref=e637]:
+            - generic [ref=e638]:
+              - checkbox "Theory read" [ref=e639]
+              - text: Theory read
+            - generic [ref=e640]:
+              - checkbox "Examples studied" [ref=e641]
+              - text: Examples studied
+            - generic [ref=e642]:
+              - checkbox "Practice done" [ref=e643]
+              - text: Practice done
+        - generic [ref=e647]:
+          - math [ref=e649]:
+            - generic [ref=e651]:
+              - generic [ref=e653]:
+                - generic [ref=e654]:
+                  - generic [ref=e655]: a
+                  - generic [ref=e656]: "2"
+                - generic [ref=e657]: −
+                - generic [ref=e658]:
+                  - generic [ref=e659]: x
+                  - generic [ref=e660]: "2"
+              - generic [ref=e661]: ":"
+              - generic [ref=e662]: x
+              - generic [ref=e663]: =
+              - generic [ref=e664]: a
+              - generic [ref=e665]: sin
+              - generic: ⁡
+              - generic [ref=e666]: θ
+          - generic [ref=e667]:
+            - generic [ref=e668]:
+              - generic [ref=e672]:
+                - generic [ref=e673]:
+                  - generic [ref=e674]:
+                    - text: a
+                    - generic [ref=e679]: "2"
+                  - text: −
+                  - generic [ref=e680]:
+                    - text: x
+                    - generic [ref=e685]: "2"
+                - img [ref=e687]
+              - text: ":"
+            - generic [ref=e692]: x =
+            - generic [ref=e693]:
+              - text: a
+              - generic [ref=e694]: sin
+              - text: θ
+        - generic [ref=e698]:
+          - math [ref=e700]:
+            - generic [ref=e702]:
+              - generic [ref=e704]:
+                - generic [ref=e705]:
+                  - generic [ref=e706]: a
+                  - generic [ref=e707]: "2"
+                - generic [ref=e708]: +
+                - generic [ref=e709]:
+                  - generic [ref=e710]: x
+                  - generic [ref=e711]: "2"
+              - generic [ref=e712]: ":"
+              - generic [ref=e713]: x
+              - generic [ref=e714]: =
+              - generic [ref=e715]: a
+              - generic [ref=e716]: tan
+              - generic: ⁡
+              - generic [ref=e717]: θ
+          - generic [ref=e718]:
+            - generic [ref=e719]:
+              - generic [ref=e723]:
+                - generic [ref=e724]:
+                  - generic [ref=e725]:
+                    - text: a
+                    - generic [ref=e730]: "2"
+                  - text: +
+                  - generic [ref=e731]:
+                    - text: x
+                    - generic [ref=e736]: "2"
+                - img [ref=e738]
+              - text: ":"
+            - generic [ref=e743]: x =
+            - generic [ref=e744]:
+              - text: a
+              - generic [ref=e745]: tan
+              - text: θ
+        - generic [ref=e749]:
+          - math [ref=e751]:
+            - generic [ref=e753]:
+              - generic [ref=e755]:
+                - generic [ref=e756]:
+                  - generic [ref=e757]: x
+                  - generic [ref=e758]: "2"
+                - generic [ref=e759]: −
+                - generic [ref=e760]:
+                  - generic [ref=e761]: a
+                  - generic [ref=e762]: "2"
+              - generic [ref=e763]: ":"
+              - generic [ref=e764]: x
+              - generic [ref=e765]: =
+              - generic [ref=e766]: a
+              - generic [ref=e767]: sec
+              - generic: ⁡
+              - generic [ref=e768]: θ
+          - generic [ref=e769]:
+            - generic [ref=e770]:
+              - generic [ref=e774]:
+                - generic [ref=e775]:
+                  - generic [ref=e776]:
+                    - text: x
+                    - generic [ref=e781]: "2"
+                  - text: −
+                  - generic [ref=e782]:
+                    - text: a
+                    - generic [ref=e787]: "2"
+                - img [ref=e789]
+              - text: ":"
+            - generic [ref=e794]: x =
+            - generic [ref=e795]:
+              - text: a
+              - generic [ref=e796]: sec
+              - text: θ
+      - generic [ref=e797]:
+        - generic [ref=e798]:
+          - heading "Theory in Plain English" [level=3] [ref=e799]
+          - generic [ref=e800]:
+            - paragraph [ref=e801]: Choose the substitution from the radical shape.
+            - paragraph [ref=e802]: Draw a triangle before back-substitution.
+        - generic [ref=e803]:
+          - heading "Notebook Prompt" [level=3] [ref=e804]
+          - paragraph [ref=e805]: Write the key formula from this page three times, then solve the first practice problem without looking at the solution. This is the productive struggle part.
+          - generic [ref=e806]:
+            - strong [ref=e807]: "Feynman check:"
+            - paragraph [ref=e808]: Explain Trigonometric Substitution in your own words. What tells you this method is the right method?
+      - generic [ref=e809]:
+        - generic [ref=e810]: Learning zone
+        - heading "Worked Examples" [level=3] [ref=e811]
+        - generic [ref=e812]:
+          - group [ref=e813]:
+            - 'generic "Chapter 7.4 Example 1: trig substitution reveal steps" [ref=e814] [cursor=pointer]':
+              - generic [ref=e815]:
+                - generic [ref=e816]: Chapter 7.4
+                - 'heading "Example 1: trig substitution" [level=3] [ref=e817]'
+              - generic [ref=e818]: reveal steps
+            - paragraph [ref=e819]:
+              - strong [ref=e820]: "Problem:"
+              - generic [ref=e822]:
+                - math [ref=e824]:
+                  - generic [ref=e826]:
+                    - generic [ref=e827]: E
+                    - generic [ref=e828]: v
+                    - generic [ref=e829]: a
+                    - generic [ref=e830]: l
+                    - generic [ref=e831]: u
+                    - generic [ref=e832]: a
+                    - generic [ref=e833]: t
+                    - generic [ref=e834]: e
+                    - generic [ref=e835]: ∫
+                    - generic [ref=e836]:
+                      - generic [ref=e837]:
+                        - generic [ref=e838]: d
+                        - generic [ref=e839]: x
+                      - generic [ref=e840]:
+                        - generic [ref=e841]:
+                          - generic [ref=e842]: x
+                          - generic [ref=e843]: "2"
+                        - generic [ref=e845]:
+                          - generic [ref=e846]: "4"
+                          - generic [ref=e847]: −
+                          - generic [ref=e848]:
+                            - generic [ref=e849]: x
+                            - generic [ref=e850]: "2"
+                - generic [ref=e852]:
+                  - text: Evaluate ∫
+                  - generic [ref=e857]:
+                    - generic [ref=e859]:
+                      - generic [ref=e860]:
+                        - text: x
+                        - generic [ref=e865]: "2"
+                      - generic [ref=e869]:
+                        - generic [ref=e870]:
+                          - text: 4−
+                          - generic [ref=e871]:
+                            - text: x
+                            - generic [ref=e876]: "2"
+                        - img [ref=e878]
+                    - generic [ref=e885]: dx
+            - generic [ref=e890]: Chapter 7.pdf · pages 19–20 · Example 1
+            - generic [ref=e892]:
+              - generic [ref=e893]: "1"
+              - generic [ref=e894]:
+                - generic [ref=e898]:
+                  - math [ref=e900]:
+                    - generic [ref=e902]:
+                      - generic [ref=e903]: x
+                      - generic [ref=e904]: =
+                      - generic [ref=e905]: "2"
+                      - generic [ref=e906]: sin
+                      - generic: ⁡
+                      - generic [ref=e907]: θ
+                      - generic [ref=e908]: ","
+                      - generic [ref=e909]: d
+                      - generic [ref=e910]: x
+                      - generic [ref=e911]: =
+                      - generic [ref=e912]: "2"
+                      - generic [ref=e913]: cos
+                      - generic: ⁡
+                      - generic [ref=e914]: θ
+                      - generic [ref=e915]: d
+                      - generic [ref=e916]: θ
+                  - generic [ref=e917]:
+                    - generic [ref=e918]: x =
+                    - generic [ref=e919]:
+                      - text: "2"
+                      - generic [ref=e920]: sin
+                      - text: θ, dx =
+                    - generic [ref=e921]:
+                      - text: "2"
+                      - generic [ref=e922]: cos
+                      - text: θ dθ
+                - generic [ref=e923]:
+                  - strong [ref=e924]: Why?
+                  - text: Because sqrt(4-x^2) matches sqrt(a^2-x^2).
+            - generic [ref=e925]:
+              - button "Show next step" [ref=e926] [cursor=pointer]
+              - button "Show all" [ref=e927] [cursor=pointer]
+              - button "Reset" [ref=e928] [cursor=pointer]
+            - paragraph [ref=e929]: The trig substitution is chosen by the radical shape.
+          - group [ref=e930]:
+            - 'generic "Chapter 7.4 Example 2: definite trig substitution reveal steps" [ref=e931] [cursor=pointer]':
+              - generic [ref=e932]:
+                - generic [ref=e933]: Chapter 7.4
+                - 'heading "Example 2: definite trig substitution" [level=3] [ref=e934]'
+              - generic [ref=e935]: reveal steps
+          - group [ref=e936]:
+            - 'generic "Chapter 7.4 Example 3: area of an ellipse reveal steps" [ref=e937] [cursor=pointer]':
+              - generic [ref=e938]:
+                - generic [ref=e939]: Chapter 7.4
+                - 'heading "Example 3: area of an ellipse" [level=3] [ref=e940]'
+              - generic [ref=e941]: reveal steps
+          - group [ref=e942]:
+            - 'generic "Chapter 7.4 Example 4: arc length via trig substitution reveal steps" [ref=e943] [cursor=pointer]':
+              - generic [ref=e944]:
+                - generic [ref=e945]: Chapter 7.4
+                - 'heading "Example 4: arc length via trig substitution" [level=3] [ref=e946]'
+              - generic [ref=e947]: reveal steps
+          - group [ref=e948]:
+            - 'generic "Chapter 7.4 Example 5: secant substitution reveal steps" [ref=e949] [cursor=pointer]':
+              - generic [ref=e950]:
+                - generic [ref=e951]: Chapter 7.4
+                - 'heading "Example 5: secant substitution" [level=3] [ref=e952]'
+              - generic [ref=e953]: reveal steps
+          - group [ref=e954]:
+            - 'generic "Chapter 7.4 Example 5 (printed label repeated): completing the square reveal steps" [ref=e955] [cursor=pointer]':
+              - generic [ref=e956]:
+                - generic [ref=e957]: Chapter 7.4
+                - 'heading "Example 5 (printed label repeated): completing the square" [level=3] [ref=e958]'
+              - generic [ref=e959]: reveal steps
+      - generic [ref=e960]:
+        - generic [ref=e961]: Active zone
+        - heading "Practice Problems" [level=3] [ref=e962]
+        - generic [ref=e963]:
+          - generic [ref=e964]:
+            - generic [ref=e965]: Active recall 1
+            - heading "Substitution type" [level=3] [ref=e966]
+            - paragraph [ref=e967]:
+              - strong [ref=e968]: "Cover and solve on paper first:"
+              - generic [ref=e970]:
+                - math [ref=e972]:
+                  - generic [ref=e974]:
+                    - generic [ref=e975]: ∫
+                    - generic [ref=e976]:
+                      - generic [ref=e977]:
+                        - generic [ref=e978]: d
+                        - generic [ref=e979]: x
+                      - generic [ref=e981]:
+                        - generic [ref=e982]: "9"
+                        - generic [ref=e983]: −
+                        - generic [ref=e984]:
+                          - generic [ref=e985]: x
+                          - generic [ref=e986]: "2"
+                - generic [ref=e988]:
+                  - text: ∫
+                  - generic [ref=e993]:
+                    - generic [ref=e999]:
+                      - generic [ref=e1000]:
+                        - text: 9−
+                        - generic [ref=e1001]:
+                          - text: x
+                          - generic [ref=e1006]: "2"
+                      - img [ref=e1008]
+                    - generic [ref=e1015]: dx
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e1019]'
+            - generic [ref=e1020]:
+              - button "Show hint" [ref=e1021] [cursor=pointer]
+              - button "Show solution" [ref=e1022] [cursor=pointer]
+          - generic [ref=e1023]:
+            - generic [ref=e1024]: Active recall 2
+            - heading "Secant type" [level=3] [ref=e1025]
+            - paragraph [ref=e1026]:
+              - strong [ref=e1027]: "Cover and solve on paper first:"
+              - generic [ref=e1029]:
+                - math [ref=e1031]:
+                  - generic [ref=e1033]:
+                    - generic [ref=e1034]: ∫
+                    - generic [ref=e1035]:
+                      - generic [ref=e1036]:
+                        - generic [ref=e1037]: d
+                        - generic [ref=e1038]: x
+                      - generic [ref=e1039]:
+                        - generic [ref=e1040]: x
+                        - generic [ref=e1042]:
+                          - generic [ref=e1043]:
+                            - generic [ref=e1044]: x
+                            - generic [ref=e1045]: "2"
+                          - generic [ref=e1046]: −
+                          - generic [ref=e1047]: "9"
+                - generic [ref=e1049]:
+                  - text: ∫
+                  - generic [ref=e1054]:
+                    - generic [ref=e1056]:
+                      - text: x
+                      - generic [ref=e1060]:
+                        - generic [ref=e1061]:
+                          - generic [ref=e1062]:
+                            - text: x
+                            - generic [ref=e1067]: "2"
+                          - text: −9
+                        - img [ref=e1069]
+                    - generic [ref=e1076]: dx
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e1080]'
+            - generic [ref=e1081]:
+              - button "Show hint" [ref=e1082] [cursor=pointer]
+              - button "Show solution" [ref=e1083] [cursor=pointer]
+          - generic [ref=e1084]:
+            - generic [ref=e1085]: Active recall 3
+            - 'heading "Assigned Exercise 7.4 #33: arc length of ln x" [level=3] [ref=e1086]'
+            - paragraph [ref=e1087]:
+              - strong [ref=e1088]: "Cover and solve on paper first:"
+              - generic [ref=e1090]:
+                - math [ref=e1092]:
+                  - generic [ref=e1094]:
+                    - generic [ref=e1095]: F
+                    - generic [ref=e1096]: i
+                    - generic [ref=e1097]: "n"
+                    - generic [ref=e1098]: d
+                    - generic [ref=e1099]: t
+                    - generic [ref=e1100]: h
+                    - generic [ref=e1101]: e
+                    - generic [ref=e1102]: a
+                    - generic [ref=e1103]: r
+                    - generic [ref=e1104]: c
+                    - generic [ref=e1105]: l
+                    - generic [ref=e1106]: e
+                    - generic [ref=e1107]: "n"
+                    - generic [ref=e1108]: g
+                    - generic [ref=e1109]: t
+                    - generic [ref=e1110]: h
+                    - generic [ref=e1111]: o
+                    - generic [ref=e1112]: f
+                    - generic [ref=e1113]: "y"
+                    - generic [ref=e1114]: =
+                    - generic [ref=e1115]: ln
+                    - generic: ⁡
+                    - generic [ref=e1116]: x
+                    - generic [ref=e1117]: ","
+                    - generic [ref=e1118]: "1"
+                    - generic [ref=e1119]: ≤
+                    - generic [ref=e1120]: x
+                    - generic [ref=e1121]: ≤
+                    - generic [ref=e1122]: "2"
+                - generic [ref=e1123]:
+                  - generic [ref=e1124]:
+                    - text: Find
+                    - text: the
+                    - text: arc
+                    - text: length
+                    - text: of
+                    - text: y =
+                  - generic [ref=e1130]:
+                    - generic [ref=e1131]: ln
+                    - text: x, 1 ≤
+                  - generic [ref=e1132]: x ≤
+                  - generic [ref=e1133]: "2"
+            - generic [ref=e1135]: Chapter 7.pdf · page 26 · Exercise 33
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e1136]'
+            - generic [ref=e1137]:
+              - button "Show hint" [active] [ref=e1138] [cursor=pointer]
+              - button "Show solution" [ref=e1139] [cursor=pointer]
+            - generic [ref=e1212]: Start with y' = 1/x; x is positive on the interval.
+          - generic [ref=e1140]:
+            - generic [ref=e1141]: Active recall 4
+            - 'heading "Assigned Exercise 7.4 #34: arc length of x squared" [level=3] [ref=e1142]'
+            - paragraph [ref=e1143]:
+              - strong [ref=e1144]: "Cover and solve on paper first:"
+              - generic [ref=e1146]:
+                - math [ref=e1148]:
+                  - generic [ref=e1150]:
+                    - generic [ref=e1151]: F
+                    - generic [ref=e1152]: i
+                    - generic [ref=e1153]: "n"
+                    - generic [ref=e1154]: d
+                    - generic [ref=e1155]: t
+                    - generic [ref=e1156]: h
+                    - generic [ref=e1157]: e
+                    - generic [ref=e1158]: a
+                    - generic [ref=e1159]: r
+                    - generic [ref=e1160]: c
+                    - generic [ref=e1161]: l
+                    - generic [ref=e1162]: e
+                    - generic [ref=e1163]: "n"
+                    - generic [ref=e1164]: g
+                    - generic [ref=e1165]: t
+                    - generic [ref=e1166]: h
+                    - generic [ref=e1167]: o
+                    - generic [ref=e1168]: f
+                    - generic [ref=e1169]: "y"
+                    - generic [ref=e1170]: =
+                    - generic [ref=e1171]:
+                      - generic [ref=e1172]: x
+                      - generic [ref=e1173]: "2"
+                    - generic [ref=e1174]: ","
+                    - generic [ref=e1175]: "0"
+                    - generic [ref=e1176]: ≤
+                    - generic [ref=e1177]: x
+                    - generic [ref=e1178]: ≤
+                    - generic [ref=e1179]: "1"
+                - generic [ref=e1180]:
+                  - generic [ref=e1181]:
+                    - text: Find
+                    - text: the
+                    - text: arc
+                    - text: length
+                    - text: of
+                    - text: y =
+                  - generic [ref=e1187]:
+                    - generic [ref=e1188]:
+                      - text: x
+                      - generic [ref=e1193]: "2"
+                    - text: ", 0 ≤"
+                  - generic [ref=e1194]: x ≤
+                  - generic [ref=e1195]: "1"
+            - generic [ref=e1197]: Chapter 7.pdf · page 26 · Exercise 34
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e1198]'
+            - generic [ref=e1199]:
+              - button "Show hint" [ref=e1200] [cursor=pointer]
+              - button "Show solution" [ref=e1201] [cursor=pointer]
+      - generic [ref=e1202]:
+        - heading "Section Recap" [level=3] [ref=e1203]
+        - list [ref=e1205]:
+          - listitem [ref=e1206]: Radical shape decides substitution.
+          - listitem [ref=e1207]: Triangles convert theta back to x.
+          - listitem [ref=e1208]: Definite integrals can use either changed bounds or back-substitution.
+        - generic [ref=e1209]:
+          - button "Next section" [ref=e1210] [cursor=pointer]
+          - button "Try mixed practice" [ref=e1211] [cursor=pointer]

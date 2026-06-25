@@ -1,0 +1,583 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: d/dx
+      - generic [ref=e6]:
+        - heading "ODE Studio" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Worked examples, recall, mixed practice.
+    - generic [ref=e9]:
+      - generic [ref=e10]: Today
+      - strong [ref=e11]: 1 day streak
+    - navigation "Course navigation" [ref=e13]:
+      - generic [ref=e14]:
+        - 'heading "Module 0: Calculus Refresher" [level=3] [ref=e15]'
+        - button "0.1 Differentiation Quick Review" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: 0.1 Differentiation Quick Review
+        - button "0.2 Integration Quick Review" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: 0.2 Integration Quick Review
+      - generic [ref=e20]:
+        - 'heading "Module 1: Integration Techniques" [level=3] [ref=e21]'
+        - button "1.1 Integration by Parts" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: 1.1 Integration by Parts
+        - button "1.2 Trigonometric Integrals" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: 1.2 Trigonometric Integrals
+        - button "1.3 Trigonometric Substitution" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 1.3 Trigonometric Substitution
+        - button "1.4 Partial Fractions" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]: 1.4 Partial Fractions
+      - generic [ref=e30]:
+        - 'heading "Module 2: Introduction to Differential Equations" [level=3] [ref=e31]'
+        - button "2.1 Definition and Terminology" [ref=e32] [cursor=pointer]:
+          - generic [ref=e33]: 2.1 Definition and Terminology
+        - button "2.2 Initial Value Problems" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: 2.2 Initial Value Problems
+        - button "2.3 Differential Equations as Models" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: 2.3 Differential Equations as Models
+      - generic [ref=e38]:
+        - 'heading "Module 3: First-Order ODE Methods" [level=3] [ref=e39]'
+        - button "3.1 Separable Variables" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: 3.1 Separable Variables
+        - button "3.2 Linear Equations" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: 3.2 Linear Equations
+        - button "3.3 Exact Equations" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 3.3 Exact Equations
+        - button "3.4 Bernoulli Equations" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: 3.4 Bernoulli Equations
+      - generic [ref=e48]:
+        - 'heading "Module 4: Partial Derivatives" [level=3] [ref=e49]'
+        - button "4.1 Functions of Two or More Variables" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: 4.1 Functions of Two or More Variables
+        - button "4.2 Limits and Continuity" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 4.2 Limits and Continuity
+        - button "4.3 Partial Derivatives" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: 4.3 Partial Derivatives
+        - button "4.4 The Chain Rule" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]: 4.4 The Chain Rule
+        - button "4.5 Directional Derivatives and Gradients" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: 4.5 Directional Derivatives and Gradients
+        - button "4.6 Tangent Planes and Normal Vectors" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: 4.6 Tangent Planes and Normal Vectors
+        - button "4.7 Maxima and Minima" [ref=e62] [cursor=pointer]:
+          - generic [ref=e63]: 4.7 Maxima and Minima
+    - generic [ref=e64]:
+      - button "Mixed Practice" [ref=e65] [cursor=pointer]
+      - button "Formula Sheet" [ref=e66] [cursor=pointer]
+      - button "ODE Decision Tree" [ref=e67] [cursor=pointer]
+      - button "Progress Tracker" [ref=e68] [cursor=pointer]
+  - main [ref=e69]:
+    - generic [ref=e70]:
+      - button "Toggle sidebar" [ref=e71] [cursor=pointer]: Menu
+      - generic [ref=e72]:
+        - generic [ref=e73]: Undergraduate Ordinary Differential Equations
+        - strong [ref=e74]: 4.2 Limits and Continuity
+      - button "Toggle light mode" [ref=e75] [cursor=pointer]: Theme
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: A-to-Z recovery course
+        - heading "Rebuild calculus, then solve ODE exam examples with confidence." [level=2] [ref=e79]
+        - paragraph [ref=e80]: This local course uses worked examples first, notebook prompts, active recall, spaced review, and mixed practice so you learn both how to solve and how to identify the method.
+      - generic [ref=e81]:
+        - strong [ref=e82]: Study loop
+        - list [ref=e83]:
+          - listitem [ref=e84]: Read the concept card.
+          - listitem [ref=e85]: Reveal each worked-example step.
+          - listitem [ref=e86]: Work practice on paper before revealing.
+          - listitem [ref=e87]: Finish with mixed method-identification practice.
+    - generic [ref=e88]:
+      - article [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: "Module 4: Partial Derivatives"
+            - heading "4.2 Limits and Continuity" [level=2] [ref=e93]
+            - paragraph [ref=e94]: In two variables, approaching a point from different paths can reveal different limiting behavior.
+            - generic [ref=e96]: "Requires: 4.1 Functions of Two or More Variables"
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - checkbox "Theory read" [ref=e99]
+              - text: Theory read
+            - generic [ref=e100]:
+              - checkbox "Examples studied" [ref=e101]
+              - text: Examples studied
+            - generic [ref=e102]:
+              - checkbox "Practice done" [ref=e103]
+              - text: Practice done
+        - generic [ref=e107]:
+          - math [ref=e109]:
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]:
+                  - generic [ref=e114]: lim
+                  - generic: ⁡
+                - generic [ref=e115]:
+                  - generic [ref=e116]: (
+                  - generic [ref=e117]: x
+                  - generic [ref=e118]: ","
+                  - generic [ref=e119]: "y"
+                  - generic [ref=e120]: )
+                  - generic [ref=e121]: →
+                  - generic [ref=e122]: (
+                  - generic [ref=e123]: a
+                  - generic [ref=e124]: ","
+                  - generic [ref=e125]: b
+                  - generic [ref=e126]: )
+              - generic [ref=e127]: f
+              - generic [ref=e128]: (
+              - generic [ref=e129]: x
+              - generic [ref=e130]: ","
+              - generic [ref=e131]: "y"
+              - generic [ref=e132]: )
+              - generic [ref=e133]: =
+              - generic [ref=e134]: L
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e140]:
+                - generic [ref=e142]: (x,y)→(a,b)
+                - generic [ref=e144]: lim
+              - text: f(x, y) =
+            - generic [ref=e148]: L
+        - generic [ref=e152]:
+          - math [ref=e154]:
+            - generic [ref=e156]:
+              - generic [ref=e157]: D
+              - generic [ref=e158]: i
+              - generic [ref=e159]: f
+              - generic [ref=e160]: f
+              - generic [ref=e161]: e
+              - generic [ref=e162]: r
+              - generic [ref=e163]: e
+              - generic [ref=e164]: "n"
+              - generic [ref=e165]: t
+              - generic [ref=e166]: p
+              - generic [ref=e167]: a
+              - generic [ref=e168]: t
+              - generic [ref=e169]: h
+              - generic [ref=e170]: l
+              - generic [ref=e171]: i
+              - generic [ref=e172]: m
+              - generic [ref=e173]: i
+              - generic [ref=e174]: t
+              - generic [ref=e175]: s
+              - generic [ref=e176]: ⇒
+              - generic [ref=e177]: D
+              - generic [ref=e178]: "N"
+              - generic [ref=e179]: E
+          - generic [ref=e180]:
+            - generic [ref=e181]:
+              - text: Different
+              - text: path
+              - text: limits ⇒
+            - generic [ref=e184]: DNE
+      - generic [ref=e185]:
+        - generic [ref=e186]:
+          - heading "Theory in Plain English" [level=3] [ref=e187]
+          - generic [ref=e188]:
+            - paragraph [ref=e189]: If two paths give different limits, the overall limit does not exist.
+            - paragraph [ref=e190]: If all path tests agree, that suggests a limit but does not prove it by itself.
+        - generic [ref=e191]:
+          - heading "Notebook Prompt" [level=3] [ref=e192]
+          - paragraph [ref=e193]: Write the key formula from this page three times, then solve the first practice problem without looking at the solution. This is the productive struggle part.
+          - generic [ref=e194]:
+            - strong [ref=e195]: "Feynman check:"
+            - paragraph [ref=e196]: Explain Limits and Continuity in your own words. What tells you this method is the right method?
+      - generic [ref=e197]:
+        - generic [ref=e198]: Learning zone
+        - heading "Worked Examples" [level=3] [ref=e199]
+        - generic [ref=e200]:
+          - group [ref=e201]:
+            - 'generic "Chapter 13.2 Example 1: path limits reveal steps" [ref=e202] [cursor=pointer]':
+              - generic [ref=e203]:
+                - generic [ref=e204]: Chapter 13.2
+                - 'heading "Example 1: path limits" [level=3] [ref=e205]'
+              - generic [ref=e206]: reveal steps
+            - paragraph [ref=e207]:
+              - strong [ref=e208]: "Problem:"
+              - generic [ref=e210]:
+                - math [ref=e212]:
+                  - generic [ref=e214]:
+                    - generic [ref=e215]: f
+                    - generic [ref=e216]: (
+                    - generic [ref=e217]: x
+                    - generic [ref=e218]: ","
+                    - generic [ref=e219]: "y"
+                    - generic [ref=e220]: )
+                    - generic [ref=e221]: =
+                    - generic [ref=e222]: −
+                    - generic [ref=e223]:
+                      - generic [ref=e224]:
+                        - generic [ref=e225]: x
+                        - generic [ref=e226]: "y"
+                      - generic [ref=e227]:
+                        - generic [ref=e228]:
+                          - generic [ref=e229]: x
+                          - generic [ref=e230]: "2"
+                        - generic [ref=e231]: +
+                        - generic [ref=e232]:
+                          - generic [ref=e233]: "y"
+                          - generic [ref=e234]: "2"
+                - generic [ref=e235]:
+                  - generic [ref=e236]: f(x, y) =
+                  - generic [ref=e237]:
+                    - text: −
+                    - generic [ref=e242]:
+                      - generic [ref=e244]:
+                        - generic [ref=e245]:
+                          - text: x
+                          - generic [ref=e250]: "2"
+                        - text: +
+                        - generic [ref=e251]:
+                          - text: "y"
+                          - generic [ref=e256]: "2"
+                      - generic [ref=e259]: xy
+            - generic [ref=e264]: Chapter 13.pdf · pages 7–8 · Example 1
+            - generic [ref=e266]:
+              - generic [ref=e267]: "1"
+              - generic [ref=e268]:
+                - generic [ref=e272]:
+                  - math [ref=e274]:
+                    - generic [ref=e276]:
+                      - generic [ref=e277]: A
+                      - generic [ref=e278]: l
+                      - generic [ref=e279]: o
+                      - generic [ref=e280]: "n"
+                      - generic [ref=e281]: g
+                      - generic [ref=e282]: x
+                      - generic [ref=e283]: −
+                      - generic [ref=e284]: a
+                      - generic [ref=e285]: x
+                      - generic [ref=e286]: i
+                      - generic [ref=e287]: s
+                      - generic [ref=e288]: ":"
+                      - generic [ref=e289]: "y"
+                      - generic [ref=e290]: =
+                      - generic [ref=e291]: "0"
+                      - generic [ref=e292]: ⇒
+                      - generic [ref=e293]: f
+                      - generic [ref=e294]: =
+                      - generic [ref=e295]: "0"
+                  - generic [ref=e296]:
+                    - generic [ref=e297]:
+                      - text: Along
+                      - text: x −
+                    - generic [ref=e299]: "axis :"
+                    - generic [ref=e301]: y =
+                    - generic [ref=e302]: 0 ⇒
+                    - generic [ref=e303]: f =
+                    - generic [ref=e304]: "0"
+                - generic [ref=e305]:
+                  - strong [ref=e306]: Why?
+                  - text: One path gives 0.
+            - generic [ref=e307]:
+              - button "Show next step" [ref=e308] [cursor=pointer]
+              - button "Show all" [ref=e309] [cursor=pointer]
+              - button "Reset" [ref=e310] [cursor=pointer]
+            - paragraph [ref=e311]: In multivariable limits, path disagreement is enough to prove DNE.
+          - group [ref=e312]:
+            - 'generic "Chapter 13.2 Example 2: direct evaluation reveal steps" [ref=e313] [cursor=pointer]':
+              - generic [ref=e314]:
+                - generic [ref=e315]: Chapter 13.2
+                - 'heading "Example 2: direct evaluation" [level=3] [ref=e316]'
+              - generic [ref=e317]: reveal steps
+          - group [ref=e318]:
+            - 'generic "Chapter 13.2 Example 3: path test DNE reveal steps" [ref=e319] [cursor=pointer]':
+              - generic [ref=e320]:
+                - generic [ref=e321]: Chapter 13.2
+                - 'heading "Example 3: path test DNE" [level=3] [ref=e322]'
+              - generic [ref=e323]: reveal steps
+          - group [ref=e324]:
+            - 'generic "Chapter 13.2 Example 4: continuity reveal steps" [ref=e325] [cursor=pointer]':
+              - generic [ref=e326]:
+                - generic [ref=e327]: Chapter 13.2
+                - 'heading "Example 4: continuity" [level=3] [ref=e328]'
+              - generic [ref=e329]: reveal steps
+          - group [ref=e330]:
+            - 'generic "Chapter 13.2 Example 5: rational evaluation reveal steps" [ref=e331] [cursor=pointer]':
+              - generic [ref=e332]:
+                - generic [ref=e333]: Chapter 13.2
+                - 'heading "Example 5: rational evaluation" [level=3] [ref=e334]'
+              - generic [ref=e335]: reveal steps
+          - group [ref=e336]:
+            - 'generic "Chapter 13.2 Example 6: rational continuity domain reveal steps" [ref=e337] [cursor=pointer]':
+              - generic [ref=e338]:
+                - generic [ref=e339]: Chapter 13.2
+                - 'heading "Example 6: rational continuity domain" [level=3] [ref=e340]'
+              - generic [ref=e341]: reveal steps
+          - group [ref=e342]:
+            - 'generic "Chapter 13.2 Example 7: polar limit proof reveal steps" [active] [ref=e343] [cursor=pointer]':
+              - generic [ref=e344]:
+                - generic [ref=e345]: Chapter 13.2
+                - 'heading "Example 7: polar limit proof" [level=3] [ref=e346]'
+              - generic [ref=e347]: reveal steps
+            - paragraph [ref=e538]:
+              - strong [ref=e539]: "Problem:"
+              - generic [ref=e541]:
+                - math [ref=e543]:
+                  - generic [ref=e545]:
+                    - generic [ref=e546]: E
+                    - generic [ref=e547]: v
+                    - generic [ref=e548]: a
+                    - generic [ref=e549]: l
+                    - generic [ref=e550]: u
+                    - generic [ref=e551]: a
+                    - generic [ref=e552]: t
+                    - generic [ref=e553]: e
+                    - generic [ref=e554]:
+                      - generic [ref=e555]:
+                        - generic [ref=e556]: lim
+                        - generic: ⁡
+                      - generic [ref=e557]:
+                        - generic [ref=e558]: (
+                        - generic [ref=e559]: x
+                        - generic [ref=e560]: ","
+                        - generic [ref=e561]: "y"
+                        - generic [ref=e562]: )
+                        - generic [ref=e563]: →
+                        - generic [ref=e564]: (
+                        - generic [ref=e565]: "0"
+                        - generic [ref=e566]: ","
+                        - generic [ref=e567]: "0"
+                        - generic [ref=e568]: )
+                    - generic [ref=e569]: (
+                    - generic [ref=e570]:
+                      - generic [ref=e571]: x
+                      - generic [ref=e572]: "2"
+                    - generic [ref=e573]: +
+                    - generic [ref=e574]:
+                      - generic [ref=e575]: "y"
+                      - generic [ref=e576]: "2"
+                    - generic [ref=e577]: )
+                    - generic [ref=e578]: ln
+                    - generic: ⁡
+                    - generic [ref=e579]: (
+                    - generic [ref=e580]:
+                      - generic [ref=e581]: x
+                      - generic [ref=e582]: "2"
+                    - generic [ref=e583]: +
+                    - generic [ref=e584]:
+                      - generic [ref=e585]: "y"
+                      - generic [ref=e586]: "2"
+                    - generic [ref=e587]: )
+                - generic [ref=e588]:
+                  - generic [ref=e589]:
+                    - text: Evaluate
+                    - generic [ref=e590]:
+                      - generic [ref=e591]: lim
+                      - generic [ref=e597]: (x,y)→(0,0)
+                    - text: (
+                    - generic [ref=e601]:
+                      - text: x
+                      - generic [ref=e606]: "2"
+                    - text: +
+                  - generic [ref=e607]:
+                    - generic [ref=e608]:
+                      - text: "y"
+                      - generic [ref=e613]: "2"
+                    - text: )
+                    - generic [ref=e614]: ln
+                    - text: (
+                    - generic [ref=e615]:
+                      - text: x
+                      - generic [ref=e620]: "2"
+                    - text: +
+                  - generic [ref=e621]:
+                    - generic [ref=e622]:
+                      - text: "y"
+                      - generic [ref=e627]: "2"
+                    - text: )
+            - generic [ref=e629]: Chapter 13.pdf · page 13 · Example 7
+            - generic [ref=e631]:
+              - generic [ref=e632]: "1"
+              - generic [ref=e633]:
+                - generic [ref=e637]:
+                  - math [ref=e639]:
+                    - generic [ref=e641]:
+                      - generic [ref=e642]: x
+                      - generic [ref=e643]: =
+                      - generic [ref=e644]: r
+                      - generic [ref=e645]: cos
+                      - generic: ⁡
+                      - generic [ref=e646]: θ
+                      - generic [ref=e647]: ","
+                      - generic [ref=e648]: "y"
+                      - generic [ref=e649]: =
+                      - generic [ref=e650]: r
+                      - generic [ref=e651]: sin
+                      - generic: ⁡
+                      - generic [ref=e652]: θ
+                      - generic [ref=e653]: ⟹
+                      - generic [ref=e654]:
+                        - generic [ref=e655]: x
+                        - generic [ref=e656]: "2"
+                      - generic [ref=e657]: +
+                      - generic [ref=e658]:
+                        - generic [ref=e659]: "y"
+                        - generic [ref=e660]: "2"
+                      - generic [ref=e661]: =
+                      - generic [ref=e662]:
+                        - generic [ref=e663]: r
+                        - generic [ref=e664]: "2"
+                  - generic [ref=e665]:
+                    - generic [ref=e666]: x =
+                    - generic [ref=e667]:
+                      - text: r
+                      - generic [ref=e668]: cos
+                      - text: θ,
+                      - text: y =
+                    - generic [ref=e670]:
+                      - text: r
+                      - generic [ref=e671]: sin
+                      - text: θ ⟹
+                    - generic [ref=e672]:
+                      - generic [ref=e673]:
+                        - text: x
+                        - generic [ref=e678]: "2"
+                      - text: +
+                    - generic [ref=e679]:
+                      - generic [ref=e680]:
+                        - text: "y"
+                        - generic [ref=e685]: "2"
+                      - text: =
+                    - generic [ref=e687]:
+                      - text: r
+                      - generic [ref=e692]: "2"
+                - generic [ref=e693]:
+                  - strong [ref=e694]: Why?
+                  - text: Use polar coordinates. As (x,y)->(0,0), r->0+.
+            - generic [ref=e695]:
+              - button "Show next step" [ref=e696] [cursor=pointer]
+              - button "Show all" [ref=e697] [cursor=pointer]
+              - button "Reset" [ref=e698] [cursor=pointer]
+            - paragraph [ref=e699]: Polar coordinates convert 2D limits into single-variable limits as r approaches 0.
+      - generic [ref=e348]:
+        - generic [ref=e349]: Active zone
+        - heading "Practice Problems" [level=3] [ref=e350]
+        - generic [ref=e351]:
+          - generic [ref=e352]:
+            - generic [ref=e353]: Active recall 1
+            - heading "Path test" [level=3] [ref=e354]
+            - paragraph [ref=e355]:
+              - strong [ref=e356]: "Cover and solve on paper first:"
+              - generic [ref=e358]:
+                - math [ref=e360]:
+                  - generic [ref=e362]:
+                    - generic [ref=e363]: f
+                    - generic [ref=e364]: (
+                    - generic [ref=e365]: x
+                    - generic [ref=e366]: ","
+                    - generic [ref=e367]: "y"
+                    - generic [ref=e368]: )
+                    - generic [ref=e369]: =
+                    - generic [ref=e370]:
+                      - generic [ref=e371]:
+                        - generic [ref=e372]:
+                          - generic [ref=e373]: x
+                          - generic [ref=e374]: "2"
+                        - generic [ref=e375]: −
+                        - generic [ref=e376]:
+                          - generic [ref=e377]: "y"
+                          - generic [ref=e378]: "2"
+                      - generic [ref=e379]:
+                        - generic [ref=e380]:
+                          - generic [ref=e381]: x
+                          - generic [ref=e382]: "2"
+                        - generic [ref=e383]: +
+                        - generic [ref=e384]:
+                          - generic [ref=e385]: "y"
+                          - generic [ref=e386]: "2"
+                - generic [ref=e387]:
+                  - generic [ref=e388]: f(x, y) =
+                  - generic [ref=e394]:
+                    - generic [ref=e396]:
+                      - generic [ref=e397]:
+                        - text: x
+                        - generic [ref=e402]: "2"
+                      - text: +
+                      - generic [ref=e403]:
+                        - text: "y"
+                        - generic [ref=e408]: "2"
+                    - generic [ref=e411]:
+                      - generic [ref=e412]:
+                        - text: x
+                        - generic [ref=e417]: "2"
+                      - text: −
+                      - generic [ref=e418]:
+                        - text: "y"
+                        - generic [ref=e423]: "2"
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e427]'
+            - generic [ref=e428]:
+              - button "Show hint" [ref=e429] [cursor=pointer]
+              - button "Show solution" [ref=e430] [cursor=pointer]
+          - generic [ref=e431]:
+            - generic [ref=e432]: Active recall 2
+            - heading "Polar coordinates limit" [level=3] [ref=e433]
+            - paragraph [ref=e434]:
+              - strong [ref=e435]: "Cover and solve on paper first:"
+              - generic [ref=e437]:
+                - math [ref=e439]:
+                  - generic [ref=e441]:
+                    - generic [ref=e442]:
+                      - generic [ref=e443]:
+                        - generic [ref=e444]: lim
+                        - generic: ⁡
+                      - generic [ref=e445]:
+                        - generic [ref=e446]: (
+                        - generic [ref=e447]: x
+                        - generic [ref=e448]: ","
+                        - generic [ref=e449]: "y"
+                        - generic [ref=e450]: )
+                        - generic [ref=e451]: →
+                        - generic [ref=e452]: (
+                        - generic [ref=e453]: "0"
+                        - generic [ref=e454]: ","
+                        - generic [ref=e455]: "0"
+                        - generic [ref=e456]: )
+                    - generic [ref=e457]:
+                      - generic [ref=e458]:
+                        - generic [ref=e459]:
+                          - generic [ref=e460]: x
+                          - generic [ref=e461]: "3"
+                        - generic [ref=e462]: +
+                        - generic [ref=e463]:
+                          - generic [ref=e464]: "y"
+                          - generic [ref=e465]: "3"
+                      - generic [ref=e466]:
+                        - generic [ref=e467]:
+                          - generic [ref=e468]: x
+                          - generic [ref=e469]: "2"
+                        - generic [ref=e470]: +
+                        - generic [ref=e471]:
+                          - generic [ref=e472]: "y"
+                          - generic [ref=e473]: "2"
+                - generic [ref=e475]:
+                  - generic [ref=e476]:
+                    - generic [ref=e477]: lim
+                    - generic [ref=e483]: (x,y)→(0,0)
+                  - generic [ref=e491]:
+                    - generic [ref=e493]:
+                      - generic [ref=e494]:
+                        - text: x
+                        - generic [ref=e499]: "2"
+                      - text: +
+                      - generic [ref=e500]:
+                        - text: "y"
+                        - generic [ref=e505]: "2"
+                    - generic [ref=e508]:
+                      - generic [ref=e509]:
+                        - text: x
+                        - generic [ref=e514]: "3"
+                      - text: +
+                      - generic [ref=e515]:
+                        - text: "y"
+                        - generic [ref=e520]: "3"
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e524]'
+            - generic [ref=e525]:
+              - button "Show hint" [ref=e526] [cursor=pointer]
+              - button "Show solution" [ref=e527] [cursor=pointer]
+      - generic [ref=e528]:
+        - heading "Section Recap" [level=3] [ref=e529]
+        - list [ref=e531]:
+          - listitem [ref=e532]: Path disagreement proves DNE.
+          - listitem [ref=e533]: Continuity requires value and limit to match.
+          - listitem [ref=e534]: Multivariable limits are stricter than one-variable limits.
+        - generic [ref=e535]:
+          - button "Next section" [ref=e536] [cursor=pointer]
+          - button "Try mixed practice" [ref=e537] [cursor=pointer]

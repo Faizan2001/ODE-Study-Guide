@@ -1,0 +1,8 @@
+{
+  "name": "ode-exam-prep",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/smoke.mjs && node tests/audit-ledger.mjs && node tests/content-regressions.mjs && node tests/chapter-7.mjs && node tests/chapters-1-2.mjs && node tests/chapter-13.mjs && node tests/math-verification.mjs && node tests/mobile-layout.mjs && node tests/exam-sprint.mjs && node tests/course-readiness.mjs && node tests/learning-experience.mjs"
+  }
+}

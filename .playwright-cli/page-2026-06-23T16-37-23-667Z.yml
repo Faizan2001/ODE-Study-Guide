@@ -1,0 +1,492 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: d/dx
+      - generic [ref=e6]:
+        - heading "ODE Studio" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Worked examples, recall, mixed practice.
+    - generic [ref=e9]:
+      - generic [ref=e10]: Today
+      - strong [ref=e11]: 1 day streak
+    - navigation "Course navigation" [ref=e13]:
+      - generic [ref=e14]:
+        - 'heading "Module 0: Calculus Refresher" [level=3] [ref=e15]'
+        - button "0.1 Differentiation Quick Review" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: 0.1 Differentiation Quick Review
+        - button "0.2 Integration Quick Review" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: 0.2 Integration Quick Review
+      - generic [ref=e20]:
+        - 'heading "Module 1: Integration Techniques" [level=3] [ref=e21]'
+        - button "1.1 Integration by Parts" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: 1.1 Integration by Parts
+        - button "1.2 Trigonometric Integrals" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: 1.2 Trigonometric Integrals
+        - button "1.3 Trigonometric Substitution" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 1.3 Trigonometric Substitution
+        - button "1.4 Partial Fractions" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]: 1.4 Partial Fractions
+      - generic [ref=e30]:
+        - 'heading "Module 2: Introduction to Differential Equations" [level=3] [ref=e31]'
+        - button "2.1 Definition and Terminology" [ref=e32] [cursor=pointer]:
+          - generic [ref=e33]: 2.1 Definition and Terminology
+        - button "2.2 Initial Value Problems" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: 2.2 Initial Value Problems
+        - button "2.3 Differential Equations as Models" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: 2.3 Differential Equations as Models
+      - generic [ref=e38]:
+        - 'heading "Module 3: First-Order ODE Methods" [level=3] [ref=e39]'
+        - button "3.1 Separable Variables" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: 3.1 Separable Variables
+        - button "3.2 Linear Equations" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: 3.2 Linear Equations
+        - button "3.3 Exact Equations" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 3.3 Exact Equations
+        - button "3.4 Bernoulli Equations" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: 3.4 Bernoulli Equations
+      - generic [ref=e48]:
+        - 'heading "Module 4: Partial Derivatives" [level=3] [ref=e49]'
+        - button "4.1 Functions of Two or More Variables" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: 4.1 Functions of Two or More Variables
+        - button "4.2 Limits and Continuity" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 4.2 Limits and Continuity
+        - button "4.3 Partial Derivatives" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: 4.3 Partial Derivatives
+        - button "4.4 The Chain Rule" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]: 4.4 The Chain Rule
+        - button "4.5 Directional Derivatives and Gradients" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: 4.5 Directional Derivatives and Gradients
+        - button "4.6 Tangent Planes and Normal Vectors" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: 4.6 Tangent Planes and Normal Vectors
+        - button "4.7 Maxima and Minima" [ref=e62] [cursor=pointer]:
+          - generic [ref=e63]: 4.7 Maxima and Minima
+    - generic [ref=e64]:
+      - button "Mixed Practice" [ref=e65] [cursor=pointer]
+      - button "Formula Sheet" [ref=e66] [cursor=pointer]
+      - button "ODE Decision Tree" [ref=e67] [cursor=pointer]
+      - button "Progress Tracker" [ref=e68] [cursor=pointer]
+  - main [ref=e69]:
+    - generic [ref=e70]:
+      - button "Toggle sidebar" [ref=e71] [cursor=pointer]: Menu
+      - generic [ref=e72]:
+        - generic [ref=e73]: Undergraduate Ordinary Differential Equations
+        - strong [ref=e74]: 4.7 Maxima and Minima
+      - button "Toggle light mode" [ref=e75] [cursor=pointer]: Theme
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: A-to-Z recovery course
+        - heading "Rebuild calculus, then solve ODE exam examples with confidence." [level=2] [ref=e79]
+        - paragraph [ref=e80]: This local course uses worked examples first, notebook prompts, active recall, spaced review, and mixed practice so you learn both how to solve and how to identify the method.
+      - generic [ref=e81]:
+        - strong [ref=e82]: Study loop
+        - list [ref=e83]:
+          - listitem [ref=e84]: Read the concept card.
+          - listitem [ref=e85]: Reveal each worked-example step.
+          - listitem [ref=e86]: Work practice on paper before revealing.
+          - listitem [ref=e87]: Finish with mixed method-identification practice.
+    - generic [ref=e88]:
+      - article [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: "Module 4: Partial Derivatives"
+            - heading "4.7 Maxima and Minima" [level=2] [ref=e93]
+            - paragraph [ref=e94]: Critical points are flat spots; the second derivative test tells hill, bowl, or saddle.
+            - generic [ref=e96]: "Requires: 4.3 Partial Derivatives"
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - checkbox "Theory read" [ref=e99]
+              - text: Theory read
+            - generic [ref=e100]:
+              - checkbox "Examples studied" [ref=e101]
+              - text: Examples studied
+            - generic [ref=e102]:
+              - checkbox "Practice done" [ref=e103]
+              - text: Practice done
+        - generic [ref=e107]:
+          - math [ref=e109]:
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]: f
+                - generic [ref=e114]: x
+              - generic [ref=e115]: =
+              - generic [ref=e116]: "0"
+              - generic [ref=e117]: ","
+              - generic [ref=e118]:
+                - generic [ref=e119]: f
+                - generic [ref=e120]: "y"
+              - generic [ref=e121]: =
+              - generic [ref=e122]: "0"
+          - generic [ref=e123]:
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - text: f
+                - generic [ref=e130]: x
+              - text: =
+            - generic [ref=e134]:
+              - text: 0,
+              - generic [ref=e135]:
+                - text: f
+                - generic [ref=e140]: "y"
+              - text: =
+            - generic [ref=e144]: "0"
+        - generic [ref=e148]:
+          - math [ref=e150]:
+            - generic [ref=e152]:
+              - generic [ref=e153]: D
+              - generic [ref=e154]: =
+              - generic [ref=e155]:
+                - generic [ref=e156]: f
+                - generic [ref=e157]:
+                  - generic [ref=e158]: x
+                  - generic [ref=e159]: x
+              - generic [ref=e160]:
+                - generic [ref=e161]: f
+                - generic [ref=e162]:
+                  - generic [ref=e163]: "y"
+                  - generic [ref=e164]: "y"
+              - generic [ref=e165]: −
+              - generic [ref=e166]: (
+              - generic [ref=e167]:
+                - generic [ref=e168]: f
+                - generic [ref=e169]:
+                  - generic [ref=e170]: x
+                  - generic [ref=e171]: "y"
+              - generic [ref=e172]:
+                - generic [ref=e173]: )
+                - generic [ref=e174]: "2"
+          - generic [ref=e175]:
+            - generic [ref=e176]: D =
+            - generic [ref=e177]:
+              - generic [ref=e178]:
+                - text: f
+                - generic [ref=e184]: xx
+              - generic [ref=e188]:
+                - text: f
+                - generic [ref=e194]: yy
+              - text: −
+            - generic [ref=e198]:
+              - text: (
+              - generic [ref=e199]:
+                - text: f
+                - generic [ref=e205]: xy
+              - generic [ref=e209]:
+                - text: )
+                - generic [ref=e214]: "2"
+        - generic [ref=e218]:
+          - math [ref=e220]:
+            - generic [ref=e222]:
+              - generic [ref=e223]: D
+              - generic [ref=e224]: ">"
+              - generic [ref=e225]: "0"
+              - generic [ref=e226]: ","
+              - generic [ref=e227]:
+                - generic [ref=e228]: f
+                - generic [ref=e229]:
+                  - generic [ref=e230]: x
+                  - generic [ref=e231]: x
+              - generic [ref=e232]: <
+              - generic [ref=e233]: "0"
+              - generic [ref=e234]: ":"
+              - generic [ref=e235]: m
+              - generic [ref=e236]: a
+              - generic [ref=e237]: x
+              - generic [ref=e238]: ;
+              - generic [ref=e239]: D
+              - generic [ref=e240]: ">"
+              - generic [ref=e241]: "0"
+              - generic [ref=e242]: ","
+              - generic [ref=e243]:
+                - generic [ref=e244]: f
+                - generic [ref=e245]:
+                  - generic [ref=e246]: x
+                  - generic [ref=e247]: x
+              - generic [ref=e248]: ">"
+              - generic [ref=e249]: "0"
+              - generic [ref=e250]: ":"
+              - generic [ref=e251]: m
+              - generic [ref=e252]: i
+              - generic [ref=e253]: "n"
+              - generic [ref=e254]: ;
+              - generic [ref=e255]: D
+              - generic [ref=e256]: <
+              - generic [ref=e257]: "0"
+              - generic [ref=e258]: ":"
+              - generic [ref=e259]: s
+              - generic [ref=e260]: a
+              - generic [ref=e261]: d
+              - generic [ref=e262]: d
+              - generic [ref=e263]: l
+              - generic [ref=e264]: e
+          - generic [ref=e265]:
+            - generic [ref=e266]: D >
+            - generic [ref=e267]:
+              - text: 0,
+              - generic [ref=e268]:
+                - text: f
+                - generic [ref=e274]: xx
+              - text: <
+            - generic [ref=e278]: "0 :"
+            - generic [ref=e280]: max; D >
+            - generic [ref=e281]:
+              - text: 0,
+              - generic [ref=e282]:
+                - text: f
+                - generic [ref=e288]: xx
+              - text: ">"
+            - generic [ref=e292]: "0 :"
+            - generic [ref=e294]: min; D <
+            - generic [ref=e295]: "0 :"
+            - generic [ref=e297]: saddle
+      - generic [ref=e298]:
+        - generic [ref=e299]:
+          - heading "Theory in Plain English" [level=3] [ref=e300]
+          - generic [ref=e301]:
+            - paragraph [ref=e302]: Relative extrema compare nearby points; absolute extrema compare the whole domain.
+            - paragraph [ref=e303]: A continuous function on a closed, bounded region attains an absolute maximum and minimum.
+            - paragraph [ref=e304]: Solve f_x=f_y=0, and also check points where either first partial does not exist.
+            - paragraph [ref=e305]: Classify interior critical points using D; when D=0, the test is inconclusive.
+        - generic [ref=e306]:
+          - heading "Notebook Prompt" [level=3] [ref=e307]
+          - paragraph [ref=e308]: Write the key formula from this page three times, then solve the first practice problem without looking at the solution. This is the productive struggle part.
+          - generic [ref=e309]:
+            - strong [ref=e310]: "Feynman check:"
+            - paragraph [ref=e311]: Explain Maxima and Minima in your own words. What tells you this method is the right method?
+      - generic [ref=e312]:
+        - generic [ref=e313]: Learning zone
+        - heading "Worked Examples" [level=3] [ref=e314]
+        - generic [ref=e315]:
+          - group [ref=e316]:
+            - generic "Chapter 13.8 Max/min Example 3 reveal steps" [ref=e317] [cursor=pointer]:
+              - generic [ref=e318]:
+                - generic [ref=e319]: Chapter 13.8
+                - heading "Max/min Example 3" [level=3] [ref=e320]
+              - generic [ref=e321]: reveal steps
+            - paragraph [ref=e322]:
+              - strong [ref=e323]: "Problem:"
+              - generic [ref=e325]:
+                - math [ref=e327]:
+                  - generic [ref=e329]:
+                    - generic [ref=e330]: L
+                    - generic [ref=e331]: o
+                    - generic [ref=e332]: c
+                    - generic [ref=e333]: a
+                    - generic [ref=e334]: t
+                    - generic [ref=e335]: e
+                    - generic [ref=e336]: a
+                    - generic [ref=e337]: l
+                    - generic [ref=e338]: l
+                    - generic [ref=e339]: r
+                    - generic [ref=e340]: e
+                    - generic [ref=e341]: l
+                    - generic [ref=e342]: a
+                    - generic [ref=e343]: t
+                    - generic [ref=e344]: i
+                    - generic [ref=e345]: v
+                    - generic [ref=e346]: e
+                    - generic [ref=e347]: e
+                    - generic [ref=e348]: x
+                    - generic [ref=e349]: t
+                    - generic [ref=e350]: r
+                    - generic [ref=e351]: e
+                    - generic [ref=e352]: m
+                    - generic [ref=e353]: a
+                    - generic [ref=e354]: a
+                    - generic [ref=e355]: "n"
+                    - generic [ref=e356]: d
+                    - generic [ref=e357]: s
+                    - generic [ref=e358]: a
+                    - generic [ref=e359]: d
+                    - generic [ref=e360]: d
+                    - generic [ref=e361]: l
+                    - generic [ref=e362]: e
+                    - generic [ref=e363]: p
+                    - generic [ref=e364]: o
+                    - generic [ref=e365]: i
+                    - generic [ref=e366]: "n"
+                    - generic [ref=e367]: t
+                    - generic [ref=e368]: s
+                    - generic [ref=e369]: o
+                    - generic [ref=e370]: f
+                    - generic [ref=e371]: f
+                    - generic [ref=e372]: (
+                    - generic [ref=e373]: x
+                    - generic [ref=e374]: ","
+                    - generic [ref=e375]: "y"
+                    - generic [ref=e376]: )
+                    - generic [ref=e377]: =
+                    - generic [ref=e378]: "3"
+                    - generic [ref=e379]:
+                      - generic [ref=e380]: x
+                      - generic [ref=e381]: "2"
+                    - generic [ref=e382]: −
+                    - generic [ref=e383]: "2"
+                    - generic [ref=e384]: x
+                    - generic [ref=e385]: "y"
+                    - generic [ref=e386]: +
+                    - generic [ref=e387]:
+                      - generic [ref=e388]: "y"
+                      - generic [ref=e389]: "2"
+                    - generic [ref=e390]: −
+                    - generic [ref=e391]: "8"
+                    - generic [ref=e392]: "y"
+                - generic [ref=e393]:
+                  - generic [ref=e394]:
+                    - text: Locate
+                    - text: all
+                    - text: relative
+                    - text: extrema
+                    - text: and
+                    - text: saddle
+                    - text: points
+                    - text: of
+                    - text: f(x, y) =
+                  - generic [ref=e403]:
+                    - text: "3"
+                    - generic [ref=e404]:
+                      - text: x
+                      - generic [ref=e409]: "2"
+                    - text: −
+                  - generic [ref=e410]: 2xy +
+                  - generic [ref=e411]:
+                    - generic [ref=e412]:
+                      - text: "y"
+                      - generic [ref=e417]: "2"
+                    - text: −
+                  - generic [ref=e418]: 8y
+            - generic [ref=e419]:
+              - generic [ref=e420]: Chapter 13.pdf · page 53 · Example 3
+              - paragraph [ref=e421]:
+                - strong [ref=e422]: "Source note:"
+                - text: The supplied PDF excerpt begins its worked extrema examples at Example 3; Examples 1 and 2 are not present.
+            - generic [ref=e424]:
+              - generic [ref=e425]: "1"
+              - generic [ref=e426]:
+                - generic [ref=e430]:
+                  - math [ref=e432]:
+                    - generic [ref=e434]:
+                      - generic [ref=e435]:
+                        - generic [ref=e436]: f
+                        - generic [ref=e437]: x
+                      - generic [ref=e438]: =
+                      - generic [ref=e439]: "6"
+                      - generic [ref=e440]: x
+                      - generic [ref=e441]: −
+                      - generic [ref=e442]: "2"
+                      - generic [ref=e443]: "y"
+                      - generic [ref=e444]: ","
+                      - generic [ref=e445]:
+                        - generic [ref=e446]: f
+                        - generic [ref=e447]: "y"
+                      - generic [ref=e448]: =
+                      - generic [ref=e449]: −
+                      - generic [ref=e450]: "2"
+                      - generic [ref=e451]: x
+                      - generic [ref=e452]: +
+                      - generic [ref=e453]: "2"
+                      - generic [ref=e454]: "y"
+                      - generic [ref=e455]: −
+                      - generic [ref=e456]: "8"
+                  - generic [ref=e457]:
+                    - generic [ref=e458]:
+                      - generic [ref=e459]:
+                        - text: f
+                        - generic [ref=e464]: x
+                      - text: =
+                    - generic [ref=e468]: 6x −
+                    - generic [ref=e469]:
+                      - text: 2y,
+                      - generic [ref=e470]:
+                        - text: f
+                        - generic [ref=e475]: "y"
+                      - text: =
+                    - generic [ref=e479]: −2x +
+                    - generic [ref=e480]: 2y −
+                    - generic [ref=e481]: "8"
+                - generic [ref=e482]:
+                  - strong [ref=e483]: Why?
+                  - text: Find the first partial derivatives.
+            - generic [ref=e484]:
+              - button "Show next step" [ref=e485] [cursor=pointer]
+              - button "Show all" [ref=e486] [cursor=pointer]
+              - button "Reset" [ref=e487] [cursor=pointer]
+            - paragraph [ref=e488]: Solve for critical points first, then classify them with the second-partials test.
+          - group [ref=e489]:
+            - generic "Chapter 13.8 Max/min Example 4 reveal steps" [ref=e490] [cursor=pointer]:
+              - generic [ref=e491]:
+                - generic [ref=e492]: Chapter 13.8
+                - heading "Max/min Example 4" [level=3] [ref=e493]
+              - generic [ref=e494]: reveal steps
+      - generic [ref=e495]:
+        - generic [ref=e496]: Active zone
+        - heading "Practice Problems" [level=3] [ref=e497]
+        - generic [ref=e498]:
+          - generic [ref=e499]:
+            - generic [ref=e500]: Active recall 1
+            - heading "Classify" [level=3] [ref=e501]
+            - paragraph [ref=e502]:
+              - strong [ref=e503]: "Cover and solve on paper first:"
+              - generic [ref=e505]:
+                - math [ref=e507]:
+                  - generic [ref=e509]:
+                    - generic [ref=e510]: f
+                    - generic [ref=e511]: =
+                    - generic [ref=e512]:
+                      - generic [ref=e513]: x
+                      - generic [ref=e514]: "2"
+                    - generic [ref=e515]: +
+                    - generic [ref=e516]:
+                      - generic [ref=e517]: "y"
+                      - generic [ref=e518]: "2"
+                - generic [ref=e519]:
+                  - generic [ref=e520]: f =
+                  - generic [ref=e521]:
+                    - generic [ref=e522]:
+                      - text: x
+                      - generic [ref=e527]: "2"
+                    - text: +
+                  - generic [ref=e529]:
+                    - text: "y"
+                    - generic [ref=e534]: "2"
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e535]'
+            - generic [ref=e536]:
+              - button "Show hint" [ref=e537] [cursor=pointer]
+              - button "Show solution" [ref=e538] [cursor=pointer]
+          - generic [ref=e539]:
+            - generic [ref=e540]: Active recall 2
+            - heading "Saddle" [level=3] [ref=e541]
+            - paragraph [ref=e542]:
+              - strong [ref=e543]: "Cover and solve on paper first:"
+              - generic [ref=e545]:
+                - math [ref=e547]:
+                  - generic [ref=e549]:
+                    - generic [ref=e550]: f
+                    - generic [ref=e551]: =
+                    - generic [ref=e552]:
+                      - generic [ref=e553]: x
+                      - generic [ref=e554]: "2"
+                    - generic [ref=e555]: −
+                    - generic [ref=e556]:
+                      - generic [ref=e557]: "y"
+                      - generic [ref=e558]: "2"
+                - generic [ref=e559]:
+                  - generic [ref=e560]: f =
+                  - generic [ref=e561]:
+                    - generic [ref=e562]:
+                      - text: x
+                      - generic [ref=e567]: "2"
+                    - text: −
+                  - generic [ref=e569]:
+                    - text: "y"
+                    - generic [ref=e574]: "2"
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e575]'
+            - generic [ref=e576]:
+              - button "Show hint" [ref=e577] [cursor=pointer]
+              - button "Show solution" [ref=e578] [cursor=pointer]
+      - generic [ref=e579]:
+        - heading "Section Recap" [level=3] [ref=e580]
+        - list [ref=e582]:
+          - listitem [ref=e583]: Critical points solve both first partials zero.
+          - listitem [ref=e584]: D classifies the point.
+          - listitem [ref=e585]: D=0 means inconclusive.
+        - generic [ref=e586]:
+          - button "Next section" [ref=e587] [cursor=pointer]
+          - button "Try mixed practice" [ref=e588] [cursor=pointer]

@@ -1,0 +1,384 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: d/dx
+      - generic [ref=e6]:
+        - heading "ODE Studio" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Worked examples, recall, mixed practice.
+    - generic [ref=e9]:
+      - generic [ref=e10]: Today
+      - strong [ref=e11]: 1 day streak
+    - navigation "Course navigation" [ref=e13]:
+      - generic [ref=e224]:
+        - 'heading "Module 0: Calculus Refresher" [level=3] [ref=e225]'
+        - button "0.1 Differentiation Quick Review" [ref=e226] [cursor=pointer]:
+          - generic [ref=e227]: 0.1 Differentiation Quick Review
+        - button "0.2 Integration Quick Review" [ref=e228] [cursor=pointer]:
+          - generic [ref=e229]: 0.2 Integration Quick Review
+      - generic [ref=e230]:
+        - 'heading "Module 1: Integration Techniques" [level=3] [ref=e231]'
+        - button "1.1 Integration by Parts" [ref=e232] [cursor=pointer]:
+          - generic [ref=e233]: 1.1 Integration by Parts
+        - button "1.2 Trigonometric Integrals" [ref=e234] [cursor=pointer]:
+          - generic [ref=e235]: 1.2 Trigonometric Integrals
+        - button "1.3 Trigonometric Substitution" [ref=e236] [cursor=pointer]:
+          - generic [ref=e237]: 1.3 Trigonometric Substitution
+        - button "1.4 Partial Fractions" [ref=e238] [cursor=pointer]:
+          - generic [ref=e239]: 1.4 Partial Fractions
+      - generic [ref=e240]:
+        - 'heading "Module 2: Introduction to Differential Equations" [level=3] [ref=e241]'
+        - button "2.1 Definition and Terminology" [ref=e242] [cursor=pointer]:
+          - generic [ref=e243]: 2.1 Definition and Terminology
+        - button "2.2 Initial Value Problems" [ref=e244] [cursor=pointer]:
+          - generic [ref=e245]: 2.2 Initial Value Problems
+        - button "2.3 Differential Equations as Models" [ref=e246] [cursor=pointer]:
+          - generic [ref=e247]: 2.3 Differential Equations as Models
+      - generic [ref=e248]:
+        - 'heading "Module 3: First-Order ODE Methods" [level=3] [ref=e249]'
+        - button "3.1 Separable Variables" [ref=e250] [cursor=pointer]:
+          - generic [ref=e251]: 3.1 Separable Variables
+        - button "3.2 Linear Equations" [ref=e252] [cursor=pointer]:
+          - generic [ref=e253]: 3.2 Linear Equations
+        - button "3.3 Exact Equations" [ref=e254] [cursor=pointer]:
+          - generic [ref=e255]: 3.3 Exact Equations
+        - button "3.4 Bernoulli Equations" [ref=e256] [cursor=pointer]:
+          - generic [ref=e257]: 3.4 Bernoulli Equations
+      - generic [ref=e258]:
+        - 'heading "Module 4: Partial Derivatives" [level=3] [ref=e259]'
+        - button "4.1 Functions of Two or More Variables" [ref=e260] [cursor=pointer]:
+          - generic [ref=e261]: 4.1 Functions of Two or More Variables
+        - button "4.2 Limits and Continuity" [ref=e262] [cursor=pointer]:
+          - generic [ref=e263]: 4.2 Limits and Continuity
+        - button "4.3 Partial Derivatives" [ref=e264] [cursor=pointer]:
+          - generic [ref=e265]: 4.3 Partial Derivatives
+        - button "4.4 The Chain Rule" [ref=e266] [cursor=pointer]:
+          - generic [ref=e267]: 4.4 The Chain Rule
+        - button "4.5 Directional Derivatives and Gradients" [ref=e268] [cursor=pointer]:
+          - generic [ref=e269]: 4.5 Directional Derivatives and Gradients
+        - button "4.6 Tangent Planes and Normal Vectors" [ref=e270] [cursor=pointer]:
+          - generic [ref=e271]: 4.6 Tangent Planes and Normal Vectors
+        - button "4.7 Maxima and Minima" [ref=e272] [cursor=pointer]:
+          - generic [ref=e273]: 4.7 Maxima and Minima
+    - generic [ref=e64]:
+      - button "Exam Sprint" [ref=e65] [cursor=pointer]
+      - button "Mixed Practice" [ref=e66] [cursor=pointer]
+      - button "Formula Sheet" [ref=e67] [cursor=pointer]
+      - button "ODE Decision Tree" [ref=e68] [cursor=pointer]
+      - button "Progress Tracker" [ref=e69] [cursor=pointer]
+  - main [ref=e70]:
+    - generic [ref=e71]:
+      - button "Toggle sidebar" [ref=e72] [cursor=pointer]: Menu
+      - generic [ref=e73]:
+        - generic [ref=e74]: Undergraduate Ordinary Differential Equations
+        - strong [ref=e75]: 0.2 Integration Quick Review
+      - button "Toggle light mode" [ref=e76] [cursor=pointer]: Theme
+    - generic [ref=e274]:
+      - generic [ref=e275]:
+        - generic [ref=e276]: A-to-Z recovery course
+        - heading "Rebuild calculus, then solve ODE exam examples with confidence." [level=2] [ref=e277]
+        - paragraph [ref=e278]: This local course uses worked examples first, notebook prompts, active recall, spaced review, and mixed practice so you learn both how to solve and how to identify the method.
+      - generic [ref=e279]:
+        - strong [ref=e280]: Study loop
+        - list [ref=e281]:
+          - listitem [ref=e282]: Read the concept card.
+          - listitem [ref=e283]: Reveal each worked-example step.
+          - listitem [ref=e284]: Work practice on paper before revealing.
+          - listitem [ref=e285]: Finish with mixed method-identification practice.
+    - generic [ref=e77]:
+      - article [ref=e286]:
+        - generic [ref=e287]:
+          - generic [ref=e288]:
+            - generic [ref=e289]: "Module 0: Calculus Refresher"
+            - heading "0.2 Integration Quick Review" [level=2] [ref=e290]
+            - paragraph [ref=e291]: "Integration is accumulation: flow rate into a tank becomes total water, velocity becomes distance."
+            - generic [ref=e293]: "Requires: 0.1 Differentiation"
+          - generic [ref=e294]:
+            - generic [ref=e295]:
+              - checkbox "Theory read" [ref=e296]
+              - text: Theory read
+            - generic [ref=e297]:
+              - checkbox "Examples studied" [ref=e298]
+              - text: Examples studied
+            - generic [ref=e299]:
+              - checkbox "Practice done" [ref=e300]
+              - text: Practice done
+        - generic [ref=e304]:
+          - math [ref=e306]:
+            - generic [ref=e308]:
+              - generic [ref=e309]: ∫
+              - generic [ref=e310]:
+                - generic [ref=e311]: x
+                - generic [ref=e312]: "n"
+              - generic [ref=e313]: d
+              - generic [ref=e314]: x
+              - generic [ref=e315]: =
+              - generic [ref=e316]:
+                - generic [ref=e317]:
+                  - generic [ref=e318]: x
+                  - generic [ref=e319]:
+                    - generic [ref=e320]: "n"
+                    - generic [ref=e321]: +
+                    - generic [ref=e322]: "1"
+                - generic [ref=e323]:
+                  - generic [ref=e324]: "n"
+                  - generic [ref=e325]: +
+                  - generic [ref=e326]: "1"
+              - generic [ref=e327]: +
+              - generic [ref=e328]: C
+          - generic [ref=e329]:
+            - generic [ref=e330]:
+              - text: ∫
+              - generic [ref=e331]:
+                - text: x
+                - generic [ref=e336]: "n"
+              - text: dx =
+            - generic [ref=e337]:
+              - generic [ref=e342]:
+                - generic [ref=e343]: n + 1
+                - generic [ref=e346]:
+                  - text: x
+                  - generic [ref=e352]: n+1
+              - text: +
+            - generic [ref=e356]: C
+        - generic [ref=e360]:
+          - math [ref=e362]:
+            - generic [ref=e364]:
+              - generic [ref=e365]: ∫
+              - generic [ref=e366]:
+                - generic [ref=e367]: e
+                - generic [ref=e368]: x
+              - generic [ref=e369]: d
+              - generic [ref=e370]: x
+              - generic [ref=e371]: =
+              - generic [ref=e372]:
+                - generic [ref=e373]: e
+                - generic [ref=e374]: x
+              - generic [ref=e375]: +
+              - generic [ref=e376]: C
+          - generic [ref=e377]:
+            - generic [ref=e378]:
+              - text: ∫
+              - generic [ref=e379]:
+                - text: e
+                - generic [ref=e384]: x
+              - text: dx =
+            - generic [ref=e385]:
+              - generic [ref=e386]:
+                - text: e
+                - generic [ref=e391]: x
+              - text: +
+            - generic [ref=e392]: C
+        - generic [ref=e396]:
+          - math [ref=e398]:
+            - generic [ref=e400]:
+              - generic [ref=e401]: ∫
+              - generic [ref=e402]:
+                - generic [ref=e403]: "1"
+                - generic [ref=e404]: x
+              - generic [ref=e405]: d
+              - generic [ref=e406]: x
+              - generic [ref=e407]: =
+              - generic [ref=e408]: ln
+              - generic: ⁡
+              - generic [ref=e409]: ∣
+              - generic [ref=e410]: x
+              - generic [ref=e411]: ∣
+              - generic [ref=e412]: +
+              - generic [ref=e413]: C
+          - generic [ref=e414]:
+            - generic [ref=e415]:
+              - text: ∫
+              - generic [ref=e420]:
+                - generic [ref=e421]: x
+                - generic [ref=e423]: "1"
+              - text: dx =
+            - generic [ref=e427]:
+              - generic [ref=e428]: ln
+              - text: ∣x∣ +
+            - generic [ref=e429]: C
+      - generic [ref=e430]:
+        - generic [ref=e431]:
+          - heading "Theory in Plain English" [level=3] [ref=e432]
+          - generic [ref=e433]:
+            - paragraph [ref=e434]: Think reverse differentiation first.
+            - paragraph [ref=e435]: If a composite function appears beside its derivative, use u-substitution.
+        - generic [ref=e436]:
+          - heading "Notebook Prompt" [level=3] [ref=e437]
+          - paragraph [ref=e438]: Write the key formula from this page three times, then solve the first practice problem without looking at the solution. This is the productive struggle part.
+          - generic [ref=e439]:
+            - strong [ref=e440]: "Feynman check:"
+            - paragraph [ref=e441]: Explain Integration Quick Review in your own words. What tells you this method is the right method?
+      - generic [ref=e442]:
+        - generic [ref=e443]: Learning zone
+        - heading "Worked Examples" [level=3] [ref=e444]
+        - generic [ref=e445]:
+          - group [ref=e446]:
+            - generic "Module 0 scaffold Basic integration as reverse differentiation reveal steps" [ref=e447] [cursor=pointer]:
+              - generic [ref=e448]:
+                - generic [ref=e449]: Module 0 scaffold
+                - heading "Basic integration as reverse differentiation" [level=3] [ref=e450]
+              - generic [ref=e451]: reveal steps
+            - paragraph [ref=e452]:
+              - strong [ref=e453]: "Problem:"
+              - generic [ref=e455]:
+                - math [ref=e457]:
+                  - generic [ref=e459]:
+                    - generic [ref=e460]: E
+                    - generic [ref=e461]: v
+                    - generic [ref=e462]: a
+                    - generic [ref=e463]: l
+                    - generic [ref=e464]: u
+                    - generic [ref=e465]: a
+                    - generic [ref=e466]: t
+                    - generic [ref=e467]: e
+                    - generic [ref=e468]: ∫
+                    - generic [ref=e469]: (
+                    - generic [ref=e470]: "6"
+                    - generic [ref=e471]:
+                      - generic [ref=e472]: x
+                      - generic [ref=e473]: "2"
+                    - generic [ref=e474]: −
+                    - generic [ref=e475]: "4"
+                    - generic [ref=e476]: )
+                    - generic [ref=e477]: d
+                    - generic [ref=e478]: x
+                - generic [ref=e479]:
+                  - generic [ref=e480]:
+                    - text: Evaluate ∫(6
+                    - generic [ref=e481]:
+                      - text: x
+                      - generic [ref=e486]: "2"
+                    - text: −
+                  - generic [ref=e487]: 4) dx
+            - generic [ref=e489]:
+              - generic [ref=e490]: "1"
+              - generic [ref=e491]:
+                - generic [ref=e495]:
+                  - math [ref=e497]:
+                    - generic [ref=e499]:
+                      - generic [ref=e500]: ∫
+                      - generic [ref=e501]: "6"
+                      - generic [ref=e502]:
+                        - generic [ref=e503]: x
+                        - generic [ref=e504]: "2"
+                      - generic [ref=e505]: d
+                      - generic [ref=e506]: x
+                      - generic [ref=e507]: −
+                      - generic [ref=e508]: ∫
+                      - generic [ref=e509]: "4"
+                      - generic [ref=e510]: d
+                      - generic [ref=e511]: x
+                  - generic [ref=e512]:
+                    - generic [ref=e513]:
+                      - text: ∫ 6
+                      - generic [ref=e514]:
+                        - text: x
+                        - generic [ref=e519]: "2"
+                      - text: dx −
+                    - generic [ref=e520]: ∫ 4 dx
+                - generic [ref=e521]:
+                  - strong [ref=e522]: Why?
+                  - text: Integrate term-by-term.
+            - generic [ref=e523]:
+              - button "Show next step" [ref=e524] [cursor=pointer]
+              - button "Show all" [ref=e525] [cursor=pointer]
+              - button "Reset" [ref=e526] [cursor=pointer]
+            - paragraph [ref=e527]: Integration accumulates a rate into a total.
+          - group [ref=e528]:
+            - generic "Module 0 scaffold u-substitution reveal steps" [ref=e529] [cursor=pointer]:
+              - generic [ref=e530]:
+                - generic [ref=e531]: Module 0 scaffold
+                - heading "u-substitution" [level=3] [ref=e532]
+              - generic [ref=e533]: reveal steps
+      - generic [ref=e534]:
+        - generic [ref=e535]: Active zone
+        - heading "Practice Problems" [level=3] [ref=e536]
+        - generic [ref=e537]:
+          - generic [ref=e538]:
+            - generic [ref=e539]: Active recall 1
+            - heading "Basic antiderivative" [level=3] [ref=e540]
+            - paragraph [ref=e541]:
+              - strong [ref=e542]: "Cover and solve on paper first:"
+              - generic [ref=e544]:
+                - math [ref=e546]:
+                  - generic [ref=e548]:
+                    - generic [ref=e549]: ∫
+                    - generic [ref=e550]: (
+                    - generic [ref=e551]: "5"
+                    - generic [ref=e552]:
+                      - generic [ref=e553]: x
+                      - generic [ref=e554]: "4"
+                    - generic [ref=e555]: −
+                    - generic [ref=e556]: "2"
+                    - generic [ref=e557]:
+                      - generic [ref=e558]: e
+                      - generic [ref=e559]: x
+                    - generic [ref=e560]: )
+                    - generic [ref=e561]: d
+                    - generic [ref=e562]: x
+                - generic [ref=e563]:
+                  - generic [ref=e564]:
+                    - text: ∫(5
+                    - generic [ref=e565]:
+                      - text: x
+                      - generic [ref=e570]: "4"
+                    - text: −
+                  - generic [ref=e571]:
+                    - text: "2"
+                    - generic [ref=e572]:
+                      - text: e
+                      - generic [ref=e577]: x
+                    - text: ) dx
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e578]'
+            - generic [ref=e579]:
+              - button "Show hint" [ref=e580] [cursor=pointer]
+              - button "Show solution" [ref=e581] [cursor=pointer]
+          - generic [ref=e582]:
+            - generic [ref=e583]: Active recall 2
+            - heading "u-substitution" [level=3] [ref=e584]
+            - paragraph [ref=e585]:
+              - strong [ref=e586]: "Cover and solve on paper first:"
+              - generic [ref=e588]:
+                - math [ref=e590]:
+                  - generic [ref=e592]:
+                    - generic [ref=e593]: ∫
+                    - generic [ref=e594]: "6"
+                    - generic [ref=e595]: x
+                    - generic [ref=e596]: (
+                    - generic [ref=e597]: "3"
+                    - generic [ref=e598]:
+                      - generic [ref=e599]: x
+                      - generic [ref=e600]: "2"
+                    - generic [ref=e601]: +
+                    - generic [ref=e602]: "1"
+                    - generic [ref=e603]:
+                      - generic [ref=e604]: )
+                      - generic [ref=e605]: "4"
+                    - generic [ref=e606]: d
+                    - generic [ref=e607]: x
+                - generic [ref=e608]:
+                  - generic [ref=e609]:
+                    - text: ∫ 6x(3
+                    - generic [ref=e610]:
+                      - text: x
+                      - generic [ref=e615]: "2"
+                    - text: +
+                  - generic [ref=e616]:
+                    - text: "1"
+                    - generic [ref=e617]:
+                      - text: )
+                      - generic [ref=e622]: "4"
+                    - text: dx
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e623]'
+            - generic [ref=e624]:
+              - button "Show hint" [ref=e625] [cursor=pointer]
+              - button "Show solution" [ref=e626] [cursor=pointer]
+      - generic [ref=e627]:
+        - heading "Section Recap" [level=3] [ref=e628]
+        - list [ref=e630]:
+          - listitem [ref=e631]: Always add +C for indefinite integrals.
+          - listitem [ref=e632]: u-substitution is reverse chain rule.
+          - listitem [ref=e633]: Integration fluency makes first-order ODEs much easier.
+        - generic [ref=e634]:
+          - button "Next section" [ref=e635] [cursor=pointer]
+          - button "Try mixed practice" [ref=e636] [cursor=pointer]

@@ -1,0 +1,2436 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: d/dx
+      - generic [ref=e6]:
+        - heading "ODE Studio" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Worked examples, recall, mixed practice.
+    - generic [ref=e9]:
+      - generic [ref=e10]: Today
+      - strong [ref=e11]: 1 day streak
+    - navigation "Course navigation" [ref=e13]:
+      - generic [ref=e14]:
+        - 'heading "Module 0: Calculus Refresher" [level=3] [ref=e15]'
+        - button "0.1 Differentiation Quick Review" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: 0.1 Differentiation Quick Review
+        - button "0.2 Integration Quick Review" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: 0.2 Integration Quick Review
+      - generic [ref=e20]:
+        - 'heading "Module 1: Integration Techniques" [level=3] [ref=e21]'
+        - button "1.1 Integration by Parts" [ref=e22] [cursor=pointer]:
+          - generic [ref=e23]: 1.1 Integration by Parts
+        - button "1.2 Trigonometric Integrals" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: 1.2 Trigonometric Integrals
+        - button "1.3 Trigonometric Substitution" [ref=e26] [cursor=pointer]:
+          - generic [ref=e27]: 1.3 Trigonometric Substitution
+        - button "1.4 Partial Fractions" [ref=e28] [cursor=pointer]:
+          - generic [ref=e29]: 1.4 Partial Fractions
+      - generic [ref=e30]:
+        - 'heading "Module 2: Introduction to Differential Equations" [level=3] [ref=e31]'
+        - button "2.1 Definition and Terminology" [ref=e32] [cursor=pointer]:
+          - generic [ref=e33]: 2.1 Definition and Terminology
+        - button "2.2 Initial Value Problems" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: 2.2 Initial Value Problems
+        - button "2.3 Differential Equations as Models" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: 2.3 Differential Equations as Models
+      - generic [ref=e38]:
+        - 'heading "Module 3: First-Order ODE Methods" [level=3] [ref=e39]'
+        - button "3.1 Separable Variables" [ref=e40] [cursor=pointer]:
+          - generic [ref=e41]: 3.1 Separable Variables
+        - button "3.2 Linear Equations" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: 3.2 Linear Equations
+        - button "3.3 Exact Equations" [ref=e44] [cursor=pointer]:
+          - generic [ref=e45]: 3.3 Exact Equations
+        - button "3.4 Bernoulli Equations" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: 3.4 Bernoulli Equations
+      - generic [ref=e48]:
+        - 'heading "Module 4: Partial Derivatives" [level=3] [ref=e49]'
+        - button "4.1 Functions of Two or More Variables" [ref=e50] [cursor=pointer]:
+          - generic [ref=e51]: 4.1 Functions of Two or More Variables
+        - button "4.2 Limits and Continuity" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: 4.2 Limits and Continuity
+        - button "4.3 Partial Derivatives" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: 4.3 Partial Derivatives
+        - button "4.4 The Chain Rule" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]: 4.4 The Chain Rule
+        - button "4.5 Directional Derivatives and Gradients" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: 4.5 Directional Derivatives and Gradients
+        - button "4.6 Tangent Planes and Normal Vectors" [ref=e60] [cursor=pointer]:
+          - generic [ref=e61]: 4.6 Tangent Planes and Normal Vectors
+        - button "4.7 Maxima and Minima" [ref=e62] [cursor=pointer]:
+          - generic [ref=e63]: 4.7 Maxima and Minima
+    - generic [ref=e64]:
+      - button "Mixed Practice" [ref=e65] [cursor=pointer]
+      - button "Formula Sheet" [active] [ref=e66] [cursor=pointer]
+      - button "ODE Decision Tree" [ref=e67] [cursor=pointer]
+      - button "Progress Tracker" [ref=e68] [cursor=pointer]
+  - main [ref=e69]:
+    - generic [ref=e70]:
+      - button "Toggle sidebar" [ref=e71] [cursor=pointer]: Menu
+      - generic [ref=e72]:
+        - generic [ref=e73]: Undergraduate Ordinary Differential Equations
+        - strong [ref=e74]: Formula Sheet
+      - button "Toggle light mode" [ref=e75] [cursor=pointer]: Theme
+    - generic [ref=e88]:
+      - generic [ref=e715]:
+        - generic [ref=e716]: Recall first, reveal second
+        - heading "Formula Sheet Builder" [level=2] [ref=e717]
+        - paragraph [ref=e718]: Hide formulas, try writing them on paper, then reveal. Print this page when you want a clean exam-review sheet.
+        - generic [ref=e719]:
+          - button "Hide all" [ref=e720] [cursor=pointer]
+          - button "Show all" [ref=e721] [cursor=pointer]
+          - button "Print formulas" [ref=e722] [cursor=pointer]
+      - generic [ref=e723]:
+        - article [ref=e724]:
+          - generic [ref=e725]: Good to Know
+          - heading "Differentiation Quick Review" [level=3] [ref=e726]
+          - paragraph [ref=e727]: "Module 0: Calculus Refresher"
+          - generic [ref=e731]:
+            - math [ref=e733]:
+              - generic [ref=e735]:
+                - generic [ref=e736]:
+                  - generic [ref=e737]: d
+                  - generic [ref=e738]:
+                    - generic [ref=e739]: d
+                    - generic [ref=e740]: x
+                - generic [ref=e741]:
+                  - generic [ref=e742]: x
+                  - generic [ref=e743]: "n"
+                - generic [ref=e744]: =
+                - generic [ref=e745]: "n"
+                - generic [ref=e746]:
+                  - generic [ref=e747]: x
+                  - generic [ref=e748]:
+                    - generic [ref=e749]: "n"
+                    - generic [ref=e750]: −
+                    - generic [ref=e751]: "1"
+            - generic [ref=e752]:
+              - generic [ref=e753]:
+                - generic [ref=e758]:
+                  - generic [ref=e759]: dx
+                  - generic [ref=e761]: d
+                - generic [ref=e765]:
+                  - text: x
+                  - generic [ref=e770]: "n"
+                - text: =
+              - generic [ref=e771]:
+                - text: "n"
+                - generic [ref=e772]:
+                  - text: x
+                  - generic [ref=e778]: n−1
+          - button "Hide/reveal" [ref=e779] [cursor=pointer]
+        - article [ref=e780]:
+          - generic [ref=e781]: Good to Know
+          - heading "Differentiation Quick Review" [level=3] [ref=e782]
+          - paragraph [ref=e783]: "Module 0: Calculus Refresher"
+          - generic [ref=e787]:
+            - math [ref=e789]:
+              - generic [ref=e791]:
+                - generic [ref=e792]: (
+                - generic [ref=e793]: u
+                - generic [ref=e794]: v
+                - generic [ref=e795]:
+                  - generic [ref=e796]: )
+                  - generic [ref=e797]: ′
+                - generic [ref=e798]: =
+                - generic [ref=e799]:
+                  - generic [ref=e800]: u
+                  - generic [ref=e801]: ′
+                - generic [ref=e802]: v
+                - generic [ref=e803]: +
+                - generic [ref=e804]: u
+                - generic [ref=e805]:
+                  - generic [ref=e806]: v
+                  - generic [ref=e807]: ′
+            - generic [ref=e808]:
+              - generic [ref=e809]:
+                - text: (uv
+                - generic [ref=e810]:
+                  - text: )
+                  - generic [ref=e816]: ′
+                - text: =
+              - generic [ref=e817]:
+                - generic [ref=e818]:
+                  - text: u
+                  - generic [ref=e824]: ′
+                - text: v +
+              - generic [ref=e825]:
+                - text: u
+                - generic [ref=e826]:
+                  - text: v
+                  - generic [ref=e832]: ′
+          - button "Hide/reveal" [ref=e833] [cursor=pointer]
+        - article [ref=e834]:
+          - generic [ref=e835]: Good to Know
+          - heading "Differentiation Quick Review" [level=3] [ref=e836]
+          - paragraph [ref=e837]: "Module 0: Calculus Refresher"
+          - generic [ref=e841]:
+            - math [ref=e843]:
+              - generic [ref=e845]:
+                - generic [ref=e846]:
+                  - generic [ref=e847]: d
+                  - generic [ref=e848]:
+                    - generic [ref=e849]: d
+                    - generic [ref=e850]: x
+                - generic [ref=e851]: f
+                - generic [ref=e852]: (
+                - generic [ref=e853]: g
+                - generic [ref=e854]: (
+                - generic [ref=e855]: x
+                - generic [ref=e856]: )
+                - generic [ref=e857]: )
+                - generic [ref=e858]: =
+                - generic [ref=e859]:
+                  - generic [ref=e860]: f
+                  - generic [ref=e861]: ′
+                - generic [ref=e862]: (
+                - generic [ref=e863]: g
+                - generic [ref=e864]: (
+                - generic [ref=e865]: x
+                - generic [ref=e866]: )
+                - generic [ref=e867]: )
+                - generic [ref=e868]:
+                  - generic [ref=e869]: g
+                  - generic [ref=e870]: ′
+                - generic [ref=e871]: (
+                - generic [ref=e872]: x
+                - generic [ref=e873]: )
+            - generic [ref=e874]:
+              - generic [ref=e875]:
+                - generic [ref=e880]:
+                  - generic [ref=e881]: dx
+                  - generic [ref=e883]: d
+                - text: f(g(x)) =
+              - generic [ref=e887]:
+                - generic [ref=e888]:
+                  - text: f
+                  - generic [ref=e894]: ′
+                - text: (g(x))
+                - generic [ref=e895]:
+                  - text: g
+                  - generic [ref=e901]: ′
+                - text: (x)
+          - button "Hide/reveal" [ref=e902] [cursor=pointer]
+        - article [ref=e903]:
+          - generic [ref=e904]: Good to Know
+          - heading "Integration Quick Review" [level=3] [ref=e905]
+          - paragraph [ref=e906]: "Module 0: Calculus Refresher"
+          - generic [ref=e910]:
+            - math [ref=e912]:
+              - generic [ref=e914]:
+                - generic [ref=e915]: ∫
+                - generic [ref=e916]:
+                  - generic [ref=e917]: x
+                  - generic [ref=e918]: "n"
+                - generic [ref=e919]: d
+                - generic [ref=e920]: x
+                - generic [ref=e921]: =
+                - generic [ref=e922]:
+                  - generic [ref=e923]:
+                    - generic [ref=e924]: x
+                    - generic [ref=e925]:
+                      - generic [ref=e926]: "n"
+                      - generic [ref=e927]: +
+                      - generic [ref=e928]: "1"
+                  - generic [ref=e929]:
+                    - generic [ref=e930]: "n"
+                    - generic [ref=e931]: +
+                    - generic [ref=e932]: "1"
+                - generic [ref=e933]: +
+                - generic [ref=e934]: C
+            - generic [ref=e935]:
+              - generic [ref=e936]:
+                - text: ∫
+                - generic [ref=e937]:
+                  - text: x
+                  - generic [ref=e942]: "n"
+                - text: dx =
+              - generic [ref=e943]:
+                - generic [ref=e948]:
+                  - generic [ref=e949]: n + 1
+                  - generic [ref=e952]:
+                    - text: x
+                    - generic [ref=e958]: n+1
+                - text: +
+              - generic [ref=e962]: C
+          - button "Hide/reveal" [ref=e963] [cursor=pointer]
+        - article [ref=e964]:
+          - generic [ref=e965]: Good to Know
+          - heading "Integration Quick Review" [level=3] [ref=e966]
+          - paragraph [ref=e967]: "Module 0: Calculus Refresher"
+          - generic [ref=e971]:
+            - math [ref=e973]:
+              - generic [ref=e975]:
+                - generic [ref=e976]: ∫
+                - generic [ref=e977]:
+                  - generic [ref=e978]: e
+                  - generic [ref=e979]: x
+                - generic [ref=e980]: d
+                - generic [ref=e981]: x
+                - generic [ref=e982]: =
+                - generic [ref=e983]:
+                  - generic [ref=e984]: e
+                  - generic [ref=e985]: x
+                - generic [ref=e986]: +
+                - generic [ref=e987]: C
+            - generic [ref=e988]:
+              - generic [ref=e989]:
+                - text: ∫
+                - generic [ref=e990]:
+                  - text: e
+                  - generic [ref=e995]: x
+                - text: dx =
+              - generic [ref=e996]:
+                - generic [ref=e997]:
+                  - text: e
+                  - generic [ref=e1002]: x
+                - text: +
+              - generic [ref=e1003]: C
+          - button "Hide/reveal" [ref=e1004] [cursor=pointer]
+        - article [ref=e1005]:
+          - generic [ref=e1006]: Good to Know
+          - heading "Integration Quick Review" [level=3] [ref=e1007]
+          - paragraph [ref=e1008]: "Module 0: Calculus Refresher"
+          - generic [ref=e1012]:
+            - math [ref=e1014]:
+              - generic [ref=e1016]:
+                - generic [ref=e1017]: ∫
+                - generic [ref=e1018]:
+                  - generic [ref=e1019]: "1"
+                  - generic [ref=e1020]: x
+                - generic [ref=e1021]: d
+                - generic [ref=e1022]: x
+                - generic [ref=e1023]: =
+                - generic [ref=e1024]: ln
+                - generic: ⁡
+                - generic [ref=e1025]: ∣
+                - generic [ref=e1026]: x
+                - generic [ref=e1027]: ∣
+                - generic [ref=e1028]: +
+                - generic [ref=e1029]: C
+            - generic [ref=e1030]:
+              - generic [ref=e1031]:
+                - text: ∫
+                - generic [ref=e1036]:
+                  - generic [ref=e1037]: x
+                  - generic [ref=e1039]: "1"
+                - text: dx =
+              - generic [ref=e1043]:
+                - generic [ref=e1044]: ln
+                - text: ∣x∣ +
+              - generic [ref=e1045]: C
+          - button "Hide/reveal" [ref=e1046] [cursor=pointer]
+        - article [ref=e1047]:
+          - generic [ref=e1048]: Good to Know
+          - heading "Integration by Parts" [level=3] [ref=e1049]
+          - paragraph [ref=e1050]: "Module 1: Integration Techniques"
+          - generic [ref=e1054]:
+            - math [ref=e1056]:
+              - generic [ref=e1058]:
+                - generic [ref=e1059]: ∫
+                - generic [ref=e1060]: u
+                - generic [ref=e1061]: d
+                - generic [ref=e1062]: v
+                - generic [ref=e1063]: =
+                - generic [ref=e1064]: u
+                - generic [ref=e1065]: v
+                - generic [ref=e1066]: −
+                - generic [ref=e1067]: ∫
+                - generic [ref=e1068]: v
+                - generic [ref=e1069]: d
+                - generic [ref=e1070]: u
+            - generic [ref=e1071]:
+              - generic [ref=e1072]: ∫ u dv =
+              - generic [ref=e1073]: uv −
+              - generic [ref=e1074]: ∫ v du
+          - button "Hide/reveal" [ref=e1075] [cursor=pointer]
+        - article [ref=e1076]:
+          - generic [ref=e1077]: Good to Know
+          - heading "Integration by Parts" [level=3] [ref=e1078]
+          - paragraph [ref=e1079]: "Module 1: Integration Techniques"
+          - generic [ref=e1083]:
+            - math [ref=e1085]:
+              - generic [ref=e1087]:
+                - generic [ref=e1088]: L
+                - generic [ref=e1089]: I
+                - generic [ref=e1090]: A
+                - generic [ref=e1091]: T
+                - generic [ref=e1092]: E
+                - generic [ref=e1093]: ":"
+                - generic [ref=e1094]: L
+                - generic [ref=e1095]: o
+                - generic [ref=e1096]: g
+                - generic [ref=e1097]: ","
+                - generic [ref=e1098]: I
+                - generic [ref=e1099]: "n"
+                - generic [ref=e1100]: v
+                - generic [ref=e1101]: e
+                - generic [ref=e1102]: r
+                - generic [ref=e1103]: s
+                - generic [ref=e1104]: e
+                - generic [ref=e1105]: ","
+                - generic [ref=e1106]: A
+                - generic [ref=e1107]: l
+                - generic [ref=e1108]: g
+                - generic [ref=e1109]: e
+                - generic [ref=e1110]: b
+                - generic [ref=e1111]: r
+                - generic [ref=e1112]: a
+                - generic [ref=e1113]: i
+                - generic [ref=e1114]: c
+                - generic [ref=e1115]: ","
+                - generic [ref=e1116]: T
+                - generic [ref=e1117]: r
+                - generic [ref=e1118]: i
+                - generic [ref=e1119]: g
+                - generic [ref=e1120]: ","
+                - generic [ref=e1121]: E
+                - generic [ref=e1122]: x
+                - generic [ref=e1123]: p
+                - generic [ref=e1124]: o
+                - generic [ref=e1125]: "n"
+                - generic [ref=e1126]: e
+                - generic [ref=e1127]: "n"
+                - generic [ref=e1128]: t
+                - generic [ref=e1129]: i
+                - generic [ref=e1130]: a
+                - generic [ref=e1131]: l
+            - generic [ref=e1132]:
+              - generic [ref=e1133]: "LIATE :"
+              - generic [ref=e1135]:
+                - text: Log,
+                - text: Inverse,
+                - text: Algebraic,
+                - text: Trig,
+                - text: Exponential
+          - button "Hide/reveal" [ref=e1140] [cursor=pointer]
+        - article [ref=e1141]:
+          - generic [ref=e1142]: Good to Know
+          - heading "Trigonometric Integrals" [level=3] [ref=e1143]
+          - paragraph [ref=e1144]: "Module 1: Integration Techniques"
+          - generic [ref=e1148]:
+            - math [ref=e1150]:
+              - generic [ref=e1152]:
+                - generic [ref=e1153]:
+                  - generic [ref=e1154]:
+                    - generic [ref=e1155]: sin
+                    - generic: ⁡
+                  - generic [ref=e1156]: "2"
+                - generic [ref=e1157]: x
+                - generic [ref=e1158]: +
+                - generic [ref=e1159]:
+                  - generic [ref=e1160]:
+                    - generic [ref=e1161]: cos
+                    - generic: ⁡
+                  - generic [ref=e1162]: "2"
+                - generic [ref=e1163]: x
+                - generic [ref=e1164]: =
+                - generic [ref=e1165]: "1"
+            - generic [ref=e1166]:
+              - generic [ref=e1167]:
+                - generic [ref=e1168]:
+                  - generic [ref=e1169]: sin
+                  - generic [ref=e1174]: "2"
+                - text: x +
+              - generic [ref=e1175]:
+                - generic [ref=e1176]:
+                  - generic [ref=e1177]: cos
+                  - generic [ref=e1182]: "2"
+                - text: x =
+              - generic [ref=e1183]: "1"
+          - button "Hide/reveal" [ref=e1184] [cursor=pointer]
+        - article [ref=e1185]:
+          - generic [ref=e1186]: Good to Know
+          - heading "Trigonometric Integrals" [level=3] [ref=e1187]
+          - paragraph [ref=e1188]: "Module 1: Integration Techniques"
+          - generic [ref=e1192]:
+            - math [ref=e1194]:
+              - generic [ref=e1196]:
+                - generic [ref=e1197]:
+                  - generic [ref=e1198]:
+                    - generic [ref=e1199]: sin
+                    - generic: ⁡
+                  - generic [ref=e1200]: "2"
+                - generic [ref=e1201]: x
+                - generic [ref=e1202]: =
+                - generic [ref=e1203]:
+                  - generic [ref=e1204]:
+                    - generic [ref=e1205]: "1"
+                    - generic [ref=e1206]: −
+                    - generic [ref=e1207]: cos
+                    - generic: ⁡
+                    - generic [ref=e1208]: "2"
+                    - generic [ref=e1209]: x
+                  - generic [ref=e1210]: "2"
+            - generic [ref=e1211]:
+              - generic [ref=e1212]:
+                - generic [ref=e1213]:
+                  - generic [ref=e1214]: sin
+                  - generic [ref=e1219]: "2"
+                - text: x =
+              - generic [ref=e1225]:
+                - generic [ref=e1226]: "2"
+                - generic [ref=e1228]:
+                  - text: 1 −
+                  - generic [ref=e1229]: cos
+                  - text: 2x
+          - button "Hide/reveal" [ref=e1233] [cursor=pointer]
+        - article [ref=e1234]:
+          - generic [ref=e1235]: Good to Know
+          - heading "Trigonometric Integrals" [level=3] [ref=e1236]
+          - paragraph [ref=e1237]: "Module 1: Integration Techniques"
+          - generic [ref=e1241]:
+            - math [ref=e1243]:
+              - generic [ref=e1245]:
+                - generic [ref=e1246]:
+                  - generic [ref=e1247]:
+                    - generic [ref=e1248]: cos
+                    - generic: ⁡
+                  - generic [ref=e1249]: "2"
+                - generic [ref=e1250]: x
+                - generic [ref=e1251]: =
+                - generic [ref=e1252]:
+                  - generic [ref=e1253]:
+                    - generic [ref=e1254]: "1"
+                    - generic [ref=e1255]: +
+                    - generic [ref=e1256]: cos
+                    - generic: ⁡
+                    - generic [ref=e1257]: "2"
+                    - generic [ref=e1258]: x
+                  - generic [ref=e1259]: "2"
+            - generic [ref=e1260]:
+              - generic [ref=e1261]:
+                - generic [ref=e1262]:
+                  - generic [ref=e1263]: cos
+                  - generic [ref=e1268]: "2"
+                - text: x =
+              - generic [ref=e1274]:
+                - generic [ref=e1275]: "2"
+                - generic [ref=e1277]:
+                  - text: 1 +
+                  - generic [ref=e1278]: cos
+                  - text: 2x
+          - button "Hide/reveal" [ref=e1282] [cursor=pointer]
+        - article [ref=e1283]:
+          - generic [ref=e1284]: Good to Know
+          - heading "Trigonometric Substitution" [level=3] [ref=e1285]
+          - paragraph [ref=e1286]: "Module 1: Integration Techniques"
+          - generic [ref=e1290]:
+            - math [ref=e1292]:
+              - generic [ref=e1294]:
+                - generic [ref=e1296]:
+                  - generic [ref=e1297]:
+                    - generic [ref=e1298]: a
+                    - generic [ref=e1299]: "2"
+                  - generic [ref=e1300]: −
+                  - generic [ref=e1301]:
+                    - generic [ref=e1302]: x
+                    - generic [ref=e1303]: "2"
+                - generic [ref=e1304]: ":"
+                - generic [ref=e1305]: x
+                - generic [ref=e1306]: =
+                - generic [ref=e1307]: a
+                - generic [ref=e1308]: sin
+                - generic: ⁡
+                - generic [ref=e1309]: θ
+            - generic [ref=e1310]:
+              - generic [ref=e1311]:
+                - generic [ref=e1315]:
+                  - generic [ref=e1316]:
+                    - generic [ref=e1317]:
+                      - text: a
+                      - generic [ref=e1322]: "2"
+                    - text: −
+                    - generic [ref=e1323]:
+                      - text: x
+                      - generic [ref=e1328]: "2"
+                  - img [ref=e1330]
+                - text: ":"
+              - generic [ref=e1335]: x =
+              - generic [ref=e1336]:
+                - text: a
+                - generic [ref=e1337]: sin
+                - text: θ
+          - button "Hide/reveal" [ref=e1338] [cursor=pointer]
+        - article [ref=e1339]:
+          - generic [ref=e1340]: Good to Know
+          - heading "Trigonometric Substitution" [level=3] [ref=e1341]
+          - paragraph [ref=e1342]: "Module 1: Integration Techniques"
+          - generic [ref=e1346]:
+            - math [ref=e1348]:
+              - generic [ref=e1350]:
+                - generic [ref=e1352]:
+                  - generic [ref=e1353]:
+                    - generic [ref=e1354]: a
+                    - generic [ref=e1355]: "2"
+                  - generic [ref=e1356]: +
+                  - generic [ref=e1357]:
+                    - generic [ref=e1358]: x
+                    - generic [ref=e1359]: "2"
+                - generic [ref=e1360]: ":"
+                - generic [ref=e1361]: x
+                - generic [ref=e1362]: =
+                - generic [ref=e1363]: a
+                - generic [ref=e1364]: tan
+                - generic: ⁡
+                - generic [ref=e1365]: θ
+            - generic [ref=e1366]:
+              - generic [ref=e1367]:
+                - generic [ref=e1371]:
+                  - generic [ref=e1372]:
+                    - generic [ref=e1373]:
+                      - text: a
+                      - generic [ref=e1378]: "2"
+                    - text: +
+                    - generic [ref=e1379]:
+                      - text: x
+                      - generic [ref=e1384]: "2"
+                  - img [ref=e1386]
+                - text: ":"
+              - generic [ref=e1391]: x =
+              - generic [ref=e1392]:
+                - text: a
+                - generic [ref=e1393]: tan
+                - text: θ
+          - button "Hide/reveal" [ref=e1394] [cursor=pointer]
+        - article [ref=e1395]:
+          - generic [ref=e1396]: Good to Know
+          - heading "Trigonometric Substitution" [level=3] [ref=e1397]
+          - paragraph [ref=e1398]: "Module 1: Integration Techniques"
+          - generic [ref=e1402]:
+            - math [ref=e1404]:
+              - generic [ref=e1406]:
+                - generic [ref=e1408]:
+                  - generic [ref=e1409]:
+                    - generic [ref=e1410]: x
+                    - generic [ref=e1411]: "2"
+                  - generic [ref=e1412]: −
+                  - generic [ref=e1413]:
+                    - generic [ref=e1414]: a
+                    - generic [ref=e1415]: "2"
+                - generic [ref=e1416]: ":"
+                - generic [ref=e1417]: x
+                - generic [ref=e1418]: =
+                - generic [ref=e1419]: a
+                - generic [ref=e1420]: sec
+                - generic: ⁡
+                - generic [ref=e1421]: θ
+            - generic [ref=e1422]:
+              - generic [ref=e1423]:
+                - generic [ref=e1427]:
+                  - generic [ref=e1428]:
+                    - generic [ref=e1429]:
+                      - text: x
+                      - generic [ref=e1434]: "2"
+                    - text: −
+                    - generic [ref=e1435]:
+                      - text: a
+                      - generic [ref=e1440]: "2"
+                  - img [ref=e1442]
+                - text: ":"
+              - generic [ref=e1447]: x =
+              - generic [ref=e1448]:
+                - text: a
+                - generic [ref=e1449]: sec
+                - text: θ
+          - button "Hide/reveal" [ref=e1450] [cursor=pointer]
+        - article [ref=e1451]:
+          - generic [ref=e1452]: Good to Know
+          - heading "Partial Fractions" [level=3] [ref=e1453]
+          - paragraph [ref=e1454]: "Module 1: Integration Techniques"
+          - generic [ref=e1458]:
+            - math [ref=e1460]:
+              - generic [ref=e1462]:
+                - generic [ref=e1463]:
+                  - generic [ref=e1464]:
+                    - generic [ref=e1465]: P
+                    - generic [ref=e1466]: (
+                    - generic [ref=e1467]: x
+                    - generic [ref=e1468]: )
+                  - generic [ref=e1469]:
+                    - generic [ref=e1470]: (
+                    - generic [ref=e1471]: x
+                    - generic [ref=e1472]: −
+                    - generic [ref=e1473]: a
+                    - generic [ref=e1474]: )
+                    - generic [ref=e1475]: (
+                    - generic [ref=e1476]: x
+                    - generic [ref=e1477]: −
+                    - generic [ref=e1478]: b
+                    - generic [ref=e1479]: )
+                - generic [ref=e1480]: =
+                - generic [ref=e1481]:
+                  - generic [ref=e1482]: A
+                  - generic [ref=e1483]:
+                    - generic [ref=e1484]: x
+                    - generic [ref=e1485]: −
+                    - generic [ref=e1486]: a
+                - generic [ref=e1487]: +
+                - generic [ref=e1488]:
+                  - generic [ref=e1489]: B
+                  - generic [ref=e1490]:
+                    - generic [ref=e1491]: x
+                    - generic [ref=e1492]: −
+                    - generic [ref=e1493]: b
+            - generic [ref=e1494]:
+              - generic [ref=e1495]:
+                - generic [ref=e1500]:
+                  - generic [ref=e1501]: (x − a)(x − b)
+                  - generic [ref=e1503]: P(x)
+                - text: =
+              - generic [ref=e1507]:
+                - generic [ref=e1512]:
+                  - generic [ref=e1513]: x − a
+                  - generic [ref=e1515]: A
+                - text: +
+              - generic [ref=e1524]:
+                - generic [ref=e1525]: x − b
+                - generic [ref=e1527]: B
+          - button "Hide/reveal" [ref=e1531] [cursor=pointer]
+        - article [ref=e1532]:
+          - generic [ref=e1533]: Good to Know
+          - heading "Partial Fractions" [level=3] [ref=e1534]
+          - paragraph [ref=e1535]: "Module 1: Integration Techniques"
+          - generic [ref=e1539]:
+            - math [ref=e1541]:
+              - generic [ref=e1543]:
+                - generic [ref=e1544]:
+                  - generic [ref=e1545]:
+                    - generic [ref=e1546]: A
+                    - generic [ref=e1547]: x
+                    - generic [ref=e1548]: +
+                    - generic [ref=e1549]: B
+                  - generic [ref=e1550]:
+                    - generic [ref=e1551]:
+                      - generic [ref=e1552]: x
+                      - generic [ref=e1553]: "2"
+                    - generic [ref=e1554]: +
+                    - generic [ref=e1555]: p
+                    - generic [ref=e1556]: x
+                    - generic [ref=e1557]: +
+                    - generic [ref=e1558]: q
+                - generic [ref=e1559]: f
+                - generic [ref=e1560]: o
+                - generic [ref=e1561]: r
+                - generic [ref=e1562]: i
+                - generic [ref=e1563]: r
+                - generic [ref=e1564]: r
+                - generic [ref=e1565]: e
+                - generic [ref=e1566]: d
+                - generic [ref=e1567]: u
+                - generic [ref=e1568]: c
+                - generic [ref=e1569]: i
+                - generic [ref=e1570]: b
+                - generic [ref=e1571]: l
+                - generic [ref=e1572]: e
+                - generic [ref=e1573]: q
+                - generic [ref=e1574]: u
+                - generic [ref=e1575]: a
+                - generic [ref=e1576]: d
+                - generic [ref=e1577]: r
+                - generic [ref=e1578]: a
+                - generic [ref=e1579]: t
+                - generic [ref=e1580]: i
+                - generic [ref=e1581]: c
+                - generic [ref=e1582]: s
+            - generic [ref=e1584]:
+              - generic [ref=e1589]:
+                - generic [ref=e1590]:
+                  - generic [ref=e1591]:
+                    - text: x
+                    - generic [ref=e1596]: "2"
+                  - text: + px + q
+                - generic [ref=e1598]: Ax + B
+              - text: for
+              - text: irreducible
+              - text: quadratics
+          - button "Hide/reveal" [ref=e1605] [cursor=pointer]
+        - article [ref=e1606]:
+          - generic [ref=e1607]: Good to Know
+          - heading "Definition and Terminology" [level=3] [ref=e1608]
+          - paragraph [ref=e1609]: "Module 2: Introduction to Differential Equations"
+          - generic [ref=e1613]:
+            - math [ref=e1615]:
+              - generic [ref=e1617]:
+                - generic [ref=e1618]: F
+                - generic [ref=e1619]: (
+                - generic [ref=e1620]: x
+                - generic [ref=e1621]: ","
+                - generic [ref=e1622]: "y"
+                - generic [ref=e1623]: ","
+                - generic [ref=e1624]:
+                  - generic [ref=e1625]: "y"
+                  - generic [ref=e1626]: ′
+                - generic [ref=e1627]: ","
+                - generic [ref=e1628]: …
+                - generic [ref=e1629]: ","
+                - generic [ref=e1630]:
+                  - generic [ref=e1631]: "y"
+                  - generic [ref=e1632]:
+                    - generic [ref=e1633]: (
+                    - generic [ref=e1634]: "n"
+                    - generic [ref=e1635]: )
+                - generic [ref=e1636]: )
+                - generic [ref=e1637]: =
+                - generic [ref=e1638]: "0"
+            - generic [ref=e1639]:
+              - generic [ref=e1640]:
+                - text: F(x, y,
+                - generic [ref=e1641]:
+                  - text: "y"
+                  - generic [ref=e1647]: ′
+                - text: ", … ,"
+                - generic [ref=e1648]:
+                  - text: "y"
+                  - generic [ref=e1654]: (n)
+                - text: ) =
+              - generic [ref=e1655]: "0"
+          - button "Hide/reveal" [ref=e1656] [cursor=pointer]
+        - article [ref=e1657]:
+          - generic [ref=e1658]: Good to Know
+          - heading "Definition and Terminology" [level=3] [ref=e1659]
+          - paragraph [ref=e1660]: "Module 2: Introduction to Differential Equations"
+          - generic [ref=e1664]:
+            - math [ref=e1666]:
+              - generic [ref=e1668]:
+                - generic [ref=e1669]: L
+                - generic [ref=e1670]: i
+                - generic [ref=e1671]: "n"
+                - generic [ref=e1672]: e
+                - generic [ref=e1673]: a
+                - generic [ref=e1674]: r
+                - generic [ref=e1675]: ":"
+                - generic [ref=e1676]:
+                  - generic [ref=e1677]: a
+                  - generic [ref=e1678]: "n"
+                - generic [ref=e1679]: (
+                - generic [ref=e1680]: x
+                - generic [ref=e1681]: )
+                - generic [ref=e1682]:
+                  - generic [ref=e1683]: "y"
+                  - generic [ref=e1684]:
+                    - generic [ref=e1685]: (
+                    - generic [ref=e1686]: "n"
+                    - generic [ref=e1687]: )
+                - generic [ref=e1688]: +
+                - generic [ref=e1689]: ⋯
+                - generic [ref=e1690]: +
+                - generic [ref=e1691]:
+                  - generic [ref=e1692]: a
+                  - generic [ref=e1693]: "1"
+                - generic [ref=e1694]: (
+                - generic [ref=e1695]: x
+                - generic [ref=e1696]: )
+                - generic [ref=e1697]:
+                  - generic [ref=e1698]: "y"
+                  - generic [ref=e1699]: ′
+                - generic [ref=e1700]: +
+                - generic [ref=e1701]:
+                  - generic [ref=e1702]: a
+                  - generic [ref=e1703]: "0"
+                - generic [ref=e1704]: (
+                - generic [ref=e1705]: x
+                - generic [ref=e1706]: )
+                - generic [ref=e1707]: "y"
+                - generic [ref=e1708]: =
+                - generic [ref=e1709]: g
+                - generic [ref=e1710]: (
+                - generic [ref=e1711]: x
+                - generic [ref=e1712]: )
+            - generic [ref=e1713]:
+              - generic [ref=e1714]: "Linear :"
+              - generic [ref=e1716]:
+                - generic [ref=e1717]:
+                  - text: a
+                  - generic [ref=e1722]: "n"
+                - text: (x)
+                - generic [ref=e1726]:
+                  - text: "y"
+                  - generic [ref=e1732]: (n)
+                - text: +
+              - generic [ref=e1733]: ⋯ +
+              - generic [ref=e1734]:
+                - generic [ref=e1735]:
+                  - text: a
+                  - generic [ref=e1740]: "1"
+                - text: (x)
+                - generic [ref=e1744]:
+                  - text: "y"
+                  - generic [ref=e1750]: ′
+                - text: +
+              - generic [ref=e1751]:
+                - generic [ref=e1752]:
+                  - text: a
+                  - generic [ref=e1757]: "0"
+                - text: (x)y =
+              - generic [ref=e1761]: g(x)
+          - button "Hide/reveal" [ref=e1762] [cursor=pointer]
+        - article [ref=e1763]:
+          - generic [ref=e1764]: Good to Know
+          - heading "Initial Value Problems" [level=3] [ref=e1765]
+          - paragraph [ref=e1766]: "Module 2: Introduction to Differential Equations"
+          - generic [ref=e1770]:
+            - math [ref=e1772]:
+              - generic [ref=e1774]:
+                - generic [ref=e1775]:
+                  - generic [ref=e1776]: "n"
+                  - generic [ref=e1777]:
+                    - generic [ref=e1778]: t
+                    - generic [ref=e1779]: h
+                - generic [ref=e1780]: o
+                - generic [ref=e1781]: r
+                - generic [ref=e1782]: d
+                - generic [ref=e1783]: e
+                - generic [ref=e1784]: r
+                - generic [ref=e1785]: O
+                - generic [ref=e1786]: D
+                - generic [ref=e1787]: E
+                - generic [ref=e1788]: "n"
+                - generic [ref=e1789]: e
+                - generic [ref=e1790]: e
+                - generic [ref=e1791]: d
+                - generic [ref=e1792]: s
+                - generic [ref=e1793]: "n"
+                - generic [ref=e1794]: i
+                - generic [ref=e1795]: "n"
+                - generic [ref=e1796]: i
+                - generic [ref=e1797]: t
+                - generic [ref=e1798]: i
+                - generic [ref=e1799]: a
+                - generic [ref=e1800]: l
+                - generic [ref=e1801]: c
+                - generic [ref=e1802]: o
+                - generic [ref=e1803]: "n"
+                - generic [ref=e1804]: d
+                - generic [ref=e1805]: i
+                - generic [ref=e1806]: t
+                - generic [ref=e1807]: i
+                - generic [ref=e1808]: o
+                - generic [ref=e1809]: "n"
+                - generic [ref=e1810]: s
+            - generic [ref=e1812]:
+              - generic [ref=e1813]:
+                - text: "n"
+                - generic [ref=e1819]: th
+              - text: order
+              - text: ODE
+              - text: needs
+              - text: "n"
+              - text: initial
+              - text: conditions
+          - button "Hide/reveal" [ref=e1826] [cursor=pointer]
+        - article [ref=e1827]:
+          - generic [ref=e1828]: Good to Know
+          - heading "Initial Value Problems" [level=3] [ref=e1829]
+          - paragraph [ref=e1830]: "Module 2: Introduction to Differential Equations"
+          - generic [ref=e1834]:
+            - math [ref=e1836]:
+              - generic [ref=e1838]:
+                - generic [ref=e1839]: S
+                - generic [ref=e1840]: o
+                - generic [ref=e1841]: l
+                - generic [ref=e1842]: u
+                - generic [ref=e1843]: t
+                - generic [ref=e1844]: i
+                - generic [ref=e1845]: o
+                - generic [ref=e1846]: "n"
+                - generic [ref=e1847]: i
+                - generic [ref=e1848]: "n"
+                - generic [ref=e1849]: t
+                - generic [ref=e1850]: e
+                - generic [ref=e1851]: r
+                - generic [ref=e1852]: v
+                - generic [ref=e1853]: a
+                - generic [ref=e1854]: l
+                - generic [ref=e1855]: ":"
+                - generic [ref=e1856]: l
+                - generic [ref=e1857]: a
+                - generic [ref=e1858]: r
+                - generic [ref=e1859]: g
+                - generic [ref=e1860]: e
+                - generic [ref=e1861]: s
+                - generic [ref=e1862]: t
+                - generic [ref=e1863]: i
+                - generic [ref=e1864]: "n"
+                - generic [ref=e1865]: t
+                - generic [ref=e1866]: e
+                - generic [ref=e1867]: r
+                - generic [ref=e1868]: v
+                - generic [ref=e1869]: a
+                - generic [ref=e1870]: l
+                - generic [ref=e1871]: c
+                - generic [ref=e1872]: o
+                - generic [ref=e1873]: "n"
+                - generic [ref=e1874]: t
+                - generic [ref=e1875]: a
+                - generic [ref=e1876]: i
+                - generic [ref=e1877]: "n"
+                - generic [ref=e1878]: i
+                - generic [ref=e1879]: "n"
+                - generic [ref=e1880]: g
+                - generic [ref=e1881]: t
+                - generic [ref=e1882]: h
+                - generic [ref=e1883]: e
+                - generic [ref=e1884]: i
+                - generic [ref=e1885]: "n"
+                - generic [ref=e1886]: i
+                - generic [ref=e1887]: t
+                - generic [ref=e1888]: i
+                - generic [ref=e1889]: a
+                - generic [ref=e1890]: l
+                - generic [ref=e1891]: p
+                - generic [ref=e1892]: o
+                - generic [ref=e1893]: i
+                - generic [ref=e1894]: "n"
+                - generic [ref=e1895]: t
+            - generic [ref=e1896]:
+              - generic [ref=e1897]:
+                - text: Solution
+                - text: "interval :"
+              - generic [ref=e1900]:
+                - text: largest
+                - text: interval
+                - text: containing
+                - text: the
+                - text: initial
+                - text: point
+          - button "Hide/reveal" [ref=e1906] [cursor=pointer]
+        - article [ref=e1907]:
+          - generic [ref=e1908]: Good to Know
+          - heading "Differential Equations as Models" [level=3] [ref=e1909]
+          - paragraph [ref=e1910]: "Module 2: Introduction to Differential Equations"
+          - generic [ref=e1914]:
+            - math [ref=e1916]:
+              - generic [ref=e1918]:
+                - generic [ref=e1919]:
+                  - generic [ref=e1920]:
+                    - generic [ref=e1921]: d
+                    - generic [ref=e1922]: P
+                  - generic [ref=e1923]:
+                    - generic [ref=e1924]: d
+                    - generic [ref=e1925]: t
+                - generic [ref=e1926]: =
+                - generic [ref=e1927]: a
+                - generic [ref=e1928]: P
+            - generic [ref=e1929]:
+              - generic [ref=e1930]:
+                - generic [ref=e1935]:
+                  - generic [ref=e1936]: dt
+                  - generic [ref=e1938]: dP
+                - text: =
+              - generic [ref=e1942]: aP
+          - button "Hide/reveal" [ref=e1943] [cursor=pointer]
+        - article [ref=e1944]:
+          - generic [ref=e1945]: Good to Know
+          - heading "Differential Equations as Models" [level=3] [ref=e1946]
+          - paragraph [ref=e1947]: "Module 2: Introduction to Differential Equations"
+          - generic [ref=e1951]:
+            - math [ref=e1953]:
+              - generic [ref=e1955]:
+                - generic [ref=e1956]:
+                  - generic [ref=e1957]:
+                    - generic [ref=e1958]: d
+                    - generic [ref=e1959]: P
+                  - generic [ref=e1960]:
+                    - generic [ref=e1961]: d
+                    - generic [ref=e1962]: t
+                - generic [ref=e1963]: =
+                - generic [ref=e1964]: a
+                - generic [ref=e1965]: P
+                - generic [ref=e1966]: −
+                - generic [ref=e1967]: b
+                - generic [ref=e1968]:
+                  - generic [ref=e1969]: P
+                  - generic [ref=e1970]: "2"
+            - generic [ref=e1971]:
+              - generic [ref=e1972]:
+                - generic [ref=e1977]:
+                  - generic [ref=e1978]: dt
+                  - generic [ref=e1980]: dP
+                - text: =
+              - generic [ref=e1984]: aP −
+              - generic [ref=e1985]:
+                - text: b
+                - generic [ref=e1986]:
+                  - text: P
+                  - generic [ref=e1991]: "2"
+          - button "Hide/reveal" [ref=e1992] [cursor=pointer]
+        - article [ref=e1993]:
+          - generic [ref=e1994]: Good to Know
+          - heading "Differential Equations as Models" [level=3] [ref=e1995]
+          - paragraph [ref=e1996]: "Module 2: Introduction to Differential Equations"
+          - generic [ref=e2000]:
+            - math [ref=e2002]:
+              - generic [ref=e2004]:
+                - generic [ref=e2005]:
+                  - generic [ref=e2006]:
+                    - generic [ref=e2007]: d
+                    - generic [ref=e2008]: A
+                  - generic [ref=e2009]:
+                    - generic [ref=e2010]: d
+                    - generic [ref=e2011]: t
+                - generic [ref=e2012]: =
+                - generic [ref=e2013]: a
+                - generic [ref=e2014]: A
+                - generic [ref=e2015]: ","
+                - generic [ref=e2016]: a
+                - generic [ref=e2017]: <
+                - generic [ref=e2018]: "0"
+            - generic [ref=e2019]:
+              - generic [ref=e2020]:
+                - generic [ref=e2025]:
+                  - generic [ref=e2026]: dt
+                  - generic [ref=e2028]: dA
+                - text: =
+              - generic [ref=e2032]:
+                - text: aA,
+                - text: a <
+              - generic [ref=e2034]: "0"
+          - button "Hide/reveal" [ref=e2035] [cursor=pointer]
+        - article [ref=e2036]:
+          - generic [ref=e2037]: Good to Know
+          - heading "Differential Equations as Models" [level=3] [ref=e2038]
+          - paragraph [ref=e2039]: "Module 2: Introduction to Differential Equations"
+          - generic [ref=e2043]:
+            - math [ref=e2045]:
+              - generic [ref=e2047]:
+                - generic [ref=e2048]:
+                  - generic [ref=e2049]:
+                    - generic [ref=e2050]: d
+                    - generic [ref=e2051]: T
+                  - generic [ref=e2052]:
+                    - generic [ref=e2053]: d
+                    - generic [ref=e2054]: t
+                - generic [ref=e2055]: =
+                - generic [ref=e2056]: a
+                - generic [ref=e2057]: (
+                - generic [ref=e2058]: T
+                - generic [ref=e2059]: −
+                - generic [ref=e2060]:
+                  - generic [ref=e2061]: T
+                  - generic [ref=e2062]: m
+                - generic [ref=e2063]: )
+            - generic [ref=e2064]:
+              - generic [ref=e2065]:
+                - generic [ref=e2070]:
+                  - generic [ref=e2071]: dt
+                  - generic [ref=e2073]: dT
+                - text: =
+              - generic [ref=e2077]: a(T −
+              - generic [ref=e2078]:
+                - generic [ref=e2079]:
+                  - text: T
+                  - generic [ref=e2084]: m
+                - text: )
+          - button "Hide/reveal" [ref=e2088] [cursor=pointer]
+        - article [ref=e2089]:
+          - generic [ref=e2090]: Good to Know
+          - heading "Differential Equations as Models" [level=3] [ref=e2091]
+          - paragraph [ref=e2092]: "Module 2: Introduction to Differential Equations"
+          - generic [ref=e2096]:
+            - math [ref=e2098]:
+              - generic [ref=e2100]:
+                - generic [ref=e2101]:
+                  - generic [ref=e2102]:
+                    - generic [ref=e2103]: d
+                    - generic [ref=e2104]: x
+                  - generic [ref=e2105]:
+                    - generic [ref=e2106]: d
+                    - generic [ref=e2107]: t
+                - generic [ref=e2108]: =
+                - generic [ref=e2109]: a
+                - generic [ref=e2110]: x
+                - generic [ref=e2111]: (
+                - generic [ref=e2112]: "n"
+                - generic [ref=e2113]: −
+                - generic [ref=e2114]: x
+                - generic [ref=e2115]: )
+            - generic [ref=e2116]:
+              - generic [ref=e2117]:
+                - generic [ref=e2122]:
+                  - generic [ref=e2123]: dt
+                  - generic [ref=e2125]: dx
+                - text: =
+              - generic [ref=e2129]: ax(n −
+              - generic [ref=e2130]: x)
+          - button "Hide/reveal" [ref=e2131] [cursor=pointer]
+        - article [ref=e2132]:
+          - generic [ref=e2133]: Good to Know
+          - heading "Differential Equations as Models" [level=3] [ref=e2134]
+          - paragraph [ref=e2135]: "Module 2: Introduction to Differential Equations"
+          - generic [ref=e2139]:
+            - math [ref=e2141]:
+              - generic [ref=e2143]:
+                - generic [ref=e2144]:
+                  - generic [ref=e2145]:
+                    - generic [ref=e2146]: d
+                    - generic [ref=e2147]: x
+                  - generic [ref=e2148]:
+                    - generic [ref=e2149]: d
+                    - generic [ref=e2150]: t
+                - generic [ref=e2151]: =
+                - generic [ref=e2152]: k
+                - generic [ref=e2153]: (
+                - generic [ref=e2154]: a
+                - generic [ref=e2155]: −
+                - generic [ref=e2156]: x
+                - generic [ref=e2157]: )
+                - generic [ref=e2158]: (
+                - generic [ref=e2159]: b
+                - generic [ref=e2160]: −
+                - generic [ref=e2161]: x
+                - generic [ref=e2162]: )
+            - generic [ref=e2163]:
+              - generic [ref=e2164]:
+                - generic [ref=e2169]:
+                  - generic [ref=e2170]: dt
+                  - generic [ref=e2172]: dx
+                - text: =
+              - generic [ref=e2176]: k(a −
+              - generic [ref=e2177]: x)(b −
+              - generic [ref=e2178]: x)
+          - button "Hide/reveal" [ref=e2179] [cursor=pointer]
+        - article [ref=e2180]:
+          - generic [ref=e2181]: Good to Know
+          - heading "Differential Equations as Models" [level=3] [ref=e2182]
+          - paragraph [ref=e2183]: "Module 2: Introduction to Differential Equations"
+          - generic [ref=e2187]:
+            - math [ref=e2189]:
+              - generic [ref=e2191]:
+                - generic [ref=e2192]:
+                  - generic [ref=e2193]:
+                    - generic [ref=e2194]: d
+                    - generic [ref=e2195]: A
+                  - generic [ref=e2196]:
+                    - generic [ref=e2197]: d
+                    - generic [ref=e2198]: t
+                - generic [ref=e2199]: =
+                - generic [ref=e2200]:
+                  - generic [ref=e2201]: R
+                  - generic [ref=e2202]:
+                    - generic [ref=e2203]: i
+                    - generic [ref=e2204]: "n"
+                - generic [ref=e2205]: −
+                - generic [ref=e2206]:
+                  - generic [ref=e2207]: R
+                  - generic [ref=e2208]:
+                    - generic [ref=e2209]: o
+                    - generic [ref=e2210]: u
+                    - generic [ref=e2211]: t
+            - generic [ref=e2212]:
+              - generic [ref=e2213]:
+                - generic [ref=e2218]:
+                  - generic [ref=e2219]: dt
+                  - generic [ref=e2221]: dA
+                - text: =
+              - generic [ref=e2225]:
+                - generic [ref=e2226]:
+                  - text: R
+                  - generic [ref=e2232]: in
+                - text: −
+              - generic [ref=e2237]:
+                - text: R
+                - generic [ref=e2243]: out
+          - button "Hide/reveal" [ref=e2247] [cursor=pointer]
+        - article [ref=e2248]:
+          - generic [ref=e2249]: Good to Know
+          - heading "Differential Equations as Models" [level=3] [ref=e2250]
+          - paragraph [ref=e2251]: "Module 2: Introduction to Differential Equations"
+          - generic [ref=e2255]:
+            - math [ref=e2257]:
+              - generic [ref=e2259]:
+                - generic [ref=e2260]: L
+                - generic [ref=e2261]:
+                  - generic [ref=e2262]: q
+                  - generic [ref=e2263]:
+                    - generic [ref=e2264]: ′
+                    - generic [ref=e2265]: ′
+                - generic [ref=e2266]: +
+                - generic [ref=e2267]: R
+                - generic [ref=e2268]:
+                  - generic [ref=e2269]: q
+                  - generic [ref=e2270]: ′
+                - generic [ref=e2271]: +
+                - generic [ref=e2272]:
+                  - generic [ref=e2273]: "1"
+                  - generic [ref=e2274]: C
+                - generic [ref=e2275]: q
+                - generic [ref=e2276]: =
+                - generic [ref=e2277]: E
+                - generic [ref=e2278]: (
+                - generic [ref=e2279]: t
+                - generic [ref=e2280]: )
+            - generic [ref=e2281]:
+              - generic [ref=e2282]:
+                - text: L
+                - generic [ref=e2283]:
+                  - text: q
+                  - generic [ref=e2289]: ′′
+                - text: +
+              - generic [ref=e2290]:
+                - text: R
+                - generic [ref=e2291]:
+                  - text: q
+                  - generic [ref=e2297]: ′
+                - text: +
+              - generic [ref=e2298]:
+                - generic [ref=e2303]:
+                  - generic [ref=e2304]: C
+                  - generic [ref=e2306]: "1"
+                - text: q =
+              - generic [ref=e2310]: E(t)
+          - button "Hide/reveal" [ref=e2311] [cursor=pointer]
+        - article [ref=e2312]:
+          - generic [ref=e2313]: Good to Know
+          - heading "Differential Equations as Models" [level=3] [ref=e2314]
+          - paragraph [ref=e2315]: "Module 2: Introduction to Differential Equations"
+          - generic [ref=e2319]:
+            - math [ref=e2321]:
+              - generic [ref=e2323]:
+                - generic [ref=e2324]: m
+                - generic [ref=e2325]:
+                  - generic [ref=e2326]: s
+                  - generic [ref=e2327]:
+                    - generic [ref=e2328]: ′
+                    - generic [ref=e2329]: ′
+                - generic [ref=e2330]: +
+                - generic [ref=e2331]: k
+                - generic [ref=e2332]:
+                  - generic [ref=e2333]: s
+                  - generic [ref=e2334]: ′
+                - generic [ref=e2335]: =
+                - generic [ref=e2336]: m
+                - generic [ref=e2337]: g
+            - generic [ref=e2338]:
+              - generic [ref=e2339]:
+                - text: m
+                - generic [ref=e2340]:
+                  - text: s
+                  - generic [ref=e2346]: ′′
+                - text: +
+              - generic [ref=e2347]:
+                - text: k
+                - generic [ref=e2348]:
+                  - text: s
+                  - generic [ref=e2354]: ′
+                - text: =
+              - generic [ref=e2355]: mg
+          - button "Hide/reveal" [ref=e2356] [cursor=pointer]
+        - article [ref=e2357]:
+          - generic [ref=e2358]: Good to Know
+          - heading "Differential Equations as Models" [level=3] [ref=e2359]
+          - paragraph [ref=e2360]: "Module 2: Introduction to Differential Equations"
+          - generic [ref=e2364]:
+            - math [ref=e2366]:
+              - generic [ref=e2368]:
+                - generic [ref=e2369]:
+                  - generic [ref=e2370]: x
+                  - generic [ref=e2371]:
+                    - generic [ref=e2372]: ′
+                    - generic [ref=e2373]: ′
+                - generic [ref=e2374]: +
+                - generic [ref=e2375]:
+                  - generic [ref=e2376]: ω
+                  - generic [ref=e2377]: "2"
+                - generic [ref=e2378]: x
+                - generic [ref=e2379]: =
+                - generic [ref=e2380]: "0"
+            - generic [ref=e2381]:
+              - generic [ref=e2382]:
+                - generic [ref=e2383]:
+                  - text: x
+                  - generic [ref=e2389]: ′′
+                - text: +
+              - generic [ref=e2390]:
+                - generic [ref=e2391]:
+                  - text: ω
+                  - generic [ref=e2396]: "2"
+                - text: x =
+              - generic [ref=e2397]: "0"
+          - button "Hide/reveal" [ref=e2398] [cursor=pointer]
+        - article [ref=e2399]:
+          - generic [ref=e2400]: Good to Know
+          - heading "Differential Equations as Models" [level=3] [ref=e2401]
+          - paragraph [ref=e2402]: "Module 2: Introduction to Differential Equations"
+          - generic [ref=e2406]:
+            - math [ref=e2408]:
+              - generic [ref=e2410]:
+                - generic [ref=e2411]:
+                  - generic [ref=e2412]: x
+                  - generic [ref=e2413]:
+                    - generic [ref=e2414]: ′
+                    - generic [ref=e2415]: ′
+                - generic [ref=e2416]: +
+                - generic [ref=e2417]: "2"
+                - generic [ref=e2418]: λ
+                - generic [ref=e2419]:
+                  - generic [ref=e2420]: x
+                  - generic [ref=e2421]: ′
+                - generic [ref=e2422]: +
+                - generic [ref=e2423]:
+                  - generic [ref=e2424]: ω
+                  - generic [ref=e2425]: "2"
+                - generic [ref=e2426]: x
+                - generic [ref=e2427]: =
+                - generic [ref=e2428]: "0"
+            - generic [ref=e2429]:
+              - generic [ref=e2430]:
+                - generic [ref=e2431]:
+                  - text: x
+                  - generic [ref=e2437]: ′′
+                - text: +
+              - generic [ref=e2438]:
+                - text: 2λ
+                - generic [ref=e2439]:
+                  - text: x
+                  - generic [ref=e2445]: ′
+                - text: +
+              - generic [ref=e2446]:
+                - generic [ref=e2447]:
+                  - text: ω
+                  - generic [ref=e2452]: "2"
+                - text: x =
+              - generic [ref=e2453]: "0"
+          - button "Hide/reveal" [ref=e2454] [cursor=pointer]
+        - article [ref=e2455]:
+          - generic [ref=e2456]: Must Memorize
+          - heading "Separable Variables" [level=3] [ref=e2457]
+          - paragraph [ref=e2458]: "Module 3: First-Order ODE Methods"
+          - generic [ref=e2462]:
+            - math [ref=e2464]:
+              - generic [ref=e2466]:
+                - generic [ref=e2467]:
+                  - generic [ref=e2468]:
+                    - generic [ref=e2469]: d
+                    - generic [ref=e2470]: "y"
+                  - generic [ref=e2471]:
+                    - generic [ref=e2472]: d
+                    - generic [ref=e2473]: x
+                - generic [ref=e2474]: =
+                - generic [ref=e2475]: g
+                - generic [ref=e2476]: (
+                - generic [ref=e2477]: x
+                - generic [ref=e2478]: )
+                - generic [ref=e2479]: h
+                - generic [ref=e2480]: (
+                - generic [ref=e2481]: "y"
+                - generic [ref=e2482]: )
+                - generic [ref=e2483]: ⇒
+                - generic [ref=e2484]:
+                  - generic [ref=e2485]: "1"
+                  - generic [ref=e2486]:
+                    - generic [ref=e2487]: h
+                    - generic [ref=e2488]: (
+                    - generic [ref=e2489]: "y"
+                    - generic [ref=e2490]: )
+                - generic [ref=e2491]: d
+                - generic [ref=e2492]: "y"
+                - generic [ref=e2493]: =
+                - generic [ref=e2494]: g
+                - generic [ref=e2495]: (
+                - generic [ref=e2496]: x
+                - generic [ref=e2497]: )
+                - generic [ref=e2498]: d
+                - generic [ref=e2499]: x
+            - generic [ref=e2500]:
+              - generic [ref=e2501]:
+                - generic [ref=e2506]:
+                  - generic [ref=e2507]: dx
+                  - generic [ref=e2509]: dy
+                - text: =
+              - generic [ref=e2513]: g(x)h(y) ⇒
+              - generic [ref=e2514]:
+                - generic [ref=e2519]:
+                  - generic [ref=e2520]: h(y)
+                  - generic [ref=e2522]: "1"
+                - text: dy =
+              - generic [ref=e2526]: g(x)dx
+          - button "Hide/reveal" [ref=e2527] [cursor=pointer]
+        - article [ref=e2528]:
+          - generic [ref=e2529]: Must Memorize
+          - heading "Linear Equations" [level=3] [ref=e2530]
+          - paragraph [ref=e2531]: "Module 3: First-Order ODE Methods"
+          - generic [ref=e2535]:
+            - math [ref=e2537]:
+              - generic [ref=e2539]:
+                - generic [ref=e2540]:
+                  - generic [ref=e2541]: "y"
+                  - generic [ref=e2542]: ′
+                - generic [ref=e2543]: +
+                - generic [ref=e2544]: P
+                - generic [ref=e2545]: (
+                - generic [ref=e2546]: x
+                - generic [ref=e2547]: )
+                - generic [ref=e2548]: "y"
+                - generic [ref=e2549]: =
+                - generic [ref=e2550]: f
+                - generic [ref=e2551]: (
+                - generic [ref=e2552]: x
+                - generic [ref=e2553]: )
+            - generic [ref=e2554]:
+              - generic [ref=e2555]:
+                - generic [ref=e2556]:
+                  - text: "y"
+                  - generic [ref=e2562]: ′
+                - text: +
+              - generic [ref=e2563]: P(x)y =
+              - generic [ref=e2564]: f(x)
+          - button "Hide/reveal" [ref=e2565] [cursor=pointer]
+        - article [ref=e2566]:
+          - generic [ref=e2567]: Must Memorize
+          - heading "Linear Equations" [level=3] [ref=e2568]
+          - paragraph [ref=e2569]: "Module 3: First-Order ODE Methods"
+          - generic [ref=e2573]:
+            - math [ref=e2575]:
+              - generic [ref=e2577]:
+                - generic [ref=e2578]: μ
+                - generic [ref=e2579]: (
+                - generic [ref=e2580]: x
+                - generic [ref=e2581]: )
+                - generic [ref=e2582]: =
+                - generic [ref=e2583]:
+                  - generic [ref=e2584]: e
+                  - generic [ref=e2585]:
+                    - generic [ref=e2586]: ∫
+                    - generic [ref=e2587]: P
+                    - generic [ref=e2588]: (
+                    - generic [ref=e2589]: x
+                    - generic [ref=e2590]: )
+                    - generic [ref=e2591]: d
+                    - generic [ref=e2592]: x
+            - generic [ref=e2593]:
+              - generic [ref=e2594]: μ(x) =
+              - generic [ref=e2596]:
+                - text: e
+                - generic [ref=e2602]: ∫ P(x) dx
+          - button "Hide/reveal" [ref=e2603] [cursor=pointer]
+        - article [ref=e2604]:
+          - generic [ref=e2605]: Must Memorize
+          - heading "Linear Equations" [level=3] [ref=e2606]
+          - paragraph [ref=e2607]: "Module 3: First-Order ODE Methods"
+          - generic [ref=e2611]:
+            - math [ref=e2613]:
+              - generic [ref=e2615]:
+                - generic [ref=e2616]:
+                  - generic [ref=e2617]: d
+                  - generic [ref=e2618]:
+                    - generic [ref=e2619]: d
+                    - generic [ref=e2620]: x
+                - generic [ref=e2621]: "["
+                - generic [ref=e2622]: μ
+                - generic [ref=e2623]: "y"
+                - generic [ref=e2624]: "]"
+                - generic [ref=e2625]: =
+                - generic [ref=e2626]: μ
+                - generic [ref=e2627]: f
+                - generic [ref=e2628]: (
+                - generic [ref=e2629]: x
+                - generic [ref=e2630]: )
+            - generic [ref=e2631]:
+              - generic [ref=e2632]:
+                - generic [ref=e2637]:
+                  - generic [ref=e2638]: dx
+                  - generic [ref=e2640]: d
+                - text: "[μy] ="
+              - generic [ref=e2644]: μf(x)
+          - button "Hide/reveal" [ref=e2645] [cursor=pointer]
+        - article [ref=e2646]:
+          - generic [ref=e2647]: Must Memorize
+          - heading "Exact Equations" [level=3] [ref=e2648]
+          - paragraph [ref=e2649]: "Module 3: First-Order ODE Methods"
+          - generic [ref=e2653]:
+            - math [ref=e2655]:
+              - generic [ref=e2657]:
+                - generic [ref=e2658]: M
+                - generic [ref=e2659]: (
+                - generic [ref=e2660]: x
+                - generic [ref=e2661]: ","
+                - generic [ref=e2662]: "y"
+                - generic [ref=e2663]: )
+                - generic [ref=e2664]: d
+                - generic [ref=e2665]: x
+                - generic [ref=e2666]: +
+                - generic [ref=e2667]: "N"
+                - generic [ref=e2668]: (
+                - generic [ref=e2669]: x
+                - generic [ref=e2670]: ","
+                - generic [ref=e2671]: "y"
+                - generic [ref=e2672]: )
+                - generic [ref=e2673]: d
+                - generic [ref=e2674]: "y"
+                - generic [ref=e2675]: =
+                - generic [ref=e2676]: "0"
+            - generic [ref=e2677]:
+              - generic [ref=e2678]: M(x, y)dx +
+              - generic [ref=e2679]: N(x, y)dy =
+              - generic [ref=e2680]: "0"
+          - button "Hide/reveal" [ref=e2681] [cursor=pointer]
+        - article [ref=e2682]:
+          - generic [ref=e2683]: Must Memorize
+          - heading "Exact Equations" [level=3] [ref=e2684]
+          - paragraph [ref=e2685]: "Module 3: First-Order ODE Methods"
+          - generic [ref=e2689]:
+            - math [ref=e2691]:
+              - generic [ref=e2693]:
+                - generic [ref=e2694]:
+                  - generic [ref=e2695]:
+                    - generic [ref=e2696]: ∂
+                    - generic [ref=e2697]: M
+                  - generic [ref=e2698]:
+                    - generic [ref=e2699]: ∂
+                    - generic [ref=e2700]: "y"
+                - generic [ref=e2701]: =
+                - generic [ref=e2702]:
+                  - generic [ref=e2703]:
+                    - generic [ref=e2704]: ∂
+                    - generic [ref=e2705]: "N"
+                  - generic [ref=e2706]:
+                    - generic [ref=e2707]: ∂
+                    - generic [ref=e2708]: x
+            - generic [ref=e2709]:
+              - generic [ref=e2710]:
+                - generic [ref=e2715]:
+                  - generic [ref=e2716]: ∂y
+                  - generic [ref=e2718]: ∂M
+                - text: =
+              - generic [ref=e2727]:
+                - generic [ref=e2728]: ∂x
+                - generic [ref=e2730]: ∂N
+          - button "Hide/reveal" [ref=e2734] [cursor=pointer]
+        - article [ref=e2735]:
+          - generic [ref=e2736]: Must Memorize
+          - heading "Exact Equations" [level=3] [ref=e2737]
+          - paragraph [ref=e2738]: "Module 3: First-Order ODE Methods"
+          - generic [ref=e2742]:
+            - math [ref=e2744]:
+              - generic [ref=e2746]:
+                - generic [ref=e2747]: f
+                - generic [ref=e2748]: (
+                - generic [ref=e2749]: x
+                - generic [ref=e2750]: ","
+                - generic [ref=e2751]: "y"
+                - generic [ref=e2752]: )
+                - generic [ref=e2753]: =
+                - generic [ref=e2754]: C
+            - generic [ref=e2755]:
+              - generic [ref=e2756]: f(x, y) =
+              - generic [ref=e2757]: C
+          - button "Hide/reveal" [ref=e2758] [cursor=pointer]
+        - article [ref=e2759]:
+          - generic [ref=e2760]: Must Memorize
+          - heading "Bernoulli Equations" [level=3] [ref=e2761]
+          - paragraph [ref=e2762]: "Module 3: First-Order ODE Methods"
+          - generic [ref=e2766]:
+            - math [ref=e2768]:
+              - generic [ref=e2770]:
+                - generic [ref=e2771]:
+                  - generic [ref=e2772]: "y"
+                  - generic [ref=e2773]: ′
+                - generic [ref=e2774]: +
+                - generic [ref=e2775]: P
+                - generic [ref=e2776]: (
+                - generic [ref=e2777]: x
+                - generic [ref=e2778]: )
+                - generic [ref=e2779]: "y"
+                - generic [ref=e2780]: =
+                - generic [ref=e2781]: f
+                - generic [ref=e2782]: (
+                - generic [ref=e2783]: x
+                - generic [ref=e2784]: )
+                - generic [ref=e2785]:
+                  - generic [ref=e2786]: "y"
+                  - generic [ref=e2787]: "n"
+            - generic [ref=e2788]:
+              - generic [ref=e2789]:
+                - generic [ref=e2790]:
+                  - text: "y"
+                  - generic [ref=e2796]: ′
+                - text: +
+              - generic [ref=e2797]: P(x)y =
+              - generic [ref=e2798]:
+                - text: f(x)
+                - generic [ref=e2799]:
+                  - text: "y"
+                  - generic [ref=e2804]: "n"
+          - button "Hide/reveal" [ref=e2805] [cursor=pointer]
+        - article [ref=e2806]:
+          - generic [ref=e2807]: Must Memorize
+          - heading "Bernoulli Equations" [level=3] [ref=e2808]
+          - paragraph [ref=e2809]: "Module 3: First-Order ODE Methods"
+          - generic [ref=e2813]:
+            - math [ref=e2815]:
+              - generic [ref=e2817]:
+                - generic [ref=e2818]: u
+                - generic [ref=e2819]: =
+                - generic [ref=e2820]:
+                  - generic [ref=e2821]: "y"
+                  - generic [ref=e2822]:
+                    - generic [ref=e2823]: "1"
+                    - generic [ref=e2824]: −
+                    - generic [ref=e2825]: "n"
+            - generic [ref=e2826]:
+              - generic [ref=e2827]: u =
+              - generic [ref=e2829]:
+                - text: "y"
+                - generic [ref=e2835]: 1−n
+          - button "Hide/reveal" [ref=e2836] [cursor=pointer]
+        - article [ref=e2837]:
+          - generic [ref=e2838]: Good to Know
+          - heading "Functions of Two or More Variables" [level=3] [ref=e2839]
+          - paragraph [ref=e2840]: "Module 4: Partial Derivatives"
+          - generic [ref=e2844]:
+            - math [ref=e2846]:
+              - generic [ref=e2848]:
+                - generic [ref=e2849]: z
+                - generic [ref=e2850]: =
+                - generic [ref=e2851]: f
+                - generic [ref=e2852]: (
+                - generic [ref=e2853]: x
+                - generic [ref=e2854]: ","
+                - generic [ref=e2855]: "y"
+                - generic [ref=e2856]: )
+            - generic [ref=e2857]:
+              - generic [ref=e2858]: z =
+              - generic [ref=e2859]: f(x, y)
+          - button "Hide/reveal" [ref=e2860] [cursor=pointer]
+        - article [ref=e2861]:
+          - generic [ref=e2862]: Good to Know
+          - heading "Functions of Two or More Variables" [level=3] [ref=e2863]
+          - paragraph [ref=e2864]: "Module 4: Partial Derivatives"
+          - generic [ref=e2868]:
+            - math [ref=e2870]:
+              - generic [ref=e2872]:
+                - generic [ref=e2873]: L
+                - generic [ref=e2874]: e
+                - generic [ref=e2875]: v
+                - generic [ref=e2876]: e
+                - generic [ref=e2877]: l
+                - generic [ref=e2878]: c
+                - generic [ref=e2879]: u
+                - generic [ref=e2880]: r
+                - generic [ref=e2881]: v
+                - generic [ref=e2882]: e
+                - generic [ref=e2883]: ":"
+                - generic [ref=e2884]: f
+                - generic [ref=e2885]: (
+                - generic [ref=e2886]: x
+                - generic [ref=e2887]: ","
+                - generic [ref=e2888]: "y"
+                - generic [ref=e2889]: )
+                - generic [ref=e2890]: =
+                - generic [ref=e2891]: k
+            - generic [ref=e2892]:
+              - generic [ref=e2893]:
+                - text: Level
+                - text: "curve :"
+              - generic [ref=e2896]: f(x, y) =
+              - generic [ref=e2897]: k
+          - button "Hide/reveal" [ref=e2898] [cursor=pointer]
+        - article [ref=e2899]:
+          - generic [ref=e2900]: Good to Know
+          - heading "Limits and Continuity" [level=3] [ref=e2901]
+          - paragraph [ref=e2902]: "Module 4: Partial Derivatives"
+          - generic [ref=e2906]:
+            - math [ref=e2908]:
+              - generic [ref=e2910]:
+                - generic [ref=e2911]:
+                  - generic [ref=e2912]:
+                    - generic [ref=e2913]: lim
+                    - generic: ⁡
+                  - generic [ref=e2914]:
+                    - generic [ref=e2915]: (
+                    - generic [ref=e2916]: x
+                    - generic [ref=e2917]: ","
+                    - generic [ref=e2918]: "y"
+                    - generic [ref=e2919]: )
+                    - generic [ref=e2920]: →
+                    - generic [ref=e2921]: (
+                    - generic [ref=e2922]: a
+                    - generic [ref=e2923]: ","
+                    - generic [ref=e2924]: b
+                    - generic [ref=e2925]: )
+                - generic [ref=e2926]: f
+                - generic [ref=e2927]: (
+                - generic [ref=e2928]: x
+                - generic [ref=e2929]: ","
+                - generic [ref=e2930]: "y"
+                - generic [ref=e2931]: )
+                - generic [ref=e2932]: =
+                - generic [ref=e2933]: L
+            - generic [ref=e2934]:
+              - generic [ref=e2935]:
+                - generic [ref=e2939]:
+                  - generic [ref=e2941]: (x,y)→(a,b)
+                  - generic [ref=e2943]: lim
+                - text: f(x, y) =
+              - generic [ref=e2947]: L
+          - button "Hide/reveal" [ref=e2948] [cursor=pointer]
+        - article [ref=e2949]:
+          - generic [ref=e2950]: Good to Know
+          - heading "Limits and Continuity" [level=3] [ref=e2951]
+          - paragraph [ref=e2952]: "Module 4: Partial Derivatives"
+          - generic [ref=e2956]:
+            - math [ref=e2958]:
+              - generic [ref=e2960]:
+                - generic [ref=e2961]: D
+                - generic [ref=e2962]: i
+                - generic [ref=e2963]: f
+                - generic [ref=e2964]: f
+                - generic [ref=e2965]: e
+                - generic [ref=e2966]: r
+                - generic [ref=e2967]: e
+                - generic [ref=e2968]: "n"
+                - generic [ref=e2969]: t
+                - generic [ref=e2970]: p
+                - generic [ref=e2971]: a
+                - generic [ref=e2972]: t
+                - generic [ref=e2973]: h
+                - generic [ref=e2974]: l
+                - generic [ref=e2975]: i
+                - generic [ref=e2976]: m
+                - generic [ref=e2977]: i
+                - generic [ref=e2978]: t
+                - generic [ref=e2979]: s
+                - generic [ref=e2980]: ⇒
+                - generic [ref=e2981]: D
+                - generic [ref=e2982]: "N"
+                - generic [ref=e2983]: E
+            - generic [ref=e2984]:
+              - generic [ref=e2985]:
+                - text: Different
+                - text: path
+                - text: limits ⇒
+              - generic [ref=e2988]: DNE
+          - button "Hide/reveal" [ref=e2989] [cursor=pointer]
+        - article [ref=e2990]:
+          - generic [ref=e2991]: Good to Know
+          - heading "Partial Derivatives" [level=3] [ref=e2992]
+          - paragraph [ref=e2993]: "Module 4: Partial Derivatives"
+          - generic [ref=e2997]:
+            - math [ref=e2999]:
+              - generic [ref=e3001]:
+                - generic [ref=e3002]:
+                  - generic [ref=e3003]: f
+                  - generic [ref=e3004]: x
+                - generic [ref=e3005]: =
+                - generic [ref=e3006]:
+                  - generic [ref=e3007]:
+                    - generic [ref=e3008]: ∂
+                    - generic [ref=e3009]: f
+                  - generic [ref=e3010]:
+                    - generic [ref=e3011]: ∂
+                    - generic [ref=e3012]: x
+            - generic [ref=e3013]:
+              - generic [ref=e3014]:
+                - generic [ref=e3015]:
+                  - text: f
+                  - generic [ref=e3020]: x
+                - text: =
+              - generic [ref=e3029]:
+                - generic [ref=e3030]: ∂x
+                - generic [ref=e3032]: ∂f
+          - button "Hide/reveal" [ref=e3036] [cursor=pointer]
+        - article [ref=e3037]:
+          - generic [ref=e3038]: Good to Know
+          - heading "Partial Derivatives" [level=3] [ref=e3039]
+          - paragraph [ref=e3040]: "Module 4: Partial Derivatives"
+          - generic [ref=e3044]:
+            - math [ref=e3046]:
+              - generic [ref=e3048]:
+                - generic [ref=e3049]:
+                  - generic [ref=e3050]: f
+                  - generic [ref=e3051]: "y"
+                - generic [ref=e3052]: =
+                - generic [ref=e3053]:
+                  - generic [ref=e3054]:
+                    - generic [ref=e3055]: ∂
+                    - generic [ref=e3056]: f
+                  - generic [ref=e3057]:
+                    - generic [ref=e3058]: ∂
+                    - generic [ref=e3059]: "y"
+            - generic [ref=e3060]:
+              - generic [ref=e3061]:
+                - generic [ref=e3062]:
+                  - text: f
+                  - generic [ref=e3067]: "y"
+                - text: =
+              - generic [ref=e3076]:
+                - generic [ref=e3077]: ∂y
+                - generic [ref=e3079]: ∂f
+          - button "Hide/reveal" [ref=e3083] [cursor=pointer]
+        - article [ref=e3084]:
+          - generic [ref=e3085]: Good to Know
+          - heading "Partial Derivatives" [level=3] [ref=e3086]
+          - paragraph [ref=e3087]: "Module 4: Partial Derivatives"
+          - generic [ref=e3091]:
+            - math [ref=e3093]:
+              - generic [ref=e3095]:
+                - generic [ref=e3096]:
+                  - generic [ref=e3097]: f
+                  - generic [ref=e3098]:
+                    - generic [ref=e3099]: x
+                    - generic [ref=e3100]: "y"
+                - generic [ref=e3101]: =
+                - generic [ref=e3102]:
+                  - generic [ref=e3103]: ∂
+                  - generic [ref=e3104]:
+                    - generic [ref=e3105]: ∂
+                    - generic [ref=e3106]: "y"
+                - generic [ref=e3107]: (
+                - generic [ref=e3108]:
+                  - generic [ref=e3109]: f
+                  - generic [ref=e3110]: x
+                - generic [ref=e3111]: )
+            - generic [ref=e3112]:
+              - generic [ref=e3113]:
+                - generic [ref=e3114]:
+                  - text: f
+                  - generic [ref=e3120]: xy
+                - text: =
+              - generic [ref=e3124]:
+                - generic [ref=e3129]:
+                  - generic [ref=e3130]: ∂y
+                  - generic [ref=e3132]: ∂
+                - text: (
+                - generic [ref=e3136]:
+                  - text: f
+                  - generic [ref=e3141]: x
+                - text: )
+          - button "Hide/reveal" [ref=e3145] [cursor=pointer]
+        - article [ref=e3146]:
+          - generic [ref=e3147]: Good to Know
+          - heading "The Chain Rule" [level=3] [ref=e3148]
+          - paragraph [ref=e3149]: "Module 4: Partial Derivatives"
+          - generic [ref=e3153]:
+            - math [ref=e3155]:
+              - generic [ref=e3157]:
+                - generic [ref=e3158]:
+                  - generic [ref=e3159]:
+                    - generic [ref=e3160]: d
+                    - generic [ref=e3161]: z
+                  - generic [ref=e3162]:
+                    - generic [ref=e3163]: d
+                    - generic [ref=e3164]: t
+                - generic [ref=e3165]: =
+                - generic [ref=e3166]:
+                  - generic [ref=e3167]: f
+                  - generic [ref=e3168]: x
+                - generic [ref=e3169]:
+                  - generic [ref=e3170]:
+                    - generic [ref=e3171]: d
+                    - generic [ref=e3172]: x
+                  - generic [ref=e3173]:
+                    - generic [ref=e3174]: d
+                    - generic [ref=e3175]: t
+                - generic [ref=e3176]: +
+                - generic [ref=e3177]:
+                  - generic [ref=e3178]: f
+                  - generic [ref=e3179]: "y"
+                - generic [ref=e3180]:
+                  - generic [ref=e3181]:
+                    - generic [ref=e3182]: d
+                    - generic [ref=e3183]: "y"
+                  - generic [ref=e3184]:
+                    - generic [ref=e3185]: d
+                    - generic [ref=e3186]: t
+            - generic [ref=e3187]:
+              - generic [ref=e3188]:
+                - generic [ref=e3193]:
+                  - generic [ref=e3194]: dt
+                  - generic [ref=e3196]: dz
+                - text: =
+              - generic [ref=e3200]:
+                - generic [ref=e3201]:
+                  - text: f
+                  - generic [ref=e3206]: x
+                - generic [ref=e3214]:
+                  - generic [ref=e3215]: dt
+                  - generic [ref=e3217]: dx
+                - text: +
+              - generic [ref=e3221]:
+                - generic [ref=e3222]:
+                  - text: f
+                  - generic [ref=e3227]: "y"
+                - generic [ref=e3235]:
+                  - generic [ref=e3236]: dt
+                  - generic [ref=e3238]: dy
+          - button "Hide/reveal" [ref=e3242] [cursor=pointer]
+        - article [ref=e3243]:
+          - generic [ref=e3244]: Good to Know
+          - heading "The Chain Rule" [level=3] [ref=e3245]
+          - paragraph [ref=e3246]: "Module 4: Partial Derivatives"
+          - generic [ref=e3250]:
+            - math [ref=e3252]:
+              - generic [ref=e3254]:
+                - generic [ref=e3255]:
+                  - generic [ref=e3256]:
+                    - generic [ref=e3257]: d
+                    - generic [ref=e3258]: "y"
+                  - generic [ref=e3259]:
+                    - generic [ref=e3260]: d
+                    - generic [ref=e3261]: x
+                - generic [ref=e3262]: =
+                - generic [ref=e3263]: −
+                - generic [ref=e3264]:
+                  - generic [ref=e3265]:
+                    - generic [ref=e3266]: F
+                    - generic [ref=e3267]: x
+                  - generic [ref=e3268]:
+                    - generic [ref=e3269]: F
+                    - generic [ref=e3270]: "y"
+            - generic [ref=e3271]:
+              - generic [ref=e3272]:
+                - generic [ref=e3277]:
+                  - generic [ref=e3278]: dx
+                  - generic [ref=e3280]: dy
+                - text: =
+              - generic [ref=e3284]:
+                - text: −
+                - generic [ref=e3289]:
+                  - generic [ref=e3291]:
+                    - text: F
+                    - generic [ref=e3296]: "y"
+                  - generic [ref=e3302]:
+                    - text: F
+                    - generic [ref=e3307]: x
+          - button "Hide/reveal" [ref=e3314] [cursor=pointer]
+        - article [ref=e3315]:
+          - generic [ref=e3316]: Good to Know
+          - heading "Directional Derivatives and Gradients" [level=3] [ref=e3317]
+          - paragraph [ref=e3318]: "Module 4: Partial Derivatives"
+          - generic [ref=e3322]:
+            - math [ref=e3324]:
+              - generic [ref=e3326]:
+                - generic [ref=e3327]:
+                  - generic [ref=e3328]: D
+                  - generic [ref=e3329]: u
+                - generic [ref=e3330]: f
+                - generic [ref=e3331]: =
+                - generic [ref=e3332]: ∇
+                - generic [ref=e3333]: f
+                - generic [ref=e3334]: ⋅
+                - generic [ref=e3335]: u
+            - generic [ref=e3336]:
+              - generic [ref=e3337]:
+                - generic [ref=e3338]:
+                  - text: D
+                  - generic [ref=e3343]: u
+                - text: f =
+              - generic [ref=e3347]: ∇f ⋅
+              - generic [ref=e3348]: u
+          - button "Hide/reveal" [ref=e3349] [cursor=pointer]
+        - article [ref=e3350]:
+          - generic [ref=e3351]: Good to Know
+          - heading "Directional Derivatives and Gradients" [level=3] [ref=e3352]
+          - paragraph [ref=e3353]: "Module 4: Partial Derivatives"
+          - generic [ref=e3357]:
+            - math [ref=e3359]:
+              - generic [ref=e3361]:
+                - generic [ref=e3362]: ∇
+                - generic [ref=e3363]: f
+                - generic [ref=e3364]: =
+                - generic [ref=e3365]: (
+                - generic [ref=e3366]:
+                  - generic [ref=e3367]: f
+                  - generic [ref=e3368]: x
+                - generic [ref=e3369]: ","
+                - generic [ref=e3370]:
+                  - generic [ref=e3371]: f
+                  - generic [ref=e3372]: "y"
+                - generic [ref=e3373]: )
+            - generic [ref=e3374]:
+              - generic [ref=e3375]: ∇f =
+              - generic [ref=e3376]:
+                - text: (
+                - generic [ref=e3377]:
+                  - text: f
+                  - generic [ref=e3382]: x
+                - text: ","
+                - generic [ref=e3386]:
+                  - text: f
+                  - generic [ref=e3391]: "y"
+                - text: )
+          - button "Hide/reveal" [ref=e3395] [cursor=pointer]
+        - article [ref=e3396]:
+          - generic [ref=e3397]: Good to Know
+          - heading "Directional Derivatives and Gradients" [level=3] [ref=e3398]
+          - paragraph [ref=e3399]: "Module 4: Partial Derivatives"
+          - generic [ref=e3403]:
+            - math [ref=e3405]:
+              - generic [ref=e3407]:
+                - generic [ref=e3408]: m
+                - generic [ref=e3409]: a
+                - generic [ref=e3410]: x
+                - generic [ref=e3411]:
+                  - generic [ref=e3412]: D
+                  - generic [ref=e3413]: u
+                - generic [ref=e3414]: f
+                - generic [ref=e3415]: =
+                - generic [ref=e3416]: ∣
+                - generic [ref=e3417]: ∇
+                - generic [ref=e3418]: f
+                - generic [ref=e3419]: ∣
+            - generic [ref=e3420]:
+              - generic [ref=e3421]:
+                - text: max
+                - generic [ref=e3423]:
+                  - text: D
+                  - generic [ref=e3428]: u
+                - text: f =
+              - generic [ref=e3432]: ∣∇f∣
+          - button "Hide/reveal" [ref=e3433] [cursor=pointer]
+        - article [ref=e3434]:
+          - generic [ref=e3435]: Good to Know
+          - heading "Tangent Planes and Normal Vectors" [level=3] [ref=e3436]
+          - paragraph [ref=e3437]: "Module 4: Partial Derivatives"
+          - generic [ref=e3441]:
+            - math [ref=e3443]:
+              - generic [ref=e3445]:
+                - generic [ref=e3446]: ∇
+                - generic [ref=e3447]: F
+                - generic [ref=e3448]: (
+                - generic [ref=e3449]: P
+                - generic [ref=e3450]: )
+                - generic [ref=e3451]: ⋅
+                - generic [ref=e3452]: ⟨
+                - generic [ref=e3453]: x
+                - generic [ref=e3454]: −
+                - generic [ref=e3455]:
+                  - generic [ref=e3456]: x
+                  - generic [ref=e3457]: "0"
+                - generic [ref=e3458]: ","
+                - generic [ref=e3459]: "y"
+                - generic [ref=e3460]: −
+                - generic [ref=e3461]:
+                  - generic [ref=e3462]: "y"
+                  - generic [ref=e3463]: "0"
+                - generic [ref=e3464]: ","
+                - generic [ref=e3465]: z
+                - generic [ref=e3466]: −
+                - generic [ref=e3467]:
+                  - generic [ref=e3468]: z
+                  - generic [ref=e3469]: "0"
+                - generic [ref=e3470]: ⟩
+                - generic [ref=e3471]: =
+                - generic [ref=e3472]: "0"
+            - generic [ref=e3473]:
+              - generic [ref=e3474]: ∇F(P) ⋅
+              - generic [ref=e3475]: ⟨x −
+              - generic [ref=e3476]:
+                - generic [ref=e3477]:
+                  - text: x
+                  - generic [ref=e3482]: "0"
+                - text: ", y −"
+              - generic [ref=e3486]:
+                - generic [ref=e3487]:
+                  - text: "y"
+                  - generic [ref=e3492]: "0"
+                - text: ", z −"
+              - generic [ref=e3496]:
+                - generic [ref=e3497]:
+                  - text: z
+                  - generic [ref=e3502]: "0"
+                - text: ⟩ =
+              - generic [ref=e3506]: "0"
+          - button "Hide/reveal" [ref=e3507] [cursor=pointer]
+        - article [ref=e3508]:
+          - generic [ref=e3509]: Good to Know
+          - heading "Tangent Planes and Normal Vectors" [level=3] [ref=e3510]
+          - paragraph [ref=e3511]: "Module 4: Partial Derivatives"
+          - generic [ref=e3515]:
+            - math [ref=e3517]:
+              - generic [ref=e3519]:
+                - generic [ref=e3520]: "N"
+                - generic [ref=e3521]: o
+                - generic [ref=e3522]: r
+                - generic [ref=e3523]: m
+                - generic [ref=e3524]: a
+                - generic [ref=e3525]: l
+                - generic [ref=e3526]: l
+                - generic [ref=e3527]: i
+                - generic [ref=e3528]: "n"
+                - generic [ref=e3529]: e
+                - generic [ref=e3530]: ":"
+                - generic [ref=e3531]: r
+                - generic [ref=e3532]: (
+                - generic [ref=e3533]: t
+                - generic [ref=e3534]: )
+                - generic [ref=e3535]: =
+                - generic [ref=e3536]: P
+                - generic [ref=e3537]: +
+                - generic [ref=e3538]: t
+                - generic [ref=e3539]: ∇
+                - generic [ref=e3540]: F
+                - generic [ref=e3541]: (
+                - generic [ref=e3542]: P
+                - generic [ref=e3543]: )
+            - generic [ref=e3544]:
+              - generic [ref=e3545]:
+                - text: Normal
+                - text: "line :"
+              - generic [ref=e3548]: r(t) =
+              - generic [ref=e3549]: P +
+              - generic [ref=e3550]: t∇F(P)
+          - button "Hide/reveal" [ref=e3551] [cursor=pointer]
+        - article [ref=e3552]:
+          - generic [ref=e3553]: Good to Know
+          - heading "Maxima and Minima" [level=3] [ref=e3554]
+          - paragraph [ref=e3555]: "Module 4: Partial Derivatives"
+          - generic [ref=e3559]:
+            - math [ref=e3561]:
+              - generic [ref=e3563]:
+                - generic [ref=e3564]:
+                  - generic [ref=e3565]: f
+                  - generic [ref=e3566]: x
+                - generic [ref=e3567]: =
+                - generic [ref=e3568]: "0"
+                - generic [ref=e3569]: ","
+                - generic [ref=e3570]:
+                  - generic [ref=e3571]: f
+                  - generic [ref=e3572]: "y"
+                - generic [ref=e3573]: =
+                - generic [ref=e3574]: "0"
+            - generic [ref=e3575]:
+              - generic [ref=e3576]:
+                - generic [ref=e3577]:
+                  - text: f
+                  - generic [ref=e3582]: x
+                - text: =
+              - generic [ref=e3586]:
+                - text: 0,
+                - generic [ref=e3587]:
+                  - text: f
+                  - generic [ref=e3592]: "y"
+                - text: =
+              - generic [ref=e3596]: "0"
+          - button "Hide/reveal" [ref=e3597] [cursor=pointer]
+        - article [ref=e3598]:
+          - generic [ref=e3599]: Good to Know
+          - heading "Maxima and Minima" [level=3] [ref=e3600]
+          - paragraph [ref=e3601]: "Module 4: Partial Derivatives"
+          - generic [ref=e3605]:
+            - math [ref=e3607]:
+              - generic [ref=e3609]:
+                - generic [ref=e3610]: D
+                - generic [ref=e3611]: =
+                - generic [ref=e3612]:
+                  - generic [ref=e3613]: f
+                  - generic [ref=e3614]:
+                    - generic [ref=e3615]: x
+                    - generic [ref=e3616]: x
+                - generic [ref=e3617]:
+                  - generic [ref=e3618]: f
+                  - generic [ref=e3619]:
+                    - generic [ref=e3620]: "y"
+                    - generic [ref=e3621]: "y"
+                - generic [ref=e3622]: −
+                - generic [ref=e3623]: (
+                - generic [ref=e3624]:
+                  - generic [ref=e3625]: f
+                  - generic [ref=e3626]:
+                    - generic [ref=e3627]: x
+                    - generic [ref=e3628]: "y"
+                - generic [ref=e3629]:
+                  - generic [ref=e3630]: )
+                  - generic [ref=e3631]: "2"
+            - generic [ref=e3632]:
+              - generic [ref=e3633]: D =
+              - generic [ref=e3634]:
+                - generic [ref=e3635]:
+                  - text: f
+                  - generic [ref=e3641]: xx
+                - generic [ref=e3645]:
+                  - text: f
+                  - generic [ref=e3651]: yy
+                - text: −
+              - generic [ref=e3655]:
+                - text: (
+                - generic [ref=e3656]:
+                  - text: f
+                  - generic [ref=e3662]: xy
+                - generic [ref=e3666]:
+                  - text: )
+                  - generic [ref=e3671]: "2"
+          - button "Hide/reveal" [ref=e3672] [cursor=pointer]
+        - article [ref=e3673]:
+          - generic [ref=e3674]: Good to Know
+          - heading "Maxima and Minima" [level=3] [ref=e3675]
+          - paragraph [ref=e3676]: "Module 4: Partial Derivatives"
+          - generic [ref=e3680]:
+            - math [ref=e3682]:
+              - generic [ref=e3684]:
+                - generic [ref=e3685]: D
+                - generic [ref=e3686]: ">"
+                - generic [ref=e3687]: "0"
+                - generic [ref=e3688]: ","
+                - generic [ref=e3689]:
+                  - generic [ref=e3690]: f
+                  - generic [ref=e3691]:
+                    - generic [ref=e3692]: x
+                    - generic [ref=e3693]: x
+                - generic [ref=e3694]: <
+                - generic [ref=e3695]: "0"
+                - generic [ref=e3696]: ":"
+                - generic [ref=e3697]: m
+                - generic [ref=e3698]: a
+                - generic [ref=e3699]: x
+                - generic [ref=e3700]: ;
+                - generic [ref=e3701]: D
+                - generic [ref=e3702]: ">"
+                - generic [ref=e3703]: "0"
+                - generic [ref=e3704]: ","
+                - generic [ref=e3705]:
+                  - generic [ref=e3706]: f
+                  - generic [ref=e3707]:
+                    - generic [ref=e3708]: x
+                    - generic [ref=e3709]: x
+                - generic [ref=e3710]: ">"
+                - generic [ref=e3711]: "0"
+                - generic [ref=e3712]: ":"
+                - generic [ref=e3713]: m
+                - generic [ref=e3714]: i
+                - generic [ref=e3715]: "n"
+                - generic [ref=e3716]: ;
+                - generic [ref=e3717]: D
+                - generic [ref=e3718]: <
+                - generic [ref=e3719]: "0"
+                - generic [ref=e3720]: ":"
+                - generic [ref=e3721]: s
+                - generic [ref=e3722]: a
+                - generic [ref=e3723]: d
+                - generic [ref=e3724]: d
+                - generic [ref=e3725]: l
+                - generic [ref=e3726]: e
+            - generic [ref=e3727]:
+              - generic [ref=e3728]: D >
+              - generic [ref=e3729]:
+                - text: 0,
+                - generic [ref=e3730]:
+                  - text: f
+                  - generic [ref=e3736]: xx
+                - text: <
+              - generic [ref=e3740]: "0 :"
+              - generic [ref=e3742]: max; D >
+              - generic [ref=e3743]:
+                - text: 0,
+                - generic [ref=e3744]:
+                  - text: f
+                  - generic [ref=e3750]: xx
+                - text: ">"
+              - generic [ref=e3754]: "0 :"
+              - generic [ref=e3756]: min; D <
+              - generic [ref=e3757]: "0 :"
+              - generic [ref=e3759]: saddle
+          - button "Hide/reveal" [ref=e3760] [cursor=pointer]
+        - article [ref=e3761]:
+          - generic [ref=e3762]: Must Memorize
+          - heading "Method Recognition" [level=3] [ref=e3763]
+          - paragraph [ref=e3764]: Study Strategy
+          - generic [ref=e3768]:
+            - math [ref=e3770]:
+              - generic [ref=e3772]:
+                - generic [ref=e3773]: W
+                - generic [ref=e3774]: o
+                - generic [ref=e3775]: r
+                - generic [ref=e3776]: k
+                - generic [ref=e3777]: e
+                - generic [ref=e3778]: d
+                - generic [ref=e3779]: e
+                - generic [ref=e3780]: x
+                - generic [ref=e3781]: a
+                - generic [ref=e3782]: m
+                - generic [ref=e3783]: p
+                - generic [ref=e3784]: l
+                - generic [ref=e3785]: e
+                - generic [ref=e3786]: →
+                - generic [ref=e3787]: c
+                - generic [ref=e3788]: o
+                - generic [ref=e3789]: v
+                - generic [ref=e3790]: e
+                - generic [ref=e3791]: r
+                - generic [ref=e3792]: s
+                - generic [ref=e3793]: o
+                - generic [ref=e3794]: l
+                - generic [ref=e3795]: u
+                - generic [ref=e3796]: t
+                - generic [ref=e3797]: i
+                - generic [ref=e3798]: o
+                - generic [ref=e3799]: "n"
+                - generic [ref=e3800]: →
+                - generic [ref=e3801]: m
+                - generic [ref=e3802]: i
+                - generic [ref=e3803]: x
+                - generic [ref=e3804]: e
+                - generic [ref=e3805]: d
+                - generic [ref=e3806]: p
+                - generic [ref=e3807]: r
+                - generic [ref=e3808]: a
+                - generic [ref=e3809]: c
+                - generic [ref=e3810]: t
+                - generic [ref=e3811]: i
+                - generic [ref=e3812]: c
+                - generic [ref=e3813]: e
+            - generic [ref=e3814]:
+              - generic [ref=e3815]:
+                - text: Worked
+                - text: example →
+              - generic [ref=e3817]:
+                - text: cover
+                - text: solution →
+              - generic [ref=e3819]:
+                - text: mixed
+                - text: practice
+          - button "Hide/reveal" [ref=e3821] [cursor=pointer]
+        - article [ref=e3822]:
+          - generic [ref=e3823]: Good to Know
+          - heading "Spaced Review" [level=3] [ref=e3824]
+          - paragraph [ref=e3825]: Study Strategy
+          - generic [ref=e3829]:
+            - math [ref=e3831]:
+              - generic [ref=e3833]:
+                - generic [ref=e3834]: R
+                - generic [ref=e3835]: e
+                - generic [ref=e3836]: v
+                - generic [ref=e3837]: i
+                - generic [ref=e3838]: e
+                - generic [ref=e3839]: w
+                - generic [ref=e3840]: ":"
+                - generic [ref=e3841]: s
+                - generic [ref=e3842]: a
+                - generic [ref=e3843]: m
+                - generic [ref=e3844]: e
+                - generic [ref=e3845]: d
+                - generic [ref=e3846]: a
+                - generic [ref=e3847]: "y"
+                - generic [ref=e3848]: ","
+                - generic [ref=e3849]: "n"
+                - generic [ref=e3850]: e
+                - generic [ref=e3851]: x
+                - generic [ref=e3852]: t
+                - generic [ref=e3853]: d
+                - generic [ref=e3854]: a
+                - generic [ref=e3855]: "y"
+                - generic [ref=e3856]: ","
+                - generic [ref=e3857]: "3"
+                - generic [ref=e3858]: d
+                - generic [ref=e3859]: a
+                - generic [ref=e3860]: "y"
+                - generic [ref=e3861]: s
+                - generic [ref=e3862]: ","
+                - generic [ref=e3863]: "7"
+                - generic [ref=e3864]: d
+                - generic [ref=e3865]: a
+                - generic [ref=e3866]: "y"
+                - generic [ref=e3867]: s
+            - generic [ref=e3868]:
+              - generic [ref=e3869]: "Review :"
+              - generic [ref=e3871]:
+                - text: same
+                - text: day,
+                - text: next
+                - text: day,
+                - text: "3"
+                - text: days,
+                - text: "7"
+                - text: days
+          - button "Hide/reveal" [ref=e3879] [cursor=pointer]

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ODE Studio | Interactive Study Course</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+    <script defer src="js/content.js"></script>
+    <script defer src="js/progress.js"></script>
+    <script defer src="js/katex-render.js"></script>
+    <script defer src="js/practice.js"></script>
+    <script defer src="js/decision-tree.js"></script>
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <div class="brand">
+          <div class="brand-mark">d/dx</div>
+          <div>
+            <h1>ODE Studio</h1>
+            <p>Worked examples, recall, mixed practice.</p>
+          </div>
+        </div>
+
+        <div class="study-card">
+          <span class="eyebrow">Today</span>
+          <strong id="streakText">0 day streak</strong>
+          <div class="progress-rail"><span id="overallProgress"></span></div>
+        </div>
+
+        <nav class="nav" id="courseNav" aria-label="Course navigation"></nav>
+
+        <div class="utility-links">
+          <button class="nav-pill" data-route="exam-sprint">Exam Sprint</button>
+          <button class="nav-pill" data-route="mixed">Mixed Practice</button>
+          <button class="nav-pill" data-route="formulas">Formula Sheet</button>
+          <button class="nav-pill" data-route="decision-tree">ODE Decision Tree</button>
+          <button class="nav-pill" data-route="progress">Progress Tracker</button>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <button class="icon-button" id="menuToggle" aria-label="Toggle sidebar">Menu</button>
+          <div class="topbar-copy">
+            <span class="eyebrow">Undergraduate Ordinary Differential Equations</span>
+            <strong id="topbarTitle">Calculus Refresher</strong>
+          </div>
+          <button class="icon-button" id="themeToggle" aria-label="Toggle light mode">Theme</button>
+        </header>
+
+        <section class="hero" id="homeHero">
+          <div>
+            <span class="eyebrow">A-to-Z recovery course</span>
+            <h2>Rebuild calculus, then solve ODE exam examples with confidence.</h2>
+            <p>
+              This local course uses worked examples first, notebook prompts, active recall,
+              spaced review, and mixed practice so you learn both how to solve and how to identify the method.
+            </p>
+          </div>
+          <div class="hero-panel">
+            <strong>Study loop</strong>
+            <ol>
+              <li>Read the concept card.</li>
+              <li>Reveal each worked-example step.</li>
+              <li>Work practice on paper before revealing.</li>
+              <li>Finish with mixed method-identification practice.</li>
+            </ol>
+          </div>
+        </section>
+
+        <section id="reviewBanner" class="review-banner hidden"></section>
+        <section id="appContent" class="content-grid" aria-live="polite"></section>
+      </main>
+    </div>
+  </body>
+</html>

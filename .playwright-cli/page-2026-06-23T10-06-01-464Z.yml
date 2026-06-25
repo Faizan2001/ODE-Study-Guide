@@ -1,0 +1,1047 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: d/dx
+      - generic [ref=e6]:
+        - heading "ODE Studio" [level=1] [ref=e7]
+        - paragraph [ref=e8]: Worked examples, recall, mixed practice.
+    - generic [ref=e9]:
+      - generic [ref=e10]: Today
+      - strong [ref=e11]: 1 day streak
+    - navigation "Course navigation" [ref=e13]:
+      - generic [ref=e565]:
+        - 'heading "Module 0: Calculus Refresher" [level=3] [ref=e566]'
+        - button "0.1 Differentiation Quick Review" [ref=e567] [cursor=pointer]:
+          - generic [ref=e568]: 0.1 Differentiation Quick Review
+        - button "0.2 Integration Quick Review" [ref=e569] [cursor=pointer]:
+          - generic [ref=e570]: 0.2 Integration Quick Review
+      - generic [ref=e571]:
+        - 'heading "Module 1: Integration Techniques" [level=3] [ref=e572]'
+        - button "1.1 Integration by Parts" [ref=e573] [cursor=pointer]:
+          - generic [ref=e574]: 1.1 Integration by Parts
+        - button "1.2 Trigonometric Integrals" [ref=e575] [cursor=pointer]:
+          - generic [ref=e576]: 1.2 Trigonometric Integrals
+        - button "1.3 Trigonometric Substitution" [ref=e577] [cursor=pointer]:
+          - generic [ref=e578]: 1.3 Trigonometric Substitution
+        - button "1.4 Partial Fractions" [ref=e579] [cursor=pointer]:
+          - generic [ref=e580]: 1.4 Partial Fractions
+      - generic [ref=e581]:
+        - 'heading "Module 2: Introduction to Differential Equations" [level=3] [ref=e582]'
+        - button "2.1 Definition and Terminology" [ref=e583] [cursor=pointer]:
+          - generic [ref=e584]: 2.1 Definition and Terminology
+        - button "2.2 Initial Value Problems" [ref=e585] [cursor=pointer]:
+          - generic [ref=e586]: 2.2 Initial Value Problems
+        - button "2.3 Differential Equations as Models" [ref=e587] [cursor=pointer]:
+          - generic [ref=e588]: 2.3 Differential Equations as Models
+      - generic [ref=e589]:
+        - 'heading "Module 3: First-Order ODE Methods" [level=3] [ref=e590]'
+        - button "3.1 Separable Variables" [ref=e591] [cursor=pointer]:
+          - generic [ref=e592]: 3.1 Separable Variables
+        - button "3.2 Linear Equations" [ref=e593] [cursor=pointer]:
+          - generic [ref=e594]: 3.2 Linear Equations
+        - button "3.3 Exact Equations" [ref=e595] [cursor=pointer]:
+          - generic [ref=e596]: 3.3 Exact Equations
+        - button "3.4 Bernoulli Equations" [ref=e597] [cursor=pointer]:
+          - generic [ref=e598]: 3.4 Bernoulli Equations
+      - generic [ref=e599]:
+        - 'heading "Module 4: Partial Derivatives" [level=3] [ref=e600]'
+        - button "4.1 Functions of Two or More Variables" [ref=e601] [cursor=pointer]:
+          - generic [ref=e602]: 4.1 Functions of Two or More Variables
+        - button "4.2 Limits and Continuity" [ref=e603] [cursor=pointer]:
+          - generic [ref=e604]: 4.2 Limits and Continuity
+        - button "4.3 Partial Derivatives" [ref=e605] [cursor=pointer]:
+          - generic [ref=e606]: 4.3 Partial Derivatives
+        - button "4.4 The Chain Rule" [ref=e607] [cursor=pointer]:
+          - generic [ref=e608]: 4.4 The Chain Rule
+        - button "4.5 Directional Derivatives and Gradients" [ref=e609] [cursor=pointer]:
+          - generic [ref=e610]: 4.5 Directional Derivatives and Gradients
+        - button "4.6 Tangent Planes and Normal Vectors" [ref=e611] [cursor=pointer]:
+          - generic [ref=e612]: 4.6 Tangent Planes and Normal Vectors
+        - button "4.7 Maxima and Minima" [ref=e613] [cursor=pointer]:
+          - generic [ref=e614]: 4.7 Maxima and Minima
+    - generic [ref=e64]:
+      - button "Mixed Practice" [ref=e65] [cursor=pointer]
+      - button "Formula Sheet" [ref=e66] [cursor=pointer]
+      - button "ODE Decision Tree" [ref=e67] [cursor=pointer]
+      - button "Progress Tracker" [ref=e68] [cursor=pointer]
+  - main [ref=e69]:
+    - generic [ref=e70]:
+      - button "Toggle sidebar" [ref=e71] [cursor=pointer]: Menu
+      - generic [ref=e72]:
+        - generic [ref=e73]: Undergraduate Ordinary Differential Equations
+        - strong [ref=e74]: 2.3 Differential Equations as Models
+      - button "Toggle light mode" [ref=e75] [cursor=pointer]: Theme
+    - generic [ref=e76]:
+      - generic [ref=e77]:
+        - generic [ref=e78]: A-to-Z recovery course
+        - heading "Rebuild calculus, then solve ODE exam examples with confidence." [level=2] [ref=e79]
+        - paragraph [ref=e80]: This local course uses worked examples first, notebook prompts, active recall, spaced review, and mixed practice so you learn both how to solve and how to identify the method.
+      - generic [ref=e81]:
+        - strong [ref=e82]: Study loop
+        - list [ref=e83]:
+          - listitem [ref=e84]: Read the concept card.
+          - listitem [ref=e85]: Reveal each worked-example step.
+          - listitem [ref=e86]: Work practice on paper before revealing.
+          - listitem [ref=e87]: Finish with mixed method-identification practice.
+    - generic [ref=e615]:
+      - generic [ref=e616]: Spaced review nudge
+      - paragraph [ref=e617]:
+        - text: Before starting
+        - strong [ref=e618]: Differential Equations as Models
+        - text: ", spend 3 minutes recalling one formula or method from"
+        - strong [ref=e619]: Definition and Terminology
+        - text: without looking. Then reveal your notes.
+      - button "Review 2.1" [ref=e620] [cursor=pointer]
+    - generic [ref=e88]:
+      - article [ref=e621]:
+        - generic [ref=e622]:
+          - generic [ref=e623]:
+            - generic [ref=e624]: "Module 2: Introduction to Differential Equations"
+            - heading "2.3 Differential Equations as Models" [level=2] [ref=e625]
+            - paragraph [ref=e626]: ODEs become useful when a sentence like 'rate is proportional to amount' becomes an equation.
+            - generic [ref=e628]: "Requires: 2.1 Definition and Terminology"
+          - generic [ref=e629]:
+            - generic [ref=e630]:
+              - checkbox "Theory read" [ref=e631]
+              - text: Theory read
+            - generic [ref=e632]:
+              - checkbox "Examples studied" [ref=e633]
+              - text: Examples studied
+            - generic [ref=e634]:
+              - checkbox "Practice done" [ref=e635]
+              - text: Practice done
+        - generic [ref=e639]:
+          - math [ref=e641]:
+            - generic [ref=e643]:
+              - generic [ref=e644]:
+                - generic [ref=e645]:
+                  - generic [ref=e646]: d
+                  - generic [ref=e647]: P
+                - generic [ref=e648]:
+                  - generic [ref=e649]: d
+                  - generic [ref=e650]: t
+              - generic [ref=e651]: =
+              - generic [ref=e652]: a
+              - generic [ref=e653]: P
+          - generic [ref=e654]:
+            - generic [ref=e655]:
+              - generic [ref=e660]:
+                - generic [ref=e661]: dt
+                - generic [ref=e663]: dP
+              - text: =
+            - generic [ref=e667]: aP
+        - generic [ref=e671]:
+          - math [ref=e673]:
+            - generic [ref=e675]:
+              - generic [ref=e676]:
+                - generic [ref=e677]:
+                  - generic [ref=e678]: d
+                  - generic [ref=e679]: P
+                - generic [ref=e680]:
+                  - generic [ref=e681]: d
+                  - generic [ref=e682]: t
+              - generic [ref=e683]: =
+              - generic [ref=e684]: a
+              - generic [ref=e685]: P
+              - generic [ref=e686]: −
+              - generic [ref=e687]: b
+              - generic [ref=e688]:
+                - generic [ref=e689]: P
+                - generic [ref=e690]: "2"
+          - generic [ref=e691]:
+            - generic [ref=e692]:
+              - generic [ref=e697]:
+                - generic [ref=e698]: dt
+                - generic [ref=e700]: dP
+              - text: =
+            - generic [ref=e704]: aP −
+            - generic [ref=e705]:
+              - text: b
+              - generic [ref=e706]:
+                - text: P
+                - generic [ref=e711]: "2"
+        - generic [ref=e715]:
+          - math [ref=e717]:
+            - generic [ref=e719]:
+              - generic [ref=e720]:
+                - generic [ref=e721]:
+                  - generic [ref=e722]: d
+                  - generic [ref=e723]: A
+                - generic [ref=e724]:
+                  - generic [ref=e725]: d
+                  - generic [ref=e726]: t
+              - generic [ref=e727]: =
+              - generic [ref=e728]: a
+              - generic [ref=e729]: A
+              - generic [ref=e730]: ","
+              - generic [ref=e731]: a
+              - generic [ref=e732]: <
+              - generic [ref=e733]: "0"
+          - generic [ref=e734]:
+            - generic [ref=e735]:
+              - generic [ref=e740]:
+                - generic [ref=e741]: dt
+                - generic [ref=e743]: dA
+              - text: =
+            - generic [ref=e747]:
+              - text: aA,
+              - text: a <
+            - generic [ref=e749]: "0"
+        - generic [ref=e753]:
+          - math [ref=e755]:
+            - generic [ref=e757]:
+              - generic [ref=e758]:
+                - generic [ref=e759]:
+                  - generic [ref=e760]: d
+                  - generic [ref=e761]: T
+                - generic [ref=e762]:
+                  - generic [ref=e763]: d
+                  - generic [ref=e764]: t
+              - generic [ref=e765]: =
+              - generic [ref=e766]: a
+              - generic [ref=e767]: (
+              - generic [ref=e768]: T
+              - generic [ref=e769]: −
+              - generic [ref=e770]:
+                - generic [ref=e771]: T
+                - generic [ref=e772]: m
+              - generic [ref=e773]: )
+          - generic [ref=e774]:
+            - generic [ref=e775]:
+              - generic [ref=e780]:
+                - generic [ref=e781]: dt
+                - generic [ref=e783]: dT
+              - text: =
+            - generic [ref=e787]: a(T −
+            - generic [ref=e788]:
+              - generic [ref=e789]:
+                - text: T
+                - generic [ref=e794]: m
+              - text: )
+        - generic [ref=e801]:
+          - math [ref=e803]:
+            - generic [ref=e805]:
+              - generic [ref=e806]:
+                - generic [ref=e807]:
+                  - generic [ref=e808]: d
+                  - generic [ref=e809]: x
+                - generic [ref=e810]:
+                  - generic [ref=e811]: d
+                  - generic [ref=e812]: t
+              - generic [ref=e813]: =
+              - generic [ref=e814]: a
+              - generic [ref=e815]: x
+              - generic [ref=e816]: (
+              - generic [ref=e817]: "n"
+              - generic [ref=e818]: −
+              - generic [ref=e819]: x
+              - generic [ref=e820]: )
+          - generic [ref=e821]:
+            - generic [ref=e822]:
+              - generic [ref=e827]:
+                - generic [ref=e828]: dt
+                - generic [ref=e830]: dx
+              - text: =
+            - generic [ref=e834]: ax(n −
+            - generic [ref=e835]: x)
+        - generic [ref=e839]:
+          - math [ref=e841]:
+            - generic [ref=e843]:
+              - generic [ref=e844]:
+                - generic [ref=e845]:
+                  - generic [ref=e846]: d
+                  - generic [ref=e847]: x
+                - generic [ref=e848]:
+                  - generic [ref=e849]: d
+                  - generic [ref=e850]: t
+              - generic [ref=e851]: =
+              - generic [ref=e852]: k
+              - generic [ref=e853]: (
+              - generic [ref=e854]: a
+              - generic [ref=e855]: −
+              - generic [ref=e856]: x
+              - generic [ref=e857]: )
+              - generic [ref=e858]: (
+              - generic [ref=e859]: b
+              - generic [ref=e860]: −
+              - generic [ref=e861]: x
+              - generic [ref=e862]: )
+          - generic [ref=e863]:
+            - generic [ref=e864]:
+              - generic [ref=e869]:
+                - generic [ref=e870]: dt
+                - generic [ref=e872]: dx
+              - text: =
+            - generic [ref=e876]: k(a −
+            - generic [ref=e877]: x)(b −
+            - generic [ref=e878]: x)
+        - generic [ref=e882]:
+          - math [ref=e884]:
+            - generic [ref=e886]:
+              - generic [ref=e887]:
+                - generic [ref=e888]:
+                  - generic [ref=e889]: d
+                  - generic [ref=e890]: A
+                - generic [ref=e891]:
+                  - generic [ref=e892]: d
+                  - generic [ref=e893]: t
+              - generic [ref=e894]: =
+              - generic [ref=e895]:
+                - generic [ref=e896]: R
+                - generic [ref=e897]:
+                  - generic [ref=e898]: i
+                  - generic [ref=e899]: "n"
+              - generic [ref=e900]: −
+              - generic [ref=e901]:
+                - generic [ref=e902]: R
+                - generic [ref=e903]:
+                  - generic [ref=e904]: o
+                  - generic [ref=e905]: u
+                  - generic [ref=e906]: t
+          - generic [ref=e907]:
+            - generic [ref=e908]:
+              - generic [ref=e913]:
+                - generic [ref=e914]: dt
+                - generic [ref=e916]: dA
+              - text: =
+            - generic [ref=e920]:
+              - generic [ref=e921]:
+                - text: R
+                - generic [ref=e927]: in
+              - text: −
+            - generic [ref=e932]:
+              - text: R
+              - generic [ref=e938]: out
+        - generic [ref=e945]:
+          - math [ref=e947]:
+            - generic [ref=e949]:
+              - generic [ref=e950]: L
+              - generic [ref=e951]:
+                - generic [ref=e952]: q
+                - generic [ref=e953]:
+                  - generic [ref=e954]: ′
+                  - generic [ref=e955]: ′
+              - generic [ref=e956]: +
+              - generic [ref=e957]: R
+              - generic [ref=e958]:
+                - generic [ref=e959]: q
+                - generic [ref=e960]: ′
+              - generic [ref=e961]: +
+              - generic [ref=e962]:
+                - generic [ref=e963]: "1"
+                - generic [ref=e964]: C
+              - generic [ref=e965]: q
+              - generic [ref=e966]: =
+              - generic [ref=e967]: E
+              - generic [ref=e968]: (
+              - generic [ref=e969]: t
+              - generic [ref=e970]: )
+          - generic [ref=e971]:
+            - generic [ref=e972]:
+              - text: L
+              - generic [ref=e973]:
+                - text: q
+                - generic [ref=e979]: ′′
+              - text: +
+            - generic [ref=e980]:
+              - text: R
+              - generic [ref=e981]:
+                - text: q
+                - generic [ref=e987]: ′
+              - text: +
+            - generic [ref=e988]:
+              - generic [ref=e993]:
+                - generic [ref=e994]: C
+                - generic [ref=e996]: "1"
+              - text: q =
+            - generic [ref=e1000]: E(t)
+        - generic [ref=e1004]:
+          - math [ref=e1006]:
+            - generic [ref=e1008]:
+              - generic [ref=e1009]: m
+              - generic [ref=e1010]:
+                - generic [ref=e1011]: h
+                - generic [ref=e1012]:
+                  - generic [ref=e1013]: ′
+                  - generic [ref=e1014]: ′
+              - generic [ref=e1015]: +
+              - generic [ref=e1016]: k
+              - generic [ref=e1017]:
+                - generic [ref=e1018]: h
+                - generic [ref=e1019]: ′
+              - generic [ref=e1020]: =
+              - generic [ref=e1021]: −
+              - generic [ref=e1022]: m
+              - generic [ref=e1023]: g
+          - generic [ref=e1024]:
+            - generic [ref=e1025]:
+              - text: m
+              - generic [ref=e1026]:
+                - text: h
+                - generic [ref=e1032]: ′′
+              - text: +
+            - generic [ref=e1033]:
+              - text: k
+              - generic [ref=e1034]:
+                - text: h
+                - generic [ref=e1040]: ′
+              - text: =
+            - generic [ref=e1041]: −mg
+        - generic [ref=e1045]:
+          - math [ref=e1047]:
+            - generic [ref=e1049]:
+              - generic [ref=e1050]:
+                - generic [ref=e1051]: x
+                - generic [ref=e1052]:
+                  - generic [ref=e1053]: ′
+                  - generic [ref=e1054]: ′
+              - generic [ref=e1055]: +
+              - generic [ref=e1056]:
+                - generic [ref=e1057]: ω
+                - generic [ref=e1058]: "2"
+              - generic [ref=e1059]: x
+              - generic [ref=e1060]: =
+              - generic [ref=e1061]: "0"
+          - generic [ref=e1062]:
+            - generic [ref=e1063]:
+              - generic [ref=e1064]:
+                - text: x
+                - generic [ref=e1070]: ′′
+              - text: +
+            - generic [ref=e1071]:
+              - generic [ref=e1072]:
+                - text: ω
+                - generic [ref=e1077]: "2"
+              - text: x =
+            - generic [ref=e1078]: "0"
+        - generic [ref=e1082]:
+          - math [ref=e1084]:
+            - generic [ref=e1086]:
+              - generic [ref=e1087]:
+                - generic [ref=e1088]: x
+                - generic [ref=e1089]:
+                  - generic [ref=e1090]: ′
+                  - generic [ref=e1091]: ′
+              - generic [ref=e1092]: +
+              - generic [ref=e1093]: "2"
+              - generic [ref=e1094]: λ
+              - generic [ref=e1095]:
+                - generic [ref=e1096]: x
+                - generic [ref=e1097]: ′
+              - generic [ref=e1098]: +
+              - generic [ref=e1099]:
+                - generic [ref=e1100]: ω
+                - generic [ref=e1101]: "2"
+              - generic [ref=e1102]: x
+              - generic [ref=e1103]: =
+              - generic [ref=e1104]: "0"
+          - generic [ref=e1105]:
+            - generic [ref=e1106]:
+              - generic [ref=e1107]:
+                - text: x
+                - generic [ref=e1113]: ′′
+              - text: +
+            - generic [ref=e1114]:
+              - text: 2λ
+              - generic [ref=e1115]:
+                - text: x
+                - generic [ref=e1121]: ′
+              - text: +
+            - generic [ref=e1122]:
+              - generic [ref=e1123]:
+                - text: ω
+                - generic [ref=e1128]: "2"
+              - text: x =
+            - generic [ref=e1129]: "0"
+      - generic [ref=e1130]:
+        - generic [ref=e1131]:
+          - heading "Theory in Plain English" [level=3] [ref=e1132]
+          - generic [ref=e1133]:
+            - paragraph [ref=e1134]: Identify variables, parameters, assumptions, and units before writing an equation.
+            - paragraph [ref=e1135]: Translate rate language into derivatives.
+            - paragraph [ref=e1136]: For mechanics, declare the coordinate convention before assigning signs. This course uses upward-positive height unless a problem explicitly says otherwise.
+        - generic [ref=e1137]:
+          - heading "Notebook Prompt" [level=3] [ref=e1138]
+          - paragraph [ref=e1139]: Write the key formula from this page three times, then solve the first practice problem without looking at the solution. This is the productive struggle part.
+          - generic [ref=e1140]:
+            - strong [ref=e1141]: "Feynman check:"
+            - paragraph [ref=e1142]: Explain Differential Equations as Models in your own words. What tells you this method is the right method?
+      - generic [ref=e1143]:
+        - generic [ref=e1144]: Learning zone
+        - heading "Worked Examples" [level=3] [ref=e1145]
+        - generic [ref=e1146]:
+          - group [ref=e1147]:
+            - generic "Chapter 1.3 Mixing model from Chapter 1.3 reveal steps" [ref=e1148] [cursor=pointer]:
+              - generic [ref=e1149]:
+                - generic [ref=e1150]: Chapter 1.3
+                - heading "Mixing model from Chapter 1.3" [level=3] [ref=e1151]
+              - generic [ref=e1152]: reveal steps
+            - paragraph [ref=e1153]:
+              - strong [ref=e1154]: "Problem:"
+              - generic [ref=e1156]:
+                - math [ref=e1158]:
+                  - generic [ref=e1160]:
+                    - generic [ref=e1161]: "300"
+                    - generic [ref=e1162]: g
+                    - generic [ref=e1163]: a
+                    - generic [ref=e1164]: l
+                    - generic [ref=e1165]: ","
+                    - generic [ref=e1166]: i
+                    - generic [ref=e1167]: "n"
+                    - generic [ref=e1168]: f
+                    - generic [ref=e1169]: l
+                    - generic [ref=e1170]: o
+                    - generic [ref=e1171]: w
+                    - generic [ref=e1172]: =
+                    - generic [ref=e1173]: "3"
+                    - generic [ref=e1174]: g
+                    - generic [ref=e1175]: a
+                    - generic [ref=e1176]: l
+                    - generic [ref=e1177]: /
+                    - generic [ref=e1178]: m
+                    - generic [ref=e1179]: i
+                    - generic [ref=e1180]: "n"
+                    - generic [ref=e1181]: ","
+                    - generic [ref=e1182]: "2"
+                    - generic [ref=e1183]: l
+                    - generic [ref=e1184]: b
+                    - generic [ref=e1185]: /
+                    - generic [ref=e1186]: g
+                    - generic [ref=e1187]: a
+                    - generic [ref=e1188]: l
+                - generic [ref=e1189]:
+                  - generic [ref=e1190]:
+                    - text: "300"
+                    - text: gal,
+                    - text: inflow =
+                  - generic [ref=e1193]:
+                    - text: "3"
+                    - text: gal/min,
+                    - text: "2"
+                    - text: lb/gal
+            - generic [ref=e1198]: Chapter 01_ODE_new02.pdf · pages 20–21 · Mixtures model
+            - generic [ref=e1200]:
+              - generic [ref=e1201]: "1"
+              - generic [ref=e1202]:
+                - generic [ref=e1206]:
+                  - math [ref=e1208]:
+                    - generic [ref=e1210]:
+                      - generic [ref=e1211]:
+                        - generic [ref=e1212]: R
+                        - generic [ref=e1213]:
+                          - generic [ref=e1214]: i
+                          - generic [ref=e1215]: "n"
+                      - generic [ref=e1216]: =
+                      - generic [ref=e1217]: "2"
+                      - generic [ref=e1218]: ⋅
+                      - generic [ref=e1219]: "3"
+                      - generic [ref=e1220]: =
+                      - generic [ref=e1221]: "6"
+                      - generic [ref=e1222]: l
+                      - generic [ref=e1223]: b
+                      - generic [ref=e1224]: /
+                      - generic [ref=e1225]: m
+                      - generic [ref=e1226]: i
+                      - generic [ref=e1227]: "n"
+                  - generic [ref=e1228]:
+                    - generic [ref=e1229]:
+                      - generic [ref=e1230]:
+                        - text: R
+                        - generic [ref=e1236]: in
+                      - text: =
+                    - generic [ref=e1240]: 2 ⋅
+                    - generic [ref=e1241]: 3 =
+                    - generic [ref=e1242]:
+                      - text: "6"
+                      - text: lb/min
+                - generic [ref=e1244]:
+                  - strong [ref=e1245]: Why?
+                  - text: Incoming salt rate.
+            - generic [ref=e1246]:
+              - button "Show next step" [ref=e1247] [cursor=pointer]
+              - button "Show all" [ref=e1248] [cursor=pointer]
+              - button "Reset" [ref=e1249] [cursor=pointer]
+            - paragraph [ref=e1250]: "Mixing models are bookkeeping: in minus out."
+          - group [ref=e1251]:
+            - generic "Chapter 1.3 Logistic population model reveal steps" [ref=e1252] [cursor=pointer]:
+              - generic [ref=e1253]:
+                - generic [ref=e1254]: Chapter 1.3
+                - heading "Logistic population model" [level=3] [ref=e1255]
+              - generic [ref=e1256]: reveal steps
+          - group [ref=e1257]:
+            - generic "Chapter 1.3 Falling-body sign convention reveal steps" [ref=e1258] [cursor=pointer]:
+              - generic [ref=e1259]:
+                - generic [ref=e1260]: Chapter 1.3
+                - heading "Falling-body sign convention" [level=3] [ref=e1261]
+              - generic [ref=e1262]: reveal steps
+      - generic [ref=e1263]:
+        - generic [ref=e1264]: Active zone
+        - heading "Practice Problems" [level=3] [ref=e1265]
+        - generic [ref=e1266]:
+          - generic [ref=e1267]:
+            - generic [ref=e1268]: Active recall 1
+            - heading "Newton cooling setup" [level=3] [ref=e1269]
+            - paragraph [ref=e1270]:
+              - strong [ref=e1271]: "Cover and solve on paper first:"
+              - generic [ref=e1273]:
+                - math [ref=e1275]:
+                  - generic [ref=e1277]:
+                    - generic [ref=e1278]: C
+                    - generic [ref=e1279]: o
+                    - generic [ref=e1280]: f
+                    - generic [ref=e1281]: f
+                    - generic [ref=e1282]: e
+                    - generic [ref=e1283]: e
+                    - generic [ref=e1284]: a
+                    - generic [ref=e1285]: t
+                    - generic [ref=e1286]: T
+                    - generic [ref=e1287]: ","
+                    - generic [ref=e1288]: r
+                    - generic [ref=e1289]: o
+                    - generic [ref=e1290]: o
+                    - generic [ref=e1291]: m
+                    - generic [ref=e1292]: a
+                    - generic [ref=e1293]: t
+                    - generic [ref=e1294]:
+                      - generic [ref=e1295]: T
+                      - generic [ref=e1296]: m
+                - generic [ref=e1298]:
+                  - text: Coffee
+                  - text: at
+                  - text: T,
+                  - text: room
+                  - text: at
+                  - generic [ref=e1304]:
+                    - text: T
+                    - generic [ref=e1309]: m
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e1313]'
+            - generic [ref=e1314]:
+              - button "Show hint" [ref=e1315] [cursor=pointer]
+              - button "Show solution" [ref=e1316] [cursor=pointer]
+          - generic [ref=e1317]:
+            - generic [ref=e1318]: Active recall 2
+            - heading "Disease setup" [level=3] [ref=e1319]
+            - paragraph [ref=e1320]:
+              - strong [ref=e1321]: "Cover and solve on paper first:"
+              - generic [ref=e1323]:
+                - math [ref=e1325]:
+                  - generic [ref=e1327]:
+                    - generic [ref=e1328]: x
+                    - generic [ref=e1329]: (
+                    - generic [ref=e1330]: t
+                    - generic [ref=e1331]: )
+                    - generic [ref=e1332]: =
+                    - generic [ref=e1333]: i
+                    - generic [ref=e1334]: "n"
+                    - generic [ref=e1335]: f
+                    - generic [ref=e1336]: e
+                    - generic [ref=e1337]: c
+                    - generic [ref=e1338]: t
+                    - generic [ref=e1339]: e
+                    - generic [ref=e1340]: d
+                    - generic [ref=e1341]: ","
+                    - generic [ref=e1342]: "n"
+                    - generic [ref=e1343]: =
+                    - generic [ref=e1344]: t
+                    - generic [ref=e1345]: o
+                    - generic [ref=e1346]: t
+                    - generic [ref=e1347]: a
+                    - generic [ref=e1348]: l
+                - generic [ref=e1349]:
+                  - generic [ref=e1350]: x(t) =
+                  - generic [ref=e1351]:
+                    - text: infected,
+                    - text: n =
+                  - generic [ref=e1353]: total
+            - 'textbox "Optional scratch note: write your first step or what method you think applies." [ref=e1354]'
+            - generic [ref=e1355]:
+              - button "Show hint" [ref=e1356] [cursor=pointer]
+              - button "Show solution" [ref=e1357] [cursor=pointer]
+      - generic [ref=e1358]:
+        - heading "Model Table" [level=3] [ref=e1359]
+        - generic [ref=e1360]:
+          - generic [ref=e1361]:
+            - strong [ref=e1362]: Malthusian population
+            - generic [ref=e1365]:
+              - math [ref=e1367]:
+                - generic [ref=e1369]:
+                  - generic [ref=e1370]:
+                    - generic [ref=e1371]:
+                      - generic [ref=e1372]: d
+                      - generic [ref=e1373]: P
+                    - generic [ref=e1374]:
+                      - generic [ref=e1375]: d
+                      - generic [ref=e1376]: t
+                  - generic [ref=e1377]: =
+                  - generic [ref=e1378]: a
+                  - generic [ref=e1379]: P
+              - generic [ref=e1380]:
+                - generic [ref=e1381]:
+                  - generic [ref=e1386]:
+                    - generic [ref=e1388]: dt
+                    - generic [ref=e1391]: dP
+                  - text: =
+                - generic [ref=e1395]: aP
+            - generic [ref=e1396]: Bacteria growth or small populations over short time.
+          - generic [ref=e1397]:
+            - strong [ref=e1398]: Logistic population
+            - generic [ref=e1401]:
+              - math [ref=e1403]:
+                - generic [ref=e1405]:
+                  - generic [ref=e1406]:
+                    - generic [ref=e1407]:
+                      - generic [ref=e1408]: d
+                      - generic [ref=e1409]: P
+                    - generic [ref=e1410]:
+                      - generic [ref=e1411]: d
+                      - generic [ref=e1412]: t
+                  - generic [ref=e1413]: =
+                  - generic [ref=e1414]: a
+                  - generic [ref=e1415]: P
+                  - generic [ref=e1416]: −
+                  - generic [ref=e1417]: b
+                  - generic [ref=e1418]:
+                    - generic [ref=e1419]: P
+                    - generic [ref=e1420]: "2"
+              - generic [ref=e1421]:
+                - generic [ref=e1422]:
+                  - generic [ref=e1427]:
+                    - generic [ref=e1429]: dt
+                    - generic [ref=e1432]: dP
+                  - text: =
+                - generic [ref=e1436]: aP −
+                - generic [ref=e1437]:
+                  - text: b
+                  - generic [ref=e1438]:
+                    - text: P
+                    - generic [ref=e1443]: "2"
+            - generic [ref=e1444]: Population with carrying capacity.
+          - generic [ref=e1445]:
+            - strong [ref=e1446]: Radioactive decay
+            - generic [ref=e1449]:
+              - math [ref=e1451]:
+                - generic [ref=e1453]:
+                  - generic [ref=e1454]:
+                    - generic [ref=e1455]:
+                      - generic [ref=e1456]: d
+                      - generic [ref=e1457]: A
+                    - generic [ref=e1458]:
+                      - generic [ref=e1459]: d
+                      - generic [ref=e1460]: t
+                  - generic [ref=e1461]: =
+                  - generic [ref=e1462]: a
+                  - generic [ref=e1463]: A
+                  - generic [ref=e1464]: ","
+                  - generic [ref=e1465]: a
+                  - generic [ref=e1466]: <
+                  - generic [ref=e1467]: "0"
+              - generic [ref=e1468]:
+                - generic [ref=e1469]:
+                  - generic [ref=e1474]:
+                    - generic [ref=e1476]: dt
+                    - generic [ref=e1479]: dA
+                  - text: =
+                - generic [ref=e1483]:
+                  - text: aA,
+                  - text: a <
+                - generic [ref=e1485]: "0"
+            - generic [ref=e1486]: Carbon dating and nuclear decay.
+          - generic [ref=e1487]:
+            - strong [ref=e1488]: Newton cooling/warming
+            - generic [ref=e1491]:
+              - math [ref=e1493]:
+                - generic [ref=e1495]:
+                  - generic [ref=e1496]:
+                    - generic [ref=e1497]:
+                      - generic [ref=e1498]: d
+                      - generic [ref=e1499]: T
+                    - generic [ref=e1500]:
+                      - generic [ref=e1501]: d
+                      - generic [ref=e1502]: t
+                  - generic [ref=e1503]: =
+                  - generic [ref=e1504]: a
+                  - generic [ref=e1505]: (
+                  - generic [ref=e1506]: T
+                  - generic [ref=e1507]: −
+                  - generic [ref=e1508]:
+                    - generic [ref=e1509]: T
+                    - generic [ref=e1510]: m
+                  - generic [ref=e1511]: )
+              - generic [ref=e1512]:
+                - generic [ref=e1513]:
+                  - generic [ref=e1518]:
+                    - generic [ref=e1520]: dt
+                    - generic [ref=e1523]: dT
+                  - text: =
+                - generic [ref=e1527]: a(T −
+                - generic [ref=e1528]:
+                  - generic [ref=e1529]:
+                    - text: T
+                    - generic [ref=e1534]: m
+                  - text: )
+            - generic [ref=e1538]: Cooling coffee, forensic time of death.
+          - generic [ref=e1539]:
+            - strong [ref=e1540]: Spread of disease
+            - generic [ref=e1543]:
+              - math [ref=e1545]:
+                - generic [ref=e1547]:
+                  - generic [ref=e1548]:
+                    - generic [ref=e1549]:
+                      - generic [ref=e1550]: d
+                      - generic [ref=e1551]: x
+                    - generic [ref=e1552]:
+                      - generic [ref=e1553]: d
+                      - generic [ref=e1554]: t
+                  - generic [ref=e1555]: =
+                  - generic [ref=e1556]: a
+                  - generic [ref=e1557]: x
+                  - generic [ref=e1558]: (
+                  - generic [ref=e1559]: "n"
+                  - generic [ref=e1560]: −
+                  - generic [ref=e1561]: x
+                  - generic [ref=e1562]: )
+              - generic [ref=e1563]:
+                - generic [ref=e1564]:
+                  - generic [ref=e1569]:
+                    - generic [ref=e1571]: dt
+                    - generic [ref=e1574]: dx
+                  - text: =
+                - generic [ref=e1578]: ax(n −
+                - generic [ref=e1579]: x)
+            - generic [ref=e1580]: Simple infection spread.
+          - generic [ref=e1581]:
+            - strong [ref=e1582]: Chemical reaction
+            - generic [ref=e1585]:
+              - math [ref=e1587]:
+                - generic [ref=e1589]:
+                  - generic [ref=e1590]:
+                    - generic [ref=e1591]:
+                      - generic [ref=e1592]: d
+                      - generic [ref=e1593]: x
+                    - generic [ref=e1594]:
+                      - generic [ref=e1595]: d
+                      - generic [ref=e1596]: t
+                  - generic [ref=e1597]: =
+                  - generic [ref=e1598]: k
+                  - generic [ref=e1599]: (
+                  - generic [ref=e1600]: a
+                  - generic [ref=e1601]: −
+                  - generic [ref=e1602]: x
+                  - generic [ref=e1603]: )
+                  - generic [ref=e1604]: (
+                  - generic [ref=e1605]: b
+                  - generic [ref=e1606]: −
+                  - generic [ref=e1607]: x
+                  - generic [ref=e1608]: )
+              - generic [ref=e1609]:
+                - generic [ref=e1610]:
+                  - generic [ref=e1615]:
+                    - generic [ref=e1617]: dt
+                    - generic [ref=e1620]: dx
+                  - text: =
+                - generic [ref=e1624]: k(a −
+                - generic [ref=e1625]: x)(b −
+                - generic [ref=e1626]: x)
+            - generic [ref=e1627]: Second-order reactions.
+          - generic [ref=e1628]:
+            - strong [ref=e1629]: Mixing
+            - generic [ref=e1632]:
+              - math [ref=e1634]:
+                - generic [ref=e1636]:
+                  - generic [ref=e1637]:
+                    - generic [ref=e1638]:
+                      - generic [ref=e1639]: d
+                      - generic [ref=e1640]: A
+                    - generic [ref=e1641]:
+                      - generic [ref=e1642]: d
+                      - generic [ref=e1643]: t
+                  - generic [ref=e1644]: =
+                  - generic [ref=e1645]:
+                    - generic [ref=e1646]: R
+                    - generic [ref=e1647]:
+                      - generic [ref=e1648]: i
+                      - generic [ref=e1649]: "n"
+                  - generic [ref=e1650]: −
+                  - generic [ref=e1651]:
+                    - generic [ref=e1652]: R
+                    - generic [ref=e1653]:
+                      - generic [ref=e1654]: o
+                      - generic [ref=e1655]: u
+                      - generic [ref=e1656]: t
+              - generic [ref=e1657]:
+                - generic [ref=e1658]:
+                  - generic [ref=e1663]:
+                    - generic [ref=e1665]: dt
+                    - generic [ref=e1668]: dA
+                  - text: =
+                - generic [ref=e1672]:
+                  - generic [ref=e1673]:
+                    - text: R
+                    - generic [ref=e1679]: in
+                  - text: −
+                - generic [ref=e1684]:
+                  - text: R
+                  - generic [ref=e1690]: out
+            - generic [ref=e1694]: Salt tank concentration.
+          - generic [ref=e1695]:
+            - strong [ref=e1696]: Series circuit
+            - generic [ref=e1699]:
+              - math [ref=e1701]:
+                - generic [ref=e1703]:
+                  - generic [ref=e1704]: L
+                  - generic [ref=e1705]:
+                    - generic [ref=e1706]: q
+                    - generic [ref=e1707]:
+                      - generic [ref=e1708]: ′
+                      - generic [ref=e1709]: ′
+                  - generic [ref=e1710]: +
+                  - generic [ref=e1711]: R
+                  - generic [ref=e1712]:
+                    - generic [ref=e1713]: q
+                    - generic [ref=e1714]: ′
+                  - generic [ref=e1715]: +
+                  - generic [ref=e1716]:
+                    - generic [ref=e1717]: "1"
+                    - generic [ref=e1718]: C
+                  - generic [ref=e1719]: q
+                  - generic [ref=e1720]: =
+                  - generic [ref=e1721]: E
+                  - generic [ref=e1722]: (
+                  - generic [ref=e1723]: t
+                  - generic [ref=e1724]: )
+              - generic [ref=e1725]:
+                - generic [ref=e1726]:
+                  - text: L
+                  - generic [ref=e1727]:
+                    - text: q
+                    - generic [ref=e1733]: ′′
+                  - text: +
+                - generic [ref=e1734]:
+                  - text: R
+                  - generic [ref=e1735]:
+                    - text: q
+                    - generic [ref=e1741]: ′
+                  - text: +
+                - generic [ref=e1742]:
+                  - generic [ref=e1747]:
+                    - generic [ref=e1749]: C
+                    - generic [ref=e1752]: "1"
+                  - text: q =
+                - generic [ref=e1756]: E(t)
+            - generic [ref=e1757]: RLC electrical circuits.
+          - generic [ref=e1758]:
+            - strong [ref=e1759]: Falling bodies
+            - generic [ref=e1762]:
+              - math [ref=e1764]:
+                - generic [ref=e1766]:
+                  - generic [ref=e1767]: m
+                  - generic [ref=e1768]:
+                    - generic [ref=e1769]: h
+                    - generic [ref=e1770]:
+                      - generic [ref=e1771]: ′
+                      - generic [ref=e1772]: ′
+                  - generic [ref=e1773]: +
+                  - generic [ref=e1774]: k
+                  - generic [ref=e1775]:
+                    - generic [ref=e1776]: h
+                    - generic [ref=e1777]: ′
+                  - generic [ref=e1778]: =
+                  - generic [ref=e1779]: −
+                  - generic [ref=e1780]: m
+                  - generic [ref=e1781]: g
+              - generic [ref=e1782]:
+                - generic [ref=e1783]:
+                  - text: m
+                  - generic [ref=e1784]:
+                    - text: h
+                    - generic [ref=e1790]: ′′
+                  - text: +
+                - generic [ref=e1791]:
+                  - text: k
+                  - generic [ref=e1792]:
+                    - text: h
+                    - generic [ref=e1798]: ′
+                  - text: =
+                - generic [ref=e1799]: −mg
+            - generic [ref=e1800]: Upward-positive height with linear air resistance.
+          - generic [ref=e1801]:
+            - strong [ref=e1802]: Simple harmonic motion
+            - generic [ref=e1805]:
+              - math [ref=e1807]:
+                - generic [ref=e1809]:
+                  - generic [ref=e1810]:
+                    - generic [ref=e1811]: x
+                    - generic [ref=e1812]:
+                      - generic [ref=e1813]: ′
+                      - generic [ref=e1814]: ′
+                  - generic [ref=e1815]: +
+                  - generic [ref=e1816]:
+                    - generic [ref=e1817]: ω
+                    - generic [ref=e1818]: "2"
+                  - generic [ref=e1819]: x
+                  - generic [ref=e1820]: =
+                  - generic [ref=e1821]: "0"
+              - generic [ref=e1822]:
+                - generic [ref=e1823]:
+                  - generic [ref=e1824]:
+                    - text: x
+                    - generic [ref=e1830]: ′′
+                  - text: +
+                - generic [ref=e1831]:
+                  - generic [ref=e1832]:
+                    - text: ω
+                    - generic [ref=e1837]: "2"
+                  - text: x =
+                - generic [ref=e1838]: "0"
+            - generic [ref=e1839]: Springs and pendulums.
+          - generic [ref=e1840]:
+            - strong [ref=e1841]: Damped harmonic motion
+            - generic [ref=e1844]:
+              - math [ref=e1846]:
+                - generic [ref=e1848]:
+                  - generic [ref=e1849]:
+                    - generic [ref=e1850]: x
+                    - generic [ref=e1851]:
+                      - generic [ref=e1852]: ′
+                      - generic [ref=e1853]: ′
+                  - generic [ref=e1854]: +
+                  - generic [ref=e1855]: "2"
+                  - generic [ref=e1856]: λ
+                  - generic [ref=e1857]:
+                    - generic [ref=e1858]: x
+                    - generic [ref=e1859]: ′
+                  - generic [ref=e1860]: +
+                  - generic [ref=e1861]:
+                    - generic [ref=e1862]: ω
+                    - generic [ref=e1863]: "2"
+                  - generic [ref=e1864]: x
+                  - generic [ref=e1865]: =
+                  - generic [ref=e1866]: "0"
+              - generic [ref=e1867]:
+                - generic [ref=e1868]:
+                  - generic [ref=e1869]:
+                    - text: x
+                    - generic [ref=e1875]: ′′
+                  - text: +
+                - generic [ref=e1876]:
+                  - text: 2λ
+                  - generic [ref=e1877]:
+                    - text: x
+                    - generic [ref=e1883]: ′
+                  - text: +
+                - generic [ref=e1884]:
+                  - generic [ref=e1885]:
+                    - text: ω
+                    - generic [ref=e1890]: "2"
+                  - text: x =
+                - generic [ref=e1891]: "0"
+            - generic [ref=e1892]: Shock absorbers and vibration damping.
+      - generic [ref=e1893]:
+        - heading "Section Recap" [level=3] [ref=e1894]
+        - list [ref=e1896]:
+          - listitem [ref=e1897]: Models come from assumptions.
+          - listitem [ref=e1898]: Units help catch errors.
+          - listitem [ref=e1899]: Most first-order models become separable or linear later.
+        - generic [ref=e1900]:
+          - button "Next section" [ref=e1901] [cursor=pointer]
+          - button "Try mixed practice" [ref=e1902] [cursor=pointer]
