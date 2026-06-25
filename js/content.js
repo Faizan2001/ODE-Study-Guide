@@ -13,37 +13,6 @@
     return { title, problem, hint, steps, method, provenance };
   }
 
-  const diffRefresherExamples = [
-    ex("Power rule refresher", m`Differentiate\quad y=3x^4-5x^2+7`, [
-      step(m`\frac{d}{dx}(3x^4)-\frac{d}{dx}(5x^2)+\frac{d}{dx}(7)`, "Differentiate each term separately."),
-      step(m`12x^3-10x+0`, "Bring the exponent down, reduce it by one, and constants disappear."),
-      step(m`y'=12x^3-10x`, "This is the rate of change of the original function.")
-    ], "Differentiation asks: how fast is this changing right now?", "Module 0 scaffold"),
-    ex("Product rule", m`Differentiate\quad y=x^2e^x`, [
-      step(m`u=x^2,\quad v=e^x`, "A product needs the product rule."),
-      step(m`y'=u'v+uv'`, "The derivative hits each factor once."),
-      step(m`y'=2xe^x+x^2e^x=e^x(x^2+2x)`, "Factor the common exponential if it makes the answer cleaner.")
-    ], "If two changing quantities are multiplied, both changes matter.", "Module 0 scaffold"),
-    ex("Chain rule", m`Differentiate\quad y=\sin(5x^2)`, [
-      step(m`outer=\sin(u),\quad inner=u=5x^2`, "Identify the outside function and the inside function."),
-      step(m`y'=\cos(5x^2)\cdot 10x`, "Differentiate the outside, keep the inside, then multiply by the derivative of the inside."),
-      step(m`y'=10x\cos(5x^2)`, "This pattern appears constantly in u-substitution and ODE verification.")
-    ], "Chain rule is the reverse mental move behind substitution.", "Module 0 scaffold")
-  ];
-
-  const intRefresherExamples = [
-    ex("Basic integration as reverse differentiation", m`Evaluate\quad \int (6x^2-4)\,dx`, [
-      step(m`\int 6x^2\,dx-\int 4\,dx`, "Integrate term-by-term."),
-      step(m`6\cdot \frac{x^3}{3}-4x+C`, "Raise the power by one and divide by the new power."),
-      step(m`2x^3-4x+C`, "Always include the constant for indefinite integrals.")
-    ], "Integration accumulates a rate into a total.", "Module 0 scaffold"),
-    ex("u-substitution", m`Evaluate\quad \int 2x e^{x^2}\,dx`, [
-      step(m`u=x^2,\quad du=2x\,dx`, "Choose the inside function whose derivative is already present."),
-      step(m`\int 2x e^{x^2}\,dx=\int e^u\,du`, "Replace both the inside expression and the differential piece."),
-      step(m`e^u+C=e^{x^2}+C`, "Substitute back to the original variable.")
-    ], "When you see a function and its derivative beside it, try u-substitution.", "Module 0 scaffold")
-  ];
-
   const byPartsExamples = [
     ex("Example 1: integration by parts", m`Evaluate\quad \int x\cos x\,dx`, [
       step(m`u=x,\quad dv=\cos x\,dx`, "LIATE chooses algebraic x before trig cos x."),
@@ -527,26 +496,12 @@
       step(m`a = \frac13 \ln\left(\frac{13}{23}\right) \approx -0.19018`, "Find cooling constant a."),
       step(m`T(t) = 70 + 230 e^{-0.19018t}`, "Write particular solution."),
       step(m`t \to \infty \implies T(t) \to 70^\circ\text{F}`, "As t increases, cake temperature approaches room temperature.")
-    ], "Newton's law of cooling: rate of change of temperature is proportional to temperature difference.", "Chapter 3.1"),
-    ex("Example 7: Problems on LR Series Circuit", m`L\frac{di}{dt}+Ri=E(t),\quad L=\frac12,\quad R=10,\quad E(t)=12,\quad i(0)=0`, [
-      step(m`\frac12\frac{di}{dt}+10i=12 \implies \frac{di}{dt}+20i=24`, "Set up standard linear form. Inductance L = 1/2 henry is corrected from PDF typo."),
-      step(m`\mu(t) = e^{\int 20\,dt} = e^{20t}`, "Find integrating factor."),
-      step(m`\frac{d}{dt}[i e^{20t}] = 24 e^{20t}`, "Multiply through by integrating factor."),
-      step(m`i e^{20t} = \frac{24}{20} e^{20t} + C = 1.2 e^{20t} + C`, "Integrate both sides."),
-      step(m`i(t) = 1.2 + C e^{-20t}`, "Solve for general current solution."),
-      step(m`i(0) = 1.2 + C = 0 \implies C = -1.2 \implies i(t) = 1.2(1 - e^{-20t})`, "Apply initial condition i(0) = 0.")
-    ], "LR series circuits are modeled by a linear first-order differential equation.", "Chapter 3.1")
+    ], "Newton's law of cooling: rate of change of temperature is proportional to temperature difference.", "Chapter 3.1")
   ];
 
   markSourceExamples(linearModelsExamples, "Chapter 3_ODE.pdf", "3.1", {
     "Example 1": { page: 1, label: "Example 1" },
-    "Example 4: Cooling of a Cake": { page: 5, label: "Example 4" },
-    "Example 7: Problems on LR Series Circuit": {
-      page: 10,
-      label: "Example 7",
-      type: "corrected-pdf-error",
-      note: "The PDF omits the inductance value ('inductance is henry'), which we correct to L = 1/2 henry following Dennis G. Zill."
-    }
+    "Example 4: Cooling of a Cake": { page: 5, label: "Example 4" }
   });
 
 
@@ -751,96 +706,6 @@
       step(m`z_x=-1,\quad z_y=-\frac12`, "Evaluate at the point.")
     ], "For surfaces F=0, solve partial slopes with -F_variable/F_z.", "Chapter 13.5")
   ];
-
-  const ch13_6_Examples = [
-    ex("Directional derivative Example 1", m`f(x,y)=xy,\quad P=(1,2),\quad u=\frac{\sqrt3}{2}i+\frac12j`, [
-      step(m`r(s)=\left(1+\frac{\sqrt3}{2}s,\ 2+\frac12s\right)`, "Move a distance s from P in the unit direction u."),
-      step(m`f(r(s))=\left(1+\frac{\sqrt3}{2}s\right)\left(2+\frac12s\right)=2+\left(\frac12+\sqrt3\right)s+\frac{\sqrt3}{4}s^2`, "Write the surface height along that direction as a one-variable function."),
-      step(m`D_uf(1,2)=\left.\frac{d}{ds}f(r(s))\right|_{s=0}=\frac12+\sqrt3`, "Differentiate with respect to distance and evaluate at the starting point."),
-      step(m`\frac12+\sqrt3\approx2.23`, "For a small move in direction u, f increases by about 2.23 times the distance moved.")
-    ], "A directional derivative is an ordinary derivative along a unit-speed path.", "Chapter 13.6"),
-    ex("Directional derivative Example 2", m`f(x,y)=e^{xy},\ (-2,0),\ angle=\pi/3`, [
-      step(m`\nabla f=(ye^{xy},xe^{xy})`, "Compute the gradient."),
-      step(m`\nabla f(-2,0)=(0,-2)`, "Evaluate at the point."),
-      step(m`u=(\cos\pi/3,\sin\pi/3)=\left(\frac12,\frac{\sqrt3}{2}\right)`, "Direction unit vector."),
-      step(m`D_uf=\nabla f\cdot u=0\cdot\frac12-2\cdot\frac{\sqrt3}{2}=-\sqrt3`, "Dot product gives directional derivative.")
-    ], "Directional derivative is gradient dot unit direction.", "Chapter 13.6"),
-    ex("Directional derivative Example 3", m`f=x^2y-yz^3+z,\ P=(1,-2,0),\ a=2i+j-2k`, [
-      step(m`\nabla f=(2xy,\ x^2-z^3,\ -3yz^2+1)`, "Compute gradient."),
-      step(m`\nabla f(1,-2,0)=(-4,1,1)`, "Evaluate at P."),
-      step(m`|a|=3,\quad u=\left(\frac23,\frac13,-\frac23\right)`, "Normalize the direction vector."),
-      step(m`D_uf=(-4,1,1)\cdot\left(\frac23,\frac13,-\frac23\right)=-3`, "Take dot product.")
-    ], "Always normalize direction vectors before using them.", "Chapter 13.6"),
-    ex("Directional derivative Example 4", m`f(x,y)=x^2e^y,\quad (-2,0)`, [
-      step(m`\nabla f=(2xe^y,\ x^2e^y)`, "Compute gradient."),
-      step(m`\nabla f(-2,0)=(-4,4)`, "Evaluate."),
-      step(m`max\ D_uf=|\nabla f|=\sqrt{16+16}=4\sqrt2`, "Maximum directional derivative is gradient magnitude."),
-      step(m`u=\frac{\nabla f}{|\nabla f|}=\left(-\frac{1}{\sqrt2},\frac{1}{\sqrt2}\right)`, "The steepest direction is the gradient direction.")
-    ], "Gradient points in the direction of fastest increase.", "Chapter 13.6")
-  ];
-
-  const ch13_7_Examples = [
-    ex("Tangent plane Example 1", m`x^2+4y^2+z^2=18,\quad P=(1,2,1)`, [
-      step(m`F=x^2+4y^2+z^2-18`, "Write surface as F=0."),
-      step(m`\nabla F=(2x,8y,2z)`, "Normal vector is the gradient."),
-      step(m`\nabla F(1,2,1)=(2,16,2)`, "Evaluate at P."),
-      step(m`2(x-1)+16(y-2)+2(z-1)=0`, "Tangent plane formula."),
-      step(m`x+8y+z=18`, "Divide by 2 and simplify the tangent plane."),
-      step(m`x=1+2t,\quad y=2+16t,\quad z=1+2t`, "Normal line uses point plus normal direction.")
-    ], "For F=0, gradient is perpendicular to the tangent plane.", "Chapter 13.7"),
-    ex("Tangent plane Example 1(c): plane angle", m`Find\ angle\ between\ tangent\ plane\ x+8y+z=18\ and\ xy-plane`, [
-      step(m`n_1 = \langle 1,8,1 \rangle`, "Normal vector to the tangent plane (obtained from the gradient at P(1,2,1))."),
-      step(m`n_2 = \langle 0,0,1 \rangle`, "Normal vector to the xy-plane (z = 0)."),
-      step(m`\cos\theta = \frac{|n_1 \cdot n_2|}{|n_1||n_2|} = \frac{1}{\sqrt{66}}`, "Apply the vector angle formula."),
-      step(m`\theta = \cos^{-1}\left(\frac{1}{\sqrt{66}}\right) \approx 83^\circ`, "Calculate the angle using inverse cosine.")
-    ], "The angle between two surfaces is the angle between their normal vectors.", "Chapter 13.7"),
-    ex("Tangent plane Example 2", m`z=x^2y,\quad P=(2,1,4)`, [
-      step(m`F=z-x^2y`, "Convert to F=0."),
-      step(m`\nabla F=(-2xy,-x^2,1)`, "Compute gradient."),
-      step(m`\nabla F(2,1,4)=(-4,-4,1)`, "Normal vector."),
-      step(m`-4(x-2)-4(y-1)+(z-4)=0`, "Tangent plane."),
-      step(m`-4x-4y+z=-8`, "Expand and simplify the tangent plane."),
-      step(m`x=2-4t,\quad y=1-4t,\quad z=4+t`, "Normal line.")
-    ], "For z=f(x,y), F=z-f(x,y) is the safest route.", "Chapter 13.7")
-  ];
-
-  const ch13_8_Examples = [
-    ex("Max/min Example 3", m`Locate\ all\ relative\ extrema\ and\ saddle\ points\ of\ f(x,y)=3x^2-2xy+y^2-8y`, [
-      step(m`f_x=6x-2y,\quad f_y=-2x+2y-8`, "Find the first partial derivatives."),
-      step(m`6x-2y=0,\quad -2x+2y-8=0\Rightarrow (x,y)=(2,6)`, "Solve both critical-point equations together."),
-      step(m`f_{xx}=6,\quad f_{yy}=2,\quad f_{xy}=-2`, "Find the second partial derivatives."),
-      step(m`D=f_{xx}f_{yy}-(f_{xy})^2=(6)(2)-(-2)^2=8>0`, "Compute the second-partials discriminant."),
-      step(m`D>0\ and\ f_{xx}=6>0\Rightarrow (2,6)\ is\ a\ relative\ minimum`, "A positive discriminant with positive f_xx identifies a local bowl.")
-    ], "Solve for critical points first, then classify them with the second-partials test.", "Chapter 13.8"),
-    ex("Max/min Example 4", m`f(x,y)=4xy-x^4-y^4`, [
-      step(m`f_x=4y-4x^3,\quad f_y=4x-4y^3`, "Find first partials."),
-      step(m`y=x^3,\quad x=y^3`, "Set both equal to zero."),
-      step(m`Critical\ points:\ (0,0),(1,1),(-1,-1)`, "Solve the system."),
-      step(m`f_{xx}=-12x^2,\quad f_{yy}=-12y^2,\quad f_{xy}=4`, "Second partials."),
-      step(m`D=f_{xx}f_{yy}-(f_{xy})^2=144x^2y^2-16`, "Compute the discriminant."),
-      step(m`(1,1),(-1,-1):D>0,\ f_{xx}<0\Rightarrow relative\ maxima`, "Classify."),
-      step(m`(0,0):D<0\Rightarrow saddle`, "Classify.")
-    ], "The second derivative test classifies critical points.", "Chapter 13.8")
-  ];
-
-  markSourceExamples(ch13_1_Examples, "Chapter 13.pdf", "13.1", {
-    "Example 1: natural domain": { page: 1, pages: [1, 2], label: "Example 1" },
-    "Example 2: three-variable domain": { page: 2, label: "Example 2" },
-    "Example 3: graph descriptions": { page: 3, label: "Example 3" },
-    "Example 4: level curves": { page: 4, label: "Example 4" },
-    "Example 5: contour ellipses": { page: 5, label: "Example 5" }
-  });
-
-  markSourceExamples(ch13_2_Examples, "Chapter 13.pdf", "13.2", {
-    "Example 1: path limits": { page: 7, pages: [7, 8], label: "Example 1" },
-    "Example 2: direct evaluation": { page: 10, label: "Example 2" },
-    "Example 3: path test DNE": { page: 10, label: "Example 3" },
-    "Example 4: continuity": { page: 11, label: "Example 4" },
-    "Example 5: rational evaluation": { page: 12, label: "Example 5" },
-    "Example 6: rational continuity domain": { page: 12, label: "Example 6" },
-    "Example 7: polar limit proof": { page: 13, label: "Example 7" }
-  });
-
   markSourceExamples(ch13_3_Examples, "Chapter 13.pdf", "13.3", {
     "Example 1: definition at a point": { page: 16, label: "Example 1" },
     "Example 2: partial derivative evaluation": { page: 17, label: "Example 2" },
@@ -858,80 +723,7 @@
     "Chain rule Example 8: sphere": { page: 30, label: "Example 8" }
   });
 
-  markSourceExamples(ch13_6_Examples, "Chapter 13.pdf", "13.6", {
-    "Directional derivative Example 1": { page: 37, label: "Example 1" },
-    "Directional derivative Example 2": { page: 38, label: "Example 2" },
-    "Directional derivative Example 3": { page: 38, pages: [38, 39], label: "Example 3" },
-    "Directional derivative Example 4": { page: 41, label: "Example 4" }
-  });
-
-  markSourceExamples(ch13_7_Examples, "Chapter 13.pdf", "13.7", {
-    "Tangent plane Example 1": { page: 46, pages: [46, 47], label: "Example 1(a-b)" },
-    "Tangent plane Example 1(c): plane angle": { page: 47, label: "Example 1(c)" },
-    "Tangent plane Example 2": { page: 47, pages: [47, 48], label: "Example 2" }
-  });
-
-  markSourceExamples(ch13_8_Examples, "Chapter 13.pdf", "13.8", {
-    "Max/min Example 3": {
-      page: 53,
-      label: "Example 3",
-      note: "The supplied PDF excerpt begins its worked extrema examples at Example 3; Examples 1 and 2 are not present."
-    },
-    "Max/min Example 4": { page: 53, pages: [53, 54], label: "Example 4" }
-  });
-
-  const modelRows = [
-    ["Malthusian population", m`\frac{dP}{dt}=aP`, "Bacteria growth or small populations over short time."],
-    ["Logistic population", m`\frac{dP}{dt}=aP-bP^2`, "Population with carrying capacity."],
-    ["Radioactive decay", m`\frac{dA}{dt}=aA,\ a<0`, "Carbon dating and nuclear decay."],
-    ["Newton cooling/warming", m`\frac{dT}{dt}=a(T-T_m)`, "Cooling coffee, forensic time of death."],
-    ["Spread of disease", m`\frac{dx}{dt}=ax(n-x)`, "Simple infection spread."],
-    ["Chemical reaction", m`\frac{dx}{dt}=k(a-x)(b-x)`, "Second-order reactions."],
-    ["Mixing", m`\frac{dA}{dt}=R_{in}-R_{out}`, "Salt tank concentration."],
-    ["Series circuit", m`Lq''+Rq'+\frac{1}{C}q=E(t)`, "RLC electrical circuits."],
-    ["Falling bodies", m`mh''+kh'=-mg`, "Upward-positive height with linear air resistance."],
-    ["Simple harmonic motion", m`x''+\omega^2x=0`, "Springs and pendulums."],
-    ["Damped harmonic motion", m`x''+2\lambda x'+\omega^2x=0`, "Shock absorbers and vibration damping."]
-  ];
-
-  const modules = [
-    {
-      id: "module-0",
-      title: "Module 0: Calculus Refresher",
-      description: "Fast recall for rusty differentiation and integration.",
-      topics: [
-        {
-          id: "calc-differentiation",
-          number: "0.1",
-          title: "Differentiation Quick Review",
-          hook: "Differentiation is rate of change: speed from position, marginal profit from profit, or how fast a tank level is changing.",
-          prerequisites: ["Algebra"],
-          formulas: [m`\frac{d}{dx}x^n=nx^{n-1}`, m`(uv)'=u'v+uv'`, m`\frac{d}{dx}f(g(x))=f'(g(x))g'(x)`],
-          theory: ["Use the power, product, quotient, and chain rules as pattern tools.", "ODE verification depends on differentiating accurately before substituting back."],
-          examples: diffRefresherExamples,
-          practice: [
-            pr("Differentiate a product", m`\frac{d}{dx}(x^3\ln x)`, "Use product rule with u=x^3 and v=ln x.", [step(m`3x^2\ln x+x^3\cdot\frac1x`, "Product rule."), step(m`3x^2\ln x+x^2`, "Simplify.")], "differentiation"),
-            pr("Differentiate a chain", m`\frac{d}{dx}e^{4x^2-1}`, "Outside is e^u; inside is 4x^2-1.", [step(m`e^{4x^2-1}\cdot 8x`, "Chain rule.")], "differentiation")
-          ],
-          recap: ["Power rule handles polynomials.", "Product and chain rules are the ODE workhorses.", "Check derivatives before trusting an ODE solution."]
-        },
-        {
-          id: "calc-integration",
-          number: "0.2",
-          title: "Integration Quick Review",
-          hook: "Integration is accumulation: flow rate into a tank becomes total water, velocity becomes distance.",
-          prerequisites: ["0.1 Differentiation"],
-          formulas: [m`\int x^n\,dx=\frac{x^{n+1}}{n+1}+C`, m`\int e^x\,dx=e^x+C`, m`\int \frac1x\,dx=\ln|x|+C`],
-          theory: ["Think reverse differentiation first.", "If a composite function appears beside its derivative, use u-substitution."],
-          examples: intRefresherExamples,
-          practice: [
-            pr("Basic antiderivative", m`\int(5x^4-2e^x)\,dx`, "Integrate term by term.", [step(m`x^5-2e^x+C`, "Power rule and exponential integral.")], "integration"),
-            pr("u-substitution", m`\int 6x(3x^2+1)^4\,dx`, "Let u=3x^2+1.", [step(m`u=3x^2+1,\ du=6x\,dx`, "Choose inside expression."), step(m`\int u^4du=\frac{u^5}{5}+C`, "Integrate."), step(m`\frac{(3x^2+1)^5}{5}+C`, "Back-substitute.")], "integration")
-          ],
-          recap: ["Always add +C for indefinite integrals.", "u-substitution is reverse chain rule.", "Integration fluency makes first-order ODEs much easier."]
-        }
-      ]
-    },
+const modules = [
     {
       id: "module-1",
       title: "Module 1: Integration Techniques",
@@ -942,7 +734,7 @@
           number: "1.1",
           title: "Integration by Parts",
           hook: "By parts handles products where one factor becomes simpler when differentiated.",
-          prerequisites: ["0.2 Integration"],
+          prerequisites: ["Calculus"],
           formulas: [m`\int u\,dv = uv - \int v\,du`, m`LIATE:\ Log,\ Inverse,\ Algebraic,\ Trig,\ Exponential`],
           theory: ["Choose u using LIATE.", "Repeated and cyclic by-parts problems are normal; keep symbols organized."],
           examples: byPartsExamples,
@@ -1051,7 +843,7 @@
           number: "1.4",
           title: "Partial Fractions",
           hook: "Partial fractions break one hard rational expression into simple log/arctan pieces.",
-          prerequisites: ["0.2 Integration"],
+          prerequisites: ["Calculus"],
           formulas: [m`\frac{P(x)}{(x-a)(x-b)}=\frac{A}{x-a}+\frac{B}{x-b}`, m`\frac{Ax+B}{x^2+px+q}\ for\ irreducible\ quadratics`],
           theory: ["If numerator degree is too high, divide first.", "Repeated factors need every power in the denominator."],
           examples: partialFractionExamples,
@@ -1085,156 +877,15 @@
     },
     {
       id: "module-2",
-      title: "Module 2: Introduction to Differential Equations",
-      description: "Chapter 1 terminology, IVPs, and modeling.",
-      topics: [
-        {
-          id: "de-terminology",
-          number: "2.1",
-          title: "Definition and Terminology",
-          hook: "A differential equation describes a relationship between a quantity and its rates of change.",
-          prerequisites: ["0.1 Differentiation"],
-          formulas: [m`F(x,y,y',\ldots,y^{(n)})=0`, m`Linear:\ a_n(x)y^{(n)}+\cdots+a_1(x)y'+a_0(x)y=g(x)`],
-          theory: ["ODE means one independent variable; PDE means two or more.", "Order is the highest derivative. Linear means y and derivatives appear to first power only."],
-          examples: odeIntroExamples,
-          practice: [
-            pr("Classify", m`y''+\sin y=0`, "Look at sin y.", [step(m`Order=2`, "Highest derivative is second."), step(m`Nonlinear`, "sin y is nonlinear in y.")], "classification"),
-            pr("Verify", m`y'=3y,\quad y=Ce^{3x}`, "Differentiate and compare.", [step(m`y'=3Ce^{3x}`, "Differentiate."), step(m`3y=3Ce^{3x}`, "Right side matches.")], "verification")
-          ],
-          recap: ["Order is highest derivative.", "Linearity is about y, not x.", "Verification is substitution after differentiating."]
-        },
-        {
-          id: "ivp",
-          number: "2.2",
-          title: "Initial Value Problems",
-          hook: "An IVP picks the one curve that passes through your starting measurement.",
-          prerequisites: ["2.1 Definition and Terminology"],
-          formulas: [m`n^{th}\ order\ ODE\ needs\ n\ initial\ conditions`, m`Solution\ interval:\ largest\ interval\ containing\ the\ initial\ point`],
-          theory: ["Use initial conditions to solve for constants.", "Always check where the solution is undefined."],
-          examples: ivpExamples,
-          practice: [
-            pr("Exercise 1.2 #3", m`y=\frac{1}{x^2+c},\ y(2)=\frac13`, "Solve for c, then find breaks.", [step(m`\frac13=\frac{1}{4+c}\Rightarrow c=-1`, "Solve for c."), step(m`y=\frac{1}{x^2-1}`, "Solution."), step(m`Breaks\ at\ x=\pm1;\ initial\ x=2`, "Find interval."), step(m`I=(1,\infty)`, "Largest interval containing 2.")], "IVP", {
-              pdf: "Chapter 01_ODE_new02.pdf",
-              page: 9,
-              section: "1.2",
-              label: "Exercise 3",
-              type: "pdf-assigned-exercise",
-              status: "verified"
-            }),
-            pr("Exercise 1.2 #4", m`y' + 2xy^2 = 0,\ y(-2) = \frac{1}{2}`, "Separate variables first to find the general solution.", [
-              step(m`\frac{dy}{y^2} = -2x\,dx`, "Separate variables."),
-              step(m`-\frac{1}{y} = -x^2 + C \implies y = \frac{1}{x^2 - C}`, "Integrate both sides."),
-              step(m`\frac{1}{2} = \frac{1}{4 - C} \implies C = 2`, "Apply initial condition y(-2) = 1/2."),
-              step(m`y = \frac{1}{x^2 - 2}`, "Write the particular solution."),
-              step(m`I = (-\infty, -\sqrt{2})`, "Find the largest interval of existence containing x = -2 (must avoid x = -sqrt(2)).")
-            ], "IVP", {
-              pdf: "Chapter 01_ODE_new02.pdf",
-              page: 9,
-              section: "1.2",
-              label: "Exercise 4",
-              type: "pdf-assigned-exercise",
-              status: "verified"
-            }),
-            pr("Exercise 1.2 #7", m`x=c_1\cos t+c_2\sin t,\ x(0)=-1,\ x'(0)=8`, "Evaluate x and x' at 0.", [step(m`x(0)=c_1=-1`, "First condition."), step(m`x'=-c_1\sin t+c_2\cos t`, "Differentiate."), step(m`x'(0)=c_2=8`, "Second condition."), step(m`x=-\cos t+8\sin t`, "Solution.")], "IVP", {
-              pdf: "Chapter 01_ODE_new02.pdf",
-              page: 9,
-              section: "1.2",
-              label: "Exercise 7",
-              type: "pdf-assigned-exercise",
-              status: "verified"
-            }),
-            pr("Exercise 1.2 #8", m`x'' + x = 0,\ x(\pi/2) = 0,\ x'(\pi/2) = 1`, "Use the general solution x(t) = c_1\cos t + c_2\sin t.", [
-              step(m`x(t) = c_1\cos t + c_2\sin t`, "General solution of the second-order ODE."),
-              step(m`x(\pi/2) = c_2 = 0`, "Apply the first initial condition."),
-              step(m`x'(t) = -c_1\sin t + c_2\cos t`, "Find the derivative of x(t)."),
-              step(m`x'(\pi/2) = -c_1 = 1 \implies c_1 = -1`, "Apply the second initial condition."),
-              step(m`x(t) = -\cos t`, "Substitute the constants back to get the particular solution.")
-            ], "IVP", {
-              pdf: "Chapter 01_ODE_new02.pdf",
-              page: 9,
-              section: "1.2",
-              label: "Exercise 8",
-              type: "pdf-assigned-exercise",
-              status: "verified"
-            })
-          ],
-          recap: ["Constants come from initial data.", "Intervals cannot cross discontinuities.", "Second-order problems need two conditions."]
-        },
-        {
-          id: "models",
-          number: "2.3",
-          title: "Differential Equations as Models",
-          hook: "ODEs become useful when a sentence like 'rate is proportional to amount' becomes an equation.",
-          prerequisites: ["2.1 Definition and Terminology"],
-          formulas: modelRows.map((row) => row[1]),
-          theory: [
-            "Identify variables, parameters, assumptions, and units before writing an equation.",
-            "Translate rate language into derivatives.",
-            "For mechanics, declare the coordinate convention before assigning signs. This course uses upward-positive height unless a problem explicitly says otherwise."
-          ],
-          examples: [
-            ex("Mixing model from Chapter 1.3", m`300\ gal,\ inflow=3\ gal/min,\ 2\ lb/gal`, [
-              step(m`R_{in}=2\cdot3=6\ lb/min`, "Incoming salt rate."),
-              step(m`R_{out}=\frac{A(t)}{300}\cdot3=\frac{A}{100}`, "Outgoing concentration times flow rate."),
-              step(m`\frac{dA}{dt}=6-\frac{A}{100}`, "Rate in minus rate out."),
-              step(m`\frac{dA}{dt}+\frac{A}{100}=6`, "Linear first-order model.")
-            ], "Mixing models are bookkeeping: in minus out.", "Chapter 1.3", {
-              pdf: "Chapter 01_ODE_new02.pdf",
-              page: 20,
-              pages: [20, 21],
-              section: "1.3.7",
-              label: "Mixtures model",
-              type: "pdf-theory",
-              status: "verified"
-            }),
-            ex("Logistic population model", m`\frac{dP}{dt}=aP-bP^2`, [
-              step(m`aP`, "Growth proportional to current population."),
-              step(m`-bP^2`, "Competition slows growth as population increases."),
-              step(m`K=\frac{a}{b}`, "Carrying capacity occurs where aP-bP^2=0 for P>0.")
-            ], "Logistic growth is more realistic than unlimited exponential growth.", "Chapter 1.3", {
-              pdf: "Chapter 01_ODE_new02.pdf",
-              page: 14,
-              pages: [14, 15, 16],
-              section: "1.3.2",
-              label: "Logistic population model",
-              type: "pdf-theory",
-              status: "verified"
-            }),
-            ex("Falling-body sign convention", m`h(t)=height,\ upward\ positive`, [
-              step(m`m h''=-mg-kh'`, "Gravity and drag oppose upward-positive motion."),
-              step(m`m h''+kh'=-mg`, "Collect the drag term on the left."),
-              step(m`k=0\Rightarrow h''=-g`, "Without drag, acceleration is downward."),
-              step(m`h(t)=h_0+v_0t-\frac12gt^2`, "Integrate twice and apply the initial height and velocity.")
-            ], "Choose a coordinate direction once; consistent signs then follow automatically.", "Chapter 1.3", {
-              pdf: "Chapter 01_ODE_new02.pdf",
-              page: 23,
-              section: "1.3.9",
-              label: "Falling bodies",
-              type: "corrected-pdf-error",
-              status: "verified",
-              note: "The PDF mixes upward-positive and downward-positive equations and prints v₀ without the required factor t in one position formula. This card uses a consistent upward-positive convention."
-            })
-          ],
-          modelRows,
-          practice: [
-            pr("Newton cooling setup", m`Coffee\ at\ T,\ room\ at\ T_m`, "Rate is proportional to temperature difference.", [step(m`\frac{dT}{dt}=a(T-T_m)`, "Newton's law."), step(m`a<0\ for\ cooling`, "If T>Tm, derivative should be negative.")], "modeling"),
-            pr("Disease setup", m`x(t)=infected,\ n=total`, "New infections depend on infected and susceptible.", [step(m`susceptible=n-x`, "People not yet exposed."), step(m`\frac{dx}{dt}=ax(n-x)`, "Contact model.")], "modeling")
-          ],
-          recap: ["Models come from assumptions.", "Units help catch errors.", "Most first-order models become separable or linear later."]
-        }
-      ]
-    },
-    {
-      id: "module-3",
-      title: "Module 3: First-Order ODE Methods",
-      description: "Core Chapter 2 solving methods.",
+      title: "Module 2: First-Order Differential Equations",
+      description: "First-order solving methods: separable, linear, and linear models.",
       topics: [
         {
           id: "ode-separable",
-          number: "3.1",
+          number: "2.1",
           title: "Separable Variables",
           hook: "If you can put all y terms with dy and all x terms with dx, the ODE becomes two integrals.",
-          prerequisites: ["0.2 Integration"],
+          prerequisites: ["Calculus"],
           formulas: [m`\frac{dy}{dx}=g(x)h(y)\Rightarrow \frac{1}{h(y)}dy=g(x)dx`],
           theory: ["Not every first-order ODE is separable. dy/dx=x^2+y is not separable.", "After integration, use initial conditions if given."],
           examples: separableExamples,
@@ -1246,10 +897,10 @@
         },
         {
           id: "ode-linear",
-          number: "3.2",
+          number: "2.2",
           title: "Linear Equations",
           hook: "A linear first-order ODE is solved by multiplying by a magic factor that makes the left side one derivative.",
-          prerequisites: ["3.1 Separable Variables"],
+          prerequisites: ["2.1 Separable Variables"],
           formulas: [m`y'+P(x)y=f(x)`, m`\mu(x)=e^{\int P(x)\,dx}`, m`\frac{d}{dx}[\mu y]=\mu f(x)`],
           theory: ["First force standard form.", "Then compute the integrating factor and integrate once."],
           examples: linearExamples,
@@ -1260,55 +911,18 @@
           recap: ["Standard form first.", "Integrating factor creates product derivative.", "Initial point determines interval sign choices."]
         },
         {
-          id: "ode-exact",
-          number: "3.3",
-          title: "Exact Equations",
-          hook: "Exact equations are like finding the hidden landscape whose differential is the equation.",
-          prerequisites: ["0.1 Differentiation", "Partial-derivative mini-review on this page"],
-          formulas: [m`M(x,y)dx+N(x,y)dy=0`, m`\frac{\partial M}{\partial y}=\frac{\partial N}{\partial x}`, m`f(x,y)=C`],
-          theory: [
-            "Mini-review: M_y means differentiate M with respect to y while holding x fixed; N_x means differentiate N with respect to x while holding y fixed.",
-            "Check exactness by comparing M_y and N_x before solving.",
-            "Integrate M with respect to x, then use N to find the missing g(y)."
-          ],
-          examples: exactExamples,
-          practice: [
-            pr("Exact check", m`(2x+y)dx+(x+3y^2)dy=0`, "Compare M_y and N_x.", [step(m`M_y=1,\ N_x=1`, "Exact."), step(m`f=\int(2x+y)dx=x^2+xy+g(y)`, "Integrate M."), step(m`f_y=x+g'(y)=x+3y^2`, "Match N."), step(m`g=y^3`, "Integrate."), step(m`x^2+xy+y^3=C`, "Solution.")], "exact"),
-            pr("Not exact", m`ydx+2xdy=0`, "Check first.", [step(m`M_y=1,\ N_x=2`, "Not exact."), step(m`Try\ another\ method\ or\ integrating\ factor`, "Do not force exact method.")], "exact")
-          ],
-          recap: ["Exactness is a partial-derivative test.", "Solution is implicit f(x,y)=C.", "Integrating factors can rescue some non-exact equations."]
-        },
-        {
-          id: "ode-bernoulli",
-          number: "3.4",
-          title: "Bernoulli Equations",
-          hook: "Bernoulli equations look nonlinear, but one substitution turns them into linear equations.",
-          prerequisites: ["3.2 Linear Equations"],
-          formulas: [m`y'+P(x)y=f(x)y^n`, m`u=y^{1-n}`],
-          theory: ["n=0 or n=1 is already linear.", "For other n, substitute u=y^(1-n), then solve the new linear ODE."],
-          examples: bernoulliExamples,
-          practice: [
-            pr("Bernoulli setup", m`y'+y=xy^2`, "n=2 and u=1/y.", [step(m`u=y^{-1}`, "Substitution."), step(m`u'=-y^{-2}y'`, "Derivative."), step(m`u'-u=-x`, "Linear equation after substituting.")], "Bernoulli"),
-            pr("Identify Bernoulli", m`y'+\frac{2}{x}y=x^3y^4`, "Compare with y'+P y=f y^n.", [step(m`P=2/x,\ f=x^3,\ n=4`, "It is Bernoulli."), step(m`u=y^{1-4}=y^{-3}`, "Substitution.")], "Bernoulli")
-          ],
-          recap: ["Identify n.", "Use u=y^(1-n).", "Then solve a linear equation."]
-        },
-        {
           id: "ode-linear-models",
-          number: "3.5",
+          number: "2.3",
           title: "Linear Models",
-          hook: "From population growth to cooling cakes and series circuits, linear models apply first-order ODEs to real-world rates.",
-          prerequisites: ["3.1 Separable Variables", "3.2 Linear Equations"],
+          hook: "From population growth to cooling cakes, linear models apply first-order ODEs to real-world rates.",
+          prerequisites: ["2.1 Separable Variables", "2.2 Linear Equations"],
           formulas: [
             m`\frac{dp}{dt} = ap \quad (\text{Malthusian population growth})`,
-            m`\frac{dT}{dt} = a(T - T_m) \quad (\text{Newton's law of cooling})`,
-            m`L\frac{di}{dt} + Ri = E(t) \quad (\text{LR series circuit})`,
-            m`R\frac{dq}{dt} + \frac{1}{C}q = E(t) \quad (\text{RC series circuit})`
+            m`\frac{dT}{dt} = a(T - T_m) \quad (\text{Newton's law of cooling})`
           ],
           theory: [
             "Malthusian growth models population change as rate proportional to population itself.",
-            "Newton's law of cooling/warming states that rate of temperature change of an object is proportional to the difference between its temperature and ambient temperature.",
-            "Kirchhoff's second law for series circuits models inductance and resistance as a linear first-order differential equation in current i(t) or charge q(t)."
+            "Newton's law of cooling/warming states that rate of temperature change of an object is proportional to the difference between its temperature and ambient temperature."
           ],
           examples: linearModelsExamples,
           practice: [
@@ -1327,19 +941,6 @@
               { pdf: "Chapter 3_ODE.pdf", page: 3, section: "3.1", label: "Exercise 1", type: "pdf-assigned-exercise", status: "verified" }
             ),
             pr(
-              "Exercise 2",
-              m`\text{If the population in Exercise 1 is 10,000 after 3 years, what was the initial population } P_0\text{? What is } P(10)\text{? How fast is it growing at } t=10\text{?}`,
-              "Apply P(3) = 10,000 to find P_0, then evaluate P(10) and P'(10).",
-              [
-                step(m`P(3) = P_0 e^{\frac{3\ln 2}{5}} = 10,000 \implies P_0 = 10,000 \cdot 2^{-3/5} \approx 6598`, "Solve for the initial population P_0."),
-                step(m`P(t) = 6598 e^{\frac{\ln 2}{5}t}`, "Write the population function with the initial population coefficient."),
-                step(m`P(10) = 6598 e^{2\ln 2} = 6598 \cdot 4 = 26,392`, "Evaluate the population at t=10."),
-                step(m`P'(10) = \frac{\ln 2}{5} P(10) \approx 0.13863 \cdot 26,392 \approx 3659\text{ persons/year}`, "Calculate the growth rate dP/dt at t=10 using dP/dt = aP.")
-              ],
-              "separable",
-              { pdf: "Chapter 3_ODE.pdf", page: 4, section: "3.1", label: "Exercise 2", type: "pdf-assigned-exercise", status: "verified" }
-            ),
-            pr(
               "Exercise 15",
               m`\text{A small metal bar, initial temperature } 20^\circ\text{C, is dropped in boiling water (} 100^\circ\text{C). It increases } 2^\circ\text{ in 1 second. How long to reach } 90^\circ\text{C? } 98^\circ\text{C?}`,
               "Solve Newton's Law of Cooling/Warming dT/dt = a(T - T_m) with T_m = 100 and T(0) = 20.",
@@ -1352,24 +953,10 @@
               ],
               "separable",
               { pdf: "Chapter 3_ODE.pdf", page: 7, section: "3.1", label: "Exercise 15", type: "pdf-assigned-exercise", status: "verified" }
-            ),
-            pr(
-              "Exercise 29",
-              m`\text{Apply } 30\text{-volt EMF to an LR series circuit where } L = 0.1\text{ H, } R = 50\ \Omega\text{, and } i(0) = 0\text{. Find current } i(t)\text{ and limit as } t \to \infty.`,
-              "Solve 0.1 di/dt + 50i = 30 using standard linear ODE steps.",
-              [
-                step(m`0.1\frac{di}{dt} + 50i = 30 \implies \frac{di}{dt} + 500i = 300`, "Write in standard form by dividing by L."),
-                step(m`\mu(t) = e^{500t} \implies \frac{d}{dt}[i e^{500t}] = 300 e^{500t}`, "Find integrating factor and multiply standard form."),
-                step(m`i(t) e^{500t} = 0.6 e^{500t} + C \implies i(t) = 0.6 + C e^{-500t}`, "Integrate and solve for general current."),
-                step(m`i(0) = 0.6 + C = 0 \implies C = -0.6 \implies i(t) = 0.6(1 - e^{-500t})`, "Apply initial condition i(0) = 0."),
-                step(m`t \to \infty \implies i(t) \to 0.6\text{ A}`, "Evaluate the steady-state current as t goes to infinity.")
-              ],
-              "linear",
-              { pdf: "Chapter 3_ODE.pdf", page: 11, section: "3.1", label: "Exercise 29", type: "pdf-assigned-exercise", status: "verified" }
             )
           ],
           recap: [
-            "Translate rates of growth, cooling, or voltage drops into standard differential equations.",
+            "Translate rates of growth or cooling into standard differential equations.",
             "Identify constants and initial conditions to obtain particular solutions.",
             "Linear models are solved using separable variable integration or standard integrating factors."
           ]
@@ -1377,50 +964,16 @@
       ]
     },
     {
-      id: "module-4",
-      title: "Module 4: Partial Derivatives",
-      description: "Chapter 13 tools needed for exact equations and multivariable calculus.",
+      id: "module-3",
+      title: "Module 3: Multivariable Derivatives",
+      description: "Partial derivatives and the multivariable chain rule.",
       topics: [
         {
-          id: "functions-many-vars",
-          number: "4.1",
-          title: "Functions of Two or More Variables",
-          hook: "A two-variable function is a surface: two inputs go in, one height comes out.",
-          prerequisites: ["Algebra"],
-          formulas: [m`z=f(x,y)`, m`Level\ curve:\ f(x,y)=k`],
-          theory: ["Natural domains combine all algebraic restrictions.", "Level curves are map contours."],
-          examples: ch13_1_Examples,
-          practice: [
-            pr("Domain", m`f(x,y)=\sqrt{x-y}+\ln y`, "Need x-y>=0 and y>0.", [step(m`x-y\ge0\Rightarrow y\le x`, "Square root."), step(m`y>0`, "Log."), step(m`Domain=\{(x,y):0<y\le x\}`, "Combine.")], "domain"),
-            pr("Level curve", m`f(x,y)=x^2+y^2,\ k=9`, "Set f=k.", [step(m`x^2+y^2=9`, "Circle radius 3.")], "level curve")
-          ],
-          recap: ["Domains are intersections.", "Level curves set output constant.", "Graphs become surfaces."]
-        },
-        {
-          id: "limits-continuity",
-          number: "4.2",
-          title: "Limits and Continuity",
-          hook: "In two variables, approaching a point from different paths can reveal different limiting behavior.",
-          prerequisites: ["4.1 Functions of Two or More Variables"],
-          formulas: [m`\lim_{(x,y)\to(a,b)}f(x,y)=L`, m`Different\ path\ limits\Rightarrow DNE`],
-          theory: ["If two paths give different limits, the overall limit does not exist.", "If all path tests agree, that suggests a limit but does not prove it by itself."],
-          examples: ch13_2_Examples,
-          practice: [
-            pr("Path test", m`f(x,y)=\frac{x^2-y^2}{x^2+y^2}`, "Try y=0 and x=0.", [step(m`y=0:\ f=1`, "Along x-axis."), step(m`x=0:\ f=-1`, "Along y-axis."), step(m`Limit\ DNE`, "Different values.")], "limit"),
-            pr("Polar coordinates limit", m`\lim_{(x,y)\to(0,0)}\frac{x^3+y^3}{x^2+y^2}`, "Convert to polar coordinates: x = r\cos\theta, y = r\sin\theta.", [
-              step(m`\lim_{r\to0^+}\frac{r^3\cos^3\theta+r^3\sin^3\theta}{r^2}`, "Substitute polar variables."),
-              step(m`\lim_{r\to0^+}r(\cos^3\theta+\sin^3\theta)`, "Simplify by dividing by r^2."),
-              step(m`0`, "Since the trigonometric part is bounded, the limit as r approaches 0 is 0.")
-            ], "limit")
-          ],
-          recap: ["Path disagreement proves DNE.", "Continuity requires value and limit to match.", "Multivariable limits are stricter than one-variable limits."]
-        },
-        {
           id: "partial-derivatives",
-          number: "4.3",
+          number: "3.1",
           title: "Partial Derivatives",
           hook: "A partial derivative freezes all but one input and asks for the rate in that direction.",
-          prerequisites: ["0.1 Differentiation"],
+          prerequisites: ["Calculus"],
           formulas: [m`f_x=\frac{\partial f}{\partial x}`, m`f_y=\frac{\partial f}{\partial y}`, m`f_{xy}=\frac{\partial}{\partial y}(f_x)`],
           theory: ["Treat the other variable as a constant.", "Partial derivatives existing does not automatically imply continuity."],
           examples: ch13_3_Examples,
@@ -1432,10 +985,10 @@
         },
         {
           id: "chain-rule",
-          number: "4.4",
+          number: "3.2",
           title: "The Chain Rule",
           hook: "The multivariable chain rule adds every route by which a variable can affect another.",
-          prerequisites: ["4.3 Partial Derivatives"],
+          prerequisites: ["3.1 Partial Derivatives"],
           formulas: [m`\frac{dz}{dt}=f_x\frac{dx}{dt}+f_y\frac{dy}{dt}`, m`\frac{dy}{dx}=-\frac{F_x}{F_y}`],
           theory: ["Draw dependency arrows if you feel lost.", "Implicit differentiation is a chain-rule application."],
           examples: ch13_5_Examples,
@@ -1444,112 +997,6 @@
             pr("Implicit", m`x^2+y^2=10`, "Use -Fx/Fy.", [step(m`F_x=2x,\ F_y=2y`, "Partials."), step(m`dy/dx=-x/y`, "Formula.")], "implicit differentiation")
           ],
           recap: ["Follow every dependency path.", "Implicit derivative = -Fx/Fy.", "Check by direct substitution when possible."]
-        },
-        {
-          id: "directional-gradients",
-          number: "4.5",
-          title: "Directional Derivatives and Gradients",
-          hook: "The gradient is the compass arrow pointing uphill fastest.",
-          prerequisites: ["4.3 Partial Derivatives"],
-          formulas: [m`D_uf=\nabla f\cdot u`, m`\nabla f=(f_x,f_y)`, m`max\ D_uf=|\nabla f|`],
-          theory: ["Direction vectors must be unit vectors.", "For a differentiable function, the directional derivative is the gradient dot the unit direction.", "Maximum increase occurs in the gradient direction; maximum decrease occurs in the opposite direction."],
-          examples: ch13_6_Examples,
-          practice: [
-            pr("Directional derivative", m`f=x^2+y^2,\ P=(1,2),\ u=(3/5,4/5)`, "Gradient dot u.", [step(m`\nabla f=(2x,2y)=(2,4)`, "Gradient."), step(m`D_uf=(2,4)\cdot(3/5,4/5)=22/5`, "Dot product.")], "gradient"),
-            pr("Max direction", m`f=xy,\ P=(2,3)`, "Gradient gives direction.", [step(m`\nabla f=(y,x)=(3,2)`, "Gradient."), step(m`max=|\nabla f|=\sqrt{13}`, "Magnitude."), step(m`u=(3,2)/\sqrt{13}`, "Unit direction.")], "gradient")
-          ],
-          recap: ["Normalize direction vectors.", "Dot product gives directional rate.", "Gradient magnitude is steepest slope."]
-        },
-        {
-          id: "tangent-planes",
-          number: "4.6",
-          title: "Tangent Planes and Normal Vectors",
-          hook: "A tangent plane is the local flat approximation to a surface.",
-          prerequisites: ["4.5 Directional Derivatives and Gradients"],
-          formulas: [m`\nabla F(P)\cdot\langle x-x_0,y-y_0,z-z_0\rangle=0`, m`Normal\ line:\ r(t)=P+t\nabla F(P)`],
-          theory: ["For F=0, the gradient is normal to the surface.", "For z=f(x,y), set F=z-f(x,y)."],
-          examples: ch13_7_Examples,
-          practice: [
-            pr("Exercise 13.7 #1: ellipsoid", m`x^2+y^2+4z^2=12,\quad P=(2,2,1)`, "Use the gradient for the plane and normal line; compare its normal with k for the plane angle.", [
-              step(m`\nabla F(P)=(4,4,8)\sim(1,1,2)`, "The gradient is a normal vector; scaling it does not change the plane or line direction."),
-              step(m`(x-2)+(y-2)+2(z-1)=0\Rightarrow x+y+2z=6`, "Use point-normal form and simplify."),
-              step(m`x=2+t,\quad y=2+t,\quad z=1+2t`, "Use the simplified normal direction for the normal line."),
-              step(m`\cos\theta=\frac{2}{\sqrt6}\Rightarrow\theta\approx35.3^\circ`, "The acute plane angle equals the acute angle between normal vectors.")
-            ], "tangent plane", {
-              pdf: "Chapter 13.pdf", page: 48, section: "13.7", label: "Exercise 1", type: "pdf-assigned-exercise", status: "verified"
-            }),
-            pr("Exercise 13.7 #2: implicit surface", m`xz-yz^3+yz^2=2,\quad P=(2,-1,1)`, "Write F=xz-yz^3+yz^2-2 and evaluate its gradient.", [
-              step(m`\nabla F=(z,\ -z^3+z^2,\ x-3yz^2+2yz)`, "Differentiate F with respect to x, y, and z."),
-              step(m`\nabla F(2,-1,1)=(1,0,3)`, "Evaluate at the given point."),
-              step(m`(x-2)+3(z-1)=0\Rightarrow x+3z=5`, "Use point-normal form."),
-              step(m`x=2+t,\quad y=-1,\quad z=1+3t`, "The normal line follows the gradient."),
-              step(m`\cos\theta=\frac{3}{\sqrt{10}}\Rightarrow\theta\approx18.4^\circ`, "Compare the surface normal with the xy-plane normal.")
-            ], "tangent plane", {
-              pdf: "Chapter 13.pdf", page: 48, section: "13.7", label: "Exercise 2", type: "pdf-assigned-exercise", status: "verified"
-            }),
-            pr("Exercise 13.7 #3: sphere", m`x^2+y^2+z^2=25,\quad P=(-3,0,4)`, "The sphere gradient is radial.", [
-              step(m`\nabla F(P)=(-6,0,8)\sim(-3,0,4)`, "Evaluate and simplify the normal vector."),
-              step(m`-3(x+3)+4(z-4)=0\Rightarrow -3x+4z=25`, "Use point-normal form."),
-              step(m`x=-3-3t,\quad y=0,\quad z=4+4t`, "Use the same normal direction for the line.")
-            ], "tangent plane", {
-              pdf: "Chapter 13.pdf", page: 49, section: "13.7", label: "Exercise 3", type: "pdf-assigned-exercise", status: "verified"
-            }),
-            pr("Exercise 13.7 #5: mixed-product surface", m`x^2-xyz=56,\quad P=(-4,5,2)`, "Move 56 to the left, then differentiate the xyz product carefully.", [
-              step(m`\nabla F=(2x-yz,\ -xz,\ -xy)`, "Differentiate F=x²-xyz-56."),
-              step(m`\nabla F(-4,5,2)=(-18,8,20)\sim(-9,4,10)`, "Evaluate and simplify by 2."),
-              step(m`-9(x+4)+4(y-5)+10(z-2)=0\Rightarrow -9x+4y+10z=76`, "Form and simplify the tangent plane."),
-              step(m`x=-4-9t,\quad y=5+4t,\quad z=2+10t`, "Use the simplified normal direction.")
-            ], "tangent plane", {
-              pdf: "Chapter 13.pdf", page: 49, section: "13.7", label: "Exercise 5", type: "pdf-assigned-exercise", status: "verified"
-            }),
-            pr("Exercise 13.7 #10: logarithmic surface", m`z=\ln\sqrt{x^2+y^2},\quad P=(-1,0,0)`, "Rewrite as one-half ln(x²+y²), then find f_x and f_y.", [
-              step(m`f_x=\frac{x}{x^2+y^2},\quad f_y=\frac{y}{x^2+y^2}`, "Differentiate the logarithmic surface."),
-              step(m`f_x(-1,0)=-1,\quad f_y(-1,0)=0`, "Evaluate the slopes."),
-              step(m`z=-1(x+1)\Rightarrow x+z=-1`, "Use z-z₀=f_x(x-x₀)+f_y(y-y₀)."),
-              step(m`x=-1+t,\quad y=0,\quad z=t`, "A normal direction is (1,0,1).")
-            ], "tangent plane", {
-              pdf: "Chapter 13.pdf", page: 49, section: "13.7", label: "Exercise 10", type: "pdf-assigned-exercise", status: "verified"
-            }),
-            pr("Exercise 13.7 #11: exponential-trig surface", m`z=e^{3y}\sin3x,\quad P=(\pi/6,0,1)`, "Differentiate with respect to x and y before evaluating.", [
-              step(m`f_x=3e^{3y}\cos3x,\quad f_y=3e^{3y}\sin3x`, "Apply chain and product structure."),
-              step(m`f_x(P)=0,\quad f_y(P)=3`, "At x=pi/6, cos(pi/2)=0 and sin(pi/2)=1."),
-              step(m`z-1=3y\Rightarrow z=3y+1`, "Use the explicit-surface tangent-plane formula."),
-              step(m`x=\frac{\pi}{6},\quad y=-3t,\quad z=1+t`, "A normal direction is (0,-3,1).")
-            ], "tangent plane", {
-              pdf: "Chapter 13.pdf", page: 49, section: "13.7", label: "Exercise 11", type: "pdf-assigned-exercise", status: "verified"
-            }),
-            pr("Exercise 13.7 #12: square-root surface", m`z=\sqrt{x}+\sqrt{y},\quad P=(4,9,5)`, "Evaluate the reciprocal-square-root partial derivatives.", [
-              step(m`f_x=\frac{1}{2\sqrt{x}},\quad f_y=\frac{1}{2\sqrt{y}}`, "Differentiate each square root."),
-              step(m`f_x(4,9)=\frac14,\quad f_y(4,9)=\frac16`, "Evaluate at (4,9)."),
-              step(m`z-5=\frac14(x-4)+\frac16(y-9)\Rightarrow 3x+2y-12z+30=0`, "Form the plane and clear denominators."),
-              step(m`x=4+3t,\quad y=9+2t,\quad z=5-12t`, "A normal direction is (3,2,-12).")
-            ], "tangent plane", {
-              pdf: "Chapter 13.pdf", page: 49, section: "13.7", label: "Exercise 12", type: "pdf-assigned-exercise", status: "verified"
-            }),
-            pr("Plane to sphere", m`x^2+y^2+z^2=14,\ P=(1,2,3)`, "Gradient is normal.", [step(m`\nabla F=(2,4,6)`, "Evaluate gradient."), step(m`2(x-1)+4(y-2)+6(z-3)=0`, "Tangent plane.")], "tangent plane"),
-            pr("Plane to explicit surface", m`z=x^2-3xy+y^2,\ P=(2,1,-1)`, "Compute partial derivatives f_x and f_y at (2,1).", [
-              step(m`f_x = 2x-3y \implies f_x(2,1) = 1`, "Find x-partial derivative and evaluate."),
-              step(m`f_y = -3x+2y \implies f_y(2,1) = -4`, "Find y-partial derivative and evaluate."),
-              step(m`z - z_0 = f_x(P)(x-x_0) + f_y(P)(y-y_0)`, "Use the tangent plane formula for explicit surfaces."),
-              step(m`z + 1 = 1(x-2) - 4(y-1) \implies x-4y-z=1`, "Substitute the values and simplify.")
-            ], "tangent plane")
-          ],
-          recap: ["Gradient is the normal vector.", "Use point-normal plane form.", "Normal line uses the same vector."]
-        },
-        {
-          id: "maxima-minima",
-          number: "4.7",
-          title: "Maxima and Minima",
-          hook: "Critical points are flat spots; the second derivative test tells hill, bowl, or saddle.",
-          prerequisites: ["4.3 Partial Derivatives"],
-          formulas: [m`f_x=0,\quad f_y=0`, m`D=f_{xx}f_{yy}-(f_{xy})^2`, m`D>0,f_{xx}<0:\ max;\quad D>0,f_{xx}>0:\ min;\quad D<0:\ saddle`],
-          theory: ["Relative extrema compare nearby points; absolute extrema compare the whole domain.", "A continuous function on a closed, bounded region attains an absolute maximum and minimum.", "Solve f_x=f_y=0, and also check points where either first partial does not exist.", "Classify interior critical points using D; when D=0, the test is inconclusive."],
-          examples: ch13_8_Examples,
-          practice: [
-            pr("Classify", m`f=x^2+y^2`, "Find critical point and D.", [step(m`f_x=2x,\ f_y=2y\Rightarrow (0,0)`, "Critical point."), step(m`f_{xx}=2,\ f_{yy}=2,\ f_{xy}=0,\ D=4`, "Second partials."), step(m`D>0,\ f_{xx}>0\Rightarrow relative\ minimum`, "Classify.")], "max/min"),
-            pr("Saddle", m`f=x^2-y^2`, "Second derivative test.", [step(m`(0,0)`, "Critical point."), step(m`D=(2)(-2)-0=-4<0`, "Discriminant."), step(m`saddle`, "Classify.")], "max/min")
-          ],
-          recap: ["Critical points solve both first partials zero.", "D classifies the point.", "D=0 means inconclusive."]
         }
       ]
     }
@@ -1561,7 +1008,7 @@
         module: module.title,
         topic: topic.title,
         formula,
-        priority: topic.number.startsWith("3") ? "Must Memorize" : "Good to Know"
+        priority: topic.number.startsWith("2") ? "Must Memorize" : "Good to Know"
       }))
     )
   );
@@ -1589,203 +1036,22 @@
   const examSprint = [
     {
       day: 1,
-      title: "Rebuild the integration engine",
-      timeBox: "2.5–3 hours",
-      why: "Most later exam questions punish weak algebra and integration before they punish ODE theory.",
-      tasks: [
-        "Warm up with differentiation and basic antiderivatives for 20 minutes.",
-        "Study integration quick review, then write the core antiderivative table from memory.",
-        "Work Chapter 7.2 integration by parts examples on paper before revealing the next step.",
-        "Do one trig-integral example slowly and name the identity that unlocks it.",
-        "End with 10 mixed-practice method IDs; do not reveal solutions until you commit to a method."
-      ],
-      routes: [
-        chip("calc-integration", "Integration rescue"),
-        chip("integration-by-parts", "By parts"),
-        chip("trig-integrals", "Trig integrals"),
-        chip("mixed", "Mixed IDs")
-      ],
-      checkpoint: "Confidence check: on paper, solve one by-parts integral and explain why your choice of u makes the remaining integral easier."
-    },
-    {
-      day: 2,
-      title: "Finish Chapter 7 exam techniques",
-      timeBox: "3–3.5 hours",
-      why: "Trig substitution and partial fractions are the integration moves that most often block first-order ODE solutions.",
-      tasks: [
-        "Review the three trig-substitution radical patterns and draw the matching triangle once.",
-        "Work the PDF-aligned trig-substitution examples, especially the arc-length and completing-square patterns.",
-        "Study partial fractions by factor type: distinct linear, repeated linear, irreducible quadratic, and improper rational.",
-        "Write each partial-fraction setup before looking at coefficients.",
-        "Finish with formula-sheet recall: hide formulas, write the Chapter 7 formulas in your notebook, then reveal."
-      ],
-      routes: [
-        chip("trig-substitution", "Trig substitution"),
-        chip("partial-fractions", "Partial fractions"),
-        chip("formulas", "Formula recall"),
-        chip("mixed", "Mixed IDs")
-      ],
-      checkpoint: "Confidence check: classify three unseen integrals by method before solving any of them."
-    },
-    {
-      day: 3,
-      title: "ODE language and solution checking",
-      timeBox: "2–2.5 hours",
-      why: "Exam questions often start by asking whether something is a solution, linear, or an IVP before asking for a full solve.",
-      tasks: [
-        "Review order, linearity, explicit solution, and implicit solution vocabulary.",
-        "Verify at least two proposed solutions by differentiating and substituting.",
-        "Study IVP intervals and write why a solution interval cannot cross a singular point.",
-        "Skim the modeling table for recognition, not memorization.",
-        "Use the ODE decision tree once, even if the method feels obvious."
-      ],
-      routes: [
-        chip("de-terminology", "Terminology"),
-        chip("ivp", "IVPs"),
-        chip("models", "Models"),
-        chip("decision-tree", "Decision tree")
-      ],
-      checkpoint: "Confidence check: given an equation, state its order, whether it is linear, and what a solution check would require."
-    },
-    {
-      day: 4,
-      title: "Separable and linear first-order ODEs",
-      timeBox: "3 hours",
-      why: "These are the two fastest-scoring first-order methods if you can recognize them instantly.",
-      tasks: [
-        "Study separable examples and write the separation line before revealing any integration.",
-        "Redo the corrected inverse-tangent IVP carefully so the constant calculation is automatic.",
-        "Study linear equations and force standard form before computing the integrating factor.",
-        "Solve one separable and one linear problem fully on paper.",
-        "Study linear models: population growth, Newton cooling, and circuits.",
-        "Do 12 mixed-practice method IDs and track which ones you misclassify."
-      ],
-      routes: [
-        chip("ode-separable", "Separable"),
-        chip("ode-linear", "Linear"),
-        chip("ode-linear-models", "Linear models"),
-        chip("decision-tree", "Decision tree"),
-        chip("mixed", "Mixed IDs")
-      ],
-      checkpoint: "Confidence check: explain the difference between separable and linear using the shape of the equation, not the final answer."
-    },
-    {
-      day: 5,
-      title: "Exact and Bernoulli methods",
-      timeBox: "3–3.5 hours",
-      why: "Exact and Bernoulli problems look messy, but their recognition tests are mechanical once rehearsed.",
-      tasks: [
-        "Review partial-derivative notation just enough to compute M_y and N_x reliably.",
-        "Study exact equations and always test exactness before integrating.",
-        "Work one non-exact warning example so you do not force the wrong method.",
-        "Study Bernoulli equations and write u=y^(1-n) three times with different n values.",
-        "Run mixed practice until you correctly identify exact versus Bernoulli twice in a row."
-      ],
-      routes: [
-        chip("partial-derivatives", "Partial mini-review"),
-        chip("ode-exact", "Exact"),
-        chip("ode-bernoulli", "Bernoulli"),
-        chip("mixed", "Mixed IDs")
-      ],
-      checkpoint: "Confidence check: on paper, decide whether two first-order equations are exact, linear, separable, or Bernoulli before solving."
-    },
-    {
-      day: 6,
-      title: "Chapter 13 high-yield geometry",
-      timeBox: "3 hours",
-      why: "Partial derivatives, gradients, tangent planes, and extrema are formula-heavy but become quick points with pattern practice.",
-      tasks: [
-        "Review partial derivatives and second partial notation, then compute one full Hessian-style set.",
-        "Study directional derivatives: normalize the direction, take gradient dot unit vector.",
-        "Study tangent planes and normal lines; write the point-normal formula from memory.",
-        "Work the instructor-marked tangent-plane exercises added from the PDF.",
-        "Study the second-derivative test for extrema and write the D cases without looking."
-      ],
-      routes: [
-        chip("partial-derivatives", "Partials"),
-        chip("directional-gradients", "Gradients"),
-        chip("tangent-planes", "Tangent planes"),
-        chip("maxima-minima", "Extrema")
-      ],
-      checkpoint: "Confidence check: solve one tangent-plane problem and one extrema classification on paper without opening the solution."
-    },
-    {
-      day: 7,
-      title: "Exam simulation and weak-spot repair",
-      timeBox: "3–4 hours",
-      why: "The final day should train recognition under pressure, then repair only the mistakes that actually appear.",
-      tasks: [
-        "Do a 45-minute mixed-practice block: identify method first, then solve on paper.",
-        "Review the formula sheet in hide/reveal mode and write every missed formula once.",
-        "Use the decision tree for any first-order ODE you hesitated on.",
-        "Revisit the two weakest topics from your mixed-practice mistakes.",
-        "Finish with a calm confidence check: write the method-recognition clues for all first-order ODE methods."
-      ],
-      routes: [
-        chip("mixed", "Exam-style mixed"),
-        chip("formulas", "Formula recall"),
-        chip("decision-tree", "ODE decision tree"),
-        chip("ode-exact", "Common weak spot"),
-        chip("maxima-minima", "Chapter 13 finish")
-      ],
-      checkpoint: "Confidence check: make a one-page notebook sheet of method triggers, formulas, and your three most common mistakes."
-    }
-  ];
-
-  /* ── Midterm exam configuration ── */
-  const midterm = {
-    date: "2026-07-04",
-    label: "Midterm — 04 July 2026",
-    /* Topic IDs that fall inside the midterm syllabus */
-    topicIds: new Set([
-      /* Calculus Chapter 7 */
-      "integration-by-parts",   /* 7.2 */
-      "trig-integrals",         /* 7.3 */
-      "trig-substitution",      /* 7.4 */
-      "partial-fractions",      /* 7.5 */
-      /* Calculus Chapter 13 */
-      "functions-many-vars",    /* 13.1 */
-      "limits-continuity",      /* 13.2 */
-      "partial-derivatives",    /* 13.3 */
-      "chain-rule",             /* 13.5 */
-      "directional-gradients",  /* 13.6 */
-      "tangent-planes",         /* 13.7 */
-      "maxima-minima",          /* 13.8 */
-      /* DE Chapter 2.2 */
-      "ode-separable",
-      /* DE Chapter 2.3 */
-      "ode-linear",
-      /* DE Chapter 3.1 */
-      "ode-linear-models"
-    ]),
-    /* Source sections that map to midterm chapters */
-    sourceChapters: new Set([
-      "7.2", "7.3", "7.4", "7.5",
-      "13.1", "13.2", "13.3", "13.5", "13.6", "13.7", "13.8",
-      "2.2", "2.3", "3.1"
-    ])
-  };
-
-  /* Build a midterm-only exam sprint (7 days, only midterm topics) */
-  const midtermSprint = [
-    {
-      day: 1,
       title: "Integration engine: by-parts and trig integrals",
       timeBox: "2.5–3 hours",
       why: "Chapter 7 integration is the backbone of most exam problems. Nail by-parts and trig patterns first.",
       tasks: [
-        "Warm up with basic antiderivatives for 15 minutes.",
+        "Warm up with derivative and basic antiderivatives for 15 minutes.",
         "Study integration by parts: LIATE, repeated, and cyclic patterns.",
         "Work all Chapter 7.2 PDF examples on paper before revealing steps.",
         "Study trig integrals: odd-power save-one, even-power half-angle, product-to-sum.",
-        "Do 8 mixed-practice method IDs covering by-parts and trig integrals."
+        "Do 6 mixed-practice method IDs covering by-parts and trig integrals."
       ],
       routes: [
         chip("integration-by-parts", "By parts"),
         chip("trig-integrals", "Trig integrals"),
         chip("mixed", "Mixed IDs")
       ],
-      checkpoint: "Confidence check: solve one cyclic by-parts integral and one odd-power trig integral on paper without looking."
+      checkpoint: "Confidence check: classify three unseen integrals by method before solving any of them."
     },
     {
       day: 2,
@@ -1808,82 +1074,75 @@
     },
     {
       day: 3,
-      title: "Separable and linear first-order ODEs",
-      timeBox: "3 hours",
-      why: "DE 2.2 and 2.3 are the two fastest-scoring first-order methods on the midterm.",
+      title: "Separable first-order ODEs",
+      timeBox: "2.5–3 hours",
+      why: "Separation is the most fundamental ODE solving technique. Get it completely solid.",
       tasks: [
         "Study separable examples: write the separation line before revealing integration.",
-        "Carefully redo the corrected inverse-tangent IVP so the constant is automatic.",
-        "Study linear equations: force standard form before computing integrating factor.",
-        "Solve one separable and one linear problem fully on paper.",
-        "Study linear models: population growth, Newton cooling, and circuits.",
-        "Do 10 mixed-practice method IDs and track which you misclassify."
+        "Carefully redo the initial value problems on paper so constant tracking is automatic.",
+        "Work the Exercise 25 IVP and identify its maximal interval.",
+        "Do 6 mixed-practice method IDs to practice spotting separable forms."
       ],
       routes: [
         chip("ode-separable", "Separable"),
-        chip("ode-linear", "Linear"),
-        chip("ode-linear-models", "Linear models"),
         chip("decision-tree", "Decision tree"),
         chip("mixed", "Mixed IDs")
       ],
-      checkpoint: "Confidence check: explain the difference between separable and linear using the equation shape, not the final answer."
+      checkpoint: "Confidence check: explain when an ODE is separable and how to handle the constant of integration."
     },
     {
       day: 4,
-      title: "Chapter 13: domains, limits, and partial derivatives",
+      title: "Linear first-order ODEs",
       timeBox: "3 hours",
-      why: "Sections 13.1–13.3 are formula-heavy but become quick points once you see the patterns.",
+      why: "Linear ODEs appear constantly in physical models; the integrating factor method is extremely high-yield.",
       tasks: [
-        "Study domain restrictions: square root ≥ 0, log > 0, combine constraints.",
-        "Work level-curve and contour examples from 13.1.",
-        "Study path limits and the two-path DNE test from 13.2.",
-        "Study partial derivatives: freeze-other-variables rule from 13.3.",
-        "Compute one full set of second partials and verify f_xy = f_yx."
+        "Study linear equations: force standard form before computing integrating factor.",
+        "Work the general linear examples and initial value problems fully on paper.",
+        "Rehearse finding the integrating factor for P(x) = -1/x and standard P(x) functions.",
+        "Do 6 mixed-practice method IDs to distinguish linear from separable."
       ],
       routes: [
-        chip("functions-many-vars", "13.1 Domains"),
-        chip("limits-continuity", "13.2 Limits"),
-        chip("partial-derivatives", "13.3 Partials")
+        chip("ode-linear", "Linear"),
+        chip("decision-tree", "Decision tree"),
+        chip("mixed", "Mixed IDs")
       ],
-      checkpoint: "Confidence check: prove a limit DNE using two paths, and compute both partials of a polynomial surface."
+      checkpoint: "Confidence check: explain the role of standard form and the integrating factor in solving linear first-order ODEs."
     },
     {
       day: 5,
-      title: "Chapter 13: chain rule and directional derivatives",
+      title: "Real-world applications: Linear Models",
       timeBox: "3 hours",
-      why: "Chain rule (13.5) and gradients (13.6) connect partial derivatives to real-world rates and directions.",
+      why: "Newton cooling and Malthusian growth are guaranteed points on the exam if you can translate the story to math.",
       tasks: [
-        "Study the one-parameter and two-parameter chain rules from 13.5.",
-        "Work the implicit differentiation examples: dy/dx = −F_x/F_y.",
-        "Study directional derivatives: normalize direction, dot with gradient.",
-        "Work all gradient examples and the maximum-increase problem.",
-        "Do 8 mixed-practice problems covering chain rule and gradients."
+        "Study population growth examples: solve for growth constant a and answer tripling/quadrupling times.",
+        "Study Newton cooling/warming: write the temperature difference equation and find the cooling constant.",
+        "Work practice exercises on paper before checking steps.",
+        "Formula recall: hide and rewrite all linear models formulas, then reveal."
       ],
       routes: [
-        chip("chain-rule", "Chain rule"),
-        chip("directional-gradients", "Gradients"),
-        chip("mixed", "Mixed IDs")
+        chip("ode-linear-models", "Linear models"),
+        chip("formulas", "Formula recall")
       ],
-      checkpoint: "Confidence check: compute a directional derivative and find the direction of fastest increase on paper."
+      checkpoint: "Confidence check: write the general solutions for both Malthusian growth and Newton's law of cooling from memory."
     },
     {
       day: 6,
-      title: "Chapter 13: tangent planes and extrema",
+      title: "Chapter 13: partials and chain rule",
       timeBox: "3 hours",
-      why: "Tangent planes (13.7) and the second-derivative test (13.8) are frequent exam topics.",
+      why: "Partial derivatives and chain rule are the core multivariable calculus topics on the midterm.",
       tasks: [
-        "Study tangent planes: F=0 form, gradient as normal, point-normal formula.",
-        "Work the instructor-marked tangent-plane exercises from the PDF.",
-        "Study normal lines using the same gradient vector.",
-        "Study the second-partials test: D = f_xx f_yy − (f_xy)². Write D cases without looking.",
-        "Work all extrema classification examples."
+        "Review partial derivatives: freeze-other-variables rule.",
+        "Compute sets of second-order partial derivatives and verify Clairaut's theorem.",
+        "Study the multivariable chain rule for one and multiple parameters.",
+        "Work implicit differentiation: dy/dx = -F_x/F_y.",
+        "Do 8 mixed-practice problems covering partial derivatives and chain rule."
       ],
       routes: [
-        chip("tangent-planes", "Tangent planes"),
-        chip("maxima-minima", "Extrema"),
-        chip("formulas", "Formula recall")
+        chip("partial-derivatives", "Partials"),
+        chip("chain-rule", "Chain rule"),
+        chip("mixed", "Mixed IDs")
       ],
-      checkpoint: "Confidence check: solve one tangent-plane problem and one extrema classification fully on paper."
+      checkpoint: "Confidence check: compute both partial derivatives of a product expression and apply the chain rule to verify a derivative on paper."
     },
     {
       day: 7,
@@ -1894,8 +1153,8 @@
         "Do a 45-minute mixed-practice block: identify method first, then solve on paper.",
         "Review the formula sheet in hide/reveal mode. Write every missed formula once.",
         "Use the decision tree for any first-order ODE you hesitated on.",
-        "Revisit the two weakest topics from your mixed-practice mistakes.",
-        "Write a one-page cheat sheet of method triggers, formulas, and your three most common mistakes."
+        "Revisit the weakest topic from your mixed-practice mistakes.",
+        "Finish with a calm confidence check: write the method-recognition clues for all first-order ODE methods."
       ],
       routes: [
         chip("mixed", "Exam-style mixed"),
@@ -1905,6 +1164,33 @@
       checkpoint: "Confidence check: make a one-page notebook sheet of method triggers, formulas, and your three most common mistakes."
     }
   ];
+
+  /* ── Midterm exam configuration ── */
+  const midterm = {
+    date: "2026-07-04",
+    label: "Midterm — 04 July 2026",
+    /* Topic IDs that fall inside the midterm syllabus */
+    topicIds: new Set([
+      "integration-by-parts",
+      "trig-integrals",
+      "trig-substitution",
+      "partial-fractions",
+      "partial-derivatives",
+      "chain-rule",
+      "ode-separable",
+      "ode-linear",
+      "ode-linear-models"
+    ]),
+    /* Source sections that map to midterm chapters */
+    sourceChapters: new Set([
+      "7.2", "7.3", "7.4", "7.5",
+      "13.3", "13.5",
+      "2.2", "2.3", "3.1"
+    ])
+  };
+
+  /* Build a midterm-only exam sprint (7 days, only midterm topics) */
+  const midtermSprint = examSprint;
 
   window.ODE_COURSE = {
     strategySources: [

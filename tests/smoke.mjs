@@ -39,19 +39,19 @@ vm.runInContext(read("js/content.js"), context, { filename: "content.js" });
 const content = context.window.ODE_COURSE;
 assert(content, "window.ODE_COURSE must be defined");
 assert(Array.isArray(content.modules), "Course modules must be an array");
-assert(content.modules.length >= 5, "Course must include Module 0 through Module 4");
+assert(content.modules.length === 3, "Course must include exactly 3 modules");
 
 const topicIds = content.modules.flatMap((module) => module.topics.map((topic) => topic.id));
 [
-  "calc-differentiation",
   "integration-by-parts",
+  "trig-integrals",
+  "trig-substitution",
+  "partial-fractions",
   "ode-separable",
   "ode-linear",
-  "ode-exact",
-  "ode-bernoulli",
+  "ode-linear-models",
   "partial-derivatives",
-  "directional-gradients",
-  "maxima-minima",
+  "chain-rule",
 ].forEach((id) => assert(topicIds.includes(id), `Missing required topic: ${id}`));
 
 const allExamples = content.modules.flatMap((module) =>
@@ -62,17 +62,14 @@ const allPractice = content.modules.flatMap((module) =>
 );
 
 assert(allExamples.length >= 40, "Expected at least 40 worked examples");
-assert(allPractice.length >= 25, "Expected at least 25 practice problems");
-assert(content.formulas.length >= 35, "Expected a comprehensive formula sheet");
+assert(allPractice.length >= 20, "Expected at least 20 practice problems");
+assert(content.formulas.length >= 20, "Expected a comprehensive formula sheet");
 assert(content.mixedPractice.length >= 20, "Expected mixed practice pool");
 
 const formulaText = content.formulas.map((item) => item.formula).join("\n");
 [
   "\\int u\\,dv = uv - \\int v\\,du",
   "\\mu(x)=e^{\\int P(x)\\,dx}",
-  "\\frac{\\partial M}{\\partial y}=\\frac{\\partial N}{\\partial x}",
-  "u=y^{1-n}",
-  "D=f_{xx}f_{yy}-(f_{xy})^2",
 ].forEach((formula) => assert(formulaText.includes(formula), `Missing formula: ${formula}`));
 
 const problemText = allExamples.map((example) => example.problem)
@@ -119,20 +116,8 @@ assert(allRawStrings.includes(String.raw`\pi ab`), "Chapter 7.4 Example 3 must e
 assert(allRawStrings.includes(String.raw`\int\frac{x}{x^2-4x+8}\,dx`), "Chapter 7.4 repeated Example 5 completing-the-square problem must be present");
 assert(allRawStrings.includes(String.raw`\frac{1}{2}\ln[(x-2)^2+4]`), "Chapter 7.4 repeated Example 5 steps must show the logarithm component");
 
-// Chapter 13.2 Examples 2-7
-assert(allRawStrings.includes(String.raw`5x^3y^2-9`), "Chapter 13.2 Example 2 limit function must be present");
-assert(allRawStrings.includes(String.raw`\sin(3x^2y^5)`), "Chapter 13.2 Example 4 continuity composition must be present");
-assert(allRawStrings.includes(String.raw`(x^2+y^2)\ln(x^2+y^2)`), "Chapter 13.2 Example 7 polar limit must be present");
-
 // Chapter 13.3 Example 12
 assert(allRawStrings.includes(String.raw`x^2y^3+x^4y`), "Chapter 13.3 Example 12 must use the exact PDF function x^2y^3+x^4y");
-
-// Chapter 13.7 Example 1(c) tangent plane angle
-assert(allRawStrings.includes(String.raw`\cos^{-1}\left(\frac{1}{\sqrt{66}}\right) \approx 83^\circ`), "Chapter 13.7 Example 1(c) must show the correct angle calculation");
-
-// Practice Exercises 1.2 #4 and #8
-assert(allRawStrings.includes(String.raw`y' + 2xy^2 = 0`), "Practice Exercise 1.2 #4 must be present");
-assert(allRawStrings.includes(String.raw`x'' + x = 0`), "Practice Exercise 1.2 #8 must be present");
 
 assert(!allRawStrings.includes(String.raw`\tan^{-1}1=\pi=`), "Separable Exercise 23 must not state arctan(1)=pi");
 assert(!problemText.includes(String.raw`\int_0^1 \tan^{-1}x\,dx`), "Chapter 7.2 Example 6 must not invent definite bounds");

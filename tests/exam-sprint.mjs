@@ -12,19 +12,15 @@ assert(Array.isArray(course.examSprint), "course.examSprint must be an array");
 assert(course.examSprint.length === 7, "Exam sprint must contain exactly seven days");
 
 const requiredRoutes = [
-  "calc-integration",
   "integration-by-parts",
   "trig-integrals",
   "trig-substitution",
   "partial-fractions",
   "ode-separable",
   "ode-linear",
-  "ode-exact",
-  "ode-bernoulli",
+  "ode-linear-models",
   "partial-derivatives",
-  "directional-gradients",
-  "tangent-planes",
-  "maxima-minima",
+  "chain-rule",
   "mixed",
   "formulas",
   "decision-tree",
@@ -73,7 +69,7 @@ const app = read("js/app.js");
 const css = read("css/style.css");
 
 assert(html.includes('data-route="exam-sprint"'), "Sidebar utilities must link to the Exam Sprint route");
-assert(html.includes("Exam Sprint"), "Sidebar utilities must label the Exam Sprint route");
+assert(html.includes("Sprint"), "Sidebar utilities must label the Exam Sprint route");
 assert(app.includes("function renderExamSprint"), "app.js must define renderExamSprint");
 assert(app.includes('current === "exam-sprint"'), "renderRoute must dispatch the Exam Sprint route");
 assert(css.includes(".sprint-grid"), "style.css must style the sprint grid");

@@ -83,8 +83,8 @@ function validateProvenance(provenance, context) {
   }
 }
 
-assert(course.modules.length === 5, "Course should preserve five modules");
-assert(topics.length === 21, "Course should preserve twenty-one focused topics");
+assert(course.modules.length === 3, "Course should preserve three modules");
+assert(topics.length === 9, "Course should preserve nine focused topics");
 
 for (const topic of topics) {
   assert(hasText(topic.id), "Every topic needs an id");
@@ -122,7 +122,7 @@ for (const topic of topics) {
 }
 
 assert(Array.isArray(course.mixedPractice), "mixedPractice must be an array");
-assert(course.mixedPractice.length >= 50, "Mixed practice should draw from the expanded practice pool");
+assert(course.mixedPractice.length >= 20, "Mixed practice should draw from the focused practice pool");
 for (const [index, item] of course.mixedPractice.entries()) {
   const context = `mixedPractice ${index + 1}`;
   assert(topicIds.has(item.topicId), `${context} references unknown topic ${item.topicId}`);

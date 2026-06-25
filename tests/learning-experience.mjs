@@ -8,15 +8,15 @@ const topicIds = course.modules.flatMap((module) => module.topics.map((topic) =>
 
 for (const phrase of [
   "Tiny Idea",
-  "Paper Mission",
-  "Steal the move",
-  "Your first attempt",
-  "More solved examples",
-  "More paper practice",
-  "Do not try to love this topic",
-  "Need a nudge",
-  "Show worked answer",
-  "Show next tiny step",
+  "Your Mission",
+  "See how it's done",
+  "Try it yourself",
+  "More examples to explore",
+  "More practice problems",
+  "building muscle memory",
+  "Show me a hint",
+  "Show worked solution",
+  "Show next step",
 ]) {
   assert(app.includes(phrase), `Learning UI is missing friendly phrase: ${phrase}`);
 }
