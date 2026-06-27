@@ -245,7 +245,11 @@
   function renderTopic(topic) {
     window.ODEProgress.visitTopic(state, topic.id);
     state = window.ODEProgress.load();
-    els.hero.classList.remove("hidden");
+    if (!location.hash || location.hash === "#/") {
+      els.hero.classList.remove("hidden");
+    } else {
+      els.hero.classList.add("hidden");
+    }
     els.topbarTitle.textContent = `${topic.number} ${topic.title}`;
     renderReviewBanner(topic);
     const examples = topic.examples || [];
@@ -578,7 +582,7 @@
     const sprintLabel = course.midtermSprint ? '7-Day Midterm Sprint' : '7-Day Exam Sprint';
     const sprintDesc = course.midtermSprint
       ? `Your focused 7-day plan for the midterm (${escapeHtml(midterm.label)}). <strong>Don't panic!</strong> This covers exactly what you need: <strong>Calculus Ch 7 (Integration), Ch 13 (Partials & Chain Rule), and DE §2.2, §2.3, §3.1</strong>. Take it one day at a time, and you'll be ready! 💪`
-      : 'A structured 7-day study plan. Follow one day at a time, write the checkpoint on paper, and use mixed practice to find weak spots. You've got this!';
+      : 'A structured 7-day study plan. Follow one day at a time, write the checkpoint on paper, and use mixed practice to find weak spots. You\'ve got this!';
 
     els.content.innerHTML = `
       <section class="card sprint-hero">
@@ -674,6 +678,14 @@
   }
 
   function bindGlobal() {
+    const brand = document.querySelector(".brand");
+    if (brand) {
+      brand.style.cursor = "pointer";
+      brand.addEventListener("click", () => {
+        setRoute("");
+      });
+    }
+
     document.getElementById("menuToggle").addEventListener("click", () => {
       els.sidebar.classList.toggle("open");
     });
